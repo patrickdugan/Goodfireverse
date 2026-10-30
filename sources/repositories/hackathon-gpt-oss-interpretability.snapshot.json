@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/goodfire-ai/hackathon-gpt-oss-interpretability",
+  "revision": "dc3d3e32111b5b58936893ff0286281c1e9c4feb",
+  "archive_sha256": "b937b78bb3475c053f56ab8dee448753411a9767c5e34686ec44afa9cb8030d9",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a02c9d071f663db983c449bd32229c9b2e20472196bd106f0fa7a57ebea09e4d",
+      "bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "sha256": "11d25a7a8aa4d1f745b0b95d74bc903830c6f31be6e594bc83915aa86c444a5e",
+      "bytes": 289
+    },
+    {
+      "path": "demo.ipynb",
+      "sha256": "dbadbc51ac53ecbcd0f8f5d87d1a2b889f153fdc6bdc137a324ed4a167d047d0",
+      "bytes": 29502
+    },
+    {
+      "path": "sae.py",
+      "sha256": "58ccebe8024d7759db512e5b00aed4e5ed833c2fde2d5a9710a169f7b21b1906",
+      "bytes": 1593
+    }
+  ]
+}

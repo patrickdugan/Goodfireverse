@@ -1,0 +1,202 @@
+{
+  "repository": "https://github.com/goodfire-ai/evee-manuscript",
+  "revision": "bb3bfa6d51b36aab4761ea1c9bd3fc62c2d4dd4b",
+  "archive_sha256": "c49b6c384a6ba05acdb361521b44afad2b6469eb5e420dba034807a3b08ca67a",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "f278544edfe4d8e6b64ae5ce041ed60335b346b483a30d7e2119820c3de4515a",
+      "bytes": 11909
+    },
+    {
+      "path": "artifacts/brca1_e22_data.json",
+      "sha256": "aeafc5abc9624937f1e78fe4e22e14f80eaa69adcf77772b7ecfb6ea6006259a",
+      "bytes": 3540
+    },
+    {
+      "path": "artifacts/mechanism_recovery.json",
+      "sha256": "3dc168349afc672a15eb9662feaf3d5c0906c7648a9eb61867a2b9bc43090fcd",
+      "bytes": 1726
+    },
+    {
+      "path": "artifacts/token_eval.json",
+      "sha256": "12ed2480210a6895c7fa88eb14f3aa80bffa27baf2b941223045d58cf925651b",
+      "bytes": 75242
+    },
+    {
+      "path": "notebooks/demo_probe_inference.ipynb",
+      "sha256": "ec1b0cf2839b8b32a80a3882be801745b1b413b4698b8d19e617417f6ead50d3",
+      "bytes": 24664
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9fb92e47feab9ff19689f9e1cb57b505d0459af0532aa200b34457d3e8620f81",
+      "bytes": 577
+    },
+    {
+      "path": "scripts/figure1/_heatmap_common.py",
+      "sha256": "1d477d2e1eb4213591015b26baca654e5ca1ca19ee9a1fd39e5f106fc8e56e2e",
+      "bytes": 8436
+    },
+    {
+      "path": "scripts/figure1/fig1b_snv_heatmap.py",
+      "sha256": "de7641b0165e4eef5f1899a69cc9c598173f2757f91c2c71cf9a5afa8dac0ebe",
+      "bytes": 1781
+    },
+    {
+      "path": "scripts/figure1/fig1c_deconf_heatmap.py",
+      "sha256": "2205bc39b34d52472363cb26c77d7e7daca4a2c463472ffcaf541d6be9e7bbf5",
+      "bytes": 1022
+    },
+    {
+      "path": "scripts/figure1/fig1d_indel_heatmap.py",
+      "sha256": "5c03755c6807fef579e234676d86b9e6a20d675e0d520e656e8a60615331e34d",
+      "bytes": 5033
+    },
+    {
+      "path": "scripts/figure2/_umap_common.py",
+      "sha256": "86f5f1f4a28816524c522450915f3baddbb470555339dffc092600d4cfc4101d",
+      "bytes": 1538
+    },
+    {
+      "path": "scripts/figure2/fig2a_conservation_lineplot.py",
+      "sha256": "a6d8c60d961024b8cfcb9021796d5587ae753710da2d0a15a2566f5ad3380526",
+      "bytes": 6177
+    },
+    {
+      "path": "scripts/figure2/fig2b_umap_pathogenicity.py",
+      "sha256": "38cea4077a149c9fa00c900fffd1f05241a2f40be4e711d31d1db35dd80d468f",
+      "bytes": 2554
+    },
+    {
+      "path": "scripts/figure2/fig2c_umap_consequence.py",
+      "sha256": "473fc2c7871886cea75c20f6c5d5f3c268d4f8c30087d38191dd6426976f78c4",
+      "bytes": 2505
+    },
+    {
+      "path": "scripts/figure2/fig2d_dms_spearman.py",
+      "sha256": "323a539c882a2a3053c2ee9c06abf90d8685f20e20dcd2ad7a03faf4ac4d201d",
+      "bytes": 4905
+    },
+    {
+      "path": "scripts/figure3/fig3b_probe_auroc_boxplot.py",
+      "sha256": "1b16e5327b12a16e51b4cf798d6fd0bfdf7f924b8272f16379659f10c68cfe38",
+      "bytes": 4544
+    },
+    {
+      "path": "scripts/figure3/fig3c_mechanism_recovery.py",
+      "sha256": "656c952f01e3072fbe3369baef384d20c87bc839f505cf57e4e38637d79a6baf",
+      "bytes": 3733
+    },
+    {
+      "path": "scripts/figure3/fig3d_interp_quality.py",
+      "sha256": "2265933987856db4ca638c1e45fe3a04b815f89d433214891a314abcf9c04286",
+      "bytes": 5858
+    },
+    {
+      "path": "scripts/figure4/fig4ab_brca1_rna.py",
+      "sha256": "2512b930b364b87170e66789998598dc14becaff3a34850f07fac7305158e9a0",
+      "bytes": 14374
+    },
+    {
+      "path": "scripts/figure4/fig4c_splice_nmd_headline.py",
+      "sha256": "a6d8f2f8079bcb7dc7026e663bc2f3876314f2b1abffcf65d989648d1b885a3b",
+      "bytes": 3164
+    },
+    {
+      "path": "scripts/figure5/fig5a_ldlr_roc.py",
+      "sha256": "fe0e40db1cb8c1c0098b88d62633cdb7454be10686ec03c26447ee9816b2b6bb",
+      "bytes": 5622
+    },
+    {
+      "path": "scripts/figure5/fig5b_ldlr_violin.py",
+      "sha256": "5447b599b9c72447955587602ff7ceb72a7d0afc1b25fb57fdca4715dd0000b6",
+      "bytes": 3855
+    },
+    {
+      "path": "scripts/figure5/fig5c_finngen_qq.py",
+      "sha256": "1ab5c2efb9828704dbc5b07c640e0ac045df60c87247e6b93e3a4082bd8d2148",
+      "bytes": 4813
+    },
+    {
+      "path": "scripts/figure5/fig5d_acmg_stacked.py",
+      "sha256": "d6c590fe309d5ab7727b33377261e8cfd829b31c772cc6f210e7355d78e4dbe5",
+      "bytes": 4342
+    },
+    {
+      "path": "scripts/prepare/context_ablation_data.py",
+      "sha256": "5ba917abaff8809a3342abe898c7e7b7571a642abc5e07c9f3e23a1dd7f76b34",
+      "bytes": 2361
+    },
+    {
+      "path": "scripts/prepare/finngen_acmg_artifact.py",
+      "sha256": "8d34a0b94e51333d4a6c510963237d4066b59d871dd9e463be9dd56add220bbc",
+      "bytes": 3575
+    },
+    {
+      "path": "scripts/prepare/prepare_finngen_r12_qq_pathogenicity.py",
+      "sha256": "4ab8ca291807890ac1dbd4b3342d43eb1ac65d66bdd204a0b74c3fe199b579a9",
+      "bytes": 6847
+    },
+    {
+      "path": "scripts/prepare/umap_combined.py",
+      "sha256": "ff1ed910eb8fce81b7d0d1619922b13f5ee6346b6f96ba415c221173ea8736fc",
+      "bytes": 5954
+    },
+    {
+      "path": "scripts/supplement/supfig_autointerp_ablation.py",
+      "sha256": "517cf4470ef0721e1ed798849d078879cc1b44fbd91269bb99214a32a4661d44",
+      "bytes": 8631
+    },
+    {
+      "path": "scripts/supplement/supfig_context_window.py",
+      "sha256": "e5f236bfd270297cb0c014d4b3b60478a2cf2c391b71d399028d0b2cc1503992",
+      "bytes": 4498
+    },
+    {
+      "path": "scripts/supplement/supfig_dataset_characterization.py",
+      "sha256": "b0823e2879a764a53d2c11c7ca08010b98418688c8fb1a1ecaa832a7df984707",
+      "bytes": 4910
+    },
+    {
+      "path": "scripts/supplement/supfig_layer_sweep.py",
+      "sha256": "b062e3e098e690a14f464db77a45fe304ee3f64096a31bcac55ea1a738aeefa2",
+      "bytes": 2381
+    },
+    {
+      "path": "scripts/supplement/supfig_ra_cohort.py",
+      "sha256": "b875920995f58bb4dd6f2fa703b5933c36d73d663caf336a7bb1da2b1fa501d0",
+      "bytes": 7128
+    },
+    {
+      "path": "scripts/supplement/supfig_splice_vaf_validation.py",
+      "sha256": "683583c82b4e6a037ac2a26210caf4cd30d47471d4e2ac2c68d6bb31fe4fb9c4",
+      "bytes": 2667
+    },
+    {
+      "path": "scripts/supplement/supfig_topk_vs_window.py",
+      "sha256": "fd88b3ac2300d0445689bfe72bbda4f3bcb2860181302ec4a875ee2d57a2d6af",
+      "bytes": 3641
+    },
+    {
+      "path": "src/__init__.py",
+      "sha256": "1b9b283c017111f3f2711203e250aa52eaae761fd9cb359b2cf11849e708dd80",
+      "bytes": 41
+    },
+    {
+      "path": "src/cli.py",
+      "sha256": "de239e821e68ac9284a8109fca023239451c8374d16e4363578db84a1b623763",
+      "bytes": 3624
+    },
+    {
+      "path": "theme/__init__.py",
+      "sha256": "d0bdf1bcfcfd55b8f1ac07bda663c5c2615df44a8d75dc3cd730a08f283a29a4",
+      "bytes": 69
+    },
+    {
+      "path": "theme/theme.py",
+      "sha256": "65ebe19490c22ca4b219d18572d5f287f9628d3b692532c364722352247a5217",
+      "bytes": 9434
+    }
+  ]
+}

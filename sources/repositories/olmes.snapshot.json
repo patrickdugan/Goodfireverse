@@ -1,0 +1,1912 @@
+{
+  "repository": "https://github.com/goodfire-ai/olmes",
+  "revision": "5a51f502d463b8cdc4a2dcad7d7096c41ff1197e",
+  "archive_sha256": "8374a42de47c215cc77802c14ab72ce46390750f3a649a5cfe49fc73ccb2f36d",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "62fb8a3a9621dc2388174caaabe9c2317b694bb9a1d46c98bcf5655b68f51be3",
+      "bytes": 11359
+    },
+    {
+      "path": "OUTPUT_FORMATS.md",
+      "sha256": "e61f51e2e657b7212cf33928df91a4f3540b555a4a2c013b4b569a1d879e919c",
+      "bytes": 10837
+    },
+    {
+      "path": "README.md",
+      "sha256": "62ef75fd8d50ac77cc62d076fb935b06702441cfa25a1726fef827eb3e0967df",
+      "bytes": 9857
+    },
+    {
+      "path": "oe_eval/__init__.py",
+      "sha256": "4466ba72645ddde5f8f4dc286eb8602c4197d2d194f0bbe61aa6f36c757b7743",
+      "bytes": 44
+    },
+    {
+      "path": "oe_eval/components/instances.py",
+      "sha256": "9e260295738ed069dc8d87cf76785b34386e7d41d4dbc296950ebc0171d33c9b",
+      "bytes": 3961
+    },
+    {
+      "path": "oe_eval/components/requests.py",
+      "sha256": "d9d502d6a78adf3565c810513d251ba323d61ce030d2c8200574983cdd86742e",
+      "bytes": 2201
+    },
+    {
+      "path": "oe_eval/configs/alpaca_eval_gpt41_azure.yaml",
+      "sha256": "f04dff5bead162b310b4becb3e80cdd25f85ab102d77e376f52d2b23f333ccb3",
+      "bytes": 336
+    },
+    {
+      "path": "oe_eval/configs/models.py",
+      "sha256": "7b96349202e8f508d5e59ab001447e66546dc05db376f9da09a71d2f47f14e9f",
+      "bytes": 20886
+    },
+    {
+      "path": "oe_eval/configs/regexes.py",
+      "sha256": "d7f3a3e3daec1d6b835119d2dc831215b1f9586fe560090b426ea8d2175428bd",
+      "bytes": 773
+    },
+    {
+      "path": "oe_eval/configs/task_suites.py",
+      "sha256": "b17d080412d7741dfe2be84742842265ecbe67f5f851cc3b476e25b9a676e92c",
+      "bytes": 39453
+    },
+    {
+      "path": "oe_eval/configs/tasks.py",
+      "sha256": "a2e63e044af9b9fc47949647839852aeb435292319d6e0ebb14dddaf21edcfe7",
+      "bytes": 324779
+    },
+    {
+      "path": "oe_eval/configs/utils.py",
+      "sha256": "072953de69cb9c04a98a87208c8bf2e52e907004b62e5d5777a8cf106aec6543",
+      "bytes": 1764
+    },
+    {
+      "path": "oe_eval/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/data/agi_eval_tasks.py",
+      "sha256": "66ba0e0430d096807d0e5b025deced38adf6c797b98b415860f4ac5f73f254c7",
+      "bytes": 192
+    },
+    {
+      "path": "oe_eval/data/basic_skills_tasks.py",
+      "sha256": "a122523413571b4e37cfa0ba0fa279ebbe188d1ea5826c63e5649a0deccdd02d",
+      "bytes": 146
+    },
+    {
+      "path": "oe_eval/data/bbh_tasks.py",
+      "sha256": "22bb8b8df7581c336517465af98b7ea0055eaa6614561fdd73013472d1c0f5f1",
+      "bytes": 4051
+    },
+    {
+      "path": "oe_eval/data/bfcl_tasks.py",
+      "sha256": "8da5e2eaf9903559c9bdb11401b826a0be6ddab6b04cc7cfd7d46f45d98dd1bc",
+      "bytes": 1547
+    },
+    {
+      "path": "oe_eval/data/code_editor_bench_tasks.py",
+      "sha256": "c1cb7c943e4dbd9fe5b9af82b892fb52892a7cdcd3f475851b0ec0f51b0f6649",
+      "bytes": 1192
+    },
+    {
+      "path": "oe_eval/data/constants.py",
+      "sha256": "6b3ecbb0cb4475377cf1463b9d3ba4a4f0f8a97b0d89c4aea5b055df6a186c0f",
+      "bytes": 196
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_categories.py",
+      "sha256": "69f38cfe1253c48d18502190fb20f8bc859d7702f037c7251403ccbd15b8af7f",
+      "bytes": 6036
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/README.md",
+      "sha256": "12cc9f9bd9b0c750224ea1138f9859d3307efdda5b19f6a784fb3e69ab16ecf9",
+      "bytes": 2910
+    },
+    {
+      "path": "oe_eval/data/helmet_tasks.py",
+      "sha256": "fd6c6c867a0c0d8a03702e7c5a18d7be5156167232093ed51021d7eb41b71241",
+      "bytes": 64034
+    },
+    {
+      "path": "oe_eval/data/hendrycks_math_split.py",
+      "sha256": "0caef47e31cb87c91a495d0abb8e1ff1fcf8f2d3e160d7e86c8d9cdd83c51f2b",
+      "bytes": 4494
+    },
+    {
+      "path": "oe_eval/data/ifeval_mt_tasks.py",
+      "sha256": "690c65efb8edb770a57f0d2ded54b283522d38e2daeaab740e1269cc89d13900",
+      "bytes": 268
+    },
+    {
+      "path": "oe_eval/data/lab_bench_tasks.py",
+      "sha256": "a2b6bb43a06cd093c237f8a2c81890d0830a7c05e507a574bc6411105871578c",
+      "bytes": 321
+    },
+    {
+      "path": "oe_eval/data/math_task_types.py",
+      "sha256": "1dd7b09e0e72c814e95395ff1899ec6608020420e04cacf08c06d93d84f9423e",
+      "bytes": 171
+    },
+    {
+      "path": "oe_eval/data/mmlu_pro_categories.py",
+      "sha256": "5adecce9d85ad2aa168441ef1ec280f94c41732b9d10dc6230897a1b139adf32",
+      "bytes": 250
+    },
+    {
+      "path": "oe_eval/data/mmlu_tasks.py",
+      "sha256": "f8c5bcd82a7db7873d87ce121c8c1d7a05f027d00b1fed030e1e4536ec34852a",
+      "bytes": 1604
+    },
+    {
+      "path": "oe_eval/data/mt_alpacaeval_tasks.py",
+      "sha256": "6a1959db89faa84b175f8a9fee05f5e66b7ca3422649d2a6986cebe781013b48",
+      "bytes": 844
+    },
+    {
+      "path": "oe_eval/data/mt_eval_tasks.py",
+      "sha256": "ddabad52c6f6079eebdb9d76e81f8f0dc52a5e2573b3e57eeaa7989ec6d09bf6",
+      "bytes": 405
+    },
+    {
+      "path": "oe_eval/data/multilingual_mbpp.py",
+      "sha256": "1d93705963ef7e71bfbf49616b6116ac85728ca44b37dcec4cbc66bc670623d7",
+      "bytes": 251
+    },
+    {
+      "path": "oe_eval/data/multipl_e.py",
+      "sha256": "0759938175788908cd39b9aec21012433d2054403d596f3060f5049d410badb0",
+      "bytes": 1679
+    },
+    {
+      "path": "oe_eval/data/omega_categories.py",
+      "sha256": "878a5e489a2692a90f215056f3072f23ae6a9a07afe0202a7eab4d65072a9daa",
+      "bytes": 1999
+    },
+    {
+      "path": "oe_eval/data/openai_mrcr.py",
+      "sha256": "3b25c4d53ef37f21cd067285d50c0d45f053fa544af1c193e9e2e24d74e95ae7",
+      "bytes": 171
+    },
+    {
+      "path": "oe_eval/data/ruler_tasks.py",
+      "sha256": "a68c6e202e1e9f299831331b8dfef421393be7693236e11dab98108a6cbebc00",
+      "bytes": 25864
+    },
+    {
+      "path": "oe_eval/data/safety_tasks.py",
+      "sha256": "2f6801e1fe895e0fe0658dfbe3195429751deb674e029ea3fdfa8904286dfe90",
+      "bytes": 5687
+    },
+    {
+      "path": "oe_eval/data/simpletom_tasks.py",
+      "sha256": "fe37cb1b4c73f7838a4a0f60396f4cf0987646dab363b92f968d5f733ac6c13e",
+      "bytes": 83
+    },
+    {
+      "path": "oe_eval/data/styled_tasks_perturbations.py",
+      "sha256": "59398aed9c1e8afb3c6dce6cce1d417766f5902094765a865080a8e7754af277",
+      "bytes": 416
+    },
+    {
+      "path": "oe_eval/data/tydiqa_languages.py",
+      "sha256": "4688a6637c86b2745a03c48b97068347adc49f3d2be3467f33ae391ad9c45c09",
+      "bytes": 2986
+    },
+    {
+      "path": "oe_eval/data/zero_scrolls_tasks.py",
+      "sha256": "af32b543fb41347adf34f0fd90f57723b7322a38faadd02e9b685ba4cfe37a82",
+      "bytes": 207
+    },
+    {
+      "path": "oe_eval/datasets_extra/paloma_sources.py",
+      "sha256": "008d1f30182a9fae013f6e32c5b0baad552037ae7c08de68a1e3a5d16c976c78",
+      "bytes": 369
+    },
+    {
+      "path": "oe_eval/default_configs.py",
+      "sha256": "b11ef7930ef78ee2945111d1ebcf8dc38fcf8705a79e5f89fe1e00511e90e12a",
+      "bytes": 1717
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/CHANGELOG.md",
+      "sha256": "2a58503186c7d9f3b5b04c024f948301ae0fa3786870b57e31d89cf04458b3fa",
+      "bytes": 181
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/LICENSE",
+      "sha256": "9097488fe82874530504e7151de5b7be274c4ec9c5e555ea58980645f4e700d1",
+      "bytes": 5668
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/constructions.py",
+      "sha256": "9721f2f339caa13be717048aab7fafb66093abfef2226eaded8384fac8c38d3b",
+      "bytes": 3013
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/dataset_loader.py",
+      "sha256": "a3954bb3a50a8f0e5d098a95febda4cd4168caf47c82a4dcf5eaa980ee214512",
+      "bytes": 16110
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/evaluation.py",
+      "sha256": "00c3a53bf184b5f283c52e8787ea8a6748c57334fc3d5f635f0b05e89a10dd33",
+      "bytes": 798
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/math_equivalence.py",
+      "sha256": "ee650850c850b09e3cc5f04aa5a8c475e2405da3d4c47909366ff86de71ef6a9",
+      "bytes": 4555
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/post_process.py",
+      "sha256": "a8cd40532818c7ecc0a0df41caff9cb9a2210db70fd1bbf9030fce8cb6d1026b",
+      "bytes": 6597
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/utils.py",
+      "sha256": "de6625a45c9b08ae269892c940844ca6346e4ac4d496e511954207f0cb18d0ce",
+      "bytes": 1156
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/CHANGELOG.md",
+      "sha256": "8067a859ed4688973ccbf542a56442657904afcd320f89f6d85205c48527fd39",
+      "bytes": 37114
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/CONTRIBUTING.md",
+      "sha256": "5f7aeffdac539afbac6902cbeaa4031345a41ab8bdce5ad558a482160eaa8284",
+      "bytes": 9278
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/Dockerfile",
+      "sha256": "fa2d4b5fa2d8928ea0d02d18ba8ab78c19f894edfec20f8166781d10b0bb6ba7",
+      "bytes": 388
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/LOG_GUIDE.md",
+      "sha256": "e679aa25161d22a3e6984bc19219b7cf7e4b16f935093606c7b553982efcaaf4",
+      "bytes": 3082
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/README.md",
+      "sha256": "036720fc6f7f13e37700cbf7173372aaf35da332a0d8911467bc6d358107a02a",
+      "bytes": 11065
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/SUPPORTED_MODELS.md",
+      "sha256": "b952b062f07c3c2447642bf6ab0912309b3fb7c96bd080583d6cb6f57c8b5a5e",
+      "bytes": 17720
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/TEST_CATEGORIES.md",
+      "sha256": "7e92a7867cf3dba170d7519dfd72f107f2a6db0a87148dc47a9af93f97f8786a",
+      "bytes": 2184
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/__main__.py",
+      "sha256": "546e0da1ebcbd8b183ea67b4a41759c311977425c1e915ba29bb5360340eb5c2",
+      "bytes": 10206
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/_llm_response_generation.py",
+      "sha256": "9609efd7069696532e9bcca937789ebb339d9e3f2c4caacbf94e0dc58bb5adce",
+      "bytes": 12649
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/category_mapping.py",
+      "sha256": "c08dfe14283990bc4f67333183d8c14a2506da6d99ac00c6ef5f018dd44757fc",
+      "bytes": 4164
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/column_headers.py",
+      "sha256": "15c30ffbd2a4066a891846373c9c46e8aaab899a2231b69e4ff2d6dec7d5e1bb",
+      "bytes": 1411
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/default_prompts.py",
+      "sha256": "eeaf03cb3594666b527993160d6b6b18ee219fee6b3ab1672ef71202cc9f9721",
+      "bytes": 1463
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/eval_config.py",
+      "sha256": "85459fd7454f5af8e9a311fe7136b6bbcf0dbd3c5c37aaaff5b911f679352a46",
+      "bytes": 1268
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/model_config.py",
+      "sha256": "ec7daf4990ab3f71bc10afd59b4b494f118e4f8b74150209aa9f9f49776a5495",
+      "bytes": 60242
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/supported_models.py",
+      "sha256": "5bf6575508cad8c669565f2a0508393a9d80ce85c4484b9c0647138b6a7c9d73",
+      "bytes": 5085
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/type_mappings.py",
+      "sha256": "1702fb67afbe2c492608e58e2b7d02e46381f50166b47f3c952f76e34c7cd3bd",
+      "bytes": 1813
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/ast_checker.py",
+      "sha256": "eefb62058c66e6c748548e189f34869c58a409e9c3edb2f662adf28f534aeb65",
+      "bytes": 24952
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/java_type_converter.py",
+      "sha256": "789026a934d3399ab7c5b7297f27fd2d6bab4c7d6de67456cbe728560f89089a",
+      "bytes": 15711
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/js_type_converter.py",
+      "sha256": "317b968cde00a90a3a46fdad9bd82dae62462250f0e43cb1418589e5c2acd53a",
+      "bytes": 11701
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/eval_runner.py",
+      "sha256": "84cbd02b2fee768384d4c37c9fe297be7528366ff925c271cf9849c703259189",
+      "bytes": 23432
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/eval_runner_helper.py",
+      "sha256": "bbede9eac6fff43a9b343947b605d76af44df70592ea6a263d29eb192fc2f2a9",
+      "bytes": 18969
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py",
+      "sha256": "7ba6e49abe5ebf987476df9dba6c017f3aa462122cf11442dfaf1025965f707b",
+      "bytes": 31918
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/long_context.py",
+      "sha256": "5c9a5710115609c779e5b2ccb43f6ad58271ed96f2ea7a797edb0d65c385aa38",
+      "bytes": 190330
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/math_api.py",
+      "sha256": "abde32cc25e71b2ff3acf4d028a3c005b98409c174aba4abddbfe1c018afb9a8",
+      "bytes": 12252
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/message_api.py",
+      "sha256": "ff65c20ac7af5bf5f13048805b7a50fcf0a82eeb5922605b9343a022737f88cd",
+      "bytes": 12598
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/posting_api.py",
+      "sha256": "6436d6ba622acb3a3e425fc9f97992af2278d1819f743350a1326ed6e9b8af58",
+      "bytes": 12505
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/ticket_api.py",
+      "sha256": "3d74510e1ea1dd8e677fcc85457da7c7f4b38eae71a199b6bb48f32681ffc483",
+      "bytes": 9666
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/trading_bot.py",
+      "sha256": "7bd5beeaa33f287441f0383f0be38a8842bfca6489e40da171fb3747efe72c62",
+      "bytes": 25999
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/travel_booking.py",
+      "sha256": "40e08d69f1614dec7f27cac56628a80dc5efcb83da11790323b8159f20d7e56c",
+      "bytes": 33773
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/vehicle_control.py",
+      "sha256": "719dc9c4e0a053c5b421b110cb233b9c4c3715b9f604daad915611fd26bad34b",
+      "bytes": 29463
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/multi_turn_checker.py",
+      "sha256": "6eb01e811eaba0c1ac2586ccf66e253a0a8c424bce8670c720db588a4fc94a03",
+      "bytes": 13587
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/multi_turn_utils.py",
+      "sha256": "79c0ccadd6e4eb681cd3d96eb3bcd4a4d2eba049b4a27cbd514f971d60b0df34",
+      "bytes": 5957
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/claude.py",
+      "sha256": "f6f9a27a660d4dcedd998db990c969630e45fa6cef655e81cbc07e57d584d10a",
+      "bytes": 13262
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/cohere.py",
+      "sha256": "204d5680abd652ebf31ffb75a69191c82d12e3e64f5a1539e18f26384ee4332f",
+      "bytes": 11964
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/databricks.py",
+      "sha256": "93aa3e18cce3b7da826022a2e1de3f7b523eca462e591259613a6824ffa32653",
+      "bytes": 3441
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/deepseek.py",
+      "sha256": "4d9eff3a332605813797d7879dc88ac79e4b1f37018ac8e3957a0b9b311e6579",
+      "bytes": 4777
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/fireworks.py",
+      "sha256": "2ab6da42c11889695c893cbf5d4ab0774e54daa18d7efdf58367959b449a861c",
+      "bytes": 3946
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/functionary.py",
+      "sha256": "54b62fb1babe8542eedbd53c0b65e5acc16439c6074447def0d5cff7c8e2d1fd",
+      "bytes": 531
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gemini.py",
+      "sha256": "9d78d6b0af1ded2533f0bf6e2b4786514f93552f6b507767f7e538fa048a9adf",
+      "bytes": 13115
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gogoagent.py",
+      "sha256": "280dfdf19ef2b8d21c4e70244fe918ccc0a6b3e2308b4adaf4e414319a350802",
+      "bytes": 413
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gorilla.py",
+      "sha256": "c1ade596af949b3cf002107838b3d7046aa752180e0960c4c235f40d13219ec3",
+      "bytes": 3790
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/grok.py",
+      "sha256": "2cca72b78b5c6490e097d42e4ef0e01d65898210af8b7e98f2016aab83b021a1",
+      "bytes": 993
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/mining.py",
+      "sha256": "dc764d2b4f5a9d676a40e1cae5dab7f0c944e1b817cfdd5d7d2511cbd9d76981",
+      "bytes": 4854
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/mistral.py",
+      "sha256": "0fa9efe9566830637189032f5b6c9660b5bfe821937ccd6f9284ffc1c4596efd",
+      "bytes": 8180
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nexus.py",
+      "sha256": "e2f2f7b7fdf5c791ba146d4e72ed85c748e2e0581772e07d0ecdaed5c19c8fff",
+      "bytes": 7668
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nova.py",
+      "sha256": "607f88052824417d9f9fc2b70dc69efcd4b529a9a7e816a98814b758528d00a1",
+      "bytes": 7554
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/novita.py",
+      "sha256": "4dc9b71ddd9ed63f62e694e74b34688f406517a0f87eef1b51b327475c011a59",
+      "bytes": 1690
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nvidia.py",
+      "sha256": "fdb6942440deb593ad5e35e0bf7bb997a4ec97767a443c0672351de41236bcd2",
+      "bytes": 2825
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/openai.py",
+      "sha256": "9b2661b27b0f0194de3a2ed3273d19cde149fb7654897bbd62cf9706e8c29e81",
+      "bytes": 9780
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/writer.py",
+      "sha256": "711ca8d50b383f484439628e9821db11b53afbf3ae581875636fb88cb35016f9",
+      "bytes": 1309
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/yi.py",
+      "sha256": "acf41a6c1405aa53da7a94bb4a02b9e6ab85a40d09af2ebeb2b96cc264706f7f",
+      "bytes": 5263
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/base_handler.py",
+      "sha256": "8ec63f40a41bc7ac1b1dbb431dae534f8899cf298755ae612a6ac75b9ec5af36",
+      "bytes": 39087
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/allenai.py",
+      "sha256": "4966f53785447089127187821ab79ba70ec83a298c933468949755f085f26005",
+      "bytes": 15196
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/base_oss_handler.py",
+      "sha256": "ae121435d674b3695a654673bd0adc71cd7b30885742059c1b59e24dbc9606e7",
+      "bytes": 17407
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/bielik.py",
+      "sha256": "9bfb69e9bf3f10521374908ea69ca2cbafaceff80e830a98cee96bf4639d0156",
+      "bytes": 977
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek.py",
+      "sha256": "41e9d4df90f80b09cbd05bdedf8771131a55ba472d9235e6ade73f3a500eb57a",
+      "bytes": 3412
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek_coder.py",
+      "sha256": "0e01d22b84828ad5409c51a8b2343d80335cef668b90c5da398f20d8a7ebea55",
+      "bytes": 11411
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek_reasoning.py",
+      "sha256": "4000a6963e85adc24bf4d4239ab64da37cd5a0c11df2b35490b5cd1e6d93079a",
+      "bytes": 10176
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/falcon_fc.py",
+      "sha256": "5e5f8785f5eef828e403d9cc0c6b9b807ae47a7bab8ed0cd478ec8294f2e464d",
+      "bytes": 3456
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/gemma.py",
+      "sha256": "3e224f2759f8b840bd031f7a1c9eccf122729da77bc0a87d0ca60d3046f3b209",
+      "bytes": 3795
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/glaive.py",
+      "sha256": "61fb982ad54220a669a70dedfa0ff5dc809db617bf35f888982b0ce116bfe2d8",
+      "bytes": 1392
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/glm.py",
+      "sha256": "fecec195973a410d776f81ff7a75889b8941c8ab054045e55db9031a14dd48d4",
+      "bytes": 5367
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/granite.py",
+      "sha256": "8f466c50d1ab71ac8847b72bfc4aeca8cc589bb16c4ee23098568dbf15a26e37",
+      "bytes": 4449
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/hammer.py",
+      "sha256": "7efcd5e1f71da2dc26973fb224a5854079bda0b801e111e9bef5aef2ab940159",
+      "bytes": 8944
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/hermes.py",
+      "sha256": "be3e77e02c95055d76ceafb0106020f426d8c5bc3328cede5dd778b59648a3de",
+      "bytes": 5097
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/llama.py",
+      "sha256": "7452bd96e3114dc64043a2ea4f9411777f444f65b6028ab66ed49a9eda3f48eb",
+      "bytes": 2475
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/llama_3_1.py",
+      "sha256": "e425bf926affe4d9b7ebd3ef382f1c751dd75036b8e171cc811ada8575894d4d",
+      "bytes": 11419
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/minicpm.py",
+      "sha256": "655a8ccde395ffb4da8b8861d33ff2c1b0ab121cd32acafa2c5c4bead77dcf0f",
+      "bytes": 849
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/minicpm_fc.py",
+      "sha256": "7a988cd179d679feca81897bea7c6edc97e4ecdf84b37811c6286bed7c21c9c8",
+      "bytes": 20497
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/mistral_fc.py",
+      "sha256": "096fd8f8c868756c836dc75f552b360dd6c7667616cdb1821968270ae1d013f7",
+      "bytes": 12666
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/phi.py",
+      "sha256": "ab492388d5a904f1f8d01ea6c3e201ba2a0cee38f62f8f954882cf98ca12a9f0",
+      "bytes": 2485
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/phi_fc.py",
+      "sha256": "38bc2376668929001e926a4ee676f544ac20984c6c822c0607837057b8ec2f14",
+      "bytes": 9813
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/quick_testing_oss.py",
+      "sha256": "f5407d3d4c2c0845384c92049ba7fee87a5d330e5a0381a34f64cb29469a9cbe",
+      "bytes": 912
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/qwen.py",
+      "sha256": "2e232648bec257d24af17ae3e8ead94c875abc4e86e65ec211b70788481b7051",
+      "bytes": 3308
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/qwen_fc.py",
+      "sha256": "11cbd5f4f0df7ce9bc1f5bb101170a98bccf7025667d92279cfbe5927f4a502a",
+      "bytes": 9257
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/salesforce_llama.py",
+      "sha256": "f48e0ec5482676341b12313f86a2dfbe0f73315d3549e690c4d9b49fb0845e5f",
+      "bytes": 4981
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/salesforce_qwen.py",
+      "sha256": "b55b0f39f48460c9227ba9c81ae2dca92e524b229370519aa53d32531f3e534c",
+      "bytes": 4926
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/think_agent.py",
+      "sha256": "54f56a6c6bf85e26f6955175599d5495aedab39fed62df108a792fabe4850fc7",
+      "bytes": 7756
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/model_style.py",
+      "sha256": "6a6c9ec11cdad36ba11ccd5e2fada51bbc5370f3202d300aa5a96cb74c4b692e",
+      "bytes": 395
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/java_parser.py",
+      "sha256": "4707953d2d02faba33508476307661b2e42a640ff7db645041353366bd9fb6bf",
+      "bytes": 5508
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/js_parser.py",
+      "sha256": "78203f84bc31ebc974574d6ba1c0a6188c02844b1fc8f55cdf77c6116cf999b2",
+      "bytes": 2733
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/utils.py",
+      "sha256": "b58565e2684101e6323036d9dea839d1d4728a17b7a53738d1de7940eed73b54",
+      "bytes": 30303
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/utils.py",
+      "sha256": "335150c829ecf1c37e973979911c1d43984fa144fd4792f1cff57ad6bbf141df",
+      "bytes": 7907
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/build_image.sh",
+      "sha256": "2ae3df010ece8be01ee390266eb1442a96a27cf570f1058e34e953b05e116034",
+      "bytes": 521
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_irrelevance.json",
+      "sha256": "975f51c51f688649fd190078efd87081241e0a326f9114a2ea3c1ca2440d8690",
+      "bytes": 160114
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_java.json",
+      "sha256": "261d327d50c1bb505614dd5f75a29167d5bd9f938e5cefefef989c325cb67848",
+      "bytes": 85919
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_javascript.json",
+      "sha256": "b69b6a99548f72e151be7abed4beb0ed70873d3370d5b78feed75b66f33795d3",
+      "bytes": 46713
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_parallel.json",
+      "sha256": "6c26e9fdc3350cf596e6d1ea9c179cbff834761bccf562f4141ed29a839ca421",
+      "bytes": 15649
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_parallel_multiple.json",
+      "sha256": "21d4b9319c1faac431e22757b367ea28917fe467364c3a4b17f16ec06d4f6e79",
+      "bytes": 82332
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_relevance.json",
+      "sha256": "294ef3f21909e6f84c735faf688f5cbd72226ad012b7ea53c1e177c40cbbf053",
+      "bytes": 54134
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_simple.json",
+      "sha256": "10e5cedb6dc73cd16bc430755643c658d6032a69363dfc41a22a84988eaa312a",
+      "bytes": 260127
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_base.json",
+      "sha256": "edaea7666e0089062c30f3ac511914d5c27414dbe9b8214488191980d873b145",
+      "bytes": 391058
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_long_context.json",
+      "sha256": "a7c2b44cfe14e243e66acbb0737970f1085460fed5793bfa0137fb4782ff8fc4",
+      "bytes": 392651
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_miss_func.json",
+      "sha256": "e6cfbd225ac1182c82bfcd0a83410babd410a8cf2050942894017829e9a57e23",
+      "bytes": 401840
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_miss_param.json",
+      "sha256": "21a850b8bb0b41aba63e0bbcd9b4af6c7997144180eadd4bcdf4bdfd98077c1a",
+      "bytes": 403181
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multiple.json",
+      "sha256": "aef168155ebd74b7ac2401198b201343bc7d16d7a3d7e0d4e6d8ee82c6969b2a",
+      "bytes": 316583
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_parallel.json",
+      "sha256": "fad375d68295776efb63e5aa331dd884f8635e7bb50e05908113c74f14281c3c",
+      "bytes": 172094
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_parallel_multiple.json",
+      "sha256": "8863ea8433239f55c5f016154cf0830853c89f693c6ea270396a2fa121960579",
+      "bytes": 347080
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_simple.json",
+      "sha256": "fbc37b2ad252bf9af985582e0e07b456173fe627d957491472ea9cef5fb83158",
+      "bytes": 280474
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/README.md",
+      "sha256": "6a92295814ec6a63e6c7deee7789b58d035c73a805bd2292239a912ae6bf94bd",
+      "bytes": 16122
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/gorilla_file_system.json",
+      "sha256": "26c01bed25bf7affbc8d281cc8124ccdc220a64c374ac4a7a9181dea0a0468ee",
+      "bytes": 13951
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/math_api.json",
+      "sha256": "83fa31708c89442bdcf12ac4dfbe3be8663ec9183a1b1524a9fda98164bc7e0b",
+      "bytes": 9158
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/message_api.json",
+      "sha256": "2855068a0e77c4f1861fb2c1aa581590af85eb4b56994c6ebf79e30afb83be24",
+      "bytes": 6097
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/posting_api.json",
+      "sha256": "87f9fc404a06e4107d7c366f1399c596440e84c16cb119faf374b2f532d86e8b",
+      "bytes": 10573
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/ticket_api.json",
+      "sha256": "1d78a0bbc15ca2dca3a2228be690b8b929783b2715175cd05b80ee2106581897",
+      "bytes": 6577
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/trading_bot.json",
+      "sha256": "c04b85e9ea0795a0fea1e1c3608795aa720edde52539b2e71897aa207976a25f",
+      "bytes": 14075
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/travel_booking.json",
+      "sha256": "5247c1f4db044d4c18c30cc8e3a4e2a0c818aa122f4aae62f9b95d94dec065a3",
+      "bytes": 15930
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/vehicle_control.json",
+      "sha256": "a0366b59ad6eabb10410eadf95aa5991262ad0bbc3f560ebba45d7fc3e4f2808",
+      "bytes": 17545
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_java.json",
+      "sha256": "692c16dac988f24f41e26591b7c7ad9596d0d7f05d3c94d15dbf7de3f48025e5",
+      "bytes": 15707
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_javascript.json",
+      "sha256": "0f5620f298eae6173f5f94d3006d068a2cce4cd7c960c2170d21904ce7b63790",
+      "bytes": 7529
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_multiple.json",
+      "sha256": "97e90d59c5bd76c55a2920ce93e5566e9046307d3f558578f085f9d3a56c3084",
+      "bytes": 199668
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_parallel.json",
+      "sha256": "5e3d26c9103dd25912003d3c5f681f30efc6fd2b5f8ba474450f2df21fdf6fcb",
+      "bytes": 4974
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_parallel_multiple.json",
+      "sha256": "f5b5f360556c5feb51db46fb9f56ee4b304f4b45b161599bbb14161c98a2873f",
+      "bytes": 7420
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_simple.json",
+      "sha256": "4a1988780cdd8a723967587614cb84a9f53aa5d6fd37f83c78a0dd7acc2f3d15",
+      "bytes": 46971
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_base.json",
+      "sha256": "872e633eb94ef83b54ad1feeaadfbc705d004cdff60be9799b9ae13d5363a1d3",
+      "bytes": 80429
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_long_context.json",
+      "sha256": "07347ad66e4b304550b5f3b34e5b07864c0f1d738f8b59560fbd3c372255c504",
+      "bytes": 116024
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_miss_func.json",
+      "sha256": "9f5a0ebb3627062be8ecfc0ffa375b4ca3cf15d9a899f3bdedea9588aa5b80eb",
+      "bytes": 82136
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_miss_param.json",
+      "sha256": "494068e24f5e821818040662efcbb88b15d5e34b98f5d08c62806f1463523dad",
+      "bytes": 82360
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multiple.json",
+      "sha256": "244e00ce9395df948bcafc7bee64e8f9c87ef70887587d83cae45b13699f3047",
+      "bytes": 32254
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_parallel.json",
+      "sha256": "3af54bf04e5b7640b03a9b6a82440f52474feb24b398f94435fd2b155c7727de",
+      "bytes": 65905
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_parallel_multiple.json",
+      "sha256": "df4d2c16238c1465dc04697c273cf3ab4a450075fcd274e3dc86ad5bf0049b75",
+      "bytes": 74601
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_simple.json",
+      "sha256": "2911a2bc00df82c4f999ffa64fedb0164cb88e96212ffa5972087eb91fd496ee",
+      "bytes": 60809
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/executable_eval_sanity_check/api_status_check_ground_truth_executable.json",
+      "sha256": "9009f32791e52dc238721a063fbfe6d78bdb5a6bd0234c898975472f5bb394e6",
+      "bytes": 8681
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/executable_eval_sanity_check/api_status_check_ground_truth_rest.json",
+      "sha256": "d791559ef5f097e7ab6b36dd79d32cfb0c03195060aedb7e7e0a490e6d2b724d",
+      "bytes": 14052
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_multiple.json",
+      "sha256": "4d30c1642e7ff57bf29ca8a25bbad27b2a6612efea4ec03c0ba5a894ea6fd15c",
+      "bytes": 7232
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_parallel.json",
+      "sha256": "896aa96eda0909780bc474a7887bc38c2025a5a7a90e194236d689c3a3e3d178",
+      "bytes": 16710
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_parallel_multiple.json",
+      "sha256": "efe7c7bcaeda600ef2fb8a65841c8628226841d50408313c18e6450d0d5efca9",
+      "bytes": 10666
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_simple.json",
+      "sha256": "4584017c92ae9a2407eac25bcec2496233a32a08182301b15f65538aa575b5a7",
+      "bytes": 14055
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_multi_turn_composite.json",
+      "sha256": "c832f27baaa589b15e1612c7f48d6de169b9cee4cce7ec6c32e78f20c4be6f25",
+      "bytes": 115938
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_rest.json",
+      "sha256": "8105057a7b4920da835901e1ccb8bb875fe4dc9d4cac2f6a8bd7c292d83be5b5",
+      "bytes": 113056
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_sql.json",
+      "sha256": "066ee73429e1d16e0a28ee7f9a7877f313892e94f6b68fb200b14253c8d7c154",
+      "bytes": 20541
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_chatable.json",
+      "sha256": "bb119651f897dceaba2936633a0048a2acdf040be5cf2fd26fcfea3a6d69031a",
+      "bytes": 24980
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_multiple.json",
+      "sha256": "7dc1247bf337da33b8d72597c31de6f5e510736a89d7551dc898154f09363ced",
+      "bytes": 75924
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_parallel.json",
+      "sha256": "f407d29d48c86a18966471a00456813b296ec479a7b38b6ffc371d3070ecd412",
+      "bytes": 40389
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_parallel_multiple.json",
+      "sha256": "6009581d732fd5c7e8332b44f1a9b4ecd62e31bbfe7c283f828a1d1f23e30d1e",
+      "bytes": 64362
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_simple.json",
+      "sha256": "32ee3959e8e3f92fac1e90e55bf5fa41c759bfef4e6a2d88421af527a859d0a4",
+      "bytes": 75888
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_multi_turn_composite.json",
+      "sha256": "1fda0310e176317af7184132ff5fb5daa8ee7984b1cfbf69ce4bfb58c3151ae1",
+      "bytes": 404501
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_rest.json",
+      "sha256": "b064f9eefc257dba383227177f570fd9038588dd058e5a9e869007f81d5cc5f2",
+      "bytes": 208186
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_sql.json",
+      "sha256": "2cf021e2e4f81f1097aab31763423b785b3aaa73df8203a4f4ae3900822b0d53",
+      "bytes": 152641
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/evaluate_model.sh",
+      "sha256": "889a0fe2e947655168fdad3098764b3bbe409c31367a927daa9be86ef893f3fe",
+      "bytes": 5963
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/evaluate_template.yaml",
+      "sha256": "5dcb1cb9ca7baf93854b15cdf792211e0f088d25eda88a4fcf89c0d5c1edb462",
+      "bytes": 2783
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/openfunctions_evaluation.py",
+      "sha256": "3a1b8a0244171dae1083dd0afeb4ad6f2241696b01c15a53261f512c71edfaab",
+      "bytes": 488
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/pyproject.toml",
+      "sha256": "224515945e40f7a0ba38a57b0dce07dc6eb1865e507274d435b3f0f2acf728c6",
+      "bytes": 1323
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/test_case_ids_to_generate.json",
+      "sha256": "aa8337e581cbcf123544380d919c48aa8b4ac7ee139bbafde27c321fae0bba0b",
+      "bytes": 470
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/_compile_helper.py",
+      "sha256": "344d33b454a9da1924cbe69eea5b1ccf193979303968170667a0fcf393abdfa8",
+      "bytes": 10018
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/check_func_doc_format.py",
+      "sha256": "c82d5b885a8902f4c9d647409e4f12accbca2359e4b154790392fa3739dc25ca",
+      "bytes": 15804
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/check_illegal_python_param_name.py",
+      "sha256": "9cef54e77c7bd37d4e4c3917d2fb1a74efaeb48deca37cc9ecdb0762b51108ab",
+      "bytes": 3197
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/compile_multi_turn_func_doc.py",
+      "sha256": "49ad5c1df82ece20f0f930967dc666a3696e6ebe705da515495fc153d59ab85b",
+      "bytes": 2380
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/visualize_multi_turn_ground_truth_conversation.py",
+      "sha256": "8f91750a1a7db12e8794720f19f015dbcdf0999a7f939a537b9b45665f938c24",
+      "bytes": 5229
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/README.md",
+      "sha256": "afd96d9e1629c3d37ed821d28ae0ac592bb5d911ce4350337ce2d4ac24d7569f",
+      "bytes": 2561
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/code_editor_bench.py",
+      "sha256": "9ed4b110a7ae7578d138d3863a83ba456ecbd180280a3e53044c0f51bbd68a30",
+      "bytes": 18181
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/dataset.py",
+      "sha256": "2e166198af3cf5bbce32c6d98a67426ca9a79e3982dfd9e264d471d675013d94",
+      "bytes": 1023
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/judge.py",
+      "sha256": "4ce32dc4ac10745a8ebc271151acbe2b441484aaae875d69d3145c1c51f19366",
+      "bytes": 25541
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/prompt_functions.py",
+      "sha256": "870e9f992e88d52e7dddaa7272c721e456f1498083f6ecbac09eafa1b600914e",
+      "bytes": 10084
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/result_postprocess.py",
+      "sha256": "b6d1b03e95ce385aae244b2d16c391c706f5670b25d3fc4a37b1fb61c27f4706",
+      "bytes": 11703
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/test_output_match.py",
+      "sha256": "3da8a32520dd427c86d199e64d3ff6dc147f42ccde827da34bf0bd5a7b394cd6",
+      "bytes": 8239
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/test_run_codeeditorbench.py",
+      "sha256": "ee561af2793c39841348b59953b5c2ba0d4fdf1eaec29ccf29972e91d9a19324",
+      "bytes": 3366
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/LICENSE",
+      "sha256": "f460854d0318a2e3bdaece7970c6417e2a84e3b2e7c653f0046128af01315f77",
+      "bytes": 1094
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/arguments.py",
+      "sha256": "5eadaab0b7de92040d73d503c4946d93af538c2a05f593c7fcd185245d689fa4",
+      "bytes": 3700
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/data.py",
+      "sha256": "85936be625fc5d82b35c867c1bb6a6c9159a39dc6aa38883ae869622074f8213",
+      "bytes": 40373
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/eval.py",
+      "sha256": "8a116e2a3f8dc4f024b04ea09f4a7951db78444c4fc5f7357c947485be5a047c",
+      "bytes": 8414
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/eval_alce.py",
+      "sha256": "7b8324a7697fdce5a444ff648f65e288af65b14ddafb321ca29c8cee9f69b1a7",
+      "bytes": 27796
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/model_utils.py",
+      "sha256": "5dfd8a06823041f7c377d756b5fe2bbd6b05279e1bfd893eac16cc7fc72f3e58",
+      "bytes": 28780
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/asqa_nocite.json",
+      "sha256": "512b525835de1d2d610334d31d002ffa9396474ac141c31ad12adec8d121ac8f",
+      "bytes": 17270
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/asqa_revised.json",
+      "sha256": "99ebb9d7371895dc352a7f9135ef9e84c3757a9d9d4ce2091b4e2b1d7c39299c",
+      "bytes": 17770
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/qampari_nocite.json",
+      "sha256": "0f2c2762e5a96031004c4220e3f3c9b65f6359b5fc44187ef687ae7127a8f4a1",
+      "bytes": 16125
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/qampari_revised.json",
+      "sha256": "d73e184ec6d9fd6ba821ea1e537d2dec96be602aa693706862acc1b3d9586104",
+      "bytes": 16417
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/scripts/eval_gpt4_longqa.py",
+      "sha256": "d532e5a8f4e5eae645370b51dc6607db3d8ca64ff774f13893d8cda24664483e",
+      "bytes": 9215
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/scripts/eval_gpt4_summ.py",
+      "sha256": "0fe75747c5cd69ccb2127ecb169875b02aee900bce18e43389f969c6d24fa57b",
+      "bytes": 66207
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/utils.py",
+      "sha256": "bce13e1354af27470d97517c3f52c6f4756fceb6ed9e784e37a4863ef2f3324a",
+      "bytes": 9177
+    },
+    {
+      "path": "oe_eval/dependencies/README.md",
+      "sha256": "17349c7926b77c1e40d603d22461974fd1c8af28137ce703bf2bc71eb166f67c",
+      "bytes": 304
+    },
+    {
+      "path": "oe_eval/dependencies/appworld/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/appworld/exec_appworld.py",
+      "sha256": "530a90f0d313b66ee2ea1fd0703ce7d88c8127eb42c43af576d61b2b48c76298",
+      "bytes": 1253
+    },
+    {
+      "path": "oe_eval/dependencies/drop/process_results.py",
+      "sha256": "8e45444360fdb4319d5dd626663ec1ca849942aeee0eb6c287eeccf2362d37a2",
+      "bytes": 4362
+    },
+    {
+      "path": "oe_eval/dependencies/hf_evaluate/exact_match.py",
+      "sha256": "ce64787426ec3d5dca2acf692da0dab3c0531a38bc43990a6f2f7ec3563cf681",
+      "bytes": 2246
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions.py",
+      "sha256": "215f8f148551aa316e812d88c854bf3b9d3cc994be00ff85465317e11519fae8",
+      "bytes": 164953
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_registry.py",
+      "sha256": "41fa28ff96f82c915eb0275adb82dbab035b24bcf29b5d174a52bed26427dd72",
+      "bytes": 12954
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_test.py",
+      "sha256": "1125e74e699210e14f50c0a00e488a7b18f1295eb507ed5faa891395e1b17251",
+      "bytes": 126738
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_util.py",
+      "sha256": "a0292d4d4e0072dd83df49e24e217d67a8cf7e3d44d02bbc0863cbdcb2a014c8",
+      "bytes": 28953
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/utils.py",
+      "sha256": "66c5e5a469178c0440bbe942dbc195ef2c750d85b1d1d53a6ec1e22b4de29c61",
+      "bytes": 5515
+    },
+    {
+      "path": "oe_eval/dependencies/safety/cleanup.sh",
+      "sha256": "e3558ed32903e70559d7a10fd39eb816e13ce28c4b0b354c4b4df00eedce29a7",
+      "bytes": 39
+    },
+    {
+      "path": "oe_eval/dependencies/safety/install.sh",
+      "sha256": "651d3c17c9880a7441c9dcae6a15ca8f8fb681683df3931c5b7717a5b2be637a",
+      "bytes": 252
+    },
+    {
+      "path": "oe_eval/dependencies/squad/squad_emf1.py",
+      "sha256": "15d9b8ef804ef84c09b677aa18739cda1f0ae7ae4c7c6ba7b9f2901f4d2b9a28",
+      "bytes": 1514
+    },
+    {
+      "path": "oe_eval/external_evals/run_appworld.py",
+      "sha256": "4b90641f4707651086d4be3b42fb353435bbb09c3c3ce940e6520ff2af6962d2",
+      "bytes": 6998
+    },
+    {
+      "path": "oe_eval/external_evals/run_bfcl.py",
+      "sha256": "e2e5bd2b7813c54ea96ce93c29eea167f91de0a24a237b59dfdd9b96157fb9b4",
+      "bytes": 5761
+    },
+    {
+      "path": "oe_eval/external_evals/run_code_editor_bench.py",
+      "sha256": "8888bb8f34feb99e9709ef318ceb39cee5ce145cf241da543105983d4c90b093",
+      "bytes": 2196
+    },
+    {
+      "path": "oe_eval/external_evals/run_external.py",
+      "sha256": "fb1c160daed5b6017727e763bc384f8035300b9c8d78170800361ea212e0d8bf",
+      "bytes": 3959
+    },
+    {
+      "path": "oe_eval/external_evals/run_safety.py",
+      "sha256": "cf27892de3544637b2740e859a47684666301d6fb7289ff0cf533e967255a7df",
+      "bytes": 6798
+    },
+    {
+      "path": "oe_eval/external_evals/utils.py",
+      "sha256": "94756d6463d53c60e05b3ed09d4e4727b330fa69d9df2aa144b1715185fc8288",
+      "bytes": 488
+    },
+    {
+      "path": "oe_eval/launch.py",
+      "sha256": "670ac38ee13e5b6bd7e96722855766d3df6f5ec8058b22aa2f2e5b5b54dbffa9",
+      "bytes": 14858
+    },
+    {
+      "path": "oe_eval/metrics/__init__.py",
+      "sha256": "cd2b05f4dde471c3c6ea3326a0d1ab49e05f5b8c483db77b7fcf0a387a3cf6d8",
+      "bytes": 181
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_eval_routes.py",
+      "sha256": "accae308d4e03ea012cf97c717d4644ba9522ee70f9378b2d1139c721bcad781",
+      "bytes": 12292
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_execution_local.py",
+      "sha256": "ad9988c9669ad6cca259e2d1cb26274bf63dfe0e2e3e95d9746494304f2ab77f",
+      "bytes": 7334
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_execution_remote.py",
+      "sha256": "c6cc049d41b0ac7bedae6cc342eb427a1611e17868311f88a51270650db8b5f9",
+      "bytes": 3759
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/sanitize.py",
+      "sha256": "de705c4caefd8cf2310baa984786a5d840716c1f627ed14417581d6d6b902c57",
+      "bytes": 5672
+    },
+    {
+      "path": "oe_eval/metrics/llm_judge.py",
+      "sha256": "29225960768f424e2272424ccb21ea6ae16ec57a78e69176ade7abb30c0dee4d",
+      "bytes": 3875
+    },
+    {
+      "path": "oe_eval/metrics/metric.py",
+      "sha256": "0485f30e87f65c5c3655996e5928082672e3a6c5b35a9bec15d29a6d3864b00b",
+      "bytes": 50900
+    },
+    {
+      "path": "oe_eval/metrics/metric_utils.py",
+      "sha256": "60c251b4788a437c32fba8a73d8f1dc0554a6c06a1439e8b820e0b602a8d054a",
+      "bytes": 3875
+    },
+    {
+      "path": "oe_eval/metrics/model_judge.py",
+      "sha256": "e04e86a475661a8c879e9067e3ee9028a8c5d239d8eae6373e0259c58f95b5a3",
+      "bytes": 4451
+    },
+    {
+      "path": "oe_eval/metrics/perplexity.py",
+      "sha256": "20e3132600c0d0124588b2802bac3b166fad8ab861ba997d46f3e0c2bcb71fb2",
+      "bytes": 5537
+    },
+    {
+      "path": "oe_eval/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/models/eleuther_huggingface.py",
+      "sha256": "579814f12639fd9927afebc71bbd5711052fa3d2ae9e5069e22e2b9726806d85",
+      "bytes": 35752
+    },
+    {
+      "path": "oe_eval/models/eleuther_olmo_core.py",
+      "sha256": "efc931e03440af705d93cfbdd2a0cb80a8e6f0fb8cf6f80defc79caeac9eb213",
+      "bytes": 41243
+    },
+    {
+      "path": "oe_eval/models/eleuther_vllm_causallms.py",
+      "sha256": "1f96bb3251dca8110b5de630345966357b0543fe6cfe8fdb1c0e638ce99c9b0d",
+      "bytes": 25968
+    },
+    {
+      "path": "oe_eval/models/judge_models/__init__.py",
+      "sha256": "179913d2b9847fa3e523303d63cf05b87a5530b750ff4f4637ee484f85a3c05d",
+      "bytes": 448
+    },
+    {
+      "path": "oe_eval/models/judge_models/api_judge.py",
+      "sha256": "a4ffa91f6155c97f353254a4e3779ece37e067b82d7c37016f32ae21ccb827ec",
+      "bytes": 6168
+    },
+    {
+      "path": "oe_eval/models/judge_models/base_judge_model.py",
+      "sha256": "6c430cbfc43d414cfeda74816b7c33d4746b589c51f6a45da4505222a0f0a494",
+      "bytes": 4757
+    },
+    {
+      "path": "oe_eval/models/judge_models/huggingface_judge.py",
+      "sha256": "9bb6af311b83fde5a9ae497a2dcb54830a1debda1880dae1d5ca017f7a0e9799",
+      "bytes": 2559
+    },
+    {
+      "path": "oe_eval/models/judge_models/vllm_judge.py",
+      "sha256": "3809584e59ab8b0ed249e36cb1c84d4e04cd1cf7820e8f659e4b31ea96d1d3c5",
+      "bytes": 4203
+    },
+    {
+      "path": "oe_eval/models/litellm.py",
+      "sha256": "1d03840661ad398f5cc159fa336968d491092aa8682b9d92738d91412d163f37",
+      "bytes": 6699
+    },
+    {
+      "path": "oe_eval/models/output_processors.py",
+      "sha256": "6faae28381ef4d0c9a5ac8659f0fc0d0949cca645f75162b9dc5460fd53b028d",
+      "bytes": 898
+    },
+    {
+      "path": "oe_eval/run_eval.py",
+      "sha256": "1d90dd84e053e231732f52581ebe5b8bb62b3115be0df46e4e606b6957edb614",
+      "bytes": 47256
+    },
+    {
+      "path": "oe_eval/tasks/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/tasks/aggregate_tasks.py",
+      "sha256": "586e11bfa341dd9b1e3d3ab4757abd49b11c6da9bb4cd0849dac392d577b23ce",
+      "bytes": 8460
+    },
+    {
+      "path": "oe_eval/tasks/base_task.py",
+      "sha256": "73956e5aae4cfa747a816018e6edfb07b0f17fdb3defec1706d0e4b7a44946ad",
+      "bytes": 30973
+    },
+    {
+      "path": "oe_eval/tasks/chat_templates.py",
+      "sha256": "f9799bd9f329bebc7f10aef4a9a72e70b78ed88262dd7660c3db48a92c102e87",
+      "bytes": 9553
+    },
+    {
+      "path": "oe_eval/tasks/eleuther_task.py",
+      "sha256": "4135b17b58e2ec771e73c1f4193f0d65019c3843af53b85f390bf4a63a1f3920",
+      "bytes": 8553
+    },
+    {
+      "path": "oe_eval/tasks/fewshot_sources.py",
+      "sha256": "7902a190171d9a5c16cd5958be605f10133a426634c951a6882cb06714019441",
+      "bytes": 447098
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/__init__.py",
+      "sha256": "4d4e754b6ccfee15825a72dfc7f889fc05ae543dab985f03649393cd340d7394",
+      "bytes": 8326
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/agi_eval.py",
+      "sha256": "3ce9ae6e2d558d08598e70395cd70899f57ed016a4e336bdc63f0592019c9dd0",
+      "bytes": 12127
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/aime.py",
+      "sha256": "d8f788af52a5dca84185cb1cc69d2055dd94e37a0e652530f2dd3ea1d7dde98d",
+      "bytes": 8780
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/alpaca_eval.py",
+      "sha256": "843431e1b5029c9b1e5225f43cb928b5b1c612a6216b2c3758a7e428e29af90c",
+      "bytes": 9236
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/arc.py",
+      "sha256": "44d8a7a86892aade3bdcdcc6030754076a63a185c9fe93cabbd762336e0431f1",
+      "bytes": 5077
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/basic_skills.py",
+      "sha256": "58f074aa9ebc5aa56f8c358d099c622aaac721228190ef32d92b90d45bad2aba",
+      "bytes": 3750
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/bbh.py",
+      "sha256": "59642e6a609ac08d4abaa440b802d59dbbd3ea11d2a13dc29827cfb0b75e962a",
+      "bytes": 10569
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/boolq.py",
+      "sha256": "c0da63bb379e747669e3e84d3e79922b3a64dc040d7032cd00057980ca01b566",
+      "bytes": 2719
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_bigcodebench.py",
+      "sha256": "7fda8da60567ed619f659a392e93f9f115070755749aea9b62e73643a7d1474a",
+      "bytes": 13300
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_humaneval.py",
+      "sha256": "25f2e8470ba83210bdc45d9335ea822208b395735f689a97abb923d575ee70a3",
+      "bytes": 8453
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_humanevalfim.py",
+      "sha256": "ca4788e0e9076d708fe3dbe5c29f6ea63c56a14c034121870bcfe917e62e8b3a",
+      "bytes": 8078
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_mbpp.py",
+      "sha256": "0e65bbde20bfaa49c331ecb890061e2a269a4c7f3ed223cfba6c5fb30c56c7f8",
+      "bytes": 14718
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/copa.py",
+      "sha256": "4166b0bb63e55d54c22c6af7e0612c459c2aca6ef964923afb085e4cffc8efbf",
+      "bytes": 1679
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/copycolors.py",
+      "sha256": "1acc740775cc09c4ba412e0fc34c2128620348e1633498449434a425d831bc95",
+      "bytes": 5736
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/coqa.py",
+      "sha256": "e10d78467fe0d095c6e051d461ff18942d9b1f307a23f98478b2e9523b348ca3",
+      "bytes": 5466
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/coqa_mc.py",
+      "sha256": "f822500083413cca9d8fb1a45076febbf0ff24dedeb25f454eb7bce809178159",
+      "bytes": 9550
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/cosmosqa.py",
+      "sha256": "945ac80df7ad04f4a97ef4dc833ca4464c54c7cb86cef47b530c560e7e10e57f",
+      "bytes": 3175
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/cruxeval.py",
+      "sha256": "2b16c5fef60521192172242d8791f71541b6374a455a5fb2c39ad381a8f1873d",
+      "bytes": 7245
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/csqa.py",
+      "sha256": "1bd5d68f7367e49391faa31b89a60a8568d6fa774c7af4e77bd625a1ec246e44",
+      "bytes": 3314
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/deepmind_math.py",
+      "sha256": "8a645ea39ae79e7dfa33437b79cde66ce9d41c3d776832da3e63450ae5af1116",
+      "bytes": 8762
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/deepseek_leetcode.py",
+      "sha256": "7db7705ea3878a1a7ea125e3f67eaf31e1840b5822a59c86973fd57b0230fb7a",
+      "bytes": 4140
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/drop.py",
+      "sha256": "d73b1cd712dc00ab080cd5a608939321e4fcf10cb9ca0ba09af3ed0987e31f66",
+      "bytes": 6711
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/drop_mc.py",
+      "sha256": "0949ca9f8bca5b58c3dbc5da9f8ca8675d91ff5be8c2a246167b9c168c836b00",
+      "bytes": 10258
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ds1000.py",
+      "sha256": "470a69eb5b8d285dc7fb381c7e1ffc5b7f396cdb7b08c189ade121016cb1d17f",
+      "bytes": 5687
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/external_eval.py",
+      "sha256": "f1453ee6fcb1c65f1daa7c89f96d9bf58233c98720d97816e31d61fdff829ca7",
+      "bytes": 824
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gpqa.py",
+      "sha256": "1a8a6cbcfa3ebc55a7e3ccc705d9e559591953b4f3246640030072385fda08f7",
+      "bytes": 8786
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm8k.py",
+      "sha256": "ac5d73dd2fd119484c13840a712520651708ca80b33472f4f1cceb8e7c6b38fc",
+      "bytes": 13000
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm_plus.py",
+      "sha256": "d7a42d07163ba6444ba3700902b1d1ff4d2a556d13fb173fc47509b1e113c195",
+      "bytes": 1544
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm_symbolic.py",
+      "sha256": "50e4e4ae037ae2ddac88127559df9df78ae4f80d0507cb57b4bdb4f101980a00",
+      "bytes": 1541
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/hellaswag.py",
+      "sha256": "d3e07d932ce439d4faed79a664b9d7ae90c3dd3dfe420e9b8c66a1b5d83efcfe",
+      "bytes": 5292
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/helmet.py",
+      "sha256": "459100ece2ae2172237375732e23b67756d39911307df33f12e5b39b4c53ddd3",
+      "bytes": 18625
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifbench.py",
+      "sha256": "d7ffca73bb641bdb097a1eb7ce8ed5e40eb959f585417a57d6a271e58242f32e",
+      "bytes": 3191
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifeval.py",
+      "sha256": "fc3afc836a3f6523e123a7b3c0515444ee4ac3c3ababa84cb75236d8daa050df",
+      "bytes": 4923
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifeval_mt.py",
+      "sha256": "4f8c7e1e566a83cb8ec483d7d143c84d7f179d667b0874f17e723fda96e2511e",
+      "bytes": 3572
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/jeopardy.py",
+      "sha256": "21e6e96963299c935fd63259fc7bd85d87b8cfb5784819bfc37a61a2423e56c7",
+      "bytes": 2854
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/jeopardy_mc.py",
+      "sha256": "69700ad05a3a1f43a20fdf4bf40a9cc81d6219c747ed60562342c9e7b7e8c853",
+      "bytes": 9685
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lab_bench.py",
+      "sha256": "a2edf3eba8bd20d56147ad5fd5b20f4feca20b3dffdb63be2330d46599a1aa1c",
+      "bytes": 3648
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lambada.py",
+      "sha256": "4da65676a6a14e3f3868a70340177c9746f5e21ba2d859a63d199720887c283e",
+      "bytes": 3100
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lbpp.py",
+      "sha256": "ccc772f35523e16636c1d6a947d50945a656ecd7a3d8faad058ce6679ded5b57",
+      "bytes": 12687
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lexam.py",
+      "sha256": "d88eda5a8dff6fd2a85ad3d486928c782096ca31a95c67f85041f9d0aae4c311",
+      "bytes": 5585
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/livecodebench_codegeneration.py",
+      "sha256": "84cabf6904d193aff876c1147532b5f3253ced82eede3c35e993b968528d415b",
+      "bytes": 17280
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/logiqa.py",
+      "sha256": "b60a7efb31299007ab418b469339959eba7ee4b214997a0b73e7b534cf2b9002",
+      "bytes": 3859
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/masked_ppl_sets.py",
+      "sha256": "46701f31490886413b6bdc9bc7886515ce494467701af66d5be0905363f8a0db",
+      "bytes": 2550
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mattbpp.py",
+      "sha256": "3b2278202967240c851dddaa65519a6102bf373d145566e8652c4edb5df9a3ad",
+      "bytes": 2477
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/medmcqa.py",
+      "sha256": "632af2a4889c2fc36792089f3868cad0617a42f4719c884d4a95de7c84a749da",
+      "bytes": 3682
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/medqa_en.py",
+      "sha256": "d106a18521927e14c6f27e7fd2d4fbe3d468fd6ff03a9647fa8f6f6e6c5df906",
+      "bytes": 3552
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/minerva_math.py",
+      "sha256": "ba5715b9ad37477337a097de7e7a479a7a6920f9fe0551fc4718dfe6f0e656ee",
+      "bytes": 12566
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/minerva_math_500.py",
+      "sha256": "ab27a1d3891a7e5677d2fc281e93afa4d0b35db75f3e71d0f0b08ffcac8762a2",
+      "bytes": 1635
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mmlu.py",
+      "sha256": "8209cc5f4641c0e25e604f4e0e002b81e29aaf43064ffa3e37471e0d9ffbf3cd",
+      "bytes": 10715
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mmlu_pro.py",
+      "sha256": "c198a846f9b0d1a9d2c755b2cc02618e0de943c28470fc0dc9a0b7d1b7cecfb3",
+      "bytes": 9130
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mt_alpacaeval.py",
+      "sha256": "63e0809ae98a0a80069ef9d3043a6f119beec1572383dcbd957b13363cd85e77",
+      "bytes": 11683
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mt_eval.py",
+      "sha256": "d2cc47d9ac44b25bc787288ef0f8e2b98ee59066ebfdecc01da289a3627e905c",
+      "bytes": 8386
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/multilingual_mbpp.py",
+      "sha256": "ffae7c64007aebc1439d4febf4b91f765846d2c018776e3c27d0b1c1c713018f",
+      "bytes": 8114
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/multipl_e.py",
+      "sha256": "641b44404c285590f6eb52aac5f462beb1f1895022e095069c1f5a7ffeb7cd79",
+      "bytes": 5808
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/naturalqs_open.py",
+      "sha256": "997c805f361d468efdff4e3ab7273a7d333e2157e8b11514ba4a9623fca1617d",
+      "bytes": 4231
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/naturalqs_open_mc.py",
+      "sha256": "bcba457317c9c2b8a42ef4ee46041232b9480717ae7b6d4ad6511346a91675e0",
+      "bytes": 10123
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/omega.py",
+      "sha256": "1549a79f14220774901a030e423b206ac231ff39549971bf2ad9713d3dc788a2",
+      "bytes": 5280
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/omega_500.py",
+      "sha256": "1a519ac2392d13d3e83bae0b942743cdbcdfcbd32e94afc701fb809636501768",
+      "bytes": 1239
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/openai_mrcr.py",
+      "sha256": "e4821c6d27743d5de4f794f88339a3560b719d4a48ab14be3be2e9b8d022bc18",
+      "bytes": 5774
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/openbookqa.py",
+      "sha256": "cb2a76b8d9e7be64e475392f8221498e5bea1c3f85146d0b8e4d1da166800031",
+      "bytes": 3986
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/paloma.py",
+      "sha256": "e8411ff5b6181d9b776ca0b5064374d1646b76e6cb33fa8580b27f2bd4f74521",
+      "bytes": 2598
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/piqa.py",
+      "sha256": "d7af81ecc9c4125b7aff36405d5104dc817990f63284da5ab2b82ed0dd484a07",
+      "bytes": 3677
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/popqa.py",
+      "sha256": "15570fcae924ef85f2befd611729c089b3d9bc42b02be5e3996dd93327f1d7f9",
+      "bytes": 6530
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/qasper_yesno.py",
+      "sha256": "34756947ad22bf701c2f02da280fa0d25f729a15b8b9e4ce22d3ce0567a0d471",
+      "bytes": 3655
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ruler.py",
+      "sha256": "81aa9db5fe4933f50a28ae18eeff377223c2990c0d13592c57b9b6287979b8b6",
+      "bytes": 8618
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/sciq.py",
+      "sha256": "59729e7a4623e3a8b27f78b0d42be587d39436addd21bd919eb900f3c3a2a4a0",
+      "bytes": 3655
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/sciriff_yesno.py",
+      "sha256": "4c6687658e2ba1733400623c4a1ddcb6e4f50f180eb6376a068c3c00c9b02e58",
+      "bytes": 4919
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/simpleqa.py",
+      "sha256": "f109260df08a55ead90ac86bf1e7587d0e22f5d946141bb7200239eed552071d",
+      "bytes": 16562
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/simpletom.py",
+      "sha256": "c0cae6e4e11488125a2806c6050c24b9a0a8571cb08976fbc7a64c1c2acf3970",
+      "bytes": 6598
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/siqa.py",
+      "sha256": "a3484e228887fb6489f5a70b827ce5fa2962a8e75c5d5c0e4b2bc3ecf13d8f38",
+      "bytes": 3503
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/split_prompt.py",
+      "sha256": "76a76e587149d1e23bbea92093d370259e04d7a79d747c56e9e6b391db08ed5b",
+      "bytes": 7812
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad.py",
+      "sha256": "957212983fc43fe83e7da84050e926d472d691b5eccd25d511a566e613958358",
+      "bytes": 3804
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad2.py",
+      "sha256": "51c36ed57d757e2bc59ac8972e7673b986541a684d9a3d442e69e0b0eace0ab2",
+      "bytes": 4222
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad_mc.py",
+      "sha256": "c0c03338393a79a345a8f4c0ce6f0ceffcf260fb721fff9985ecfcf8ca816333",
+      "bytes": 10338
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_alpacaeval.py",
+      "sha256": "00d5a1a30646959716f1cea47e139f9863d199edb061b6fd070570f071ebb9a8",
+      "bytes": 10215
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_math500.py",
+      "sha256": "974d12cf89c6c1ec1d15c95e1d32ac27e73e5970bc44928d3b7b2607ec4a54d5",
+      "bytes": 1722
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_popqa.py",
+      "sha256": "94db99e2ee1a42442f7a7a3519e9f65acc82fcbb8e00315a73939e903b7630e7",
+      "bytes": 1216
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_truthfulqa.py",
+      "sha256": "3b9ff4d3d1e9ee125ca17bbb1b7234bfa1045c42e8badb3731b74fac863a50ca",
+      "bytes": 1147
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/triviaqa.py",
+      "sha256": "cd7b961978cd78a11764c7efa3a02d6232df00aebbcad5b81629510f3df98e17",
+      "bytes": 3180
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/truthfulqa.py",
+      "sha256": "2eaea2a4d75b69e2b341c1cf8106f4fc3f2c833cec221ce0966bb99ef94d4b84",
+      "bytes": 4403
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/tydiqa.py",
+      "sha256": "116311df76d4fa4e7a8792b9cff314da54f0b078b065551d187ba38c0a5f0a23",
+      "bytes": 4669
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/winogrande.py",
+      "sha256": "51c714a97eca859934859003069f1d2f84f16471a40cd61e88db2d7c665ffdbc",
+      "bytes": 6973
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/zebralogic.py",
+      "sha256": "8f24c6567b15c6b78ce05245dd29eb37e2fb720ba5279bd6be19c1635b596caf",
+      "bytes": 7369
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/zero_scrolls.py",
+      "sha256": "4a3998bfeaf7b62d2bc508fffbc7f65f305d1d04791ec54f9a8546f2ca5892e0",
+      "bytes": 4070
+    },
+    {
+      "path": "oe_eval/tasks/utils.py",
+      "sha256": "1cbc63be709dda5e4333b1d07cddf1ee2efce98ecc1c3937b8680ad026f77c9b",
+      "bytes": 9018
+    },
+    {
+      "path": "oe_eval/utilities/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "oe_eval/utilities/datasets_wrapper.py",
+      "sha256": "a30091388b00c990c5b9df99dd6ff43e3357af4dee485b3d20d6241c6a327a0c",
+      "bytes": 18786
+    },
+    {
+      "path": "oe_eval/utilities/extraction_utils.py",
+      "sha256": "f510e31ee075e5268103b077e2bc04db64037a13e158f2dff1ae7a8d00572d88",
+      "bytes": 2417
+    },
+    {
+      "path": "oe_eval/utilities/gsheet_writing.py",
+      "sha256": "ae9e3ef457088ae9848706d29f4689c8ca53fa264346d6298157997e5327b075",
+      "bytes": 25439
+    },
+    {
+      "path": "oe_eval/utilities/hf_hub_writing.py",
+      "sha256": "cc348c8997dbdde397d00901b37325bf3d49c8bf29bfe7409e6ec53e6d188012",
+      "bytes": 325
+    },
+    {
+      "path": "oe_eval/utilities/lm_styles.py",
+      "sha256": "e22e2853ae2ad21f1ddae67eb8dd030edf4340f8ca0a8be8c8b8766971a675a9",
+      "bytes": 27083
+    },
+    {
+      "path": "oe_eval/utilities/model_results_collation.py",
+      "sha256": "460c378ad318a356560f4f3fa9573908eeddfe0b5cc2a243a80230f2e5253e61",
+      "bytes": 1824
+    },
+    {
+      "path": "oe_eval/utilities/model_utils.py",
+      "sha256": "b4935966cb1050338853d4a67efed9ddd2df31ca7b3ed200f900e212a700d805",
+      "bytes": 6733
+    },
+    {
+      "path": "oe_eval/utilities/remote_utils.py",
+      "sha256": "1fee5f9c7dae8b3761696b027efa0d2d2845b265e1ef616773ce802f5ec0c747",
+      "bytes": 4831
+    },
+    {
+      "path": "oe_eval/utilities/rtest_helpers.py",
+      "sha256": "810b569ccb9e2da71f5f7f194912ea92ba5461ee8218d64b35a6390eff8a1f1b",
+      "bytes": 3942
+    },
+    {
+      "path": "oe_eval/utilities/testing_util.py",
+      "sha256": "c0f56d40346e50e91e13446c9c19fb57eefa979386d976bfd8104db0e329d7bf",
+      "bytes": 19460
+    },
+    {
+      "path": "oe_eval/utilities/wandb_writing.py",
+      "sha256": "bb3daf1f9cee006f2845b7acefc35771ca212c1e6960ea418bc971af113c1b56",
+      "bytes": 1493
+    },
+    {
+      "path": "oe_eval/utils.py",
+      "sha256": "46c5e63563f98bc35e9096bfce2d20f67a8460d07bab9839a1c82153aa98ede7",
+      "bytes": 18303
+    },
+    {
+      "path": "oe_eval/version.py",
+      "sha256": "3a4876cadb756d6c5a43a07bcbaf8d8f7fb4a5d927c7157f06dbcfff3d253ae8",
+      "bytes": 407
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f321771cd6afbb648978bbf77eb731e551e5de3951f07d32ec0a3f83ea109d47",
+      "bytes": 5473
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "www.youtube.com": {
+    "retry_after": "2026-11-01T10:29:21.047781+00:00",
+    "reason": "Machine-wide YouTube HTTP 429 observed by Levinverse; inherited cooldown; availability remains unknown"
+  },
+  "odsc.ai": {
+    "status": 403,
+    "retry_after": "2026-10-31T15:49:23.827383+00:00",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  "www.theinformation.com": {
+    "status": 403,
+    "retry_after": "2026-10-31T15:49:49.732076+00:00",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  "feeds.podcastmirror.com": {
+    "status": 403,
+    "retry_after": "2026-10-31T16:02:27.864874+00:00",
+    "reason": "HTTP Error 403: Forbidden"
+  }
+}

@@ -1,0 +1,1131 @@
+{
+  "repository": "https://github.com/goodfire-ai/evee-manuscript",
+  "revision": "bb3bfa6d51b36aab4761ea1c9bd3fc62c2d4dd4b",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26af274ef2907241ab10b4965f4a1e7402e65148",
+      "size": 123,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/26af274ef2907241ab10b4965f4a1e7402e65148"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+      "size": 5,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed932034f8e4f8a569b175ddbc09f6398c66cae8",
+      "size": 11909,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ed932034f8e4f8a569b175ddbc09f6398c66cae8"
+    },
+    {
+      "path": "artifacts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c543cd7d28eca0f7f96526015b5669c5c61647b6",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/c543cd7d28eca0f7f96526015b5669c5c61647b6"
+    },
+    {
+      "path": "artifacts/brca1_disruption_profile.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130508e3a5fbf9141c06209e12d4de91a311fd51",
+      "size": 1671541,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/130508e3a5fbf9141c06209e12d4de91a311fd51"
+    },
+    {
+      "path": "artifacts/brca1_e22_data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a90ee5af4417e31dd2de9383c3f9b7d454eda576",
+      "size": 3540,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a90ee5af4417e31dd2de9383c3f9b7d454eda576"
+    },
+    {
+      "path": "artifacts/conservation_benchmark.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b2e5fd6d3f9af782bd33b73766ae7c8c7e487d",
+      "size": 6881,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/76b2e5fd6d3f9af782bd33b73766ae7c8c7e487d"
+    },
+    {
+      "path": "artifacts/context_ablation_eval.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30f60d1519468e06cc630ce8f338a81ad99de10",
+      "size": 313685,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f30f60d1519468e06cc630ce8f338a81ad99de10"
+    },
+    {
+      "path": "artifacts/context_window_sweep.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8079b7c4dcdc114cfe54fbcd49f979aab384e1c6",
+      "size": 3913,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/8079b7c4dcdc114cfe54fbcd49f979aab384e1c6"
+    },
+    {
+      "path": "artifacts/dataset_characterization.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe32bc1aad62a92cbb5aa0271fe70dd8ee9d3f3",
+      "size": 2818,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/cbe32bc1aad62a92cbb5aa0271fe70dd8ee9d3f3"
+    },
+    {
+      "path": "artifacts/deconf_benchmark.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dde2f3f8cc78d0759e811185303c515038bd414",
+      "size": 15657,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/6dde2f3f8cc78d0759e811185303c515038bd414"
+    },
+    {
+      "path": "artifacts/dms_benchmark.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ff0dd001c1829a122af237962350d4accc99a1",
+      "size": 11407,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/49ff0dd001c1829a122af237962350d4accc99a1"
+    },
+    {
+      "path": "artifacts/finngen_acmg.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "279b07d429be3698e188c7fd90f7eab10809344d",
+      "size": 5259,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/279b07d429be3698e188c7fd90f7eab10809344d"
+    },
+    {
+      "path": "artifacts/finngen_r12_qq_pathogenicity.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ddfc65daddd6ea11f066961af31c50f8a67d6bd",
+      "size": 334556,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/1ddfc65daddd6ea11f066961af31c50f8a67d6bd"
+    },
+    {
+      "path": "artifacts/heads.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a79e76a648c38562c70dcb971298c8565eacf3",
+      "size": 152863,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/37a79e76a648c38562c70dcb971298c8565eacf3"
+    },
+    {
+      "path": "artifacts/indel_stratified.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afddec390c83cbec98f5637bb3d22424be88683b",
+      "size": 2462,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/afddec390c83cbec98f5637bb3d22424be88683b"
+    },
+    {
+      "path": "artifacts/layer_sweep_evo2_7b.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756db0ed81642c19c8049d881947789446d54caf",
+      "size": 2598,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/756db0ed81642c19c8049d881947789446d54caf"
+    },
+    {
+      "path": "artifacts/ldlr_severity_per_variant.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ec16125905e4738ac56b50ae923f060661646b",
+      "size": 62669,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/54ec16125905e4738ac56b50ae923f060661646b"
+    },
+    {
+      "path": "artifacts/mechanism_recovery.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e710028eeab4f1cc8e0c5f2cf8cecad75aac4f7",
+      "size": 1726,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5e710028eeab4f1cc8e0c5f2cf8cecad75aac4f7"
+    },
+    {
+      "path": "artifacts/ra_cohort.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84797e3f3b584d4283edc0afc4e64d4d4197a86",
+      "size": 13043,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f84797e3f3b584d4283edc0afc4e64d4d4197a86"
+    },
+    {
+      "path": "artifacts/samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a4041484cbddf0b92f4e68173ce93e7836cc5d3",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/8a4041484cbddf0b92f4e68173ce93e7836cc5d3"
+    },
+    {
+      "path": "artifacts/samples/chr10_71799628_G_A.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6be8a1bb706d6d5ff22fe4c8e3d386db7ac107",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5c6be8a1bb706d6d5ff22fe4c8e3d386db7ac107"
+    },
+    {
+      "path": "artifacts/samples/chr15_78162452_T_C.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a13a0839791a5558ac809f17dae40aff5ba7b3b9",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a13a0839791a5558ac809f17dae40aff5ba7b3b9"
+    },
+    {
+      "path": "artifacts/samples/chr16_30188087_G_A.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80697ee3407adac7dea73a0f3b10fb8e0ca25e05",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/80697ee3407adac7dea73a0f3b10fb8e0ca25e05"
+    },
+    {
+      "path": "artifacts/samples/chr17_50196171_C_G.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d621e27c675411dec775a7df3dc037b55a34e44",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/2d621e27c675411dec775a7df3dc037b55a34e44"
+    },
+    {
+      "path": "artifacts/samples/chr17_83079863_C_G.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32734d5cec3a9527f3925e9c2c00508fe099574f",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/32734d5cec3a9527f3925e9c2c00508fe099574f"
+    },
+    {
+      "path": "artifacts/samples/chr1_159953443_C_T.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0b5a4290b0c474de04839650f2cc49fbcd8d0b",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/2b0b5a4290b0c474de04839650f2cc49fbcd8d0b"
+    },
+    {
+      "path": "artifacts/samples/chr4_122947300_C_T.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4454e64dd82e70cb5cceb3947a5ae9ab1ddf76bf",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/4454e64dd82e70cb5cceb3947a5ae9ab1ddf76bf"
+    },
+    {
+      "path": "artifacts/samples/chrX_20169502_A_C.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a5aa8653aea5d538480d79f225180e5a5f4737",
+      "size": 8388704,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/d0a5aa8653aea5d538480d79f225180e5a5f4737"
+    },
+    {
+      "path": "artifacts/samples/probe.safetensors",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e0312bd841a01ca9964e1d2302cd17c5d56ab7",
+      "size": 4279352,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/96e0312bd841a01ca9964e1d2302cd17c5d56ab7"
+    },
+    {
+      "path": "artifacts/samples/variants.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8396127128201d94103664275707020b866a7dd",
+      "size": 2873,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f8396127128201d94103664275707020b866a7dd"
+    },
+    {
+      "path": "artifacts/snv_benchmark.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c6fc375c6930a254f191da060279aa1cb6e6c0",
+      "size": 21865,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/95c6fc375c6930a254f191da060279aa1cb6e6c0"
+    },
+    {
+      "path": "artifacts/splice_nmd_validation_per_variant.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9109582d8f220a0d5dd5280c8940dd228d6bb4",
+      "size": 12784,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5c9109582d8f220a0d5dd5280c8940dd228d6bb4"
+    },
+    {
+      "path": "artifacts/splice_vaf_psi.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e10ceb72507f66daf3d4cfe28ca3905845ddaa63",
+      "size": 14249,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e10ceb72507f66daf3d4cfe28ca3905845ddaa63"
+    },
+    {
+      "path": "artifacts/token_eval.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4de25878ad3c7052bed32e230f313c10143599",
+      "size": 75242,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/1d4de25878ad3c7052bed32e230f313c10143599"
+    },
+    {
+      "path": "artifacts/topk_vs_window.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24bb1546098e331407673481b6c31bf7d791600",
+      "size": 2722,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e24bb1546098e331407673481b6c31bf7d791600"
+    },
+    {
+      "path": "artifacts/umap_combined.feather",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31c73d02ad75fb3f6282ebc7f85e93fb1b810b1",
+      "size": 1321089,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f31c73d02ad75fb3f6282ebc7f85e93fb1b810b1"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "501b2aef1191cef723bef980bcd17c699333b10f",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/501b2aef1191cef723bef980bcd17c699333b10f"
+    },
+    {
+      "path": "figures/figure1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dfcd71d6a7c3655008b44565adb48ab4778ae31",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/9dfcd71d6a7c3655008b44565adb48ab4778ae31"
+    },
+    {
+      "path": "figures/figure1/fig1b_snv_heatmap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "591984504d8911d76666d1f994cb611cb10b627e",
+      "size": 58518,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/591984504d8911d76666d1f994cb611cb10b627e"
+    },
+    {
+      "path": "figures/figure1/fig1b_snv_heatmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "610f363b8b63b6e4f1cf4e4a95d92896146c2484",
+      "size": 318636,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/610f363b8b63b6e4f1cf4e4a95d92896146c2484"
+    },
+    {
+      "path": "figures/figure1/fig1c_deconf_heatmap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f06eb27afd07629569313597b4230d5a512d2065",
+      "size": 63200,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f06eb27afd07629569313597b4230d5a512d2065"
+    },
+    {
+      "path": "figures/figure1/fig1c_deconf_heatmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6fbb441f8c5592a895e5c115290b0abc0994f04",
+      "size": 322480,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/c6fbb441f8c5592a895e5c115290b0abc0994f04"
+    },
+    {
+      "path": "figures/figure1/fig1d_indel_heatmap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81fcdeb37b92dfe8476d3ce43e0d6166865ae7da",
+      "size": 29328,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/81fcdeb37b92dfe8476d3ce43e0d6166865ae7da"
+    },
+    {
+      "path": "figures/figure1/fig1d_indel_heatmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647be0750b2f36a76ffed8afb8ca3d585d04a338",
+      "size": 182543,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/647be0750b2f36a76ffed8afb8ca3d585d04a338"
+    },
+    {
+      "path": "figures/figure2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29e4fb060fc29cf85b3647533624fdf8936386a1",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/29e4fb060fc29cf85b3647533624fdf8936386a1"
+    },
+    {
+      "path": "figures/figure2/fig2a_conservation_lineplot.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390113c36fb9ecbe6566dd23081bd22549aec16f",
+      "size": 25152,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/390113c36fb9ecbe6566dd23081bd22549aec16f"
+    },
+    {
+      "path": "figures/figure2/fig2a_conservation_lineplot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5098085ff41e6e3a8629de2d1392c263a12b9eb7",
+      "size": 219559,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5098085ff41e6e3a8629de2d1392c263a12b9eb7"
+    },
+    {
+      "path": "figures/figure2/fig2b_umap_pathogenicity.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e2342f478ee4d5c8738cef61960ddd60ebd248",
+      "size": 931698,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a7e2342f478ee4d5c8738cef61960ddd60ebd248"
+    },
+    {
+      "path": "figures/figure2/fig2b_umap_pathogenicity.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2876640a21ef5b85fe1d251953b42a261ee07cff",
+      "size": 1383239,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/2876640a21ef5b85fe1d251953b42a261ee07cff"
+    },
+    {
+      "path": "figures/figure2/fig2c_umap_consequence.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e18c31cb70c3b9836c0572c6ff011ef7e92d2702",
+      "size": 1049517,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e18c31cb70c3b9836c0572c6ff011ef7e92d2702"
+    },
+    {
+      "path": "figures/figure2/fig2c_umap_consequence.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00c707724dcfd502ec65d49e58494ba0c6e43500",
+      "size": 1365980,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/00c707724dcfd502ec65d49e58494ba0c6e43500"
+    },
+    {
+      "path": "figures/figure2/fig2d_dms_spearman.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d3d18a08431b15cfa963ec005a8114c3823778",
+      "size": 20300,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/b9d3d18a08431b15cfa963ec005a8114c3823778"
+    },
+    {
+      "path": "figures/figure2/fig2d_dms_spearman.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d2c2bf6113bab44889993b541117b123bd1f51",
+      "size": 113022,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a9d2c2bf6113bab44889993b541117b123bd1f51"
+    },
+    {
+      "path": "figures/figure3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5640f7294a7c4ca5874a2f7568d245b0133a35f",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/a5640f7294a7c4ca5874a2f7568d245b0133a35f"
+    },
+    {
+      "path": "figures/figure3/fig3b_probe_auroc_boxplot.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428b59db6bd260faf7ddc06722f7c83293e7e6d9",
+      "size": 24757,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/428b59db6bd260faf7ddc06722f7c83293e7e6d9"
+    },
+    {
+      "path": "figures/figure3/fig3b_probe_auroc_boxplot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "828377b6fb55213846532017f70e50fb5116a1b7",
+      "size": 129890,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/828377b6fb55213846532017f70e50fb5116a1b7"
+    },
+    {
+      "path": "figures/figure3/fig3c_mechanism_recovery.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9a71bf60ff5ae76910176c1cda24c43cafdb22",
+      "size": 22367,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/4b9a71bf60ff5ae76910176c1cda24c43cafdb22"
+    },
+    {
+      "path": "figures/figure3/fig3c_mechanism_recovery.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe0103ae15900f05dc7fb4140275455f9122e29",
+      "size": 110782,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/fbe0103ae15900f05dc7fb4140275455f9122e29"
+    },
+    {
+      "path": "figures/figure3/fig3d_interp_quality.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a22398c220c60b00ddb0b06bf4935e632a9b3b",
+      "size": 20779,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/18a22398c220c60b00ddb0b06bf4935e632a9b3b"
+    },
+    {
+      "path": "figures/figure3/fig3d_interp_quality.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "182693e11ea5473c81399a6e55b2bda84d526a78",
+      "size": 85182,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/182693e11ea5473c81399a6e55b2bda84d526a78"
+    },
+    {
+      "path": "figures/figure4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e254741aa9872cbfb4fb4ad946462bfabb9d485",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/8e254741aa9872cbfb4fb4ad946462bfabb9d485"
+    },
+    {
+      "path": "figures/figure4/fig4ab_brca1_rna.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1e90a2921e544777d504ba82978f3018d3c78c",
+      "size": 47352,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/4b1e90a2921e544777d504ba82978f3018d3c78c"
+    },
+    {
+      "path": "figures/figure4/fig4ab_brca1_rna.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593a455595a023c014c8fb06950498575aedea84",
+      "size": 454077,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/593a455595a023c014c8fb06950498575aedea84"
+    },
+    {
+      "path": "figures/figure4/fig4c_splice_nmd_headline.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8549e18011292963b92278c17cc2752a951962",
+      "size": 23372,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ab8549e18011292963b92278c17cc2752a951962"
+    },
+    {
+      "path": "figures/figure4/fig4c_splice_nmd_headline.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886aa75343d63b6edc00c32ebfbf9f9114f07686",
+      "size": 79340,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/886aa75343d63b6edc00c32ebfbf9f9114f07686"
+    },
+    {
+      "path": "figures/figure5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "123cf0aef78bc52890929c5e703309317324b3c8",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/123cf0aef78bc52890929c5e703309317324b3c8"
+    },
+    {
+      "path": "figures/figure5/fig5a_ldlr_roc.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "101e12dfc3c3bdf2d50c9db8d04f2e994827bddb",
+      "size": 21013,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/101e12dfc3c3bdf2d50c9db8d04f2e994827bddb"
+    },
+    {
+      "path": "figures/figure5/fig5a_ldlr_roc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64753d306b36b39863f6c880d21ee678869e9328",
+      "size": 141242,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/64753d306b36b39863f6c880d21ee678869e9328"
+    },
+    {
+      "path": "figures/figure5/fig5b_ldlr_violin.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc9251c80ccdb110ce73600a5de5f3c977f6fd5",
+      "size": 24805,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/bcc9251c80ccdb110ce73600a5de5f3c977f6fd5"
+    },
+    {
+      "path": "figures/figure5/fig5b_ldlr_violin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b98e117cb33674b33cbe81aa3aa5b2f5b4fe7eec",
+      "size": 191720,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/b98e117cb33674b33cbe81aa3aa5b2f5b4fe7eec"
+    },
+    {
+      "path": "figures/figure5/fig5c_finngen_qq.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e8a705c8bd8c5add8a7b91c5bf4f95dc80abbb",
+      "size": 146464,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/79e8a705c8bd8c5add8a7b91c5bf4f95dc80abbb"
+    },
+    {
+      "path": "figures/figure5/fig5c_finngen_qq.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1346c4c0b8e0d7e8e884f9edb6918e1e34af2bc1",
+      "size": 172951,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/1346c4c0b8e0d7e8e884f9edb6918e1e34af2bc1"
+    },
+    {
+      "path": "figures/figure5/fig5d_acmg_stacked.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d485cc75f199549b73de57048aadb8c3e7c9f6b8",
+      "size": 28365,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/d485cc75f199549b73de57048aadb8c3e7c9f6b8"
+    },
+    {
+      "path": "figures/figure5/fig5d_acmg_stacked.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5331948549785dec318801b309dc0fd3b29c5f5d",
+      "size": 163874,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5331948549785dec318801b309dc0fd3b29c5f5d"
+    },
+    {
+      "path": "figures/supplement",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a41b3929741f118b09e7126ef5c1aa48bc038be4",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/a41b3929741f118b09e7126ef5c1aa48bc038be4"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_pathogenic_barchart.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af2c8595e13260a059a0d27446b93705aa803543",
+      "size": 22989,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/af2c8595e13260a059a0d27446b93705aa803543"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_pathogenic_barchart.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9109638a2575b9b13309ce238f3fffcb438a0615",
+      "size": 139046,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/9109638a2575b9b13309ce238f3fffcb438a0615"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_peraxis_barchart.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c8c9aab0751be32935f4d6fc359bf4bf6bd29b",
+      "size": 26835,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/76c8c9aab0751be32935f4d6fc359bf4bf6bd29b"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_peraxis_barchart.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de3e652b327a1c6b8b8cb355a31aee1221fda6ba",
+      "size": 156892,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/de3e652b327a1c6b8b8cb355a31aee1221fda6ba"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_peraxis_lineplot.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc10ef4f00cbb2ac2d70d7670515d77ff58b684",
+      "size": 28946,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/7dc10ef4f00cbb2ac2d70d7670515d77ff58b684"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_peraxis_lineplot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8f6016ad4d7595ac6702c5a7d692d4844575dc",
+      "size": 303715,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ca8f6016ad4d7595ac6702c5a7d692d4844575dc"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_score_distribution.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474c266598c1a6c53cf428a7281ef4fcc34f5add",
+      "size": 22463,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/474c266598c1a6c53cf428a7281ef4fcc34f5add"
+    },
+    {
+      "path": "figures/supplement/supfig_autointerp_score_distribution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b97d6d4d1cf42f548ccadccca3f561180048450",
+      "size": 91237,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/2b97d6d4d1cf42f548ccadccca3f561180048450"
+    },
+    {
+      "path": "figures/supplement/supfig_context_window.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe9b7932b0bad83ecd19cc77a9565c5d68e2f09",
+      "size": 26421,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/3fe9b7932b0bad83ecd19cc77a9565c5d68e2f09"
+    },
+    {
+      "path": "figures/supplement/supfig_context_window.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed71ed3edf5b27e109a7eccc61aea7ab9a4e9940",
+      "size": 247877,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ed71ed3edf5b27e109a7eccc61aea7ab9a4e9940"
+    },
+    {
+      "path": "figures/supplement/supfig_dataset_characterization.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec6c8546ae39bb3b8a4e4a3a8469d4e0917d1f8",
+      "size": 32739,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/8ec6c8546ae39bb3b8a4e4a3a8469d4e0917d1f8"
+    },
+    {
+      "path": "figures/supplement/supfig_dataset_characterization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "252c1452b511fffb0fdb2b14725074e1a93c45e6",
+      "size": 180563,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/252c1452b511fffb0fdb2b14725074e1a93c45e6"
+    },
+    {
+      "path": "figures/supplement/supfig_layer_sweep.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758dd6cf67498e6bd902c035c82cd12277be56ca",
+      "size": 18810,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/758dd6cf67498e6bd902c035c82cd12277be56ca"
+    },
+    {
+      "path": "figures/supplement/supfig_layer_sweep.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9035b62e949dc6dc78616a19f818506820a0459f",
+      "size": 69763,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/9035b62e949dc6dc78616a19f818506820a0459f"
+    },
+    {
+      "path": "figures/supplement/supfig_ra_cohort.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e505714d5bdb34aa9505cdccea4b0620f8785d50",
+      "size": 33667,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e505714d5bdb34aa9505cdccea4b0620f8785d50"
+    },
+    {
+      "path": "figures/supplement/supfig_ra_cohort.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "194a03ae7c8cf890c5e3a8cb63338188a0534610",
+      "size": 124679,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/194a03ae7c8cf890c5e3a8cb63338188a0534610"
+    },
+    {
+      "path": "figures/supplement/supfig_splice_vaf_validation.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee4b760e5fe80e490a97c609d3e9b68603f90bf",
+      "size": 24270,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/9ee4b760e5fe80e490a97c609d3e9b68603f90bf"
+    },
+    {
+      "path": "figures/supplement/supfig_splice_vaf_validation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb1d2f54a64bda414f48a6d727ee6bc30723ff9",
+      "size": 184962,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/bdb1d2f54a64bda414f48a6d727ee6bc30723ff9"
+    },
+    {
+      "path": "figures/supplement/supfig_topk_vs_window.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0152d30db363e485fc017b3125174383abd4844d",
+      "size": 23425,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/0152d30db363e485fc017b3125174383abd4844d"
+    },
+    {
+      "path": "figures/supplement/supfig_topk_vs_window.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7edd9e5c2f277b3c37592355cf381619425c5e",
+      "size": 139186,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/7a7edd9e5c2f277b3c37592355cf381619425c5e"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4aab2bbce027a82cd8e5b5255790a02e8f3bcda",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/e4aab2bbce027a82cd8e5b5255790a02e8f3bcda"
+    },
+    {
+      "path": "notebooks/demo_probe_inference.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db52aff7368afbee9db488af0ddf0c1205960a69",
+      "size": 24664,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/db52aff7368afbee9db488af0ddf0c1205960a69"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77164ef2f45ff5b7e526c155adbc4fd0ee9539a8",
+      "size": 577,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/77164ef2f45ff5b7e526c155adbc4fd0ee9539a8"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baa506d44a78ba458dfcddc81358df22dac23eb2",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/baa506d44a78ba458dfcddc81358df22dac23eb2"
+    },
+    {
+      "path": "scripts/figure1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1b6b70a28c1a3e4000368fa170e0ed1ec53c3d1",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/b1b6b70a28c1a3e4000368fa170e0ed1ec53c3d1"
+    },
+    {
+      "path": "scripts/figure1/_heatmap_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8285c54c9be8f93d752bf9686ef35da29f253b2a",
+      "size": 8436,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/8285c54c9be8f93d752bf9686ef35da29f253b2a"
+    },
+    {
+      "path": "scripts/figure1/fig1b_snv_heatmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c628eee09b428a1e78981609d798b8e999a8dfaa",
+      "size": 1781,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/c628eee09b428a1e78981609d798b8e999a8dfaa"
+    },
+    {
+      "path": "scripts/figure1/fig1c_deconf_heatmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe208e681f81197f93967081f685412a8369999",
+      "size": 1022,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5fe208e681f81197f93967081f685412a8369999"
+    },
+    {
+      "path": "scripts/figure1/fig1d_indel_heatmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62266d3fc3404568b642ab980237be7f52ed456a",
+      "size": 5033,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/62266d3fc3404568b642ab980237be7f52ed456a"
+    },
+    {
+      "path": "scripts/figure2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1f29985f7bbe507da4dc2431a1018324055aeb2",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/c1f29985f7bbe507da4dc2431a1018324055aeb2"
+    },
+    {
+      "path": "scripts/figure2/_umap_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a20c515f75398f276753684dadf95a5db7742d99",
+      "size": 1538,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a20c515f75398f276753684dadf95a5db7742d99"
+    },
+    {
+      "path": "scripts/figure2/fig2a_conservation_lineplot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b5d5ba222b346ef821f097bf89e8cd8a3d5c74",
+      "size": 6177,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/f2b5d5ba222b346ef821f097bf89e8cd8a3d5c74"
+    },
+    {
+      "path": "scripts/figure2/fig2b_umap_pathogenicity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1963af24ce1900dd10857b0a3a30ec64fca2d148",
+      "size": 2554,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/1963af24ce1900dd10857b0a3a30ec64fca2d148"
+    },
+    {
+      "path": "scripts/figure2/fig2c_umap_consequence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9939cc68252889898ed141a22deb2c26cd98387f",
+      "size": 2505,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/9939cc68252889898ed141a22deb2c26cd98387f"
+    },
+    {
+      "path": "scripts/figure2/fig2d_dms_spearman.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e934c3fcf9fe621d468b3d920a457a643a1936c9",
+      "size": 4905,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/e934c3fcf9fe621d468b3d920a457a643a1936c9"
+    },
+    {
+      "path": "scripts/figure3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b712c198dd6ae42162d867fce90effeb5b71fc4e",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/b712c198dd6ae42162d867fce90effeb5b71fc4e"
+    },
+    {
+      "path": "scripts/figure3/fig3b_probe_auroc_boxplot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678154da20d881e614d5f227aa97d600749927ad",
+      "size": 4544,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/678154da20d881e614d5f227aa97d600749927ad"
+    },
+    {
+      "path": "scripts/figure3/fig3c_mechanism_recovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd71909ae76c23f754d564399d46bab24ca105f0",
+      "size": 3733,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/fd71909ae76c23f754d564399d46bab24ca105f0"
+    },
+    {
+      "path": "scripts/figure3/fig3d_interp_quality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea336ca9a06c75654ca807427ee298365c9dbc59",
+      "size": 5858,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ea336ca9a06c75654ca807427ee298365c9dbc59"
+    },
+    {
+      "path": "scripts/figure4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "376d7bc467d70d3d11248637530aa7fbe319ac38",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/376d7bc467d70d3d11248637530aa7fbe319ac38"
+    },
+    {
+      "path": "scripts/figure4/fig4ab_brca1_rna.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd1a7c58d60cd359c600e432f38d7de4c7c4389",
+      "size": 14374,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/0dd1a7c58d60cd359c600e432f38d7de4c7c4389"
+    },
+    {
+      "path": "scripts/figure4/fig4c_splice_nmd_headline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87aefcc31dbebc131efbdf18a7dce4b38f24cd94",
+      "size": 3164,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/87aefcc31dbebc131efbdf18a7dce4b38f24cd94"
+    },
+    {
+      "path": "scripts/figure5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcc6b9bad9bca5cf759c4f99413f5915bc89c4d7",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/dcc6b9bad9bca5cf759c4f99413f5915bc89c4d7"
+    },
+    {
+      "path": "scripts/figure5/fig5a_ldlr_roc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed20c7259988351116c0fa467cb017a64d97483a",
+      "size": 5622,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/ed20c7259988351116c0fa467cb017a64d97483a"
+    },
+    {
+      "path": "scripts/figure5/fig5b_ldlr_violin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09847656579d07c6ba21ee8bd91a34c58d639de9",
+      "size": 3855,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/09847656579d07c6ba21ee8bd91a34c58d639de9"
+    },
+    {
+      "path": "scripts/figure5/fig5c_finngen_qq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777889cef2c253aa111790312f49884ab3131803",
+      "size": 4813,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/777889cef2c253aa111790312f49884ab3131803"
+    },
+    {
+      "path": "scripts/figure5/fig5d_acmg_stacked.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0486354fc533c14435ece5aa46f3a1390ca2fe",
+      "size": 4342,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/9d0486354fc533c14435ece5aa46f3a1390ca2fe"
+    },
+    {
+      "path": "scripts/prepare",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "110ca33b546774150d7c0e245a877371ef51dffa",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/110ca33b546774150d7c0e245a877371ef51dffa"
+    },
+    {
+      "path": "scripts/prepare/context_ablation_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3732017bb1f6fc0c55837ed13751eefba42cbdb5",
+      "size": 2361,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/3732017bb1f6fc0c55837ed13751eefba42cbdb5"
+    },
+    {
+      "path": "scripts/prepare/finngen_acmg_artifact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ec74d179f046a94c0b0af374291b958c64f89c",
+      "size": 3575,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/a0ec74d179f046a94c0b0af374291b958c64f89c"
+    },
+    {
+      "path": "scripts/prepare/prepare_finngen_r12_qq_pathogenicity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c55417617fe8c1aebf8e37c735c8e8864a1ac9c1",
+      "size": 6847,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/c55417617fe8c1aebf8e37c735c8e8864a1ac9c1"
+    },
+    {
+      "path": "scripts/prepare/umap_combined.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e630ec6bc359142c34c3f924cad35985a862096",
+      "size": 5954,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/8e630ec6bc359142c34c3f924cad35985a862096"
+    },
+    {
+      "path": "scripts/supplement",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc7df5a4306b03a60364aba5acee71f4b015e550",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/dc7df5a4306b03a60364aba5acee71f4b015e550"
+    },
+    {
+      "path": "scripts/supplement/supfig_autointerp_ablation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5318c2aa8ff6ecde2744b1d43d6b0d396eca267e",
+      "size": 8631,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5318c2aa8ff6ecde2744b1d43d6b0d396eca267e"
+    },
+    {
+      "path": "scripts/supplement/supfig_context_window.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38a5fbed8ec908d38c7823ff3c04041794e50ef9",
+      "size": 4498,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/38a5fbed8ec908d38c7823ff3c04041794e50ef9"
+    },
+    {
+      "path": "scripts/supplement/supfig_dataset_characterization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611b3ef73fc06f22f469878fa64e0d2b51c522e0",
+      "size": 4910,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/611b3ef73fc06f22f469878fa64e0d2b51c522e0"
+    },
+    {
+      "path": "scripts/supplement/supfig_layer_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6279e3ac6094926910ec02794fb95775d8509e",
+      "size": 2381,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/cc6279e3ac6094926910ec02794fb95775d8509e"
+    },
+    {
+      "path": "scripts/supplement/supfig_ra_cohort.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "215cd6c7c9ba8d661477afb00329c5c9e37c83ff",
+      "size": 7128,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/215cd6c7c9ba8d661477afb00329c5c9e37c83ff"
+    },
+    {
+      "path": "scripts/supplement/supfig_splice_vaf_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fbbfd6121b86e23b8598384e99e0670684f4f14",
+      "size": 2667,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/7fbbfd6121b86e23b8598384e99e0670684f4f14"
+    },
+    {
+      "path": "scripts/supplement/supfig_topk_vs_window.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b94646f9e3f201d2945cd2168e60292bd66cae",
+      "size": 3641,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/25b94646f9e3f201d2945cd2168e60292bd66cae"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "871ba5d9e83cebf685ddaea99f9d76fdda412532",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/871ba5d9e83cebf685ddaea99f9d76fdda412532"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd7efd18b5ad5fdc66b36d9f84e5aa09c47f1ba7",
+      "size": 41,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/bd7efd18b5ad5fdc66b36d9f84e5aa09c47f1ba7"
+    },
+    {
+      "path": "src/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56fd9a30b8ff5efa0ef6241e8df066755b32e85",
+      "size": 3624,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/c56fd9a30b8ff5efa0ef6241e8df066755b32e85"
+    },
+    {
+      "path": "theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f748d47f67b9247167e6f59427f18d0e72b504c",
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/trees/5f748d47f67b9247167e6f59427f18d0e72b504c"
+    },
+    {
+      "path": "theme/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d04166815e9649cbc2df436b640d9ba6160cd48",
+      "size": 69,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/5d04166815e9649cbc2df436b640d9ba6160cd48"
+    },
+    {
+      "path": "theme/theme.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ac159a379230ba7adcca1f59541ff2cea59e47",
+      "size": 9434,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/74ac159a379230ba7adcca1f59541ff2cea59e47"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a59f0b8e9bb0fcf2eedfb80a3d367cb3f83ff06",
+      "size": 417834,
+      "url": "https://api.github.com/repos/goodfire-ai/evee-manuscript/git/blobs/7a59f0b8e9bb0fcf2eedfb80a3d367cb3f83ff06"
+    }
+  ]
+}

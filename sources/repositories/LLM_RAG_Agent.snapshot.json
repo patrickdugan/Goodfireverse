@@ -1,0 +1,202 @@
+{
+  "repository": "https://github.com/goodfire-ai/LLM_RAG_Agent",
+  "revision": "acbbc061545c2b9f5c1568e269e1f65aefe48af8",
+  "archive_sha256": "b3169c0b428086e70098db6a4c9c800915d5493316ddcd9b97ebfe6ebf1145e2",
+  "source_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "0baa1eb179ce06ef1f70249e49ea992f38888b03b7dd62d65f076b7349a24143",
+      "bytes": 1479
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "8fd2689ba60733d9c947dcbfd961c4d72ddf040cb3a19cc293576411615c5cab",
+      "bytes": 1069
+    },
+    {
+      "path": "RAGent/DSPY/agent_tools.py",
+      "sha256": "71e1f58f51c4c8e2cd10311b77ffc5a6e3d89f9390a6b7cb57f062d4e95b25fd",
+      "bytes": 20425
+    },
+    {
+      "path": "RAGent/DSPY/agent_tools_dummy.py",
+      "sha256": "b721ca58273327d0ae200ca14540531796585bf2a0618ab27b442327c5c4aec9",
+      "bytes": 16777
+    },
+    {
+      "path": "RAGent/DSPY/chroma_db_retriever.py",
+      "sha256": "b6d22ca06f2897db625b7ff5ddcee9d384f5d7b1a9793d97b7008b32b687c8ad",
+      "bytes": 6533
+    },
+    {
+      "path": "RAGent/DSPY/citations_utils.py",
+      "sha256": "114eb9ffdd4fd20cc75d7aaccb2f834cd5c47aae4684c8777cbe4571371f3cb4",
+      "bytes": 7448
+    },
+    {
+      "path": "RAGent/DSPY/deduplicate_data.py",
+      "sha256": "4d276efdbe9d94f49754171ecb3c8b55c9727ba442fae7f112d41e9ddc4d5e3e",
+      "bytes": 2573
+    },
+    {
+      "path": "RAGent/DSPY/embed.py",
+      "sha256": "a408dab75ff0d479adf9b66200b5021b65f948df6cf7e7bb3e0d534b09fccdcc",
+      "bytes": 3208
+    },
+    {
+      "path": "RAGent/DSPY/filter_data_sources.py",
+      "sha256": "849c40ccead4e7500239923f76b0eb14cd9235c8a769cdcad3377e96719a1a58",
+      "bytes": 4058
+    },
+    {
+      "path": "RAGent/DSPY/loguru_logger.py",
+      "sha256": "162fe0540ecba4fd72f4305557283dff1477008a3da29385b7c94a6658e0dd68",
+      "bytes": 274
+    },
+    {
+      "path": "RAGent/DSPY/med_agent.py",
+      "sha256": "851e4e80688429988db0bcbc360fd96215dc30e8ee2c47f1a17d7c2756caf41a",
+      "bytes": 28430
+    },
+    {
+      "path": "RAGent/DSPY/patient_cases.py",
+      "sha256": "3b248ab3e3840818dbbef808d2a18d519f245adb6a71d54b7a0b42e4f4e73459",
+      "bytes": 3794
+    },
+    {
+      "path": "RAGent/DSPY/preprocess_logger.py",
+      "sha256": "d4f4faae9e3cca81c7f65862853e3f915630f71ddfeb66b725111bacd5c4f588",
+      "bytes": 277
+    },
+    {
+      "path": "RAGent/DSPY/preprocess_sources.py",
+      "sha256": "eb6fce7c800e63a2002e6ea172d505878e9ddac2378d65282f86c49e4e22cb7c",
+      "bytes": 1208
+    },
+    {
+      "path": "RAGent/DSPY/rag.py",
+      "sha256": "86701ab858cc3cd460237bde67fec4cd860ebc4e3d15210e8a1a14d0f844fb78",
+      "bytes": 15595
+    },
+    {
+      "path": "RAGent/DSPY/rag_config.py",
+      "sha256": "3d7195790a1bf6ad26e469e4701241d52ce9084b0747a9a6c151f34dbf090183",
+      "bytes": 2477
+    },
+    {
+      "path": "RAGent/DSPY/rag_logger.py",
+      "sha256": "c3b319b9e60ec5aa78de8a0a372514a6c1c72389221518a7778109e7a3ecfc5c",
+      "bytes": 271
+    },
+    {
+      "path": "RAGent/DSPY/rag_utils.py",
+      "sha256": "8fa8a5d49ec6070f24b488d90f35bd48a305f35fcefc85f3d604d37797ac46c9",
+      "bytes": 2413
+    },
+    {
+      "path": "RAGent/DSPY/run_experiment.ipynb",
+      "sha256": "f45e44c4e467467d536f97977c0e35469ec6c8144b2cad0a77aa5be8727198aa",
+      "bytes": 4831
+    },
+    {
+      "path": "RAGent/DSPY/scrape_meditron.py",
+      "sha256": "9fc186cb281336fdc2689fce56d712f8561a41fb7635d8bd977a78014045a619",
+      "bytes": 278
+    },
+    {
+      "path": "RAGent/DSPY/signatures.py",
+      "sha256": "a5b62559d4be1b17e34da003236904d1102dea9a45764ac6c3c0d5ffb6918a02",
+      "bytes": 17175
+    },
+    {
+      "path": "RAGent/DSPY/utils.py",
+      "sha256": "6a92e02d7c8cef04abb730abb0d38793c87e444040b7a8db184f9303cd189aa6",
+      "bytes": 2419
+    },
+    {
+      "path": "README.md",
+      "sha256": "19c38559bb1ad7e1c6792d84acafdc63c70cd5be25c7ffb25c8e78cb0453a5a0",
+      "bytes": 17066
+    },
+    {
+      "path": "ferber_agent/__init__.py",
+      "sha256": "5e527da1008be64217b8af0188654509563070c66d43a0c8574c7e6e8f767a24",
+      "bytes": 315
+    },
+    {
+      "path": "ferber_agent/agent.py",
+      "sha256": "e1cebff87c00405cbff2c2a0366dd160c15fe426f4bad5217194f7e98019c169",
+      "bytes": 30002
+    },
+    {
+      "path": "ferber_agent/data/histology_lookup.json",
+      "sha256": "6e383211a88fb0a5c5bad7aeca395508db5f1139540fd680e76ec31ab3d11838",
+      "bytes": 8847
+    },
+    {
+      "path": "ferber_agent/faithful_prompts.py",
+      "sha256": "b3b86ee86eb4b00a82822b32af4b55455c5ae25e1a1da834b387147db262837c",
+      "bytes": 20283
+    },
+    {
+      "path": "ferber_agent/result.py",
+      "sha256": "4025cb07bc334d30226ac3847ba7e79d45a6c540ebc88501fd495c08402c51bc",
+      "bytes": 340
+    },
+    {
+      "path": "ferber_agent/tools.py",
+      "sha256": "a5c13127bcc5b00b38f0125eba3262fb34d01e9bee821aee56c832a65cf022cd",
+      "bytes": 39801
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "df09470ff14492d5074a5aa4fe64322b2b5c123800251a6ed0554989122e2b46",
+      "bytes": 1173
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2e6013ea5f0cc9a8d618198b14c09a0f6319a3f48e8b9425d41c3980147854b2",
+      "bytes": 5170
+    },
+    {
+      "path": "scripts/build_histology_lookup.py",
+      "sha256": "617d36e95d977b487128c10ace61d419e015f25a764a2d0447d636c22e6adaf4",
+      "bytes": 7997
+    },
+    {
+      "path": "scripts/extract_prompts.py",
+      "sha256": "68fd86a9510658a5de94a894bbc634a99aa499bcb0b42b037b44991a65f8a415",
+      "bytes": 12203
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "504ae98277f6922053a538927c3046afde026aa1252d8afa254498b9ab926235",
+      "bytes": 5619
+    },
+    {
+      "path": "tests/test_equivalence.py",
+      "sha256": "69cc209dcd1cf7d061a85d137c9ed496189d0679f6a8bf5d29ea57d8cd865ed5",
+      "bytes": 3635
+    },
+    {
+      "path": "tests/test_faithful_pipeline.py",
+      "sha256": "ebf10d7582a8e805d3e574682e3ea565625e6695d72aa3423011c017bcd1d50d",
+      "bytes": 3442
+    },
+    {
+      "path": "tests/test_prompt_fidelity.py",
+      "sha256": "644491bc1ecd731bc9158c831f5df977ef577ed3154f9f375b065f20eee12d4b",
+      "bytes": 2028
+    },
+    {
+      "path": "tests/test_smoke.py",
+      "sha256": "5e74e59b49f52d32d3b8f1d956cf6d3b0b504a3d73e1491c0506d668db1d35b1",
+      "bytes": 2489
+    },
+    {
+      "path": "tests/test_tools.py",
+      "sha256": "b5ab68ce036d5b741ee9256eda08c7284039d61713f7f148921e4046de4f796c",
+      "bytes": 6614
+    }
+  ]
+}

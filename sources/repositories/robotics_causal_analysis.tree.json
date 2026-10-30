@@ -1,0 +1,767 @@
+{
+  "repository": "https://github.com/goodfire-ai/robotics_causal_analysis",
+  "revision": "8a8a33e41429791d1307c22524feb22a82db366e",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd628488f66bd149c117a5e62b4f9700ba0b0fe0",
+      "size": 31,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/fd628488f66bd149c117a5e62b4f9700ba0b0fe0"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a663ea427be769dd3a294cc7c1eef60c21e8543",
+      "size": 1068,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/4a663ea427be769dd3a294cc7c1eef60c21e8543"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0050f651adee75c168bf25d7acfee5c301d7ee3",
+      "size": 1548,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/c0050f651adee75c168bf25d7acfee5c301d7ee3"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "621f198779e51328033441ea97a78d8c1340be24",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/621f198779e51328033441ea97a78d8c1340be24"
+    },
+    {
+      "path": "data/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2487703d6009d618ab6170dbfc600e4e146329a8",
+      "size": 2034759,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/2487703d6009d618ab6170dbfc600e4e146329a8"
+    },
+    {
+      "path": "data/robot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68bc14a32917d4e17bfa69ff5a8b6ebe06a68c4e",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/68bc14a32917d4e17bfa69ff5a8b6ebe06a68c4e"
+    },
+    {
+      "path": "data/robot/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b315a13af124c66d94f0fc2f47344d5d551979e",
+      "size": 12927,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/2b315a13af124c66d94f0fc2f47344d5d551979e"
+    },
+    {
+      "path": "data/robot/franka_droid_kinematics.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2657c116fba78917015d9b33e93eb55ae14c1719",
+      "size": 2531,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/2657c116fba78917015d9b33e93eb55ae14c1719"
+    },
+    {
+      "path": "data/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18659230605a3d13a6ebdce7d4142ebe0247d4dc",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/18659230605a3d13a6ebdce7d4142ebe0247d4dc"
+    },
+    {
+      "path": "data/scenes/scene_00",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae700c3cf5579c016b2834c061009619234b48b3",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/ae700c3cf5579c016b2834c061009619234b48b3"
+    },
+    {
+      "path": "data/scenes/scene_00/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2253b1482677b38345249cf4669c3a292d9222e6",
+      "size": 1300708,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/2253b1482677b38345249cf4669c3a292d9222e6"
+    },
+    {
+      "path": "data/scenes/scene_00/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2c63515d7538dc9dd6e653cbec69985bcbd290",
+      "size": 1067826,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/0f2c63515d7538dc9dd6e653cbec69985bcbd290"
+    },
+    {
+      "path": "data/scenes/scene_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "232fafbe2b9c6be3aab89c8c0638ac657c7270f6",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/232fafbe2b9c6be3aab89c8c0638ac657c7270f6"
+    },
+    {
+      "path": "data/scenes/scene_01/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea0abf426966401ad740947ffe9706b3995f1848",
+      "size": 1303576,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/ea0abf426966401ad740947ffe9706b3995f1848"
+    },
+    {
+      "path": "data/scenes/scene_01/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c4136096dea03f463c887921b1d2dcee8a4436",
+      "size": 1064063,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/b8c4136096dea03f463c887921b1d2dcee8a4436"
+    },
+    {
+      "path": "data/scenes/scene_02",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff635d6f7341827c4c10204c1bdda6bbc7602bf1",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/ff635d6f7341827c4c10204c1bdda6bbc7602bf1"
+    },
+    {
+      "path": "data/scenes/scene_02/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9be4f71bdb24dc6d17d7a829b1bbbef4d257a25c",
+      "size": 1308051,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/9be4f71bdb24dc6d17d7a829b1bbbef4d257a25c"
+    },
+    {
+      "path": "data/scenes/scene_02/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90cbf2b422f8b0334feed1281ea645e54e70b6af",
+      "size": 1061073,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/90cbf2b422f8b0334feed1281ea645e54e70b6af"
+    },
+    {
+      "path": "data/scenes/scene_03",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edabf0e1c2cfcc5f334c8dce16139d479fe155ae",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/edabf0e1c2cfcc5f334c8dce16139d479fe155ae"
+    },
+    {
+      "path": "data/scenes/scene_03/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c054cd4fc266587132c93fdd1aa4160165f57ef6",
+      "size": 1302821,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/c054cd4fc266587132c93fdd1aa4160165f57ef6"
+    },
+    {
+      "path": "data/scenes/scene_03/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a46d8d5fa3144c982dc43913c5645a54efb21d40",
+      "size": 1057527,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/a46d8d5fa3144c982dc43913c5645a54efb21d40"
+    },
+    {
+      "path": "data/scenes/scene_07",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3ceb56c0718b2283843effeb0e29b912f51c730",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/a3ceb56c0718b2283843effeb0e29b912f51c730"
+    },
+    {
+      "path": "data/scenes/scene_07/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a2e85ae17c11750cc01748f8ed39b5810a7155",
+      "size": 1305658,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/60a2e85ae17c11750cc01748f8ed39b5810a7155"
+    },
+    {
+      "path": "data/scenes/scene_07/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f957e903194870b63de57eb93ddcdb850900d2",
+      "size": 1056280,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/e5f957e903194870b63de57eb93ddcdb850900d2"
+    },
+    {
+      "path": "data/scenes/scene_08",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "435c29d43b3c03da6171d32edfd0b81994754803",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/435c29d43b3c03da6171d32edfd0b81994754803"
+    },
+    {
+      "path": "data/scenes/scene_08/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1684c7aa92409c1fe65f1a00da227c02bab1d179",
+      "size": 1300300,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/1684c7aa92409c1fe65f1a00da227c02bab1d179"
+    },
+    {
+      "path": "data/scenes/scene_08/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6206e2858057395e7d7847533cf2ee905b4a0917",
+      "size": 1048792,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/6206e2858057395e7d7847533cf2ee905b4a0917"
+    },
+    {
+      "path": "data/scenes/scene_09",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cd3d6c743d24180f46d664405b2cb086388f123",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/5cd3d6c743d24180f46d664405b2cb086388f123"
+    },
+    {
+      "path": "data/scenes/scene_09/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567622b14a9b939998ef82ce46696190fd25269c",
+      "size": 1296120,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/567622b14a9b939998ef82ce46696190fd25269c"
+    },
+    {
+      "path": "data/scenes/scene_09/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc0dca1d046b1b4641a434cea8da7ce20c046b0",
+      "size": 1041037,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/9bc0dca1d046b1b4641a434cea8da7ce20c046b0"
+    },
+    {
+      "path": "data/scenes/scene_10",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22f0ffc95a7879eacd18c9ed180a7eacd1b2859f",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/22f0ffc95a7879eacd18c9ed180a7eacd1b2859f"
+    },
+    {
+      "path": "data/scenes/scene_10/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd45bc46acba850f444d926566aa740ba34b0d29",
+      "size": 1291465,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/bd45bc46acba850f444d926566aa740ba34b0d29"
+    },
+    {
+      "path": "data/scenes/scene_10/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507e23745087b7ecf77598f92d7ab22f47c33bc9",
+      "size": 1038762,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/507e23745087b7ecf77598f92d7ab22f47c33bc9"
+    },
+    {
+      "path": "data/scenes/scene_11",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c283f8b4a1ab6869d5f2c99668de1bdf55733f7",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/5c283f8b4a1ab6869d5f2c99668de1bdf55733f7"
+    },
+    {
+      "path": "data/scenes/scene_11/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b6c68721378937d03c884cd5555db7654973a9",
+      "size": 1309122,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/f9b6c68721378937d03c884cd5555db7654973a9"
+    },
+    {
+      "path": "data/scenes/scene_11/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1bc9ff4244b441190a4bfe386216425f1cd6bd8",
+      "size": 1064784,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/f1bc9ff4244b441190a4bfe386216425f1cd6bd8"
+    },
+    {
+      "path": "data/scenes/scene_12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dc2c7f93aa14bf4be57cb77e1cfeca3d5b4e543",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/2dc2c7f93aa14bf4be57cb77e1cfeca3d5b4e543"
+    },
+    {
+      "path": "data/scenes/scene_12/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8eb18b381760ea724cad0a147c287315a6f9a7c",
+      "size": 1299246,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/a8eb18b381760ea724cad0a147c287315a6f9a7c"
+    },
+    {
+      "path": "data/scenes/scene_12/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38fbc8292d6f7538704011375f63e5516005354c",
+      "size": 1061656,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/38fbc8292d6f7538704011375f63e5516005354c"
+    },
+    {
+      "path": "data/scenes/scene_13",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b1abe891c9d1bf5c5e309e04d8c1a5d7e372ee2",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/5b1abe891c9d1bf5c5e309e04d8c1a5d7e372ee2"
+    },
+    {
+      "path": "data/scenes/scene_13/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23448cfabd68ca77b4264dfc7044f4ec6f7ddf9f",
+      "size": 1310863,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/23448cfabd68ca77b4264dfc7044f4ec6f7ddf9f"
+    },
+    {
+      "path": "data/scenes/scene_13/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440edb0fecef1ac3b49e2c4bea1cee07e173bc37",
+      "size": 1086144,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/440edb0fecef1ac3b49e2c4bea1cee07e173bc37"
+    },
+    {
+      "path": "data/scenes/scene_14",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3efd282226b667624ea1b2e5ad6c487114c0d30",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/c3efd282226b667624ea1b2e5ad6c487114c0d30"
+    },
+    {
+      "path": "data/scenes/scene_14/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99fa9bf5acec74369139f61ab730f4c8b2184b11",
+      "size": 1303618,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/99fa9bf5acec74369139f61ab730f4c8b2184b11"
+    },
+    {
+      "path": "data/scenes/scene_14/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8a3e9e3bc78d2d6924b754b9052b3a253674d4c",
+      "size": 1080523,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/d8a3e9e3bc78d2d6924b754b9052b3a253674d4c"
+    },
+    {
+      "path": "data/scenes/scene_15",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d891978f4e56a190668c7ec55b9ebf83fa73147e",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/d891978f4e56a190668c7ec55b9ebf83fa73147e"
+    },
+    {
+      "path": "data/scenes/scene_15/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "302ade8590f71a65ffa61f84d21df52af923abcf",
+      "size": 1305867,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/302ade8590f71a65ffa61f84d21df52af923abcf"
+    },
+    {
+      "path": "data/scenes/scene_15/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c68dd5d59b76fdc0956f4694b102597d6196de0",
+      "size": 1062010,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/9c68dd5d59b76fdc0956f4694b102597d6196de0"
+    },
+    {
+      "path": "data/scenes/scene_16",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6527ec9aae6152b56786502ea1813d94ea956066",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/6527ec9aae6152b56786502ea1813d94ea956066"
+    },
+    {
+      "path": "data/scenes/scene_16/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcdc9c0c6ed1c97e27d679a1f897dfbdc6db86de",
+      "size": 1301869,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/bcdc9c0c6ed1c97e27d679a1f897dfbdc6db86de"
+    },
+    {
+      "path": "data/scenes/scene_16/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66aa305beac8636ee7bd4606baf8e6e1fd37632a",
+      "size": 1053813,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/66aa305beac8636ee7bd4606baf8e6e1fd37632a"
+    },
+    {
+      "path": "data/scenes/scene_18",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "610bc24d178210bffdedc91c9a212de540d8c402",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/610bc24d178210bffdedc91c9a212de540d8c402"
+    },
+    {
+      "path": "data/scenes/scene_18/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ed882ee68f31734ac8e205bbc9ccf8716710d12",
+      "size": 1312200,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/1ed882ee68f31734ac8e205bbc9ccf8716710d12"
+    },
+    {
+      "path": "data/scenes/scene_18/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668b62768c862563538731792f3a60aa0b9e0a1e",
+      "size": 1077626,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/668b62768c862563538731792f3a60aa0b9e0a1e"
+    },
+    {
+      "path": "data/scenes/scene_19",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b334a7f92767af483aded19e2e6c8390248d5c6f",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/b334a7f92767af483aded19e2e6c8390248d5c6f"
+    },
+    {
+      "path": "data/scenes/scene_19/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09e4b31558ced823592300a6967e70230bdaf93",
+      "size": 1313240,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/e09e4b31558ced823592300a6967e70230bdaf93"
+    },
+    {
+      "path": "data/scenes/scene_19/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad24a045da14b4e543800576c24358b0eb3b6d75",
+      "size": 1080818,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/ad24a045da14b4e543800576c24358b0eb3b6d75"
+    },
+    {
+      "path": "data/scenes/scene_20",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f544e1c3626ea0226db58d9cb16229aa4b03c0f",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/4f544e1c3626ea0226db58d9cb16229aa4b03c0f"
+    },
+    {
+      "path": "data/scenes/scene_20/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80842897bfaf110c7460abe4fad2966131c3cd1",
+      "size": 1310864,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/a80842897bfaf110c7460abe4fad2966131c3cd1"
+    },
+    {
+      "path": "data/scenes/scene_20/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e9db87f29f3f97db39049b1f8dc66e9432eb19",
+      "size": 1062522,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/00e9db87f29f3f97db39049b1f8dc66e9432eb19"
+    },
+    {
+      "path": "data/scenes/scene_21",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c18242ae8962d2868b2ceaa81557fd524aeaec5b",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/c18242ae8962d2868b2ceaa81557fd524aeaec5b"
+    },
+    {
+      "path": "data/scenes/scene_21/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89b9304cf33da1ec613eceac275932d1e7bdb800",
+      "size": 1301161,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/89b9304cf33da1ec613eceac275932d1e7bdb800"
+    },
+    {
+      "path": "data/scenes/scene_21/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c743efd58202d8aa7c9c25089fb463b71775212",
+      "size": 1067928,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/8c743efd58202d8aa7c9c25089fb463b71775212"
+    },
+    {
+      "path": "data/scenes/scene_22",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8331cff6604604b6b6d436c6227fc7a805691e8",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/c8331cff6604604b6b6d436c6227fc7a805691e8"
+    },
+    {
+      "path": "data/scenes/scene_22/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74dfa77510df7c7d5e30b6bd67147b103760f65b",
+      "size": 1279474,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/74dfa77510df7c7d5e30b6bd67147b103760f65b"
+    },
+    {
+      "path": "data/scenes/scene_22/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0901cd8c8561ab9d84e6a1dfb9825b0f9cfc5aee",
+      "size": 1107280,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/0901cd8c8561ab9d84e6a1dfb9825b0f9cfc5aee"
+    },
+    {
+      "path": "data/scenes/scene_23",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a50478e88e8cd117405fe7490bfb9836ae11b50b",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/a50478e88e8cd117405fe7490bfb9836ae11b50b"
+    },
+    {
+      "path": "data/scenes/scene_23/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "410cca18b957ab93928d03bf13b9dbf70db458f9",
+      "size": 1283372,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/410cca18b957ab93928d03bf13b9dbf70db458f9"
+    },
+    {
+      "path": "data/scenes/scene_23/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1eed2dcdad833f4a3fe016cc671c60ddf0501c",
+      "size": 1100065,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/5b1eed2dcdad833f4a3fe016cc671c60ddf0501c"
+    },
+    {
+      "path": "data/scenes/scene_24",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01beb0c2469cbd3d30ac80f4192e3dfdc67de681",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/01beb0c2469cbd3d30ac80f4192e3dfdc67de681"
+    },
+    {
+      "path": "data/scenes/scene_24/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a0a8af00b730cd85eb4807f90edc6a21fe6d70",
+      "size": 1306453,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/76a0a8af00b730cd85eb4807f90edc6a21fe6d70"
+    },
+    {
+      "path": "data/scenes/scene_24/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb0477472b67afc0284e4f7a028f7131c83716c",
+      "size": 1085780,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/fcb0477472b67afc0284e4f7a028f7131c83716c"
+    },
+    {
+      "path": "data/scenes/scene_25",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "369cccced2cc96fbb224a5474f38e0a40234f509",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/369cccced2cc96fbb224a5474f38e0a40234f509"
+    },
+    {
+      "path": "data/scenes/scene_25/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15997ee2916ba5b4000f7df63bb2c7b3ef28f7a8",
+      "size": 1318552,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/15997ee2916ba5b4000f7df63bb2c7b3ef28f7a8"
+    },
+    {
+      "path": "data/scenes/scene_25/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27c7ad2d4111512a79af9ab71dfd5b8ea79b142",
+      "size": 1086551,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/f27c7ad2d4111512a79af9ab71dfd5b8ea79b142"
+    },
+    {
+      "path": "data/scenes/scene_26",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5827255881e281074cfd745a477dfbf5566c551f",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/5827255881e281074cfd745a477dfbf5566c551f"
+    },
+    {
+      "path": "data/scenes/scene_26/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fb9afb4fb32145f38d659d9fdf5bdc57adfef0",
+      "size": 1313408,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/53fb9afb4fb32145f38d659d9fdf5bdc57adfef0"
+    },
+    {
+      "path": "data/scenes/scene_26/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8aae175bbf612eb374ccfc021926055979e3bb5",
+      "size": 1092373,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/b8aae175bbf612eb374ccfc021926055979e3bb5"
+    },
+    {
+      "path": "data/scenes/scene_27",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c740ca6f15d34897251a9b91858596660272838f",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/c740ca6f15d34897251a9b91858596660272838f"
+    },
+    {
+      "path": "data/scenes/scene_27/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b9a70246cb63f0c77722d83dba9a29fdbb63fa1",
+      "size": 1306470,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/5b9a70246cb63f0c77722d83dba9a29fdbb63fa1"
+    },
+    {
+      "path": "data/scenes/scene_27/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82c416ae103fafb45351fdd2784ceb1b9e37469",
+      "size": 1095098,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/f82c416ae103fafb45351fdd2784ceb1b9e37469"
+    },
+    {
+      "path": "data/scenes/scene_28",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80ce367d6b0d38e167c88eaf283ce8d8072a8dbe",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/80ce367d6b0d38e167c88eaf283ce8d8072a8dbe"
+    },
+    {
+      "path": "data/scenes/scene_28/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a56b9465abfa8cf3d7fd1a24f6db87529d3ddae",
+      "size": 1328116,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/1a56b9465abfa8cf3d7fd1a24f6db87529d3ddae"
+    },
+    {
+      "path": "data/scenes/scene_28/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a083ed7df8091125845582d15371f7e498beb202",
+      "size": 1109546,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/a083ed7df8091125845582d15371f7e498beb202"
+    },
+    {
+      "path": "data/scenes/scene_29",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7071c865724eff0ec5f2831b96a71a7b343af3b4",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/7071c865724eff0ec5f2831b96a71a7b343af3b4"
+    },
+    {
+      "path": "data/scenes/scene_29/exterior.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fde84d29e8d1e82f068b2818fb30824199b4ec9f",
+      "size": 1315027,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/fde84d29e8d1e82f068b2818fb30824199b4ec9f"
+    },
+    {
+      "path": "data/scenes/scene_29/wrist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15ee7392aa245cc6ff89b2902ac0562d018bf5e",
+      "size": 1098279,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/b15ee7392aa245cc6ff89b2902ac0562d018bf5e"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07a6c65cf131fce2fd38596e31b072d10202c6c3",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/07a6c65cf131fce2fd38596e31b072d10202c6c3"
+    },
+    {
+      "path": "docs/overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46e11c66a38be35c628dab6cda04246a33fc02f1",
+      "size": 963939,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/46e11c66a38be35c628dab6cda04246a33fc02f1"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "607a737e90a234becf3c6e1b25d2ca140a93a62c",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/607a737e90a234becf3c6e1b25d2ca140a93a62c"
+    },
+    {
+      "path": "figures/figure3_interface_patching.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a286dc3f80015aeaea4cf360e3b11e846dc5fe75",
+      "size": 237693,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/a286dc3f80015aeaea4cf360e3b11e846dc5fe75"
+    },
+    {
+      "path": "figures/figure4_backbone_patching.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b131f2a984e692dd8b0cb78e51e8c7126992a93",
+      "size": 443046,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/6b131f2a984e692dd8b0cb78e51e8c7126992a93"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c6181c920b4fbc7906c59014f37992c2d5efa4",
+      "size": 173,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/75c6181c920b4fbc7906c59014f37992c2d5efa4"
+    },
+    {
+      "path": "vla_patching",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da23dab7aba2bf57b45969e18f0c6c4ec8bc9769",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/trees/da23dab7aba2bf57b45969e18f0c6c4ec8bc9769"
+    },
+    {
+      "path": "vla_patching/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c36ba7995648a862b99e1ab1de479a0223eff0",
+      "size": 86,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/d8c36ba7995648a862b99e1ab1de479a0223eff0"
+    },
+    {
+      "path": "vla_patching/analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a6d649476dad55e1f2a4e8b3865cf138e044fa",
+      "size": 11485,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/d2a6d649476dad55e1f2a4e8b3865cf138e044fa"
+    },
+    {
+      "path": "vla_patching/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3cab419325e6f2ac18ec05c5f5c8758a12b1fb",
+      "size": 1399,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/cb3cab419325e6f2ac18ec05c5f5c8758a12b1fb"
+    },
+    {
+      "path": "vla_patching/fk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb832cd07ee7e2767172d5c8d7e069dc6ac25c6",
+      "size": 1874,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/2fb832cd07ee7e2767172d5c8d7e069dc6ac25c6"
+    },
+    {
+      "path": "vla_patching/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4721ef199a2f9b7a42c2d79978e5b029b5ab685a",
+      "size": 25482,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_causal_analysis/git/blobs/4721ef199a2f9b7a42c2d79978e5b029b5ab685a"
+    }
+  ]
+}

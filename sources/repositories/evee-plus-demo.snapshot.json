@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/goodfire-ai/evee-plus-demo",
+  "revision": "e0e9a59e76851100553d90562c8a2f8253736081",
+  "archive_sha256": "e074069004bfbc5acc53c2000d88d01f0faef6f0d9b0b7323cc8bbf92492b325",
+  "source_files": [
+    {
+      "path": "deployment.json",
+      "sha256": "2c303adabdf523188cfcbbf22a87f047fab39f15c5c36a76f1b64f8a44034baa",
+      "bytes": 466
+    },
+    {
+      "path": "ks.html",
+      "sha256": "1e53002ba7f111f05ad9102e4f3addbdf7c9bde88fef2f89a24b406a64eb23e7",
+      "bytes": 1189449
+    }
+  ]
+}

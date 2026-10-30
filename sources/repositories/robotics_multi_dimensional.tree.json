@@ -1,0 +1,117 @@
+{
+  "repository": "https://github.com/goodfire-ai/robotics_multi_dimensional",
+  "revision": "abdabd8163c6e3d5e479d8f050fdc127222bd5df",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "078f6f4a31c95a4af43d3b80e01388a7145fc4f2",
+      "size": 31,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/078f6f4a31c95a4af43d3b80e01388a7145fc4f2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac673f0aacd1e7f51f1b4862722fac62c200a711",
+      "size": 1065,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/ac673f0aacd1e7f51f1b4862722fac62c200a711"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ee2ee218e53a21bce35483551fc81fcc0854ee",
+      "size": 1068,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/57ee2ee218e53a21bce35483551fc81fcc0854ee"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d03a361efebd8190818b3b235b3618c0d866c8b",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/trees/2d03a361efebd8190818b3b235b3618c0d866c8b"
+    },
+    {
+      "path": "assets/splash.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e489c0ed7d3e32af37fe0aa1d159fefc739633",
+      "size": 524312,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/c5e489c0ed7d3e32af37fe0aa1d159fefc739633"
+    },
+    {
+      "path": "paper.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbee220ccefd1164098fd922e05e018866864d37",
+      "size": 28152344,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/bbee220ccefd1164098fd922e05e018866864d37"
+    },
+    {
+      "path": "train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06210830398e58cd12190d2abd2ca2b17a70ec14",
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/trees/06210830398e58cd12190d2abd2ca2b17a70ec14"
+    },
+    {
+      "path": "train/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "train/bsf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985ab9098b1a44d8a5fec6a62f251efc8cb61e56",
+      "size": 6266,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/985ab9098b1a44d8a5fec6a62f251efc8cb61e56"
+    },
+    {
+      "path": "train/encode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b22efdb1e984b325cf3e08bc71490b3c50928ca8",
+      "size": 8693,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/b22efdb1e984b325cf3e08bc71490b3c50928ca8"
+    },
+    {
+      "path": "train/finalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148bd475d35d2c7c4f57ac944e7b74125adc37ea",
+      "size": 7206,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/148bd475d35d2c7c4f57ac944e7b74125adc37ea"
+    },
+    {
+      "path": "train/fisher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8f7e891fad377e80ea5e00d284211532be6487",
+      "size": 18016,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/ce8f7e891fad377e80ea5e00d284211532be6487"
+    },
+    {
+      "path": "train/site.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e312ffc262efcbe6293f32e64821420816d7bbe",
+      "size": 6490,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/6e312ffc262efcbe6293f32e64821420816d7bbe"
+    },
+    {
+      "path": "train/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bebf26457cb48a2b5fe670d6653744fc157c2029",
+      "size": 16965,
+      "url": "https://api.github.com/repos/goodfire-ai/robotics_multi_dimensional/git/blobs/bebf26457cb48a2b5fe670d6653744fc157c2029"
+    }
+  ]
+}

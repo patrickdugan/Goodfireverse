@@ -1,0 +1,582 @@
+{
+  "repository": "https://github.com/goodfire-ai/goodfire-sdk",
+  "revision": "1270afee0b5a95acd78fb816ff08b40bd368d1f1",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f4c9c4807d8b9c407d03f242d593aa4c602b44e",
+      "size": 33,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/4f4c9c4807d8b9c407d03f242d593aa4c602b44e"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d45f3f7a0a352d33131d66b3196bd3c004f2b2",
+      "size": 11347,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/74d45f3f7a0a352d33131d66b3196bd3c004f2b2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b4e22959b3e6da70acbcbc48ceb6e84d1e9f01c",
+      "size": 23138,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/8b4e22959b3e6da70acbcbc48ceb6e84d1e9f01c"
+    },
+    {
+      "path": "__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1baf2818aebaa5479b5287507f3888922e829f8",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/b1baf2818aebaa5479b5287507f3888922e829f8"
+    },
+    {
+      "path": "goodfire/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b82f9e8da9bd428f42051cafb7629a848164682",
+      "size": 521,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/0b82f9e8da9bd428f42051cafb7629a848164682"
+    },
+    {
+      "path": "goodfire/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf901b75ef86e9e88204918539fdebd35b7214fc",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/bf901b75ef86e9e88204918539fdebd35b7214fc"
+    },
+    {
+      "path": "goodfire/api/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/api/chat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8c672fbb53f8c7c36137f8fd495455b754ded4b",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/a8c672fbb53f8c7c36137f8fd495455b754ded4b"
+    },
+    {
+      "path": "goodfire/api/chat/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/api/chat/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a4f3312d7aa78f99b058ea3ed8691b6b3427cd",
+      "size": 15805,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/60a4f3312d7aa78f99b058ea3ed8691b6b3427cd"
+    },
+    {
+      "path": "goodfire/api/chat/interfaces.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be77a8d2108cfd57f696fdf6e2109733f1fa09b2",
+      "size": 1034,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/be77a8d2108cfd57f696fdf6e2109733f1fa09b2"
+    },
+    {
+      "path": "goodfire/api/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631021531c55c773a168e70a7ba55734def907e2",
+      "size": 1399,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/631021531c55c773a168e70a7ba55734def907e2"
+    },
+    {
+      "path": "goodfire/api/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "392a7ccbb7f67561b34a8064d3c1f1d97a13b727",
+      "size": 161,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/392a7ccbb7f67561b34a8064d3c1f1d97a13b727"
+    },
+    {
+      "path": "goodfire/api/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919add64558afdb9f7a2d4b38b9a293ea8c5f3ab",
+      "size": 1760,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/919add64558afdb9f7a2d4b38b9a293ea8c5f3ab"
+    },
+    {
+      "path": "goodfire/api/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e28114bd451d00a58231e011180106c58fc87db2",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/e28114bd451d00a58231e011180106c58fc87db2"
+    },
+    {
+      "path": "goodfire/api/features/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/api/features/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d19dce79e718f3f454b89d22f1d4af1f97b0696",
+      "size": 29525,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/7d19dce79e718f3f454b89d22f1d4af1f97b0696"
+    },
+    {
+      "path": "goodfire/api/features/interfaces.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82eecd8bb2af472ae764e321aeee3d6b7c51616f",
+      "size": 994,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/82eecd8bb2af472ae764e321aeee3d6b7c51616f"
+    },
+    {
+      "path": "goodfire/api/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a85e841441759341318e82823bc18c8a26df8b06",
+      "size": 9244,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/a85e841441759341318e82823bc18c8a26df8b06"
+    },
+    {
+      "path": "goodfire/controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74f3759dee2e8643d23046bb4c0557f999449991",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/74f3759dee2e8643d23046bb4c0557f999449991"
+    },
+    {
+      "path": "goodfire/controller/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/controller/controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a875755688845cf1cb9c007eafff9bcf897201d",
+      "size": 11552,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/5a875755688845cf1cb9c007eafff9bcf897201d"
+    },
+    {
+      "path": "goodfire/controller/interfaces.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a96675d9726c4fd480efc08fb2ef026e4145477",
+      "size": 79,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/5a96675d9726c4fd480efc08fb2ef026e4145477"
+    },
+    {
+      "path": "goodfire/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3654f9535aa3574b772f41c73534ea3d8973d26",
+      "size": 48,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/b3654f9535aa3574b772f41c73534ea3d8973d26"
+    },
+    {
+      "path": "goodfire/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "675630805f20f18d19b92d107890adeed10cca81",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/675630805f20f18d19b92d107890adeed10cca81"
+    },
+    {
+      "path": "goodfire/features/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/features/features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d9b17cbb6704c47020d02202b6a72a55f8a3cc0",
+      "size": 24446,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/3d9b17cbb6704c47020d02202b6a72a55f8a3cc0"
+    },
+    {
+      "path": "goodfire/features/interfaces.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3bb0be984b35ee142c37008ca2e3094e235af4a",
+      "size": 291,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/f3bb0be984b35ee142c37008ca2e3094e235af4a"
+    },
+    {
+      "path": "goodfire/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "966662435d47551b65da60f69da04ee12796adaf",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/966662435d47551b65da60f69da04ee12796adaf"
+    },
+    {
+      "path": "goodfire/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/utils/asyncio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dfc728a73690730702dda1b3f1bfcae34f8bb2a",
+      "size": 1168,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/8dfc728a73690730702dda1b3f1bfcae34f8bb2a"
+    },
+    {
+      "path": "goodfire/utils/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d357844a33fee94077cc555729384526c91ad611",
+      "size": 55,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/d357844a33fee94077cc555729384526c91ad611"
+    },
+    {
+      "path": "goodfire/variants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "046cf940aae5b1e5ed70959ae751cb25f97048f2",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/046cf940aae5b1e5ed70959ae751cb25f97048f2"
+    },
+    {
+      "path": "goodfire/variants/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "goodfire/variants/variants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7985b0e85130dc8c28cede6a04124b4906de628",
+      "size": 8710,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/c7985b0e85130dc8c28cede6a04124b4906de628"
+    },
+    {
+      "path": "poetry.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03c033ed8f2a352c671ab760e0fb89f9e818489",
+      "size": 57337,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/c03c033ed8f2a352c671ab760e0fb89f9e818489"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28872ddfc9291f279ee0486f49a7c02e51dc315",
+      "size": 1025,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/a28872ddfc9291f279ee0486f49a7c02e51dc315"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d75f05234e182be746eda9730f74acc13fc056d",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/7d75f05234e182be746eda9730f74acc13fc056d"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/e2e",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cc090d0f3f8c6ea5395eb0d693ebe7bdf49e1de",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/9cc090d0f3f8c6ea5395eb0d693ebe7bdf49e1de"
+    },
+    {
+      "path": "tests/e2e/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/e2e/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5b76bb878672012b82fa3f8ec921578ba57d0eb",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/f5b76bb878672012b82fa3f8ec921578ba57d0eb"
+    },
+    {
+      "path": "tests/e2e/python/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/e2e/python/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1d847514d80193e39dc6ea177ecf68c8d013d2",
+      "size": 369,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/de1d847514d80193e39dc6ea177ecf68c8d013d2"
+    },
+    {
+      "path": "tests/e2e/python/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4afdc8e9abbc612c069eced9a2cf4c8b9ecd88",
+      "size": 800,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/bf4afdc8e9abbc612c069eced9a2cf4c8b9ecd88"
+    },
+    {
+      "path": "tests/e2e/python/poetry.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04efbc10030a7f6ca6a55de9cf58f13ed798ddbd",
+      "size": 120733,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/04efbc10030a7f6ca6a55de9cf58f13ed798ddbd"
+    },
+    {
+      "path": "tests/e2e/python/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db5c2010479aee6546c3d8a59d68e6310fefd75",
+      "size": 503,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/9db5c2010479aee6546c3d8a59d68e6310fefd75"
+    },
+    {
+      "path": "tests/e2e/python/test_chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a87ffd97f695058cbf1e8aff53d8bbf211da3f3b",
+      "size": 5996,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/a87ffd97f695058cbf1e8aff53d8bbf211da3f3b"
+    },
+    {
+      "path": "tests/e2e/python/test_concurrent_requests_features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1ec43c6f2e7fcc1fc9e34059655391a858a825",
+      "size": 15655,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/fa1ec43c6f2e7fcc1fc9e34059655391a858a825"
+    },
+    {
+      "path": "tests/e2e/python/test_features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e78f77227810bea8698f6a981937452ce0d264",
+      "size": 16624,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/21e78f77227810bea8698f6a981937452ce0d264"
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_chat_with_variant_feature_edits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee0702153fff4520a4de4d636348214a0512653",
+      "size": 2270,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/3ee0702153fff4520a4de4d636348214a0512653"
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_feature_group.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a07df5e80eb9ef80b0c9cac3088f73f5af5dc4",
+      "size": 5326,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/60a07df5e80eb9ef80b0c9cac3088f73f5af5dc4"
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_features_contrast_rerank.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3f57d59882753c1aacf64662a18158d5463028",
+      "size": 2920,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/4d3f57d59882753c1aacf64662a18158d5463028"
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_features_insepct_context_object.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab1f8dd5cd26ce41c4f8802a5332abf81e2fa589",
+      "size": 9948,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/ab1f8dd5cd26ce41c4f8802a5332abf81e2fa589"
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_variant_edit_clear_reset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebb7d1446fa97d2fd62311e612655a7e3956b17",
+      "size": 1874,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/aebb7d1446fa97d2fd62311e612655a7e3956b17"
+    },
+    {
+      "path": "tests/e2e/python/test_z_org_rate_limit_chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d23ddb0a58177b06d64cd0a77ee918c191944ebe",
+      "size": 1957,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/d23ddb0a58177b06d64cd0a77ee918c191944ebe"
+    },
+    {
+      "path": "tests/unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94d8109e85dbe2b397ce36136a83330520c9f7ef",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/94d8109e85dbe2b397ce36136a83330520c9f7ef"
+    },
+    {
+      "path": "tests/unit/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a8ae5efb8ac3a90e932d3e7bb4ab39c00490f3c",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/5a8ae5efb8ac3a90e932d3e7bb4ab39c00490f3c"
+    },
+    {
+      "path": "tests/unit/python/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df46f25dddc64af612303874a2694d1db5cbfb6b",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/df46f25dddc64af612303874a2694d1db5cbfb6b"
+    },
+    {
+      "path": "tests/unit/python/api/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python/api/chat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76972350265b46a3686f0a336b12d0065ff9c108",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/76972350265b46a3686f0a336b12d0065ff9c108"
+    },
+    {
+      "path": "tests/unit/python/api/chat/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python/api/chat/test_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acd200e9623d3c3d8b7ac0e57bc7f5977f56afbf",
+      "size": 3224,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/acd200e9623d3c3d8b7ac0e57bc7f5977f56afbf"
+    },
+    {
+      "path": "tests/unit/python/api/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a39fdf29a865c97b397edfa7ca7f754cc249adf1",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/a39fdf29a865c97b397edfa7ca7f754cc249adf1"
+    },
+    {
+      "path": "tests/unit/python/api/features/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python/api/features/test_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0015eb9560ce8d4628e40d4c8a493064413f3c79",
+      "size": 10695,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/0015eb9560ce8d4628e40d4c8a493064413f3c79"
+    },
+    {
+      "path": "tests/unit/python/api/test_exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc0ec1aaeb051c1a92d119883022de2fad38fd1",
+      "size": 1016,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/1cc0ec1aaeb051c1a92d119883022de2fad38fd1"
+    },
+    {
+      "path": "tests/unit/python/controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "219bbd9b9e2058d8e9694f2d664ff89aba25125c",
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/trees/219bbd9b9e2058d8e9694f2d664ff89aba25125c"
+    },
+    {
+      "path": "tests/unit/python/controller/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/unit/python/controller/test_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0ff7a2a67a9d476aa17c3699f11a301742325a9",
+      "size": 11341,
+      "url": "https://api.github.com/repos/goodfire-ai/goodfire-sdk/git/blobs/e0ff7a2a67a9d476aa17c3699f11a301742325a9"
+    }
+  ]
+}

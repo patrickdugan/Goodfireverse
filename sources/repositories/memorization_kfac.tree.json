@@ -1,0 +1,212 @@
+{
+  "repository": "https://github.com/goodfire-ai/memorization_kfac",
+  "revision": "8d059db5b18fb8b9a0bcbc835efbfc35e43bf1e1",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed0a6eabb7c2620eaf4d581f885c1088544f4a7",
+      "size": 22,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/4ed0a6eabb7c2620eaf4d581f885c1088544f4a7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3fe4f30d153d7be1e1353db116186bfc8d0d84e",
+      "size": 1768,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/f3fe4f30d153d7be1e1353db116186bfc8d0d84e"
+    },
+    {
+      "path": "__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e13f1ac3e290746fffca86973b9fff1c82ca6d8",
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/trees/2e13f1ac3e290746fffca86973b9fff1c82ca6d8"
+    },
+    {
+      "path": "data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2776c4dad5582e63c748c15ac1b788a1822b2bae",
+      "size": 128,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/2776c4dad5582e63c748c15ac1b788a1822b2bae"
+    },
+    {
+      "path": "data/baseline_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fab24d403884b6c104d6f18d99e6e07428a1e68",
+      "size": 11631,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/3fab24d403884b6c104d6f18d99e6e07428a1e68"
+    },
+    {
+      "path": "data/collect_kfac_multilayer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70351b72c462d063d56a4eaa894ba08398a69ca2",
+      "size": 9980,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/70351b72c462d063d56a4eaa894ba08398a69ca2"
+    },
+    {
+      "path": "data/olmo2_1b_large8_bfloat16.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd6df3e3ae05d7bf193fc654eaab43bc9334046",
+      "size": 316507,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/1dd6df3e3ae05d7bf193fc654eaab43bc9334046"
+    },
+    {
+      "path": "data/olmo2_1b_mem_extra_dedup_j70.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4bee71a31b1bf93bd83328a4623465d4d8ddf3",
+      "size": 429394,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/cf4bee71a31b1bf93bd83328a4623465d4d8ddf3"
+    },
+    {
+      "path": "data/olmo2_7b_64_48_118_extra_nodedup_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a1cd0ef06331c1b41a43cd2f45ae935edf6c331",
+      "size": 744773,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/1a1cd0ef06331c1b41a43cd2f45ae935edf6c331"
+    },
+    {
+      "path": "data/olmo_1b_dolma_dedup_val.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd545757ad199f8dc505863d150d2766e03cdfa",
+      "size": 665390,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/8cd545757ad199f8dc505863d150d2766e03cdfa"
+    },
+    {
+      "path": "data/olmo_7b_dolma_dedup_val.jsonl",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b7b80cded43f10ee0fbb23694004fce228c7c619",
+      "size": 664332,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/b7b80cded43f10ee0fbb23694004fce228c7c619"
+    },
+    {
+      "path": "data/olmolarge8_bfloat16.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c0ea42ba2be9301d1d6561beb0ce1e09b422d9",
+      "size": 1106235,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/c1c0ea42ba2be9301d1d6561beb0ce1e09b422d9"
+    },
+    {
+      "path": "data/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d37560df0eb1690e675605cf270cb1f5bc0afaa",
+      "size": 2923,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/4d37560df0eb1690e675605cf270cb1f5bc0afaa"
+    },
+    {
+      "path": "evaluations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb0b61fc7df44d947ca2a531c7ad49c2d1e17f9a",
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/trees/eb0b61fc7df44d947ca2a531c7ad49c2d1e17f9a"
+    },
+    {
+      "path": "evaluations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluations/eval_mem_kfac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e25771b999562cc67f9bdc86afc56023dc663c6c",
+      "size": 20481,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/e25771b999562cc67f9bdc86afc56023dc663c6c"
+    },
+    {
+      "path": "kfac_treatment_pairwise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "145214f4dcb2b6ffd27249d495c6db2bdb7d2f3a",
+      "size": 23321,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/145214f4dcb2b6ffd27249d495c6db2bdb7d2f3a"
+    },
+    {
+      "path": "metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9478716008ff21f1ddf04f19cbe193fbf808830b",
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/trees/9478716008ff21f1ddf04f19cbe193fbf808830b"
+    },
+    {
+      "path": "metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "metrics/cached_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c22f5245e01c2bab424505617ba8c250206a68",
+      "size": 2854,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/e5c22f5245e01c2bab424505617ba8c250206a68"
+    },
+    {
+      "path": "metrics/levenshtein_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1319a48ace6620e632d94a8f5480d85bb65ed46c",
+      "size": 11726,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/1319a48ace6620e632d94a8f5480d85bb65ed46c"
+    },
+    {
+      "path": "metrics/memorization_evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ce4bd8690b62a67f0b293baab71000ec8fcc4ff",
+      "size": 18547,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/9ce4bd8690b62a67f0b293baab71000ec8fcc4ff"
+    },
+    {
+      "path": "metrics/ndcg_evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc24b1e0c1892938323d6d56d2f594a89fea2b5",
+      "size": 24640,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/4bc24b1e0c1892938323d6d56d2f594a89fea2b5"
+    },
+    {
+      "path": "metrics/perplexity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2dadf10b42f91f2425fbcce8a2f18bf76b31974",
+      "size": 874,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/f2dadf10b42f91f2425fbcce8a2f18bf76b31974"
+    },
+    {
+      "path": "metrics/position_perturb_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0f5c254e9614ec5ca6e598abc9f946ab327c3a",
+      "size": 16856,
+      "url": "https://api.github.com/repos/goodfire-ai/memorization_kfac/git/blobs/2c0f5c254e9614ec5ca6e598abc9f946ab327c3a"
+    }
+  ]
+}

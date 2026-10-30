@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/goodfire-ai/sae-manifold",
+  "revision": "f2632ddbb25f4c670254ceea999058b9ba4b0450",
+  "archive_sha256": "cc56b0113e96f8f31e581f28ffcdc3f5bbbc0cbc869fcc73d123342b0a7503d5",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "27c2887663ae4ecab365d18ee83fa7d3ff8d9249f61ef59c87ae93f649466719",
+      "bytes": 1139
+    },
+    {
+      "path": "README.md",
+      "sha256": "60065fabb49b68963b1580ddf50ee65e1c467af65e0d65e5d0c9ea138735bf4c",
+      "bytes": 4632
+    },
+    {
+      "path": "background.py",
+      "sha256": "cd81ff689ae92effe6b6cedabe2ff2597ebe169ead852c7ffa3b0b2ba87ac437",
+      "bytes": 5303
+    },
+    {
+      "path": "data.py",
+      "sha256": "bf2bfe57187bab72892d37f1f622f334674c3132c30c3620da63b33633b4e5b7",
+      "bytes": 11487
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "b48a7dcb152786dedeb75bd7bc022d0cbc60fd9aef28c39569039cbd41799456",
+      "bytes": 1311
+    },
+    {
+      "path": "saes.py",
+      "sha256": "acd70b73a4f54b6cbd7950d3bf718d94d52cef667e360964bf2684355b6efcce",
+      "bytes": 6336
+    },
+    {
+      "path": "subspace_capture.py",
+      "sha256": "9dea3acd2dc4da7501ef3360a1a5d18f022b26efb36b7dad92367eb9fe56a1ce",
+      "bytes": 20625
+    },
+    {
+      "path": "unsupervised_clustering.py",
+      "sha256": "6246d7c24fd061a93666d0cf6b2594c81e992381549cced10681ae8f2e208d77",
+      "bytes": 34480
+    }
+  ]
+}

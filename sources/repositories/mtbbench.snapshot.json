@@ -1,0 +1,4962 @@
+{
+  "repository": "https://github.com/goodfire-ai/mtbbench",
+  "revision": "ae2f8fe17e86c382eda992fda33e633d36867370",
+  "archive_sha256": "9aa27d07d8356ecab6a23f6de5a406a0b2110b7b376d45130619728ff6b8f6bd",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "912c927aa3f9b870533ab79919102060c88a6f80701a9298e0d5d977e8172665",
+      "bytes": 1124
+    },
+    {
+      "path": "MODELS.md",
+      "sha256": "dc510131a4067b9c663a47f26d648c21b8e44ffaf8daac20e836bd982c545287",
+      "bytes": 3285
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3203bbf9d90ca36fee1847b1a5338e4496d5b5d667ec9a58bacb4f00f47e002",
+      "bytes": 8756
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/104_chatlog_1747208942.json",
+      "sha256": "c7f31f2d42e58475c07aa4257dd7bc30b259bc881e620585f2d0ff1a24a8a22f",
+      "bytes": 85260
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/116_chatlog_1747206298.json",
+      "sha256": "723a29d8c3d5c149e2fff2da6f9e3d6107eeb75cd7972fee3678231fe73e07ab",
+      "bytes": 81347
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/120_chatlog_1747185340.json",
+      "sha256": "5be27cf76c6831013d6938eb7cf6486a7aa34d4372049eb407858764db05a83b",
+      "bytes": 88809
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/121_chatlog_1747177314.json",
+      "sha256": "9934d1f497cba1fa9d9c193f4ab33fbb2521bcf00b4bbd02b087bc83755ae20e",
+      "bytes": 70888
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/162_chatlog_1747172523.json",
+      "sha256": "a9f41f1fb7d796a1856131650743337a595132841c774642aee6bfd6a51acca9",
+      "bytes": 130526
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/176_chatlog_1747175677.json",
+      "sha256": "d58cb1031214bb0a07174f6e859e5cacac3dc9b92f466658d9537dd1f04bc87d",
+      "bytes": 79140
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/225_chatlog_1747187397.json",
+      "sha256": "688a96ae99444e6c09c8461e66713850c1b8c583893a2ff968be460bb4cb8430",
+      "bytes": 76728
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/250_chatlog_1747210664.json",
+      "sha256": "5f3aabfe70ebb3a2f93e5b572ceed42556078b73efdd3b01129d7f69e8cb79d9",
+      "bytes": 82434
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/296_chatlog_1747170367.json",
+      "sha256": "0efa3d7531e48601065eef9aeed6875f5f9fef5e8acc1a29e5826470dbd7c227",
+      "bytes": 76993
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/334_chatlog_1747174741.json",
+      "sha256": "69434731aab4ac6bb05eb9f56f51a99160c2f0116df3f2ea738971bc380bd63b",
+      "bytes": 84003
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/342_chatlog_1747186349.json",
+      "sha256": "d3ded7b114031e701dfd12d79981be2c8a7a305e449a122d3d46f199cf2360fb",
+      "bytes": 75758
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/346_chatlog_1747182913.json",
+      "sha256": "0fb8210f98ddac289eac40f91454ce081c0b527cdea3b8c7f73f1d5fe9d36c1f",
+      "bytes": 73544
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/403_chatlog_1747178623.json",
+      "sha256": "5b9c08b414bc638663fb4a386593de141cd65150994e9e5be48e02b6190556ea",
+      "bytes": 76496
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/476_chatlog_1747171714.json",
+      "sha256": "66ac5ef26cc999497ada2e7f1e052293fdc7c4df4b9b66836335477d83b47d4a",
+      "bytes": 80740
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/530_chatlog_1747204478.json",
+      "sha256": "8f463de2de2607266c198bd40b24dd7f56971eda3afc1dbfe011d3ea1c41771d",
+      "bytes": 81263
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/559_chatlog_1747207130.json",
+      "sha256": "a592758d203a64bbbb34f8b511b01c64aad2ce32dfa6fa2a9f7d532a0a6058a2",
+      "bytes": 81563
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/564_chatlog_1747173938.json",
+      "sha256": "13db090fc13158ce8fff258b9bfa39bd7bdaad9f074371e235e15cda45f34616",
+      "bytes": 81695
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/583_chatlog_1747173324.json",
+      "sha256": "ac3fa609067aaa858b40c454ac2ce9750fac84428ba7545575bc531e42cc418d",
+      "bytes": 83363
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/632_chatlog_1747207895.json",
+      "sha256": "5cce3930fe50a2659984ceb1abfcc4afc6af8e91c331c4ef84d7f002f1b8e877",
+      "bytes": 84442
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/664_chatlog_1747182361.json",
+      "sha256": "bdb4b979007a2ee4bcc73ecfcfa4903f5bd1fb6dfc12eb86da5af1292467a337",
+      "bytes": 81992
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/698_chatlog_1747178081.json",
+      "sha256": "90c320bca505819c276cfd68cffd2c2ecf0f7d41409773b740611b8922e7516b",
+      "bytes": 81099
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/706_chatlog_1747180640.json",
+      "sha256": "636e7e51b5352dd943685756248ac115562aa793c71e0651e9d17710007e6006",
+      "bytes": 90202
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/723_chatlog_1747209750.json",
+      "sha256": "2efbd7d3d03edeb574dade2337ad18bc46b1aa6d1c6d60042182fca64d81befd",
+      "bytes": 80077
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/740_chatlog_1747181484.json",
+      "sha256": "ba240139cf149f1fe38417021feffba29b94bda36c24d057341fba71131117aa",
+      "bytes": 86432
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/741_chatlog_1747171008.json",
+      "sha256": "f8b68fc8e02024f03cc829e03a7d71e3e4e8272a5b9a5e568568d6dc4c306966",
+      "bytes": 78071
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b-with-tools/761_chatlog_1747179546.json",
+      "sha256": "b26482ea0cf34a248e1890788769ad0095ab527a9dafefd37fb9a83d51b6f809",
+      "bytes": 86344
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/104_chatlog_1746390551.json",
+      "sha256": "117e353a01d750eefd0c17b91c47dd77a2687be7b4617af878a2929001f24291",
+      "bytes": 55170
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/116_chatlog_1746388109.json",
+      "sha256": "4a568d25433cf96e97e2c5092101e4758817c649b663e2e5017539337bda4a75",
+      "bytes": 51794
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/120_chatlog_1746385980.json",
+      "sha256": "a2a5eff627f3b611456ff7573aa12778951e83157a3e2e9c57baa2d3973da275",
+      "bytes": 54337
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/121_chatlog_1746377852.json",
+      "sha256": "2623e0dcffd1f9b29115e657fb4e0459dd24d6c2e18dce72c3e587d5241ef85d",
+      "bytes": 45240
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/162_chatlog_1746374058.json",
+      "sha256": "652868d9da67f2e8cc024bfe0c5e80e53b4c6535a2067edb57c1bc4c98650be4",
+      "bytes": 56602
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/176_chatlog_1746377201.json",
+      "sha256": "6931b13f4d6c87fdb54daaad572ca174021891f29028b42b0c57576ba48b47df",
+      "bytes": 48159
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/225_chatlog_1746387422.json",
+      "sha256": "35029ec1413eafb1e89c6fe9c4df16877463090196e49daaf5e8ec55560675e6",
+      "bytes": 51762
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/250_chatlog_1746392167.json",
+      "sha256": "8987b8ba0a2e622645b3e9b22c311bbbe5f3a9829a72e884c88054d7197ffd34",
+      "bytes": 54327
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/296_chatlog_1746371416.json",
+      "sha256": "6dee5710bc3b85343872f389e9fc3a17600557f54ad68224cd56deb24da66a14",
+      "bytes": 47221
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/334_chatlog_1746376565.json",
+      "sha256": "e7965360e1d2917ef15abefa5eb492b1953df6b6b4a0d23ad2b3eec1663850cb",
+      "bytes": 55589
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/342_chatlog_1746386642.json",
+      "sha256": "bca9ab1cf52f83e17da9c12c4340d998404757f1c09e28aa2a68012c5b67a3e8",
+      "bytes": 47625
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/346_chatlog_1746384309.json",
+      "sha256": "dbdbc0ee6f8cd11c71123b7d17f5a7f019966baec30d2cd92471acab0a85a71f",
+      "bytes": 57721
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/403_chatlog_1746379104.json",
+      "sha256": "12380b615af90b31472e3026e97fea64e6da255c041e17d17e5f9e3992e4a6c7",
+      "bytes": 50810
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/476_chatlog_1746373254.json",
+      "sha256": "9c488c6ad698acab419ce2722b4b324f3fe073dd781170011d4666736a9c45f6",
+      "bytes": 59986
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/530_chatlog_1746385127.json",
+      "sha256": "8619ab521f993b3b05743dce9625a007b66aa17c1bc9f8d112c40f2393246e28",
+      "bytes": 54508
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/559_chatlog_1746388793.json",
+      "sha256": "8de3825879fb45e2f6df6baeccca8d3cecc23aef0cf9312ba62f5c3a0360a311",
+      "bytes": 51367
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/564_chatlog_1746375645.json",
+      "sha256": "a95f5e5b5ddc8cc2d89926845a171db919236829730f0bab7abc94efd52fd26c",
+      "bytes": 55093
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/583_chatlog_1746374814.json",
+      "sha256": "fe37edaf43ed7e7b9d78633e6ca910c0375153be5e9a97e3ac84c11dfe783a2e",
+      "bytes": 50384
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/632_chatlog_1746389616.json",
+      "sha256": "b9ffa0e8265cb4d73db0f209f00c447e41bd77d76edef12cd736e94685a37af5",
+      "bytes": 56784
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/664_chatlog_1746383387.json",
+      "sha256": "d36e923704f64290c705713eecc0ad41a32b127617dc7a7ad7198f2d1c276162",
+      "bytes": 63062
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/698_chatlog_1746378443.json",
+      "sha256": "159b9df9630eae6c0e3bd0a8ade3fa0c206a37fe9dc9b32e920e6bf132aed0f2",
+      "bytes": 48729
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/706_chatlog_1746381519.json",
+      "sha256": "39733b18a443295f42e8d1a1292305e54efcf36b75a4c31f1f98e2937ff75b97",
+      "bytes": 61916
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/723_chatlog_1746391417.json",
+      "sha256": "6808efc0e8bb9df266b636fc351474efa5bc415ee1c03e29b9d0a54c7f41f2b4",
+      "bytes": 54133
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/740_chatlog_1746382227.json",
+      "sha256": "aecde80ce6d453baabad68df4fb4062811472f4938a3515a06a4636ddb47008e",
+      "bytes": 51232
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/741_chatlog_1746372131.json",
+      "sha256": "e10dd28bffb602a013afef45cd44a0a18fa2ed1883038181f75cefab65e1491e",
+      "bytes": 52661
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-12b/761_chatlog_1746379908.json",
+      "sha256": "a1961ee45af88e0341924c2d86805ecaf6612b69184965f65416d260022fc861",
+      "bytes": 52324
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/104_chatlog_1747224056.json",
+      "sha256": "f6893303969912eec564815d618b0adafdded711cb6becdac58230d1717bbafd",
+      "bytes": 88760
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/116_chatlog_1747221203.json",
+      "sha256": "f386cfed47e611d96c1769d852a931df6e6429b5b24f2079d4e9b7f1c50608f7",
+      "bytes": 115325
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/120_chatlog_1747226707.json",
+      "sha256": "b42372907b2e4e8d94482b82ea0582752d6322648a76dc39bd72fb738c6481f9",
+      "bytes": 89785
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/121_chatlog_1747225292.json",
+      "sha256": "60f479423ecb16305f3e2d9767acb8f6d3c4da6020fb79212d4e62904dc18ec1",
+      "bytes": 74819
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/162_chatlog_1747220894.json",
+      "sha256": "afb9ec95c6d7c512e1549cffd2020d0f9dd557e88d9d60ffab213a7bd3cead7c",
+      "bytes": 87085
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/176_chatlog_1747224410.json",
+      "sha256": "5b441b8e071d1323c2edded7645df702618a67e57073fdde3ca435e802f62a03",
+      "bytes": 80595
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/225_chatlog_1747220302.json",
+      "sha256": "b7db73198c9a980ae754ffddd2298217892b36afc277b63ae30c75ce9dc7ff3d",
+      "bytes": 81992
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/250_chatlog_1747225908.json",
+      "sha256": "a5b656dd188b296b54aeef1e6b9ef4cb0d055af3f3c7ae638d3674fe27f7bd07",
+      "bytes": 88668
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/296_chatlog_1747218076.json",
+      "sha256": "5dc5c360e40eb70434ff9607e49c975de009e4bdfe6319612fb966b77f0a9ae6",
+      "bytes": 82023
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/334_chatlog_1747223480.json",
+      "sha256": "3964ad7c0e2f407369b64836e744376b12384f9a1198ce790c428e9b20c9e2d6",
+      "bytes": 80586
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/342_chatlog_1747219465.json",
+      "sha256": "1b7f06273617e97785a166b0372da0296ba12b909c55a7fe14c6ef09adc77ca3",
+      "bytes": 77133
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/346_chatlog_1747224632.json",
+      "sha256": "a9c4a4e2f3c78ac9cc9b6e5f3af906126f29cc8deaea73801a3010b512bec1cb",
+      "bytes": 89838
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/403_chatlog_1747219655.json",
+      "sha256": "fef9f64d2c46fd1df2db15b03d40469f04434c30047e05e30d92de3751aa3bb2",
+      "bytes": 82020
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/476_chatlog_1747219944.json",
+      "sha256": "0bdb1dac54243995aab73d16d7584ddfef6fadda683826c1fed344d51a2304da",
+      "bytes": 80726
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/530_chatlog_1747225602.json",
+      "sha256": "e2ba65e8ea6ebbe98c4249f6d4940bfac98652c033a6d4dc3cd42f976e81ac9f",
+      "bytes": 88099
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/559_chatlog_1747222030.json",
+      "sha256": "abec2cb1677ffd6ca4ee41d20d57263a349736530648f3d1115c0575546fcd75",
+      "bytes": 101995
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/564_chatlog_1747222647.json",
+      "sha256": "1bec45f96e3b598ba79d4174760974823e8b48b98f00b3e3350cbb5fb882deb3",
+      "bytes": 83861
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/583_chatlog_1747221840.json",
+      "sha256": "e687337724db9a15352fcebcf25429ff4671641b9ebfbb6676ad65e24bd8f301",
+      "bytes": 83606
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/632_chatlog_1747222956.json",
+      "sha256": "17c56917315840e9bead925f2c013ecc0dafb8be77bdf3b4055d8251f86eaa98",
+      "bytes": 88703
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/664_chatlog_1747223523.json",
+      "sha256": "b7552838bdeca68f074abf3889afeb4ec7e82d7d89c6fa8ca3ce5d190d24a011",
+      "bytes": 85068
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/698_chatlog_1747226312.json",
+      "sha256": "5ac3e8f1747ac9b647c07c6f616f84f6f6fffc92d6203dd37f7ddbc1862c1de2",
+      "bytes": 87276
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/706_chatlog_1747221602.json",
+      "sha256": "74836d17bd82c89840b0f91d230df8497db81867be628e009287e9506c941d4c",
+      "bytes": 88597
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/723_chatlog_1747224888.json",
+      "sha256": "cae2ece7f6698181139862dcc1563b8334bef46e58a600bb83a3b7d458434c6b",
+      "bytes": 80863
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/740_chatlog_1747222603.json",
+      "sha256": "6b74bb9dec956b5492fc74aaac7d30b304b65a5b074a9cc4342ca14db75eddb1",
+      "bytes": 90927
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/741_chatlog_1747219068.json",
+      "sha256": "175456dfef25b14ae2c0631699bd4add3953a6eb9031827278e77b466d89e299",
+      "bytes": 132755
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b-with-tools/761_chatlog_1747220677.json",
+      "sha256": "85840bae37aa70ce1067548c8eccb02baf2b932733edf66b9024326edda982ef",
+      "bytes": 88504
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/104_chatlog_1746437648.json",
+      "sha256": "7721f9ed60d7e72e23da0f8fbc6451e464afe59874fcbc08f032c791c5b41ea9",
+      "bytes": 61984
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/116_chatlog_1746433235.json",
+      "sha256": "5f76066f3955bd9f46a12f0e775d863a8f4a86cfa452f44b6be85d4b54c88071",
+      "bytes": 55902
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/120_chatlog_1746429501.json",
+      "sha256": "df15f1395c4586070df2fd3cd1cc7aac10424f65351110c12033ff7300e37272",
+      "bytes": 59224
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/121_chatlog_1746414240.json",
+      "sha256": "60e551ebae5c1a4e0312f78d3795089be94aa1bdaa0c0b32866891f2e9e02f52",
+      "bytes": 54940
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/162_chatlog_1746406662.json",
+      "sha256": "9a15c9f902e7451f21aa976774c9664d37f29e08bcb721d549d2dbe41a9ab02e",
+      "bytes": 58685
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/176_chatlog_1746412563.json",
+      "sha256": "dda9fcb26aa3099205aa0c682776f74d9b33b07404b34661c3d11a3472884af8",
+      "bytes": 49096
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/225_chatlog_1746431953.json",
+      "sha256": "24193667021df8685de236f206500c4c629710585cb6ec9e4e31a05e8e86ad13",
+      "bytes": 49863
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/250_chatlog_1746444241.json",
+      "sha256": "fff2ac3eaac8bfe227cb735a3589a75cf876a576d2098ae966e9f5ab3c2ab948",
+      "bytes": 50721
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/296_chatlog_1746400959.json",
+      "sha256": "31e0ef12cce0e5d4289401a84c1399cb04b5c4a5c9bb072e9844d47b39dfbba8",
+      "bytes": 48974
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/334_chatlog_1746411160.json",
+      "sha256": "3c2b2886c092def151a6bdc9b5f951cb3831ce482799d168124d658ffab07753",
+      "bytes": 54885
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/342_chatlog_1746430946.json",
+      "sha256": "09ef7b856ddfe3dd96ebe3444111ea386b9c12e85b57a9076d74d7ea9c380477",
+      "bytes": 53365
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/346_chatlog_1746425913.json",
+      "sha256": "ebccb918b27a153dda5834eac8fe7d0768cc10bbc5d3eac774c789c7455a882b",
+      "bytes": 66514
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/403_chatlog_1746417415.json",
+      "sha256": "3a7272d28b6ef00089d3c5f8b03662076b34b28b0ac4139fc5144d1a11861b0b",
+      "bytes": 55022
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/476_chatlog_1746405046.json",
+      "sha256": "695aa5f0ad5948f21d913e1a8d111aaaef912b30ada338a8cd3ca9470918b98c",
+      "bytes": 64561
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/530_chatlog_1746427735.json",
+      "sha256": "ee28907390c74b6f664ee3acbade52a5106e1de2e99c386bc0506dce96bf247a",
+      "bytes": 61587
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/559_chatlog_1746434214.json",
+      "sha256": "0455cf1519f3326e57a68e3251c80adabdb8690630a4d4f46c9d7a0ea56379fd",
+      "bytes": 52191
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/564_chatlog_1746409570.json",
+      "sha256": "f08183cb94513f8e13693ecfbf1bb2729d2c722b3c3a739c5a2f960b7783001d",
+      "bytes": 51966
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/583_chatlog_1746408420.json",
+      "sha256": "ac34849883123d51542b3548b51322f5ac78b69ed49ebc350d9d0ca4b1ae1826",
+      "bytes": 57243
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/632_chatlog_1746436013.json",
+      "sha256": "9fcd72c60ccf04deaad5cfa011f83cd7b86e2cb309e306649a1da4aca3b3aeda",
+      "bytes": 66026
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/664_chatlog_1746423777.json",
+      "sha256": "59bdd168a205b53215075dc1dc1ab87a9eb28c0d51009616fadd35a9e7e6adea",
+      "bytes": 57704
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/698_chatlog_1746415969.json",
+      "sha256": "9dfc6f54210f79272c54b617e686721059666eb9dc71f64ec8b68d41ced3415d",
+      "bytes": 61867
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/706_chatlog_1746420838.json",
+      "sha256": "3c404dd0acddb9256951cc844032a0e773e4025dee29ccca3c1d502145809d57",
+      "bytes": 57726
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/723_chatlog_1746439005.json",
+      "sha256": "69ea769b4af749a7ec0487399d676253150dd93389733163cb41b46248413743",
+      "bytes": 56457
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/740_chatlog_1746422123.json",
+      "sha256": "41212be26f5504c055e16c48658f15008f30c9c33738c55b699c2053291b8d39",
+      "bytes": 51633
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/741_chatlog_1746402643.json",
+      "sha256": "6ffde1591bd00f62c1df4a5f797ae82e9710e68f05978c8e05d19f4a9cb0db89",
+      "bytes": 55478
+    },
+    {
+      "path": "agent_logs_hancock/gemma3-27b/761_chatlog_1746419220.json",
+      "sha256": "e1687b729ba72d6801a6b187030e15c0479c1affbf6e176d1e8b8976d9484b9e",
+      "bytes": 57325
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/104_chatlog_1746569575.json",
+      "sha256": "26f63307024a35ce88eff0b39ed0b339c8fd95fef34bd580109020edde41f4de",
+      "bytes": 56048
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/116_chatlog_1746569201.json",
+      "sha256": "6df7c1dd6eb03222f4f7347e2b70c8b1dc9efce06fa63641700272d7a0e96451",
+      "bytes": 64621
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/120_chatlog_1746568700.json",
+      "sha256": "9cae5bff76e0103bcf0bb7e5647faa3aa7c5e2d158966bf40b5cda97058dbbec",
+      "bytes": 62847
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/121_chatlog_1746566956.json",
+      "sha256": "c8320c5356085ec4f0df54d884536beb634c7ff55cc771fbaf02a9b73ad5eb93",
+      "bytes": 46129
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/162_chatlog_1746566241.json",
+      "sha256": "1e5cf282b3e939a55b038b41c76592c160d6240b707294979ca695ae3e549e21",
+      "bytes": 56039
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/176_chatlog_1746566862.json",
+      "sha256": "4d0e46adedf70fd1769b24610fd7c639c6b37e2bd7419aeeb3b21b025c72baaa",
+      "bytes": 59167
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/225_chatlog_1746569027.json",
+      "sha256": "196e453e67cebdc2f22ac9b389ee7f7163ecc6ddb33f7b12533731867ad201aa",
+      "bytes": 60734
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/250_chatlog_1746569859.json",
+      "sha256": "a5744531ef9f82cdfd1c15614080673fde2ec113fab3186dcef896fe2398d3c6",
+      "bytes": 60181
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/296_chatlog_1746565843.json",
+      "sha256": "5c1c36d979f961463fbda34c2d9045a030091332d3dc4546cc577ce620d605a4",
+      "bytes": 53659
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/334_chatlog_1746566703.json",
+      "sha256": "f20501853cec5d24015ed0fadf17f92b0e98dd9ece4b7162f03df53bd7f46301",
+      "bytes": 54342
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/342_chatlog_1746568871.json",
+      "sha256": "74fafa401c5d44573e384b4dd0ff6b2d77785c690dcb5d817b2286875ac30e79",
+      "bytes": 55580
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/346_chatlog_1746568363.json",
+      "sha256": "58517afea92a834b7f940fa7a77ced676da2aa8787e0ed3cea055df49167a820",
+      "bytes": 82704
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/403_chatlog_1746567323.json",
+      "sha256": "371b08b387437d5ecc94bbcdbe431d8b1c6de8e9d35def2001439db88c3af696",
+      "bytes": 63908
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/476_chatlog_1746566126.json",
+      "sha256": "1eae311329f67a7f3948e527ad80be9b3081fb4a440f9eec5107df18ac226d57",
+      "bytes": 54109
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/530_chatlog_1746568522.json",
+      "sha256": "612e5ad04c493b4cb5d307724549b56812b2791e32e29c981a1931ca5b24ca09",
+      "bytes": 65485
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/559_chatlog_1746569314.json",
+      "sha256": "f345bf9265d830d6133d0c902e6c2fdae3dda642fe243947ecea5b6be957eb01",
+      "bytes": 61719
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/564_chatlog_1746566575.json",
+      "sha256": "1b68fe3837d805d73a773b59fabbce07c27b858cd9a4fd4efbada27502cad2de",
+      "bytes": 60699
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/583_chatlog_1746566395.json",
+      "sha256": "478714b8ef9cb9e49f5868b5dcc23d558ff96d885da7ac78b22bc36524b8d141",
+      "bytes": 51728
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/632_chatlog_1746569440.json",
+      "sha256": "aae4346865b64b8a7c6fbb704af5d2eea1928b1bc867778e364ed7742da3a665",
+      "bytes": 58257
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/664_chatlog_1746568159.json",
+      "sha256": "0b29867793191a9e6584ae4f4f175b2a59777ebff048af984e471bc8d021f2aa",
+      "bytes": 62280
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/698_chatlog_1746567117.json",
+      "sha256": "46c422956f87073a8a308c3015210c9ceb53a933af106ebc181600acc584b176",
+      "bytes": 80559
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/706_chatlog_1746567692.json",
+      "sha256": "63c7d43fda01a57c3ee35cdd4011ac51952c3b910596f61228d6cf6f10407a32",
+      "bytes": 61933
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/723_chatlog_1746569721.json",
+      "sha256": "abedd144ca9b9eb11a7682740473f6f6ecba3fdf121e6af0586cfaa5784053b3",
+      "bytes": 66753
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/740_chatlog_1746567845.json",
+      "sha256": "cd43601f5f3ec35be81207f3024dc5c78d35636df9571a423b9c83c49f406900",
+      "bytes": 52618
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/741_chatlog_1746565990.json",
+      "sha256": "79a383524b3365632390abec54dc55deb513b995eb1fdfd8f25da3c045ab05fb",
+      "bytes": 66015
+    },
+    {
+      "path": "agent_logs_hancock/gpt4o/761_chatlog_1746567499.json",
+      "sha256": "efd3db46facdd673220fba0e474e92dc7aba8e32eed81d0da69cd2f8f963961d",
+      "bytes": 58921
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/104_chatlog_1747277104.json",
+      "sha256": "a24236aa1b0875853948599de9ce55a6b2e8cec2ce480045b91aaf3cb918de69",
+      "bytes": 122815
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/116_chatlog_1747274480.json",
+      "sha256": "15696e3846208ff8fe058582e3252f5eb3de2183c2b7081c81e9065c7009480c",
+      "bytes": 118169
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/120_chatlog_1747271763.json",
+      "sha256": "76eb09c9dfdedf0eddb6ea67ed6fb348cd9c0429187d724c823f5076e7bfc315",
+      "bytes": 113022
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/121_chatlog_1747263251.json",
+      "sha256": "26dbd16a3187c150e3025746df9c2722a867e2d23f754b19ecaed71bb3ea7892",
+      "bytes": 100251
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/162_chatlog_1747259326.json",
+      "sha256": "6394dcbc447bd14c395cb4297061b72f38818c1d6e962ce6a2e8312967054ab8",
+      "bytes": 135283
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/176_chatlog_1747262108.json",
+      "sha256": "450c05f72b18c60b2e9f871c4d25b2a2b16e4637480fb97fd85117940097cc9c",
+      "bytes": 82888
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/225_chatlog_1747273300.json",
+      "sha256": "18b5ed10125a967f95dda006dcd07f1a1b4d1a4292d7ab54e8b4db60da74dc04",
+      "bytes": 97108
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/250_chatlog_1747278473.json",
+      "sha256": "73ec34954880facacf4a9cd82847d75521d553470c99e6ccef9ad92fe5cc4827",
+      "bytes": 113989
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/296_chatlog_1747256778.json",
+      "sha256": "a3afd1fa050daa46689f70523bda49a1fbe07dafb506a7f65181392f1fcb7578",
+      "bytes": 80277
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/334_chatlog_1747261316.json",
+      "sha256": "5df3d81085736cb43295149fbc4653a482aed192dddd8376cadb63c132cef140",
+      "bytes": 85667
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/342_chatlog_1747272823.json",
+      "sha256": "e84b162016d611713c8a3a1217952a7f505633ae880c31bf38aaea71daffbcab",
+      "bytes": 121112
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/346_chatlog_1747270084.json",
+      "sha256": "42ad34be2f6b91259cab464ab410f9c7c17748b97a0e9964581afda48f6a047d",
+      "bytes": 115894
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/403_chatlog_1747264964.json",
+      "sha256": "ecd802ed809a14efb901f1e454b415e481d182f29f3c0f1fdf530c2fa2c61d36",
+      "bytes": 87255
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/476_chatlog_1747258599.json",
+      "sha256": "d11506d9b09684004374362e28cf0305f114b8a2a2d711520fe5ca7bbc922880",
+      "bytes": 101977
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/530_chatlog_1747270860.json",
+      "sha256": "fb4663b60820435a95378fa177a8d895c9ef81bf71c400e8a07127fca4cb824a",
+      "bytes": 110855
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/559_chatlog_1747275342.json",
+      "sha256": "002abf2663ee67894ee549e3efe63b31098ed0ac868c5f3a59492c186cde7435",
+      "bytes": 90920
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/564_chatlog_1747260645.json",
+      "sha256": "510d72ff1de41097ae08577455b4a14df4a206d968926db480941fa5da4bd5f3",
+      "bytes": 86058
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/583_chatlog_1747259952.json",
+      "sha256": "e3a09547498eba7383fd12a10b0ec6287dee6b8412890a9139659b7ea547a707",
+      "bytes": 93433
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/632_chatlog_1747275961.json",
+      "sha256": "bf974bc7cd0d815a65b4586024791af978ca3aaf779a28ce4945daa17702d4ef",
+      "bytes": 85772
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/664_chatlog_1747269210.json",
+      "sha256": "91f00312c4387815924cdd6432d81edf9b1c08b0e6179bcc80296f3f18856905",
+      "bytes": 84948
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/698_chatlog_1747264016.json",
+      "sha256": "c001ef582979d61c05dc8564cb3d417dfbee94fb0a9a6de4219cca8ba14e1cda",
+      "bytes": 86409
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/706_chatlog_1747267544.json",
+      "sha256": "9494f742f8294e2a98be673d483855a69ac2dc2f89c4b41722e502e450414286",
+      "bytes": 112453
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/723_chatlog_1747277768.json",
+      "sha256": "3997053e240b668d2f11f56160ee1e0d0b91a1c8158fbc2639e3245b3013ae74",
+      "bytes": 107457
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/740_chatlog_1747268684.json",
+      "sha256": "2a27a269c63b8bdeca03a9359ea31d4fffee754b46449109b67065b95684cea8",
+      "bytes": 134711
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/741_chatlog_1747257331.json",
+      "sha256": "16b2d44e04a64715f61e8f8517779ee3953a3f1ec329f5cb47a8015d4a3f3127",
+      "bytes": 80047
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b-with-tools/761_chatlog_1747266871.json",
+      "sha256": "181b44b2348a72752ed501896b17c95ce304555e24d317b413889d025039f70b",
+      "bytes": 137218
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/104_chatlog_1746409992.json",
+      "sha256": "58165609e356a92365d6c18b27c4b9d0a260bdc218dd80025a0ade0b8916e8b3",
+      "bytes": 55632
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/116_chatlog_1746407116.json",
+      "sha256": "95d4abccb0db02bbc44a9b558b7b874e47dc6fa038f4bb386a5aa021fd66e1a7",
+      "bytes": 87668
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/120_chatlog_1746404571.json",
+      "sha256": "c3a87b0bcabb15343480e3504c46bc9d2ae98272d1174817c6a19ea862c8545b",
+      "bytes": 80693
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/121_chatlog_1746369337.json",
+      "sha256": "db10633a82d1f93ab31511b19cd7d651ffc4c15484726b7d8d5e59e5d9bcb3d1",
+      "bytes": 62177
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/162_chatlog_1746363699.json",
+      "sha256": "a42866d8bfbb453f6e7a6e0bb25c168f2c2076a4e76161b3a412991829e5850b",
+      "bytes": 50761
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/176_chatlog_1746368426.json",
+      "sha256": "dc2ec6761cc7784bff49f0a4e560658049f037f439e97b2de772cebbe1545672",
+      "bytes": 50897
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/225_chatlog_1746405884.json",
+      "sha256": "fd4e4459c91765d498c340bba53c353d916a4a00b636c6198c2898b193f6d55c",
+      "bytes": 43389
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/250_chatlog_1746412567.json",
+      "sha256": "87c4a546d76463b7d1c6a129c5d17369f72dc203957ba82ad2d11d4dd05250ad",
+      "bytes": 96282
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/296_chatlog_1746358476.json",
+      "sha256": "c7ef670f579ecb6980ad0944f433676193b1aec140528c6473c025470013d64e",
+      "bytes": 53770
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/334_chatlog_1746367594.json",
+      "sha256": "710f4569145367d82058c889af6c6c14ecf34e71dbb6cac9ef29f0a2bcd73b6d",
+      "bytes": 81439
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/342_chatlog_1746405427.json",
+      "sha256": "78b3755712befec3d4b3aac3c8314fae8bea8a91074aaebb70c9255acc88f99b",
+      "bytes": 74100
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/346_chatlog_1746403105.json",
+      "sha256": "a3b52cb6bc26e3b12f81138c3ceaec73060ba0c20ef8587f20dc649414282fdf",
+      "bytes": 52635
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/403_chatlog_1746370877.json",
+      "sha256": "daba334a30e12e3850d2d39b89b117bdb5a0df1c9046695de1e1f6c9e5f35f96",
+      "bytes": 49869
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/476_chatlog_1746363098.json",
+      "sha256": "98c888429ee2542e91f3df9bbbd87fa9557dd606d654720db596289ae8575c2e",
+      "bytes": 44826
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/530_chatlog_1746403644.json",
+      "sha256": "218ab9bed87947ce1b810ad8e2bef94bfa6e9e66d1a913b70a113361d92328b1",
+      "bytes": 48310
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/559_chatlog_1746408250.json",
+      "sha256": "4030d2fab2da14bcf517c433365d9492fab6fe5704dd4907eb908d068d110929",
+      "bytes": 58326
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/564_chatlog_1746366418.json",
+      "sha256": "8bbf2e612e20be79767c8220340a4fa8dec289e90f9a9f3cf174e34009444656",
+      "bytes": 52754
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/583_chatlog_1746365623.json",
+      "sha256": "9316adf8dde733648c453800985a8de9d4392745e11f3a854c1d592abbc3dc6c",
+      "bytes": 80085
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/632_chatlog_1746409010.json",
+      "sha256": "8a8ca95d242f010ab0adfa7d3ddeaa066ca1cd8024088fa4ce2d4a2434e69e6d",
+      "bytes": 61244
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/664_chatlog_1746402395.json",
+      "sha256": "2cec1501b959c5cb714ba1df84150140026a9027a64fb0f461493db0b9d89ce6",
+      "bytes": 62434
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/698_chatlog_1746370216.json",
+      "sha256": "c9bbb79e3060f20d122d3c7c37c64800acb0018725b62125a6d313f0ebd3c644",
+      "bytes": 77342
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/706_chatlog_1746400775.json",
+      "sha256": "ddd131950c2de07d672eca28cb7c87813a39dffe91fe6b50d108503187102100",
+      "bytes": 72137
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/723_chatlog_1746410882.json",
+      "sha256": "faa858be7fa81eeef489f0943fc88c6e5b4be1f5d5ab42b386e66efecb1b464a",
+      "bytes": 52756
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/740_chatlog_1746401558.json",
+      "sha256": "758e5552b9d39689bd715cdc2e20113849be5d439bc80d67096f57465e09c7ed",
+      "bytes": 57399
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/741_chatlog_1746359397.json",
+      "sha256": "4a579fe7632d2050921de4d6ad398963d9199edadf6e92e522f20865da2646f7",
+      "bytes": 83516
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-38b/761_chatlog_1746371997.json",
+      "sha256": "75af618deb74dfbcec5887ce195855f6330c8065a51ffc3925c796f35d0ee427",
+      "bytes": 56045
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/104_chatlog_1746433798.json",
+      "sha256": "835006d499c4f24d9ab7fca222a31c5b3a67d85915f81b075743cb2820475399",
+      "bytes": 66647
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/116_chatlog_1746426878.json",
+      "sha256": "53bac196d59ed85dada0dfd96f0508a3273b383d073d977a829080f1515daf74",
+      "bytes": 105926
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/120_chatlog_1746414995.json",
+      "sha256": "08b739988e27e8293537c40b8d05a5f235f22833c2e97cfa971a5fad428e9e67",
+      "bytes": 90996
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/121_chatlog_1746385024.json",
+      "sha256": "b643f5f76f97440bc84255c64525ed24f670a37d56d08a05c7377933f4390855",
+      "bytes": 84393
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/162_chatlog_1746371952.json",
+      "sha256": "8584d44c34b9d94d12ed9bc9e46c05b49ef7378640dc4e12a05da22ae336e1e9",
+      "bytes": 93436
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/176_chatlog_1746382949.json",
+      "sha256": "5d0f25d22d697dd8c55371b7d8a5e005739c62ab63af050c574d5bf9ceab8b98",
+      "bytes": 83357
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/225_chatlog_1746422466.json",
+      "sha256": "b32727c3833f041c230e54e2c8ed7a3d8c80de87bc4b14a34d686b4a63963da6",
+      "bytes": 78893
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/250_chatlog_1746440023.json",
+      "sha256": "bc27ba5406e6ee333c1539599730421b7f34f71b6b2676e657f0703dea7ddee3",
+      "bytes": 86317
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/296_chatlog_1746364178.json",
+      "sha256": "5879e08198babba11f2cc5d983487f2ab439f20c32fa93fda2e10e352df7592d",
+      "bytes": 94129
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/334_chatlog_1746380521.json",
+      "sha256": "b32ecbd4f8bded5e2e4115e3db409ca9ae4db74e6f9a5965317136c5d54cd0bf",
+      "bytes": 79966
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/342_chatlog_1746418701.json",
+      "sha256": "a656363482e6429eed59d6fc0703c70fa1138a1d7638bd0aa55f7486ff1cc4d6",
+      "bytes": 91916
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/346_chatlog_1746409113.json",
+      "sha256": "90c372ea3614b0834387e5a07bc14010880081b46fba88acf38387f500f5f545",
+      "bytes": 67699
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/403_chatlog_1746392859.json",
+      "sha256": "93563e4559cfd66bf9bb8b0958d3f498ccd66f9ecd00c00dd64b12938619e2b8",
+      "bytes": 71500
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/476_chatlog_1746369223.json",
+      "sha256": "105004c9bbed249c25cf0ff3658efe1ba56d0dfa69a79e0c7a9ef48a89905731",
+      "bytes": 87723
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/530_chatlog_1746411745.json",
+      "sha256": "9f90e95712e79512c07faa3e958d8801ae2256736f8cdaf0c8f24f7e7f5dc15b",
+      "bytes": 67047
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/559_chatlog_1746429129.json",
+      "sha256": "df47fa8e6f3f54ae89319af6e995f5c4cb4d34d02e98416ce256751eaab8cdc7",
+      "bytes": 63913
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/564_chatlog_1746377548.json",
+      "sha256": "746c1ce46639626668bda2aca64cb88515db744067680590b0c0552da6bee6fa",
+      "bytes": 60903
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/583_chatlog_1746375538.json",
+      "sha256": "35de0a6cd9bd78aefa8dabbf4f380b135a8a8f0e9eed1c67bebe30412e3db79f",
+      "bytes": 78761
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/632_chatlog_1746431428.json",
+      "sha256": "ec463782fc628a44e24fcc06c7ca8f2b64b9e5dc5348c4f7dc383312495994f4",
+      "bytes": 66462
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/664_chatlog_1746406329.json",
+      "sha256": "b54bc305f6381a7bb1e4d92ca4662bb1665e790b8518d5d57c804a13f48885ef",
+      "bytes": 64070
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/698_chatlog_1746389264.json",
+      "sha256": "8baadb716e956055982ed92cf64fbbb07e2750fde8eb916f7e1dce0aab2ff7e1",
+      "bytes": 100082
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/706_chatlog_1746400276.json",
+      "sha256": "7a41ddaa27d1d317d6f02f70d1de491861c01106e1c4860d42e02529b6951798",
+      "bytes": 75052
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/723_chatlog_1746437312.json",
+      "sha256": "a91b8c999222d857d9d31441d0007f29b5abb51bd4e3053d30315dab4f5887de",
+      "bytes": 100046
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/740_chatlog_1746403854.json",
+      "sha256": "6512570680d1c18226795db17aa445ca2527f225b44caac26131c32e3246d572",
+      "bytes": 84083
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/741_chatlog_1746366317.json",
+      "sha256": "f18c941e005f42b49515a61f477115c8258cbf0dc7da8c68f453a5b56efa7c3a",
+      "bytes": 88489
+    },
+    {
+      "path": "agent_logs_hancock/internvl3-78b/761_chatlog_1746396391.json",
+      "sha256": "80f570b3313c71594f4768379a3d6ec84a3ada5ed57a4ba437f9422bcdc6322e",
+      "bytes": 101836
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/104_chatlog_1747004962.json",
+      "sha256": "3b987c15f93fe233022e0d7b181384c5c7b0674308b90ee2015722429c21d858",
+      "bytes": 88773
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/116_chatlog_1746998380.json",
+      "sha256": "88eed2aad4197753571868f0311dae641cb67c8c3eb80c86ab0a4018153df528",
+      "bytes": 74601
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/120_chatlog_1746997687.json",
+      "sha256": "e7114960ad9fe52a746573ca3a883914aad5d41703d93ec689a62d4fc66c1ee4",
+      "bytes": 88370
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/121_chatlog_1746995869.json",
+      "sha256": "5e96f31608c092cc988a67cc9e9361e019e4130cacc72ad597d8b8ccaad4249d",
+      "bytes": 70329
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/162_chatlog_1746994637.json",
+      "sha256": "2a55257350e591d7536a48b1d3c96459eddca9155d2adccca2764c2658bdf5e3",
+      "bytes": 61242
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/176_chatlog_1746995647.json",
+      "sha256": "a5bc4aabc7987f5203cfa4b701578a512b71081d445db91bc493bb1eeb10be6e",
+      "bytes": 73067
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/225_chatlog_1746998102.json",
+      "sha256": "c9e4eef086151a824a8be774ee783092d962a51d23d40e13071194ef132ec3c2",
+      "bytes": 64266
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/250_chatlog_1747005510.json",
+      "sha256": "95af0c83d9d202d62d31bb9b5da72999ac7b537dec1e3315e8478d6662b5fa03",
+      "bytes": 77760
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/296_chatlog_1746986571.json",
+      "sha256": "f14ceafdadeb5b1c82d36a3f4218e89f127ace9be9a8b7e9a716b9d279a25a64",
+      "bytes": 74507
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/334_chatlog_1746995345.json",
+      "sha256": "862cd11ec22ae8c9582cce0a40727eff293816a45e38e241e6fcecbd3fdeb785",
+      "bytes": 56157
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/342_chatlog_1746997894.json",
+      "sha256": "c983069ee1b4987ced5efcd25afa359856375f4a9cd85b2d2bc8405c79c88e3a",
+      "bytes": 62961
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/346_chatlog_1746997233.json",
+      "sha256": "ba3a0394b5cf5abc438ddd74b3c4a311372e0589289f473ab2bddc92dfb1412d",
+      "bytes": 73115
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/403_chatlog_1746996298.json",
+      "sha256": "f4abfb778c7027fb10f7cbdd20f3f9080417a7579fb2fddef29ed2430ffbcde7",
+      "bytes": 70797
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/476_chatlog_1746994449.json",
+      "sha256": "a7e2e1595ae8fa8800a22550703890ab2fd6b5b19dd47a9b4469d4e1d4325d57",
+      "bytes": 87143
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/530_chatlog_1746997471.json",
+      "sha256": "f574c98b8d1858e970352172f18a5aa261ab7d6583418d645f48ff92f05b737c",
+      "bytes": 90923
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/559_chatlog_1747004500.json",
+      "sha256": "20bfdd453811ee4d6cd13dd07177b0f55e8d2386fcfc2670ed18f3fcb6236f8b",
+      "bytes": 72372
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/564_chatlog_1746995190.json",
+      "sha256": "b11f573b18977b76701c9abf74d27a2632b15fa03278a584087f7bf3187243ff",
+      "bytes": 76909
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/583_chatlog_1746994951.json",
+      "sha256": "cd9adc7d242222a57478fd40f50393b0fefc1652dc30a78b16067822b1c507e5",
+      "bytes": 97395
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/632_chatlog_1747004663.json",
+      "sha256": "dc284e6e727994160bd4901688bb2e2f5be58eb007c6db3584d5c24ee2b45d00",
+      "bytes": 67292
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/664_chatlog_1746997045.json",
+      "sha256": "53bc4f5c521520543e9078347fce308b8e776bc660a6f09015fa8a906c55bc37",
+      "bytes": 62777
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/698_chatlog_1746996131.json",
+      "sha256": "688d70a072ba62df3abc13fab8918fc9d27632ddb9a3d7f1422065869519c1b7",
+      "bytes": 71719
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/706_chatlog_1746996729.json",
+      "sha256": "8dcceaa98edc90b9b07dbd5173cc749954287c2c8e27593031df389b952eab26",
+      "bytes": 70182
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/723_chatlog_1747005251.json",
+      "sha256": "ce5a6c333e7b7e0a76c5d8f2019c8570b130d835080d2be4cf48e59e30bf3c62",
+      "bytes": 76698
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/740_chatlog_1746996876.json",
+      "sha256": "82e40b7ce3e5856494fdb359c567affeb892477e09767ae86b6c5dca39985022",
+      "bytes": 58361
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/741_chatlog_1746994198.json",
+      "sha256": "3637f32087eab45f8f76218879f3006c9de0305243af50e764a3639f1a9d1e9d",
+      "bytes": 71737
+    },
+    {
+      "path": "agent_logs_hancock/llama90b/761_chatlog_1746996514.json",
+      "sha256": "b705fd9df50f51b708c6b13acfad1981611689373d7500733b595ae6314d23a3",
+      "bytes": 72683
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/104_chatlog_1746963696.json",
+      "sha256": "6e4cf8127754053926c4a42be83922fa1da280e925f3cc6db1d56768a1097d25",
+      "bytes": 84176
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/116_chatlog_1746963322.json",
+      "sha256": "5c1a1691ab7495cb50ce5c42748855726791dfc0d52d2cd6a01df9e68d7869a8",
+      "bytes": 88978
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/120_chatlog_1746962650.json",
+      "sha256": "de421107e434502757b5614db105d5c6e9839377e4e9711c9069110e6221da3b",
+      "bytes": 85863
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/121_chatlog_1746961056.json",
+      "sha256": "8d7b0d0bbff2d6d1bd763f58294606608795566f66e879e33a6bd853033f1b3a",
+      "bytes": 82881
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/162_chatlog_1746960389.json",
+      "sha256": "098d769df8885bba9299e61f77f0b035e6b4b068f8d7883b71ae9986784cc731",
+      "bytes": 81549
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/176_chatlog_1746960960.json",
+      "sha256": "0fb66c438918285cdac549f1d06531db1607339a628a5d67a47557db5d33a022",
+      "bytes": 92444
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/225_chatlog_1746963194.json",
+      "sha256": "fec7e023b12d878f025e6d867f132801d2a769a3a3c5b8125dd2f10d09a71670",
+      "bytes": 116484
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/250_chatlog_1746963969.json",
+      "sha256": "07db5f218ee4a75b65215ba7ff1d6a5c44f386d2b248ce778e222755337cdafb",
+      "bytes": 88900
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/296_chatlog_1746960052.json",
+      "sha256": "72a1aeb02f908c1f70ffc9ea2e1b3edbea1729075e964baf19c18685ebcf0878",
+      "bytes": 89121
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/334_chatlog_1746960801.json",
+      "sha256": "96cea89b71fca3b92ddc5b6ae0a4a728fff250034e46645920f3da487586acf0",
+      "bytes": 79786
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/342_chatlog_1746962841.json",
+      "sha256": "ddc9efe0206131c56468dd21f2a999fe1cc872a4b54d52d28ca954a8232f776f",
+      "bytes": 87428
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/346_chatlog_1746962389.json",
+      "sha256": "384711df11a8cf9cb02b98339339811c0b1990f296cdc72dfe120c11a99a43cc",
+      "bytes": 94081
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/403_chatlog_1746961486.json",
+      "sha256": "d10e19b791fb45dd1cddb640690d4f3b6b66ee5374a837920a4b1910a7384b2c",
+      "bytes": 101764
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/476_chatlog_1746960269.json",
+      "sha256": "a338599f7a3a5ed32a2083d1a8d4f12d3fbd73d5d728d1388d92abe4a0385961",
+      "bytes": 57864
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/530_chatlog_1746962504.json",
+      "sha256": "4efa9a840d28f500a4fabd661f48f14287f32ed4543a475a275bf18a7e025918",
+      "bytes": 86965
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/559_chatlog_1746963423.json",
+      "sha256": "a2398528f7f6a72663b8cb88f28e3b3ff781a86d4ec7b8505afadbd9684347fc",
+      "bytes": 78861
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/564_chatlog_1746960667.json",
+      "sha256": "297134e9175d8f67790bb860be02bfca61da37838562857617668acaef5dba88",
+      "bytes": 77521
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/583_chatlog_1746960573.json",
+      "sha256": "5193618fe132836975c10015447e5338a94964119c16b94617b4930c6e593641",
+      "bytes": 98317
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/632_chatlog_1746963557.json",
+      "sha256": "161ec42d68f95ece92d2aa5c79fa0293abcc513896b0e4ab51529a5583aeec2a",
+      "bytes": 84792
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/664_chatlog_1746962223.json",
+      "sha256": "c7bd6dd014a7e124d378eb076faccabdd6365cf9d7d18f2122ee893ec3ba5e55",
+      "bytes": 91347
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/698_chatlog_1746961280.json",
+      "sha256": "8bd8530a57e98dc3167bdeee66cc63c46817c49f3cf872d4f05fac10e02553f8",
+      "bytes": 105734
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/706_chatlog_1746961843.json",
+      "sha256": "cce2b12329f490c2f52c7fbcaa016f2c86569f5b0c2363efad5009371ae8f493",
+      "bytes": 70605
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/723_chatlog_1746963812.json",
+      "sha256": "2cd9cc705826f7f7e1211fff742686cf760ca8a7c1b570708b496e1823a802fe",
+      "bytes": 61159
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/740_chatlog_1746962033.json",
+      "sha256": "1b9f248707f791484f3360ad7959b2cb66dfc8895292802bb6506b895963f305",
+      "bytes": 89355
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/741_chatlog_1746960154.json",
+      "sha256": "85e30ab3e3b1b6c294f12ec1deacbfb758a63c48066e14e61f23886bf0ac2426",
+      "bytes": 79610
+    },
+    {
+      "path": "agent_logs_hancock/mistrallsmall/761_chatlog_1746961677.json",
+      "sha256": "e06c0083bd5919643de1eb0c6e84efde9592d4c0b0bb8dd1590729f01f4784aa",
+      "bytes": 98693
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/104_chatlog_1747351510.json",
+      "sha256": "66099260560a75bdcec7926459a1859c2ace86680412378d7b736adfaf8f7f4b",
+      "bytes": 35710
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/116_chatlog_1747350324.json",
+      "sha256": "a12ada8e3f9d75b56c57d07ecb75e6f4a56ea2345cc18dbb9aec6cc1c460b5a9",
+      "bytes": 42113
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/120_chatlog_1747349817.json",
+      "sha256": "81aace30dc73cc3f3fb9bc0f92c7345d8294310758b5c796b1b2a4b30b96475b",
+      "bytes": 41050
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/121_chatlog_1747348429.json",
+      "sha256": "e10a20d7179b8a18c91ebdb536473e00dbffaafd34d510ecb6645470faa6b1ac",
+      "bytes": 32255
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/162_chatlog_1747347640.json",
+      "sha256": "73171303dfd3b643bec12ba68a004112b11ca716fb49cc06e03a61904dd9a3d4",
+      "bytes": 42222
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/176_chatlog_1747348315.json",
+      "sha256": "fa8584508c6365c301594caf739ac477c5028a69f1bbee7be466d86d2a657539",
+      "bytes": 39970
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/225_chatlog_1747350140.json",
+      "sha256": "e47458b7a0c062b6dbbc0f6dba7bf578d8c17bf5a807d9b8c57648b74297e507",
+      "bytes": 37557
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/250_chatlog_1747351775.json",
+      "sha256": "cef760acdefbefe6e98b270a70fe6fd218e4ccb1b8f61474ee956127a93dd7e5",
+      "bytes": 38681
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/296_chatlog_1747347128.json",
+      "sha256": "29e2fae04e271f35b2abb28efc67b316893e60ab8b64f9968ab1cc5513cf4a20",
+      "bytes": 35923
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/334_chatlog_1747348108.json",
+      "sha256": "de05a0d521124e906adff6747f665ee570ebf983cd4dc49177301ce49552fe18",
+      "bytes": 41739
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/342_chatlog_1747349995.json",
+      "sha256": "b691e8cbdbcae46d04badea8647020fa52a4491d88cc759ef9d1c3b61abbbe6e",
+      "bytes": 38165
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/346_chatlog_1747349499.json",
+      "sha256": "b1253b1f0ef2ece2833894a5668a8c7c1cdc0d8f4a31f22c4e8bef350740929e",
+      "bytes": 38143
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/403_chatlog_1747348742.json",
+      "sha256": "f34b41246d0f26c2e0777888a6301df7a247a921102a0364fd13b0fa52af54c4",
+      "bytes": 37942
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/476_chatlog_1747347514.json",
+      "sha256": "957dcaecd4ec097b21aaaac2f8b3ac5ba352b17d3a4e25976e4fb5e4d02425d9",
+      "bytes": 33609
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/530_chatlog_1747349640.json",
+      "sha256": "6f7f1c59e9899ec3fdeaae740b161ec0b58990413f201b1f170a27f94ccdcffa",
+      "bytes": 42517
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/559_chatlog_1747350500.json",
+      "sha256": "fb734653e1eebc1f021feea3499d04607f9c78fa0886c432e1377c656a390fa7",
+      "bytes": 42236
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/564_chatlog_1747347975.json",
+      "sha256": "a7610a791e756d78869042f5e628b66268ed07b4ab8df3493e172dcbea0f615d",
+      "bytes": 42558
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/583_chatlog_1747347816.json",
+      "sha256": "869ecdf3c1c9254d0d218bb2728eb22c020434dfd63e2f7c715b7c40cabc86c5",
+      "bytes": 41015
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/632_chatlog_1747350628.json",
+      "sha256": "fa040a0cba92cafe33d4232c3765044c7f45f8af5f91099ccf5d033c37e26f2d",
+      "bytes": 43731
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/664_chatlog_1747349403.json",
+      "sha256": "6af57187e9e172b81fc89b66c4fc5855b2e91ca55aef091a7eb071f7717abed4",
+      "bytes": 39038
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/698_chatlog_1747348585.json",
+      "sha256": "4aee1c28195bb84b3bd71d7ce381402773ca7f77bf18256edb158d2396150fca",
+      "bytes": 42601
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/706_chatlog_1747349115.json",
+      "sha256": "26417195590fb95f4383800e62dfcbb122e7497407667c4e0bf2f5c1d8b1b6c1",
+      "bytes": 42156
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/723_chatlog_1747351671.json",
+      "sha256": "67daedce0aa1671851540e80a42fa2374fca0f7070b27bd4322d11bc9c5fdcb0",
+      "bytes": 41079
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/740_chatlog_1747349234.json",
+      "sha256": "191edb9138959bc6ddac2cda4f90a1cf425476f2c7f9dd52d0ab6c2e5a7489f4",
+      "bytes": 36073
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/741_chatlog_1747347392.json",
+      "sha256": "b7ad9a2f7d8ad8f3e9328f436a73b630fdc383e71796b3e8b019cafeafb58a1f",
+      "bytes": 40080
+    },
+    {
+      "path": "agent_logs_hancock/o4-mini/761_chatlog_1747348922.json",
+      "sha256": "9c0aa324418650ea5e813834194a3fecf63936cac4bfaa7cc54998ac12af7698",
+      "bytes": 37828
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/104_chatlog_1747279544.json",
+      "sha256": "2cceda0e08bc4734c4bedf72d48eb040b7da0063273fbc105391827d41e6ed57",
+      "bytes": 133212
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/116_chatlog_1747275779.json",
+      "sha256": "8839a33c9ebc5eedf29dbe36357a42a76daa2b4d0fc74ec701f31d8cd96941e0",
+      "bytes": 140150
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/120_chatlog_1747272195.json",
+      "sha256": "ea607a01441024dce1df62a5b864c9f4dbdc9dca0f951ff837ae6d1b48e4fc24",
+      "bytes": 141814
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/121_chatlog_1747261004.json",
+      "sha256": "e1a4b4f93eab33f51034ef736c588bc5e633862783f005ae1ba9e030f5c9dedf",
+      "bytes": 125068
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/162_chatlog_1747255304.json",
+      "sha256": "43ca43766efe5ace585156368e2e72ed6dfdb5b9a66d5503defef896b02cf168",
+      "bytes": 131400
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/176_chatlog_1747260202.json",
+      "sha256": "c40d184d8c4606f7f4936e88fe3467bc21718bae59a2d0a6373b47d4648fdcf5",
+      "bytes": 117672
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/225_chatlog_1747274483.json",
+      "sha256": "10021a2f083631b124daf5dd5cc3fa7dfc562933834893c8af9ef9a5fb62a3b7",
+      "bytes": 112186
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/250_chatlog_1747282144.json",
+      "sha256": "7780a0bdada7ffadbeca03b1db30a6e47adb8b30bf89d30a262672b6e1eec575",
+      "bytes": 128528
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/296_chatlog_1747251508.json",
+      "sha256": "3f8a218760bd57c8cfb5fc0c480831b688c56c2581cd3d0a10551403c5b980a2",
+      "bytes": 135419
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/334_chatlog_1747258860.json",
+      "sha256": "3592d59e9eabf7119d96b0e94d156cf48728585b34fa55b25084e38bc4c54e4b",
+      "bytes": 151842
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/342_chatlog_1747273656.json",
+      "sha256": "14592ef115725814cd7364fefe3aa330277a5d6f1cfdccd23005345e2ad006d5",
+      "bytes": 144179
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/346_chatlog_1747270004.json",
+      "sha256": "7d3b08e207faa5d9cd3009c0f163d2b95a68f4cb88a6eb77576909c80637ebf5",
+      "bytes": 132267
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/403_chatlog_1747263836.json",
+      "sha256": "5994eb753b9f6d791b33fffe24f3f62dc0c170c5188d3e990d206f0472cc61f2",
+      "bytes": 121355
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/476_chatlog_1747254332.json",
+      "sha256": "82ed268a31619135a4f012be132052ee324762acd3f17160e985d17b12ed546d",
+      "bytes": 156277
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/530_chatlog_1747270802.json",
+      "sha256": "719a0b747852a79a3c43b35a35538ed57a5fab490262489b1a7d4eb230671179",
+      "bytes": 111809
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/559_chatlog_1747277273.json",
+      "sha256": "1ef7415a847f5f2b4aeeccfd5f53d48fe8000e3df502009a6ed6c1e4e42dea8d",
+      "bytes": 150942
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/564_chatlog_1747257360.json",
+      "sha256": "166d55fa60b709f4ebf1a1552851caa1591bad89b573df9b5d61e65fabaf014d",
+      "bytes": 122972
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/583_chatlog_1747256451.json",
+      "sha256": "d4ba08468bf4bbac49fd022cff5ed69c13732ba67cf77b29d6cecffb813c99ee",
+      "bytes": 125363
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/632_chatlog_1747278339.json",
+      "sha256": "bd13395ea861ff11ceaa6a0355793bd862b8d1a671652a39b9421cbae5d65145",
+      "bytes": 132026
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/664_chatlog_1747268840.json",
+      "sha256": "73e2d5258a8f4c146bd2cdee22340bda4a18f145ba3b479eaf3762dcb727ca0f",
+      "bytes": 140043
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/698_chatlog_1747262977.json",
+      "sha256": "8995d9ba6025d53f804de21e6d4d0df3d72e6609b572162da95bb76a4eb2e843",
+      "bytes": 166991
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/706_chatlog_1747266449.json",
+      "sha256": "d285cecfc950276b80848eb0b618ed9543c8ea7b9ece327b991e54e108589da2",
+      "bytes": 131912
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/723_chatlog_1747281010.json",
+      "sha256": "4539a90e0873eca17082db973a6a9da1fa78b6507e15d879c2a9425289a107cb",
+      "bytes": 147259
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/740_chatlog_1747267577.json",
+      "sha256": "77ff69d8cd76fc82ccb6d77af789a32965ca41ae757da64760679e3cfefb8158",
+      "bytes": 122195
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/741_chatlog_1747252740.json",
+      "sha256": "39947af1d456ae5d0f492860a94fb5a66a67039ecf02a2ce8addc66f3ecd6664",
+      "bytes": 139567
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b-with-tools/761_chatlog_1747265307.json",
+      "sha256": "2ab86e6b481a1d6731da821fd28ac3067e998d73c4d2913ba17855c5eba4d764",
+      "bytes": 125692
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/104_chatlog_1746573852.json",
+      "sha256": "f7fa371a9d1c880fc9b6d18e516a668a8cb16613d248993bd3030b8df5abef88",
+      "bytes": 108653
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/116_chatlog_1746569550.json",
+      "sha256": "f8cbcd0a562b800e1772ef184f926f59ce6d696cacdf2114011786d905543fad",
+      "bytes": 80009
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/120_chatlog_1746451027.json",
+      "sha256": "6312fde5b959197d40ca8dd73468d800359d065f1ca564d41687c1c15b7bbbe6",
+      "bytes": 106256
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/121_chatlog_1746396741.json",
+      "sha256": "b910e99d9054984505700fde8f07e678bbe033e7526b2281525196d1422f5528",
+      "bytes": 79050
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/162_chatlog_1746375141.json",
+      "sha256": "d392b716f6076cef52d114cb6cb6ee3aae720cf661e3e76da93e2bbbdba31448",
+      "bytes": 93016
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/176_chatlog_1746391776.json",
+      "sha256": "4b2362489abd5265bb873df804c68ac389418ea95f6a069e3da42746b5f2c152",
+      "bytes": 85098
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/225_chatlog_1746568719.json",
+      "sha256": "67279c7d4f7ac1244d37fe507dbe8e0344c418a25de7997e1cf69a60cd2ca17e",
+      "bytes": 82937
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/250_chatlog_1746576383.json",
+      "sha256": "93e138be19ea6ed3e79a29746177828bf13c245ee4a7bf3754d8cb35ee1f6101",
+      "bytes": 93250
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/296_chatlog_1746365848.json",
+      "sha256": "56e68f94f145189ba2a04784135e489e3d2bff858c05427f406cebb541668426",
+      "bytes": 80499
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/334_chatlog_1746388938.json",
+      "sha256": "ffc9537e3e6e64c8428903e0b84d4d1e327f29e565db484619a1f6a26c545fd0",
+      "bytes": 98134
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/342_chatlog_1746567768.json",
+      "sha256": "410800491708da5aae6ef8fb86e20c2dc938f3c54162537e6408b562ffac8b28",
+      "bytes": 95733
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/346_chatlog_1746430503.json",
+      "sha256": "be8b0cbc2f2a9bd91e40040ee4a7d3b855d6be4b01820cd933942215e628700f",
+      "bytes": 94809
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/403_chatlog_1746407034.json",
+      "sha256": "9f94f29216fd5b872b7ea38f6c042e7c96de2446b9e4d70548c567183bed091a",
+      "bytes": 101296
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/476_chatlog_1746372038.json",
+      "sha256": "02b7d01316229effd26123e6b77b0db95227aac5df84160038672d6bf4c451b1",
+      "bytes": 95985
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/530_chatlog_1746434814.json",
+      "sha256": "c9c5120a2cae0343d6eafad35589363ebee724689756d010edf99ecb2c108338",
+      "bytes": 95230
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/559_chatlog_1746570578.json",
+      "sha256": "efd70b063d0b637d55a8169b5d8bb9fd77cbd74abd2133d87d2a455f06a7b60a",
+      "bytes": 89800
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/564_chatlog_1746385296.json",
+      "sha256": "e7c734aa59f5b029159f0c1de20b9034b21892b074ad665fd0522bb9b38fce02",
+      "bytes": 93209
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/583_chatlog_1746382088.json",
+      "sha256": "3dcd6082d4709e9d8223d5ec59515bd60e28f5e66cbc0f3a22f01c8dcb3b44fe",
+      "bytes": 99250
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/632_chatlog_1746572016.json",
+      "sha256": "6dcb7c8b07dc51748e9682681b6827c305c08db06d63954bbf3c9180b627bcc4",
+      "bytes": 103248
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/664_chatlog_1746426275.json",
+      "sha256": "eb2da8c2292a3696ec2daa7a5bd34eacccca75e9112db7e38422e0e994cadf7a",
+      "bytes": 104185
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/698_chatlog_1746402582.json",
+      "sha256": "83e0c5254aaa806713acf4e20ccf2e1c29c143bdedf3b2cdb9ef090c8af0c3bd",
+      "bytes": 114692
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/706_chatlog_1746417255.json",
+      "sha256": "09fbe515e3d45ed51a67d5d0ac9275075b9700189e04bc6c62f369b5afacf4ed",
+      "bytes": 117577
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/723_chatlog_1746575135.json",
+      "sha256": "165ac0fdd0570680161566017b7a6f467477384f7ef69deb0105f12b8c385157",
+      "bytes": 94004
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/740_chatlog_1746421321.json",
+      "sha256": "d780771c721f4e918b7879fbc0f6e41fab1c894ab5139550ceb7601aca84ca88",
+      "bytes": 93638
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/741_chatlog_1746368403.json",
+      "sha256": "eb915c1df3eef78d6edd924144dd892a6bfaaf865479a4b65ce0d4783b6be89a",
+      "bytes": 82584
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-32b/761_chatlog_1746411491.json",
+      "sha256": "5070a8eb11801509661053c86cac4c7621c7384ad7768ba61810d70558d8fa64",
+      "bytes": 98973
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/104_chatlog_1747250961.json",
+      "sha256": "846d5dbf7add3a509ea5943156fd9e6fe4b8da347938cd72e4f9205c69673926",
+      "bytes": 77136
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/116_chatlog_1747250790.json",
+      "sha256": "7e4b0c074dc64ce8069b6420e876a9711041d7d6b6cc969743e0199ac2968829",
+      "bytes": 71079
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/120_chatlog_1747250522.json",
+      "sha256": "f8e6634361c83c1b3d26c6b20e35d5192948563cda07cde28e2841fd4ba6f8a4",
+      "bytes": 107878
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/121_chatlog_1747250104.json",
+      "sha256": "79515b1353c1ccba4ec8a27194823a8cb0662b3df4153d9e21c9feef550061f2",
+      "bytes": 94337
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/162_chatlog_1747249771.json",
+      "sha256": "af5535eea78577f6d39fc1c000ee528917aa106ee5996fe32b91af1e543e1897",
+      "bytes": 67249
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/176_chatlog_1747250034.json",
+      "sha256": "18d0300ab08d6fcfbd44d4af7ebcc67b39bd332f7b4eec1ae313cb511e66f964",
+      "bytes": 107542
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/225_chatlog_1747250668.json",
+      "sha256": "7335824836a84602a2f0d4bbda26381bfa8919bd5635bd0247a0239c48b1b1f8",
+      "bytes": 98238
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/250_chatlog_1747251119.json",
+      "sha256": "cad598236246fc67aa063e342f5d55d47a48dd957c178b5ebd9a63cd178841a1",
+      "bytes": 103536
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/296_chatlog_1747249678.json",
+      "sha256": "922110a449f29c2f60621b8285ce733bb4de10477e75c9054fb2a9f6ad45c0e2",
+      "bytes": 56902
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/334_chatlog_1747249954.json",
+      "sha256": "aaeb3e9d3fc0c3550f38af0a33ea412229b9c0c7fca0f647fa16ac44a4044ec7",
+      "bytes": 60656
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/342_chatlog_1747250590.json",
+      "sha256": "b10c3634f45591c50662526205206a98459f07e826777d3bd623315865b7c89e",
+      "bytes": 57377
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/346_chatlog_1747250421.json",
+      "sha256": "a527c55a1962873c8b359790be37d82c6aa85ed76e9fa96bf292969c679253a7",
+      "bytes": 74508
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/403_chatlog_1747250191.json",
+      "sha256": "2c0c275bc2829e108f8b6f49cbd2fd4f905d5cce18e85d6cc3714637ab35e9ee",
+      "bytes": 98970
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/476_chatlog_1747249732.json",
+      "sha256": "bb36b9f45b35820e5a720b6d8691cddcdfae416d7a7793e91d9178c0ec8fd2c2",
+      "bytes": 58003
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/530_chatlog_1747250450.json",
+      "sha256": "3ca7d64d26ebb677f1cab1cd23e9d61d6cf23f21c33fdb38403a6e60c43ccabd",
+      "bytes": 61633
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/559_chatlog_1747250860.json",
+      "sha256": "7f780397b669394a855577fa3b0bf9049a3312d791b9b469ef7ac48ae6ba4818",
+      "bytes": 61395
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/564_chatlog_1747249920.json",
+      "sha256": "b4fa55171f750b52b712d5862f7ab597c7146f29744a0a77e070826ce34f1e4e",
+      "bytes": 103382
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/583_chatlog_1747249840.json",
+      "sha256": "a4d71048fbeb498585175aaffd833d62d41f96c58db89b9879db5dee785f38ea",
+      "bytes": 78543
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/632_chatlog_1747250913.json",
+      "sha256": "64f60616e9ddab7c2fd8d595ff0aad6b235c485cb27ddf94402bc280fe41ba37",
+      "bytes": 118669
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/664_chatlog_1747250385.json",
+      "sha256": "17c3b63ba54eaaaba0b96e52f78485bb3ecaa97cad4c5325a6e5c0ee94046769",
+      "bytes": 94754
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/698_chatlog_1747250133.json",
+      "sha256": "1e23f47a7f6f57921b4e2ae7003081bfdab5e5a2e4e4d622e40228f606abb87e",
+      "bytes": 58622
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/706_chatlog_1747250272.json",
+      "sha256": "fd40547d3b89a5dc730b69ab98e8c26c5a04888118a1027e39b05bb3802e71b8",
+      "bytes": 61616
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/723_chatlog_1747251037.json",
+      "sha256": "64251c10e4cf491fcf0e8320f4f062c0989c5854221cf72680c3446820fbb8b8",
+      "bytes": 72131
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/740_chatlog_1747250334.json",
+      "sha256": "8cb63e1a145470b5ed5c72a3d91614b830829645fac5026e9227814eb96c454d",
+      "bytes": 79700
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/741_chatlog_1747249704.json",
+      "sha256": "188a665c9ea10849b70afcc22c44b2fb2c3e69d89394ab5aa0c3a87fce452074",
+      "bytes": 59763
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b-with-tools/761_chatlog_1747250218.json",
+      "sha256": "3059cd4afe80800b24c7458eae92ef0e09f761ed2dba0d12c50c2f66dab3dc83",
+      "bytes": 57743
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/104_chatlog_1746368457.json",
+      "sha256": "a2f72c6bc3a4491d8ea4b032af33423d92c11865150a2f6632c0494f469fc94e",
+      "bytes": 61225
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/116_chatlog_1746367460.json",
+      "sha256": "5ef6fe65205f1c73507caef423ac730bcf5389d3eaaa9e91c4345c88d71179fa",
+      "bytes": 54467
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/120_chatlog_1746366673.json",
+      "sha256": "caef19ba561cbaf8a61e77572089294245a7cb0ccb31b6363f5ed642158e6432",
+      "bytes": 54441
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/121_chatlog_1746359104.json",
+      "sha256": "bf8af734ffceaa9ea9c4c01067608889e73e21b3222aaf95f493299ebf3e47b6",
+      "bytes": 40928
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/162_chatlog_1746357893.json",
+      "sha256": "a65e33958d9a68d48955cb6f63eaab155f254c121501f302089e0ba297d90877",
+      "bytes": 48276
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/176_chatlog_1746358913.json",
+      "sha256": "2516592a65cb1146049c88c968d96bef27f79ced0a6328d3c23fca2e47166fd1",
+      "bytes": 48012
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/225_chatlog_1746367056.json",
+      "sha256": "75e419e6e757ccfe1fc4188606511688f68f6db18f3545a708e0d7d69e1830a2",
+      "bytes": 45243
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/250_chatlog_1746369213.json",
+      "sha256": "911b7d8b1484bb50f34e0b5378aaa956962d4e4329cd76e2dfe55ae98f695386",
+      "bytes": 46273
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/296_chatlog_1746357244.json",
+      "sha256": "0058c93054fd3078b96ecec49d24e9fa8073cd7a0b38f5bbe6c44285f5623087",
+      "bytes": 45413
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/334_chatlog_1746358655.json",
+      "sha256": "d66d60481c3270fbd0466d8fe1345ce1693e73b14ed96b997f58b3e3060dee40",
+      "bytes": 53621
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/342_chatlog_1746366854.json",
+      "sha256": "379070c3a4c58973363a9f3e115482b1088402d6d13c40fc7d0891ff54720255",
+      "bytes": 41213
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/346_chatlog_1746365970.json",
+      "sha256": "7099ee57a9b0206daf36f7fb31b4018e257681f0b6afd957f2a7b1ecb8e4299d",
+      "bytes": 46351
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/403_chatlog_1746360634.json",
+      "sha256": "aeea24d98b79ed751c7c641507f67f5447c49d42901a06cd2a247f789f520cec",
+      "bytes": 45711
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/476_chatlog_1746357691.json",
+      "sha256": "7c2bc6af31cc98b99969a2a30537744107e58d68ec6a0ab7bdd396d5a291387a",
+      "bytes": 41177
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/530_chatlog_1746366366.json",
+      "sha256": "24e95798ada8279b76994f6ab43d83d173cc95ee2c8641cb9cc3462b1f4ebd94",
+      "bytes": 66265
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/559_chatlog_1746367640.json",
+      "sha256": "997e9c2e143094fb952296cbfa6612999d15dd64af261ececd90dea63791089a",
+      "bytes": 44613
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/564_chatlog_1746358273.json",
+      "sha256": "547825c3cceecbc5fb7425327106af43a149cca2083791773d6a2e24d12f13eb",
+      "bytes": 44915
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/583_chatlog_1746358106.json",
+      "sha256": "b9f6af887f7fa67c01cc29642142c6fd39faf964aae3fc8cf635f1bf1c496e35",
+      "bytes": 42865
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/632_chatlog_1746367910.json",
+      "sha256": "36f8d4d7f49746952155a055708d56cfff7577336b775b1517583f6e617c0c38",
+      "bytes": 50875
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/664_chatlog_1746365784.json",
+      "sha256": "a93b3feeda6b546f8287ca71381a6b2ea57d4efb7348a3ed8ae0d215b3fabf7e",
+      "bytes": 50293
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/698_chatlog_1746360435.json",
+      "sha256": "cf18ba37f5ba04f732d77c9ab510976d520fedcd676e2a1c3c98f0ad8c8517c6",
+      "bytes": 47185
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/706_chatlog_1746363213.json",
+      "sha256": "540f49ffa4267b56694a8988f5f680af7a967460f95dd20f79666292720670ec",
+      "bytes": 67406
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/723_chatlog_1746369022.json",
+      "sha256": "1d4990e826df6a41b188591e69f85d488773ad141d464d0ad7dde8d619ba2a14",
+      "bytes": 72275
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/740_chatlog_1746364120.json",
+      "sha256": "4e6930f10aefeb5a52ef58c9648e1e38fc8e6f351ea9c1aac6070185df4466a5",
+      "bytes": 49976
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/741_chatlog_1746357508.json",
+      "sha256": "943948e0c53da3c16b264fa1bcaff97fe9730ceaf18f16eaa523362cf5c55f6f",
+      "bytes": 49947
+    },
+    {
+      "path": "agent_logs_hancock/qwen25-7b/761_chatlog_1746361005.json",
+      "sha256": "b0dafb72a09d8a547213a3ca62e4574bc6c10a7e8af6d54917ab505ac0ec758b",
+      "bytes": 53252
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0004727_chatlog_1747238129.json",
+      "sha256": "d0f0d8194a9db023b39981067670b4f986ab17cb1503cc287c7469154f679339",
+      "bytes": 42750
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0005014_chatlog_1747239987.json",
+      "sha256": "355426976ce5d3d02427270c57b96a2df685f508b811b668287cc82de4de0c86",
+      "bytes": 52468
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0005708_chatlog_1747238451.json",
+      "sha256": "31d088352698444c1f5a1f65a35a47603a4927efcf477a461ac8e5e15f800e23",
+      "bytes": 30436
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0006191_chatlog_1747238723.json",
+      "sha256": "7681c3fd2061ad6fc13bf958c0f55c63bab3b6f3aaa86e4f2b784174206d80f9",
+      "bytes": 38028
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0006687_chatlog_1747238969.json",
+      "sha256": "c14477d7f721f6e90d90c3d46b434274660d055af801048b3bf5f4993a8ff410",
+      "bytes": 55214
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0006691_chatlog_1747239354.json",
+      "sha256": "ddcb4f9f570c75e6a415539e2f7b9f7b1fba6689c8ab255669cc1a7cf56cd932",
+      "bytes": 65000
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0007637_chatlog_1747239676.json",
+      "sha256": "df5b92a3efffe96ef556b2d1a2e6a2e87df83341194de20b0119033951cd5d0e",
+      "bytes": 31284
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0009786_chatlog_1747240357.json",
+      "sha256": "f2cd2916e74fe56b099e2ab5d2c48601b2a7544e865debca123688f4eb4f5869",
+      "bytes": 43202
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0022292_chatlog_1747240640.json",
+      "sha256": "c5f006f90e6019d9737d1b68e9c1937c57084b80c9721194d401e8b4b7f883fe",
+      "bytes": 55809
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0022653_chatlog_1747235342.json",
+      "sha256": "b5c5da2e5494ce8f7f1b592881bb949fac895e68176293a1e020a0ee8573fd3d",
+      "bytes": 53491
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0022826_chatlog_1747235723.json",
+      "sha256": "f47a7ec49bf980c3892f0309beab539e554e1c8c3ec014305d6796485313e72d",
+      "bytes": 35485
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0022916_chatlog_1747236371.json",
+      "sha256": "90a89263343710d3c84ebc2e73f06ac3db70dcc630f902963458ea29c24de15e",
+      "bytes": 120267
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0024579_chatlog_1747238316.json",
+      "sha256": "3ac8fbd3b16a88d90e9795a712cd892b082528a6e654ecd8c5c6892f53f6aa11",
+      "bytes": 24385
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0027883_chatlog_1747237244.json",
+      "sha256": "6c85c1fc9819dc08d9c6610ac21c12c01e186021e114ba61130b112bec6befdf",
+      "bytes": 108722
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0028198_chatlog_1747237463.json",
+      "sha256": "5e16b30b5c99de30d9464f7acfa37dab59b3b704d31b82a7ccd647dab51f7589",
+      "bytes": 58434
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0031600_chatlog_1747237741.json",
+      "sha256": "f0780c057141dc33909a0546f4f721d665b13b8c908016a7654118333c9f9533",
+      "bytes": 34273
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0032535_chatlog_1747238049.json",
+      "sha256": "23b92f22116bfd7328dd52f838632df650dc47f234e7e572e6d03d3137a80a23",
+      "bytes": 43799
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0035737_chatlog_1747238241.json",
+      "sha256": "5a9babede1db49c1d38e34b2a42386674ba840869b3213b1646be318a75639bf",
+      "bytes": 20605
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0039020_chatlog_1747238455.json",
+      "sha256": "d20a4d8a4477e9def31695c81102acbcf1b8f3f1d05c008dbbd53542d7c97c60",
+      "bytes": 29465
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0039147_chatlog_1747238747.json",
+      "sha256": "b8852aaf0fdda7931a9c03cd108896e83cb81f00affd2346f3e03e10c9c2ef39",
+      "bytes": 46774
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040042_chatlog_1747238549.json",
+      "sha256": "80bfa2b718d6c8e8e21ed026d4348c95e3877351207d439d6666dc580f613d38",
+      "bytes": 63489
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040055_chatlog_1747238661.json",
+      "sha256": "d24cc217e9d12be6cd9ec97182dbd79c32d4e73bca7b4ae2f7c309056101445c",
+      "bytes": 16797
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040144_chatlog_1747238803.json",
+      "sha256": "9368dfddaaf02ae43283e9e3a802d9513ba7789534c3274f54effd7ad27337ea",
+      "bytes": 16256
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040302_chatlog_1747239176.json",
+      "sha256": "0f9c0faa72afeea5c7c6365d4fbf339bf6a1e831844cf5f6478c5f3cde2dca4a",
+      "bytes": 27282
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040923_chatlog_1747239451.json",
+      "sha256": "2c7a3e2ec8dea5200b6a00dddd89c14f5be349ca213afb492017346ecf4600ce",
+      "bytes": 23485
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0040957_chatlog_1747239718.json",
+      "sha256": "80d817e78d8159c6d3fe0a12d7f793573ff93873097ac95ccca3031270e8a693",
+      "bytes": 44045
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0041210_chatlog_1747240035.json",
+      "sha256": "f9a5269031f41e017425598038b5aeffc9ca23a17f4f6dd42f7f624e9c331bac",
+      "bytes": 55446
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0041381_chatlog_1747240592.json",
+      "sha256": "56e2649bda9ea147d38eec406ae6e30def36ccf3a8124003b91072abe019922a",
+      "bytes": 74649
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0041506_chatlog_1747240483.json",
+      "sha256": "0077e54d9461c341abc0f895fa60010934cdbd50bc890727010f011fe32ac431",
+      "bytes": 38139
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0042090_chatlog_1747240788.json",
+      "sha256": "ae754884f7750e91f65ff9084ded1b8de1d35ad4096780ecdac6a23707ae8e03",
+      "bytes": 31833
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0042530_chatlog_1747238847.json",
+      "sha256": "cf64aa238fc8601d8356a47e351b5ca4ca7d6adcd691466d2dc2a808f50b60ae",
+      "bytes": 58284
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0042652_chatlog_1747238982.json",
+      "sha256": "d2fe63364c0b6982e6108160b86dee12058cd0f0ffa5099fa56a0b69ca7c1c9d",
+      "bytes": 43013
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0043363_chatlog_1747239293.json",
+      "sha256": "e4cde662e329dc4ed5c543aa7e47010eb7a5c2654746cb8c9720970c7d63d820",
+      "bytes": 43402
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0043580_chatlog_1747239700.json",
+      "sha256": "a5e153d56551c32d92b1f1566198faeda9b2f977b5f4b57d763384b7668f2ce2",
+      "bytes": 44928
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0043590_chatlog_1747239829.json",
+      "sha256": "681ce742c261e8122cd242bbff1e7fd95fee785026800e3ea66e2acb33f360e2",
+      "bytes": 15716
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0044015_chatlog_1747240233.json",
+      "sha256": "54fd73e450b51350fa4fe96779a85ec487ecbed11369615072bfed02266b61b0",
+      "bytes": 42135
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0044063_chatlog_1747240401.json",
+      "sha256": "2d06ff8d869824510f2149e2df2976b0ccf6b378c12bea9614144bd9fa5f5e46",
+      "bytes": 17395
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0044328_chatlog_1747240699.json",
+      "sha256": "432f115d0ee7040ed449529b5743697e1608751e7db6031ef512ce355311e44e",
+      "bytes": 47103
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0044449_chatlog_1747241378.json",
+      "sha256": "ba2de4ea3deefec5962389e6cce6b25760b461873b4e48fdcc0549e7e6da81c7",
+      "bytes": 63690
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b-with-tools/P-0044903_chatlog_1747241587.json",
+      "sha256": "144b8888973176b657ec98318607e1501564d24f28a79a24555b1db746ef0e61",
+      "bytes": 23969
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0004727_chatlog_1746517802.json",
+      "sha256": "4de4d56b6ed8d397f0a750e100c46bc7d817fb08907812e17bd7acb8785cd73f",
+      "bytes": 14906
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0005014_chatlog_1746522332.json",
+      "sha256": "f202c216e28525285399738019093b3cca4c817f78358a62bdbecb46e4e6375e",
+      "bytes": 15184
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0005708_chatlog_1746518629.json",
+      "sha256": "6498fae44056b5a473dc13aa077d05bd517be7584e56c80e753eae8c7216fc79",
+      "bytes": 6104
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0006191_chatlog_1746519243.json",
+      "sha256": "c115e81a1d5dab48e98acb64c39dd249450839bc4acf36277257eac0796fa510",
+      "bytes": 23182
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0006687_chatlog_1746520158.json",
+      "sha256": "f74f9844b4d27554330f3ce412346e06f17a002c560847678d8a456873dd5b14",
+      "bytes": 36050
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0006691_chatlog_1746520988.json",
+      "sha256": "775fdc1a5cd5d26cdd85327accaabf22aed655d31364e3d10f80b75f25373c21",
+      "bytes": 20637
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0007637_chatlog_1746521572.json",
+      "sha256": "06419aaa689c8e3d79157b281b18a43c36eeca29292341c365196a4ff2ce40f7",
+      "bytes": 14823
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0009786_chatlog_1746523195.json",
+      "sha256": "7697e7672578e6f97673c103a5a359bd400fc05d2d7a3bbe3340699db65577a1",
+      "bytes": 28591
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0022292_chatlog_1746523977.json",
+      "sha256": "86dfebc201fcb294721ec77aab1d671682ceda8de05244b90df89d70c733c50a",
+      "bytes": 33788
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0022653_chatlog_1746524865.json",
+      "sha256": "211fedfb4bb515947667178cf42e6d1448f48449788bcfae80d787ee77c3e184",
+      "bytes": 20613
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0022826_chatlog_1746525635.json",
+      "sha256": "eb243f429990fb64d2bc518ab947e60965aa991faddbc9b27ca2d22db1f56d6b",
+      "bytes": 14877
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0022916_chatlog_1746527152.json",
+      "sha256": "a3b205cd40d366e754cb3ea81c6e37f5aa3fecb390a0186b524d6ec4d38dec74",
+      "bytes": 43131
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0024579_chatlog_1746518341.json",
+      "sha256": "b8756b817ca03da3289eaa35b0ad99040851dedf7f2f1fd36478ecbbd3c77a56",
+      "bytes": 11443
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0027883_chatlog_1746528886.json",
+      "sha256": "6e50bfea6c9900cc5ab3751fccd489d4aaf23c533b047c695114b282264b7f08",
+      "bytes": 24919
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0028198_chatlog_1746529618.json",
+      "sha256": "84ed0f58ed75579823d289a7bb6033416a069bb2c47748cb0d5d8e6ae6f7854d",
+      "bytes": 21738
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0031600_chatlog_1746529993.json",
+      "sha256": "b29b841db261576d1edd177f7226df6d80aa5857dd6a80df1b59451579cf4a29",
+      "bytes": 7449
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0032535_chatlog_1747130754.json",
+      "sha256": "bb1e10d23824d973eaa9121ccfe1e5c5f6683f19c574ad4349aebe17815ed758",
+      "bytes": 27139
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0035737_chatlog_1747131002.json",
+      "sha256": "99c1581d643d4f416deace11a9bd60aa27c4ac81f9df3f951f2028f75d1ff68d",
+      "bytes": 8532
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0039020_chatlog_1747131241.json",
+      "sha256": "706f7c10bbac839003a1b6e90f59e9f82850365b5283051d967dd5527d7d86da",
+      "bytes": 19141
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0039147_chatlog_1747131536.json",
+      "sha256": "0b5b44bbb3eeed201f4aa1443c213135d2ee642b65f5c36f730fe56db1613669",
+      "bytes": 11427
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040042_chatlog_1747131983.json",
+      "sha256": "8306dfa18deb3e80ec6c1a626794e3e8eab91ac24f962920ceeee6f5db2db6bd",
+      "bytes": 25376
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040055_chatlog_1747132257.json",
+      "sha256": "72780a387774ffd1a475d580941b9de7d181c24a47f4795e7b455ff9dd07adde",
+      "bytes": 15339
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040144_chatlog_1747132579.json",
+      "sha256": "0d39965d8f8bd25bf000d120e84f18b6fe1aaff1be64d1b748d0f9090c476973",
+      "bytes": 9984
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040302_chatlog_1747132926.json",
+      "sha256": "d9d6ba6729f92af3847d5f70c8f4d1463ac8fcf7bf6a4ca7a038ea88a345e2b7",
+      "bytes": 11780
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040923_chatlog_1747133316.json",
+      "sha256": "07ccdb5f2736aa7e8157ae9beca7602504da78342973e4f1a678377458f5720f",
+      "bytes": 18899
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0040957_chatlog_1747133523.json",
+      "sha256": "cfc1bf98ace689c422ce7af6705a495d2491340a567e43324b108c34ca7917a2",
+      "bytes": 18928
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0041210_chatlog_1747133844.json",
+      "sha256": "12c161c1a38f7290e1934da1269f3c3d7dfaa6366886edf0b13aec141879d021",
+      "bytes": 17792
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0041381_chatlog_1747134741.json",
+      "sha256": "4bb7f3681cdbbc9487f0faaae2547f9efec474f3dc5e614815f19dd5d09506aa",
+      "bytes": 73935
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0041506_chatlog_1747134976.json",
+      "sha256": "edc9c05b01f7bdfe690623bd72b4b1c247260d09aa2d94315837dc1fab45582d",
+      "bytes": 9607
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0042090_chatlog_1747135351.json",
+      "sha256": "62fbb5e6b330e605ad8ce0f55fe3ff2f8099bb8647206b511bea8f3075ec546a",
+      "bytes": 12603
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0042530_chatlog_1747135944.json",
+      "sha256": "6a7d8874501469fddd8a82ffa64305a25a4ac778506ede3d1afb90bd8e5858b4",
+      "bytes": 17774
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0042652_chatlog_1747136208.json",
+      "sha256": "5879485725d9fb6bb1abba8f147eac7676132187f0f5e4c6c943cbc05f383e13",
+      "bytes": 14600
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0043363_chatlog_1747136494.json",
+      "sha256": "9e11368e7ea1aec0909822aee1670c6d5a5f817bac31647ccfc106f31a75d872",
+      "bytes": 17525
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0043580_chatlog_1747137046.json",
+      "sha256": "bc55916cdd7e23bf271861c968ecffee4ca3adaba490d4ea6cf14c0a06e62fc8",
+      "bytes": 19567
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0043590_chatlog_1747137222.json",
+      "sha256": "b8e969dde598b2cd4ccdfe38c6478cbed1537cd0e1814e25c37cd437b76401eb",
+      "bytes": 6213
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0044015_chatlog_1747137843.json",
+      "sha256": "f3f406988c9865c4b1f8404124c0c313348ec846a5dfe01280dc458ac6f9bfc6",
+      "bytes": 20554
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0044063_chatlog_1747137994.json",
+      "sha256": "8ff356e2a46c974e0023882ed8cf210a36aa37b4eabb468e31c65024273629dc",
+      "bytes": 6664
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0044328_chatlog_1747138604.json",
+      "sha256": "a11957201c215320d2dcbd901a00bd91225dd8e3fe7dc6cd2a2d4fd307587674",
+      "bytes": 17400
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0044449_chatlog_1747139042.json",
+      "sha256": "d1db5244e66d1c4c0e1c3c7b0deb81adafdba3cae671da62bd13e7892a93be06",
+      "bytes": 15046
+    },
+    {
+      "path": "agent_logs_msk/gemma3-12b/P-0044903_chatlog_1747139245.json",
+      "sha256": "ea85a997cef4d62f50a3c2a7716696fed51be49260745c180202137a4a476dae",
+      "bytes": 7917
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0004727_chatlog_1747242872.json",
+      "sha256": "ab2b471a77ff8fa49e69704d102b47b5d4448b72a055ec9588fb00fd255146b9",
+      "bytes": 37581
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0005014_chatlog_1747247002.json",
+      "sha256": "e1e18e84e9eb8e77e586637b1b913776eb1d1443db14486b493d3cb41fbaae62",
+      "bytes": 69585
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0005708_chatlog_1747243429.json",
+      "sha256": "97cf96096ff6efe78352b1f7124520ad6faa19831130bdef3df1f6fb599d7dab",
+      "bytes": 15345
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0006191_chatlog_1747243968.json",
+      "sha256": "c2d8f1ce5e7672d4bce86edbba6fb489b8ee1f34e2e6ffa977b2236cc996988c",
+      "bytes": 59899
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0006687_chatlog_1747244811.json",
+      "sha256": "ae4a510dcebd7d4216de7819fb1728519899e76d8ce698f0ce5466128c447c10",
+      "bytes": 116973
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0006691_chatlog_1747245312.json",
+      "sha256": "ddd5c74cbf0bd1007c6d3acd5199b7f3f8f2e8a2d64b2ca59369edb3f3e75ef3",
+      "bytes": 114938
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0007637_chatlog_1747246221.json",
+      "sha256": "18e5c5f9eae7565b20c90edb34c9c0fcc52fef915a282cbaac216a113e180960",
+      "bytes": 59524
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0009786_chatlog_1747248485.json",
+      "sha256": "5f0a0d1cbb56e61f9f410d55eead06c9e84f5ed070298918e1fe6c103f5d77d1",
+      "bytes": 106689
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0022292_chatlog_1747249074.json",
+      "sha256": "c42f7f7a3909f92d6cc1a5a64fa924c26ebf0f16df7fae7c3f6e5decc9e1af8c",
+      "bytes": 117536
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0022653_chatlog_1747243586.json",
+      "sha256": "b43ef11e6d8dfbf1ab4bf574655423f06324f84ca307a9313978a20d3a7a0f76",
+      "bytes": 86104
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0022826_chatlog_1747244192.json",
+      "sha256": "4bcc4cb8a93a1b900073a3f629a1c008fb01959e27967f151097fc749c187c41",
+      "bytes": 65801
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0022916_chatlog_1747245273.json",
+      "sha256": "383051d9db644ce19238d4819dfd6e4121dc8eac678c2f30553d6bb9f0c80e96",
+      "bytes": 161386
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0024579_chatlog_1747243240.json",
+      "sha256": "0dd359617adac0ed5bfabd0a8cfe244bfdf78e78720de45cb64f8d149a396892",
+      "bytes": 33161
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0027883_chatlog_1747246745.json",
+      "sha256": "fbbca19e4ad2db0baacba141843c897e426fc6c3ab2fd0a24ba8512d55024531",
+      "bytes": 146155
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0028198_chatlog_1747247242.json",
+      "sha256": "e13fb707155a4ba152911ebf5b65f23ceb57308e47f3995d3bfefc8c9fda1407",
+      "bytes": 74698
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0031600_chatlog_1747247573.json",
+      "sha256": "40b56b0b6679eff7bd4784e6ec044fcac25f96feb6bbfe995ed02234eb45ec60",
+      "bytes": 33575
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0032535_chatlog_1747248398.json",
+      "sha256": "e99eb0d65b20ef7eec03e0e0b3288eb8a9293a061a78b9ddecee094e5c7c2653",
+      "bytes": 108120
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0035737_chatlog_1747249054.json",
+      "sha256": "20dd40f34a604789a835f6a237fecdec8f855a4f701a8c46e748191977841ecd",
+      "bytes": 51773
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0039020_chatlog_1747249148.json",
+      "sha256": "0ddbc70e32053b49494f4bf1b4b0a33d1ada79a65feae948d2f97a580fe9df03",
+      "bytes": 65887
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0039147_chatlog_1747249572.json",
+      "sha256": "0c07d8fe79a80ea8fbe2597bb70ba8877ad73d810b742e8573510c2e6c2e112d",
+      "bytes": 48408
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040042_chatlog_1747243634.json",
+      "sha256": "ad3fc753981c073ffe07435b2fe78b1e850c818b6ecacc9c201fbb7b617856df",
+      "bytes": 174345
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040055_chatlog_1747244226.json",
+      "sha256": "86895903016dd645e5a5b8a6502c0c59c2f7a88d961a69dfcb753de2be9cf8df",
+      "bytes": 53664
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040144_chatlog_1747244738.json",
+      "sha256": "d7da29315d54f7c90c8cb1a9cc934f58a8dd637eee3a5a9ed8a28f646f88040c",
+      "bytes": 47715
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040302_chatlog_1747245319.json",
+      "sha256": "0f2b56d61940026c3e04101532cf8f218da5576823d794bc98228e064fb500ae",
+      "bytes": 70412
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040923_chatlog_1747245888.json",
+      "sha256": "9a9bfaf975e6a0e9349c2fad397862d3d10c4b4ac40ce1e9c7c8a9c4a8fefa2f",
+      "bytes": 43425
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0040957_chatlog_1747250260.json",
+      "sha256": "2e03c6c71ddb1551bec382b564b745871e9de7fa28a67dc3d6b47392ae3bfdee",
+      "bytes": 67460
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0041210_chatlog_1747250879.json",
+      "sha256": "ab072b488313dab644fcecaf8c21adf6249b7d713e32921b090b3f83aea850f6",
+      "bytes": 81785
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0041381_chatlog_1747252916.json",
+      "sha256": "3dfa87203236f7de6f81bf558c3f6cdc6fc51a4344a350c09a8c273bac951585",
+      "bytes": 247796
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0041506_chatlog_1747253472.json",
+      "sha256": "204e6ee59964d7d8fe224f781733ddc2b87c0ede9152379af6f6bfc3aa41d509",
+      "bytes": 53916
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0042090_chatlog_1747253878.json",
+      "sha256": "1b5e513af334c3ce3ff00dfb133abf8a168a39fa98a984be1b785853d6a3cd26",
+      "bytes": 42545
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0042530_chatlog_1747243721.json",
+      "sha256": "d59381c6ab66a8af06a1073a3ead523f7adcbe378a6d9b47a50de2aa0abe2fcf",
+      "bytes": 67713
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0042652_chatlog_1747244184.json",
+      "sha256": "489ae3b09a464cef97427336c93783970894a59066c553262ccb61af149515a9",
+      "bytes": 58640
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0043363_chatlog_1747244703.json",
+      "sha256": "e3d80182619689b10af6e3b18a4ee9ed5277822fbd953ec2f1f410294aadda85",
+      "bytes": 55615
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0043580_chatlog_1747245777.json",
+      "sha256": "02e7e39057a1b4cf0f15efe9c79d7e66ead1e062203fc2a76661ffff7c9806dd",
+      "bytes": 97625
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0043590_chatlog_1747246164.json",
+      "sha256": "2d3f3e76a3e9cb78238b0e9603bd0376a3594b79d6009e04a486e4f1b0d5e76a",
+      "bytes": 28466
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0044015_chatlog_1747247197.json",
+      "sha256": "6fd5f3be7282779ee05542007a26542bb56d0cf0c755d3cdfa23b1cebc4f8da4",
+      "bytes": 107251
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0044063_chatlog_1747247386.json",
+      "sha256": "17e76dcd71c2984f43adc3b1c3dcb76021f674116bd9df8bb15003e685d37c9b",
+      "bytes": 28777
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0044328_chatlog_1747248371.json",
+      "sha256": "a138e60f616b56df898f7c33c656b9941f08bc66592102ebc8a16ea38c73355e",
+      "bytes": 81254
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0044449_chatlog_1747248980.json",
+      "sha256": "b0e04f5da9de2bb5df05420304e0d56c0c2bb683d961604df9b756ecb5bcf531",
+      "bytes": 73140
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b-with-tools/P-0044903_chatlog_1747249211.json",
+      "sha256": "6b3f525709063e5f88229e54e1c5391a777f16267d38c1537f3bdf639107fbd5",
+      "bytes": 28172
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0004727_chatlog_1746516937.json",
+      "sha256": "d9248dae05e4bc271ec34c6e7c72c8731a6da96e99ce619e903db6228716560f",
+      "bytes": 15502
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0005014_chatlog_1746523625.json",
+      "sha256": "c546332a261e62c6827f93661f3970e937085975697ce81142b4b8395c29e962",
+      "bytes": 15826
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0005708_chatlog_1746518178.json",
+      "sha256": "3049fcbc5eb0dde3691bf7c8d2da5c5746168b2835aa3cbd00b4246b5f53c671",
+      "bytes": 12135
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0006191_chatlog_1746518988.json",
+      "sha256": "b93aae0b5824d2e6e3204e715968093b814a3546d703477b68ae18fa9bb845f3",
+      "bytes": 13875
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0006687_chatlog_1746520345.json",
+      "sha256": "971c1d6fa2bf5d0446277375fa0e4e6f1ae06ab9c62b07f72c2a80ad7c777405",
+      "bytes": 32309
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0006691_chatlog_1746521579.json",
+      "sha256": "33456068d89fe9bcf75d0c3444e68ea6381a5d1d6efd1f5756a2d2f2bb15a219",
+      "bytes": 34040
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0007637_chatlog_1746522534.json",
+      "sha256": "749804c66be49531d1bc4de338f6d8edf64ba8f9c103dd0d1231734a73287655",
+      "bytes": 17677
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0009786_chatlog_1746525227.json",
+      "sha256": "e8efa406be67c5752bcd973bbfe6ce308001def3b6344346661eda0a5c29bd39",
+      "bytes": 31844
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0022292_chatlog_1746526655.json",
+      "sha256": "884c4b2ed4bc466f85a36140acec32d0655f0162d6597887ad39b673e6dea64b",
+      "bytes": 36542
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0022653_chatlog_1746528186.json",
+      "sha256": "decdd013bcf84e5208cf45f2c646e343b2e2ff27b13d02738aa05f685621cd36",
+      "bytes": 19972
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0022826_chatlog_1746529900.json",
+      "sha256": "d48c9d0207fa8474300593107f9548bc38e56ef959bb5aef74b0b84520948c14",
+      "bytes": 16307
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0022916_chatlog_1746531773.json",
+      "sha256": "7b3fcca99c8e2e44a3b0861ee82095f095b746cab97838bbc9eaee9b5d3914c4",
+      "bytes": 26224
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0024579_chatlog_1746517446.json",
+      "sha256": "4eb08eaf2dd364cc9616e6fd9805390c1b1b34b166cfb7bc36b33a92556f3115",
+      "bytes": 12958
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0027883_chatlog_1746533366.json",
+      "sha256": "62b02df9dddf7937915261aa467f27d17c33f22ce6cb9d75b75bb64920c3f9b0",
+      "bytes": 27703
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0028198_chatlog_1746533960.json",
+      "sha256": "3cadf7f3fa987343af9a8dced05d0a1e92ac70a4dd805e3c8a8c53d743742141",
+      "bytes": 15921
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0031600_chatlog_1746534370.json",
+      "sha256": "c0fd7059363778b1e6cedf200908cc088132e8909d751c44cb812d62b4aa9cb3",
+      "bytes": 9781
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0032535_chatlog_1746535277.json",
+      "sha256": "afdf8910c627bed00fea52ccd5eb270561a37c8575484e29052e2d8d2785f219",
+      "bytes": 30293
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0035737_chatlog_1746535688.json",
+      "sha256": "e9b4b95aa4e4fc5bf5fdb6d77d821068cd97c3ed1324c2e78f132f798ec737f0",
+      "bytes": 9957
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0039020_chatlog_1746536087.json",
+      "sha256": "1934f8884e9ed98a6a36d30e4ce463cdefa2a7db9668e8a5a147a0124a886b98",
+      "bytes": 20227
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0039147_chatlog_1746536620.json",
+      "sha256": "f6a0c1cbe6f2f7a210635582a353dccc10d771ddffd893c28df14e9a972f4280",
+      "bytes": 14921
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040042_chatlog_1746537360.json",
+      "sha256": "2b3ead37d6392a653aeeb052f07d88ed1a7196d4a0f4b3174f0cc2b9a229bc16",
+      "bytes": 28888
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040055_chatlog_1746537872.json",
+      "sha256": "ab97940396d476580d55e054e8a6ae7d212922ba1be343788adc19532dd8261c",
+      "bytes": 17124
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040144_chatlog_1746538590.json",
+      "sha256": "a5795eab954cc64f506574a51046e711c709f11a98b0f67df1d11c050e1cdee1",
+      "bytes": 16301
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040302_chatlog_1746539379.json",
+      "sha256": "b584164e70e6438823f44b8ea2d3de7ad286e132c70f68da306dc604eff9e408",
+      "bytes": 13951
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040923_chatlog_1746540061.json",
+      "sha256": "0f0c3a31ec82dbd6550c262d431466b34f27986870352fbcd29c794a54cde269",
+      "bytes": 13476
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0040957_chatlog_1746540741.json",
+      "sha256": "85650f90ce27b3eaa578db50cdcadf4c896afd4b9c3d47c5d46e1cfa30e576ea",
+      "bytes": 17534
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0041210_chatlog_1746541402.json",
+      "sha256": "877c7658d4747073a3d75bbacbfb5c87f5409287063da316d69258f2d60eda4f",
+      "bytes": 18503
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0041381_chatlog_1746542977.json",
+      "sha256": "52323eb4e1dd36543ec82e507215299ac985e4a85ff5cff3d9bfa37b0bc5aa5c",
+      "bytes": 76181
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0041506_chatlog_1746543418.json",
+      "sha256": "9382f9a4cab9c67767e981569afa3a295ed4d9ca3a2afdd071bdeb66e7ce9bd7",
+      "bytes": 11683
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0042090_chatlog_1746544135.json",
+      "sha256": "97dd83f6ff070a520a332b70ba50e7198a3d8ff4979933f6acf61762c0a26e7d",
+      "bytes": 12985
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0042530_chatlog_1746545142.json",
+      "sha256": "828ce0e9a886bad5b3156bc56420c6c6336b9359c14c0fd0847ebcbe4a11b386",
+      "bytes": 16470
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0042652_chatlog_1746545731.json",
+      "sha256": "b5018c194ab0795df86deaff891e945dd7837b1e3250438529013e0d96a09f97",
+      "bytes": 25701
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0043363_chatlog_1746546607.json",
+      "sha256": "b2b47aa25c178ebc10537417733385ba5daed466d0e85d4a92c2c97aebac22be",
+      "bytes": 15079
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0043580_chatlog_1746547324.json",
+      "sha256": "c5c575ae1e7e716115783e554628992aea554bfe8dda662a60bc0febc8fd1ac6",
+      "bytes": 19232
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0043590_chatlog_1746547762.json",
+      "sha256": "da34ac523fd460756ce224d7ac32e98f1a5b6f4cbcb6979f45217709681b5329",
+      "bytes": 7004
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0044015_chatlog_1746549053.json",
+      "sha256": "405633d5c4b19ad9941168b07b2bdd5961320fd321f846f97aa46d51f59d065c",
+      "bytes": 23531
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0044063_chatlog_1746549762.json",
+      "sha256": "ee5318f04a1db40160d610fe2507310d1a0aecbf180fbff86412ad541954518c",
+      "bytes": 13377
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0044328_chatlog_1746550681.json",
+      "sha256": "4df5321fc2939310032bbb6ed39aa5bfe9e81d4abf4a30ae263979ba60220dc5",
+      "bytes": 15756
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0044449_chatlog_1746551588.json",
+      "sha256": "4d4963775acf82d2aaafb1c70983a1b17791d9d79bf6556b9a8bc8f890544cc7",
+      "bytes": 15178
+    },
+    {
+      "path": "agent_logs_msk/gemma3-27b/P-0044903_chatlog_1746552370.json",
+      "sha256": "1bf09534e93ad27d2f6e4d94765a1c59bcc8a25d3e07d5a4a57fae9f43fd17c6",
+      "bytes": 9694
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0004727_chatlog_1746568460.json",
+      "sha256": "d625beb703867e0b2e7105cf9b2e63ca327e3c89c5ca6f147283858be50f7d5b",
+      "bytes": 14795
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0005014_chatlog_1746568727.json",
+      "sha256": "55aeb9847c6dcd692b41aaf80b468e4e086fd25d8571bb29ac69ce65f1e88d00",
+      "bytes": 26878
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0005708_chatlog_1746568508.json",
+      "sha256": "e134344be2ed6dc324ce647c021a03b32e431052bb3b1aa44ea3694265f24df1",
+      "bytes": 12942
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0006191_chatlog_1746568543.json",
+      "sha256": "630fc75dcfcec12c8f0c9171a987b3eed8805b1a7aff8b65eb6ae45d64fbe599",
+      "bytes": 12409
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0006687_chatlog_1746568585.json",
+      "sha256": "b005df5c73590f7beb6d69f343084de62a47ac54578350532338670a99752ed7",
+      "bytes": 27084
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0006691_chatlog_1746568644.json",
+      "sha256": "ab59eb6950d24b500fd00f749e48c16a7a72ff335de42bc6975350cb846799a9",
+      "bytes": 34717
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0007637_chatlog_1746568663.json",
+      "sha256": "dd7b0ec1f5ad467372eecc3f091ed97a584cba409798f8f7f8ae221dad7f193f",
+      "bytes": 12961
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0009786_chatlog_1746568775.json",
+      "sha256": "b9e7ffbb0ad359b142bc32cdb548afa9055736a5b90316a45d73c85e65293bff",
+      "bytes": 27275
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0022292_chatlog_1746568841.json",
+      "sha256": "42a37c2876f8db86b34aa264dc20f643c8cffe8b79dbc334df47955fc62d47eb",
+      "bytes": 29140
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0022653_chatlog_1746568894.json",
+      "sha256": "d19585dd95d6300c2e0db3455d3229beedf049511ca8429c16f419ca73df0912",
+      "bytes": 21254
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0022826_chatlog_1746568936.json",
+      "sha256": "b29c8bf54dbac3c19553f38365872a6a4e19b0fda8b60aef3da03f720132fa15",
+      "bytes": 23266
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0022916_chatlog_1746569000.json",
+      "sha256": "49a7fd8407bcbce2c44db09fbe9a7335a7ef8a09abceedf0427c89bc923f96da",
+      "bytes": 45345
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0024579_chatlog_1746568490.json",
+      "sha256": "ee54f9f12cde67b266fe39a2339394fa75cfe0413ccef70c30e2b1210e52fb4b",
+      "bytes": 10982
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0027883_chatlog_1746569071.json",
+      "sha256": "4cc1565f7cccaf245163ff9f097055b0e3f24048eb60fe8ffa5282714eb240dd",
+      "bytes": 29090
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0028198_chatlog_1746569098.json",
+      "sha256": "6d968005d8b2422f97b06757700a5228b0b1a96d5e5d208ce0b1bf109bfea5cf",
+      "bytes": 21231
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0031600_chatlog_1746569118.json",
+      "sha256": "0cc1dc5a16e8527f42176d7d814225625a592c066a08af48103a737e28b791ae",
+      "bytes": 9005
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0032535_chatlog_1746569159.json",
+      "sha256": "98536f1197b6a65b0498bbd7b917144c9c17cb04f2b5d0614f9b2180db58e438",
+      "bytes": 27051
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0035737_chatlog_1746569194.json",
+      "sha256": "0d0aa2e8ec0fbe77e4d694116e158bcbd609378a5428ae374130af130ab54039",
+      "bytes": 17825
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0039020_chatlog_1746569238.json",
+      "sha256": "fadff70bf3b6955cd12ff8cacf460f39aa35a4b1d81afee40314efbf3e18d41a",
+      "bytes": 21092
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0039147_chatlog_1746569276.json",
+      "sha256": "67a799dfb51c5e75c4480057b226c53d8d0ff49102f84c71b08bd7c5c64708fc",
+      "bytes": 12672
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040042_chatlog_1746569324.json",
+      "sha256": "ec4fe96308a7e4029e5642444203d9a0968b744d6143fa935b05a7877aba96f4",
+      "bytes": 28116
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040055_chatlog_1746569354.json",
+      "sha256": "7c33f5b157fc0ee92f015322015b439c6adda2a26f4f254efa6b12ca1ef8f316",
+      "bytes": 16367
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040144_chatlog_1746569376.json",
+      "sha256": "20f426ffc99b92b303c781b4afb624408659fe16f89f29ace03b04d0b0d1ac05",
+      "bytes": 13958
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040302_chatlog_1746569421.json",
+      "sha256": "6decd0a03d57d32ba64153b927db1cc442509ccc598319ab2998615a62f88845",
+      "bytes": 22315
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040923_chatlog_1746569447.json",
+      "sha256": "73d4c691391551c44fb7cc931ff6088db5e5c42b4024689093f97a8cf8bcb750",
+      "bytes": 13128
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0040957_chatlog_1746569493.json",
+      "sha256": "3f28edd95b53f93979a8317389ecede1785e36ea12c3c444209777a085655a0a",
+      "bytes": 17932
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0041210_chatlog_1746569541.json",
+      "sha256": "3e24f80bfbdf76d19aac9e7bee76cf819f31668054ccb462e3ef0d0a7281e3cd",
+      "bytes": 29591
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0041381_chatlog_1746569607.json",
+      "sha256": "de2f4c701af87d70bf166f6cde5de8ed53b6ff592a1a55d6ea7bc862fd88c051",
+      "bytes": 42582
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0041506_chatlog_1746569626.json",
+      "sha256": "4eeb2294632722ddaf30adcad2deea4be3d6144eac58b3f9407f28af2355a2a6",
+      "bytes": 19552
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0042090_chatlog_1746569644.json",
+      "sha256": "152114552b18acf6b1940639be1a3320155bc8d048b5c62d03fd807196921223",
+      "bytes": 10573
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0042530_chatlog_1746569678.json",
+      "sha256": "893cd3a1e7bdc7df581f2632fc09900ec5a5fc74e61a2d923887bab922058d64",
+      "bytes": 17653
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0042652_chatlog_1746569702.json",
+      "sha256": "cc71b864b11ea7f94c386d60eeddf9720fe1933d53943546a1c193ad713199be",
+      "bytes": 24246
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0043363_chatlog_1746569723.json",
+      "sha256": "8a7dda5370fe416754cf5403ed7df6bb41f64fbf8b2d32f0bc8a9260d6074c15",
+      "bytes": 12701
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0043580_chatlog_1746569772.json",
+      "sha256": "28e7f8205f7c0ca4c1c8593ff6ef595fc4b6fa0093107da0b6ff5a916c9a2dc7",
+      "bytes": 20065
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0043590_chatlog_1746569783.json",
+      "sha256": "37a304a21c846713dea71136c4cbb50e4ac153cbb3f1ac49d0dcc8df70325b89",
+      "bytes": 5976
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0044015_chatlog_1746569831.json",
+      "sha256": "2412117c9d0c530ab2c76221a0a9d36380fb0f98acf5be3fb73019f3fad1fd79",
+      "bytes": 20533
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0044063_chatlog_1746569847.json",
+      "sha256": "614a8773ccfd2a986c1f9a708eef1ad23c1fd101fa15a630c506eb6b55411b9d",
+      "bytes": 12620
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0044328_chatlog_1746569883.json",
+      "sha256": "576f859ec6ea889c7e5eb77a1b9249560430b1d5c61f2966c9c0c3feb1b57d94",
+      "bytes": 14638
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0044449_chatlog_1746569927.json",
+      "sha256": "644f7039f41d1283b30b6640f734ee86b3d6528edafec044f1afb3dab7ff37e3",
+      "bytes": 17446
+    },
+    {
+      "path": "agent_logs_msk/gpt4o/P-0044903_chatlog_1746569944.json",
+      "sha256": "65506657f7b7762d1a8b92cc38c13404958f604abebadc160e608cff4be6462b",
+      "bytes": 8187
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0004727_chatlog_1747246338.json",
+      "sha256": "622aabe58332abd95a79f521170d7570bb6b8a30c06f0df8497a3bcbe790c0f7",
+      "bytes": 51297
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0005014_chatlog_1747246752.json",
+      "sha256": "7d96992b1dc62b8273fd7cc973efb69309c0c92d3e27a473add535de8ebd0095",
+      "bytes": 106279
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0005708_chatlog_1747246439.json",
+      "sha256": "8d5052cd2200f824afd57661545e32eeab4dae931428229328eddf7060891f56",
+      "bytes": 52873
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0006191_chatlog_1747246496.json",
+      "sha256": "2779fec1b1268baf66fb710d6c6ae77556934ce1d27831ba3c1e7ec2ce1022f0",
+      "bytes": 57423
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0006687_chatlog_1747246540.json",
+      "sha256": "c2e8148ac65790ab7904e93c60b775f46b058c28dcf4150340aec18643374804",
+      "bytes": 86068
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0006691_chatlog_1747246632.json",
+      "sha256": "8e7f2ea4d08c0b09edb5593148821c3f6a3be7b018417a4d4ab1c86b6e2f3149",
+      "bytes": 160991
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0007637_chatlog_1747246693.json",
+      "sha256": "6f518495296a182748239199941fdb49ed4762f1296b2dc38fafe052df014527",
+      "bytes": 38910
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0009786_chatlog_1747246766.json",
+      "sha256": "70482d7142faa1037551854113a5dcd39859e04878903887751fbbbbbb5beff5",
+      "bytes": 72395
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0022292_chatlog_1747246800.json",
+      "sha256": "733aa1923b30be17f3e18a0b2fb2ecfbe66d15e42b3b373dbd150673beb29611",
+      "bytes": 98929
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0022653_chatlog_1747246823.json",
+      "sha256": "f2ec4f8d0b4cae0613c6b9687696d9fddfd9a10d32d1a9203e08401911ff3efb",
+      "bytes": 67434
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0022826_chatlog_1747246896.json",
+      "sha256": "ed6725a7fc3a5ef5832be63fa31dcff74ab70c74b5fdd65e6d0adb777b2a5dd4",
+      "bytes": 104359
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0022916_chatlog_1747247050.json",
+      "sha256": "319cdb8478951544ed5ee744639e98c19a061f19add23ce1da64c6a685669d96",
+      "bytes": 204394
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0024579_chatlog_1747246432.json",
+      "sha256": "c0273a45141597b081ad00bd491c035d0807285102926a5aea0027d4b9eefc79",
+      "bytes": 79530
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0027883_chatlog_1747247080.json",
+      "sha256": "e0220d5acd11e69e0cb87aa74c8dd27df059e452de22e18a6cbf32b485f0f1cd",
+      "bytes": 118249
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0028198_chatlog_1747247105.json",
+      "sha256": "2d7fef6289a3b7f9ec99dc66d2dcac3c2e31497b9cd5934d45b6d28cb24972ef",
+      "bytes": 79086
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0031600_chatlog_1747247129.json",
+      "sha256": "2e0854b7be3edb7718295b6f9e839f9f580b8ce0179d6b1be34dc3507518b560",
+      "bytes": 89062
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0032535_chatlog_1747247150.json",
+      "sha256": "454ba75baa9c6698240e70903e53f8c8102fad7c11291bd4d956483d598970ae",
+      "bytes": 94607
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0035737_chatlog_1747247269.json",
+      "sha256": "5c9bf429a8b05ded4b1f6f90559993886ce17ae185548377ffdb9b61c2348468",
+      "bytes": 50397
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0039020_chatlog_1747247294.json",
+      "sha256": "21bfb5542d17f2f4c4dccd2905a048dacf5558c9b67c72069259a0f7a41d39b3",
+      "bytes": 59838
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0039147_chatlog_1747247327.json",
+      "sha256": "1d2688454dee2a014a265e14d283547d79652da759cf0e894c39c21908cb403f",
+      "bytes": 76759
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040042_chatlog_1747247373.json",
+      "sha256": "e73f707f83456fe19ca64556f97398952f96ad3d13f54255e064d923d62afd10",
+      "bytes": 137795
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040055_chatlog_1747248104.json",
+      "sha256": "584ff351523fa28d2fb5a4a02df1436120c8e4042c08c1c559a3f6efa5dac629",
+      "bytes": 36063
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040144_chatlog_1747248150.json",
+      "sha256": "e58bceedc99f1280b05e7f00c4583ef92ced2fb162000a0b69ac175082288412",
+      "bytes": 48599
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040302_chatlog_1747248161.json",
+      "sha256": "5eb9ae9c66bf6132695b6fe00e1b35559da09d1b6609217edb00dfbd9cc4fb33",
+      "bytes": 74860
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040923_chatlog_1747248235.json",
+      "sha256": "7df87c79ffff1522be0255e0ba9be35da656eac8b469e8eab2d2e1287c71f745",
+      "bytes": 65006
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0040957_chatlog_1747248272.json",
+      "sha256": "d13e046d6eb82929dc5a06a543990616e4e79a73cf57a4a284551961b47251db",
+      "bytes": 112367
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0041210_chatlog_1747248283.json",
+      "sha256": "90b82b250a813ff56dcd41779b242de3fa8ec91bb2080c13c47446207bdc651a",
+      "bytes": 42599
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0041381_chatlog_1747248316.json",
+      "sha256": "bc043b8a4c7d6ba995b4b9552b7cbbc2deb2a17af20deb67960dd8d8cc569b66",
+      "bytes": 203558
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0041506_chatlog_1747248337.json",
+      "sha256": "c5163432857c003e32fbe093ed075e857c1a4828ffef6b24fedea11a118658cf",
+      "bytes": 52100
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0042090_chatlog_1747248347.json",
+      "sha256": "226ccb62247575fb660bd02b20f5a54e86e9decaa56880d370470900b7e55cf8",
+      "bytes": 34579
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0042530_chatlog_1747248368.json",
+      "sha256": "3a553e10835cf0746fed335b242d59fef9da7606fe7a70eafd7de1f415210815",
+      "bytes": 87195
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0042652_chatlog_1747248382.json",
+      "sha256": "f0e1cbfec2e73d32e9bc045008e696790f8705287227636bb3aba0fdf140e0a4",
+      "bytes": 65677
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0043363_chatlog_1747258461.json",
+      "sha256": "2daa4ff806fea32e391e368b608e094bb372018027da18f4741bcdc304ad0ade",
+      "bytes": 79961
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0043580_chatlog_1747258491.json",
+      "sha256": "23065e4d4aa62d434d805def530356a01168cdcd42d2229c7836a156581793dd",
+      "bytes": 82697
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0043590_chatlog_1747258497.json",
+      "sha256": "178ac2bd57e733eb0b10294e4f3083892436d06f678017576292bf645619d4a2",
+      "bytes": 29627
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0044015_chatlog_1747259424.json",
+      "sha256": "d3895a97766bab9480a63c1eb984c5eec5b7978593d97025ff60f8a7f2c70b69",
+      "bytes": 40808
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0044063_chatlog_1747259466.json",
+      "sha256": "fd257b0b1bdd93cef6a294f19e32f818c480dea10b37cf4aeb0e0dda49bfde0f",
+      "bytes": 40611
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0044328_chatlog_1747259499.json",
+      "sha256": "1dc8d9d05f40bfdfbb558fdb1f7cb0b9c23aaf410e65bbbe2c2354f4cca7903b",
+      "bytes": 61897
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0044449_chatlog_1747259516.json",
+      "sha256": "c45bde886703e9a248d46057367a0d1a8b64ba6c651a0229374a59a47ef1e7f3",
+      "bytes": 85777
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b-with-tools/P-0044903_chatlog_1747259554.json",
+      "sha256": "20b719d3f0ec90cb799a37fd1adbf3c903519372e3cb7e52cf49c6316181ea2d",
+      "bytes": 42457
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0004727_chatlog_1746454418.json",
+      "sha256": "4f817334e571b1063da01d856e54d12a3b272bf2cd77023320455c0cbe4e8380",
+      "bytes": 29802
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0005014_chatlog_1746454750.json",
+      "sha256": "1d24f03f6eea9a2016bc2757862d69dc761ff4a52b5de47760de49423a8369e9",
+      "bytes": 26120
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0005708_chatlog_1746454484.json",
+      "sha256": "f238b981fcb53ebd654bd9c3130e0f8e89a9a02ce0c50cdb6c472ba0c702e21a",
+      "bytes": 14941
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0006191_chatlog_1746454531.json",
+      "sha256": "8fde56f413cd4dd6184b7aecd3804fda6cb64d7b44d098a5f4911c1f9ff9faeb",
+      "bytes": 17670
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0006687_chatlog_1746454571.json",
+      "sha256": "88d71b05dfd10b5779b44e896b5c2fc45d2430475f8a9aab69fb4413b6a1e203",
+      "bytes": 29216
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0006691_chatlog_1746454629.json",
+      "sha256": "4a79b691ef4ef1aa940e5a11d860a39718c1981e1a5bebaac0850b2a12b386bd",
+      "bytes": 23888
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0007637_chatlog_1746454669.json",
+      "sha256": "115f9d23425e6c6500f63b780570069970c446b3b0fcab4595fe9dbbfaf2cfb5",
+      "bytes": 18499
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0009786_chatlog_1746454819.json",
+      "sha256": "4ea309d41b5c895d8305edc71133a47070cb377321f117e95f00524033fa40f1",
+      "bytes": 31744
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0022292_chatlog_1746454864.json",
+      "sha256": "6a16e92be70c38388576bef994c1fd7be6ed8bed7c6dd3f1bfd172cecd932f03",
+      "bytes": 25866
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0022653_chatlog_1746454909.json",
+      "sha256": "ee13dd7bffd0160d24568b64b2a3f1668ac622922321d8844d19ba3e63972ff0",
+      "bytes": 19058
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0022826_chatlog_1746454961.json",
+      "sha256": "d263ba4da6a72707b75eb04489b51cce7f00b082734deeb6e1cddc78120f3806",
+      "bytes": 23936
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0022916_chatlog_1746455031.json",
+      "sha256": "d9ffa6c5a6297e675373476f31f6edff0d89d8c9fc561354f062cd5d047f6219",
+      "bytes": 31465
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0024579_chatlog_1746454453.json",
+      "sha256": "4ad13ce98b30f8f50c4ffeb7bd366bb6c06e1fe5296affe2c512629242d037ca",
+      "bytes": 13178
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0027883_chatlog_1746455128.json",
+      "sha256": "f72826554b95a9728f07aa14c29926279a4358ab6a8dc6319a32ff4d7125908d",
+      "bytes": 30584
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0028198_chatlog_1746455168.json",
+      "sha256": "2d201a66fbb1a74155cf957f1cb1a92c284fe7fda9666caa29ba635cbce7ce87",
+      "bytes": 23511
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0031600_chatlog_1746455197.json",
+      "sha256": "6d0ea57a9ec395b0d2b3d9bd1019c33851df6b0b9db6b2f0e6b740b3182a18a2",
+      "bytes": 18546
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0032535_chatlog_1746455259.json",
+      "sha256": "d5c2203c8582c1ceaf253cba61289cfa8866ad909d441a8199d2cd96fe4fb9a8",
+      "bytes": 32534
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0035737_chatlog_1746455299.json",
+      "sha256": "c827898de150e497d1bb74fa63248901870ed98b74a6a2745b8a4c0204ca929d",
+      "bytes": 13737
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0039020_chatlog_1746455318.json",
+      "sha256": "ce4f62aa914416f87d8c166ea795c7cdd6b40d9998a56480bea6aaaf3b569d5e",
+      "bytes": 12828
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0039147_chatlog_1746455351.json",
+      "sha256": "55be94d1662a3288567146c51db70513a347dc3201aab8dc582a53960d35c4b1",
+      "bytes": 11547
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040042_chatlog_1746455427.json",
+      "sha256": "90ae2ab34d69fe48689431a3142939c76d985f2ce0098695ad49dc4e50acc10c",
+      "bytes": 30643
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040055_chatlog_1746455454.json",
+      "sha256": "7f873fbf32bc34c2c1732ee67385e39c5b8a33187320e59bdd891dcfb94f4221",
+      "bytes": 15803
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040144_chatlog_1746455481.json",
+      "sha256": "e18722859d658a9baef3184463651efe9b55d57e526b16779e1caabf9c1b9899",
+      "bytes": 9950
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040302_chatlog_1746455526.json",
+      "sha256": "949ad75ddd7f17a0c00b14d377f60a1932526f8db3f088e75d756923cacd0f26",
+      "bytes": 15086
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040923_chatlog_1746455597.json",
+      "sha256": "afe3edb1515ec31935df27e3a04f05269044bf361c3cbed8dfd689b552e8f96f",
+      "bytes": 23435
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0040957_chatlog_1746455647.json",
+      "sha256": "0238ab0e25bdf9ec65e17d79988507fb734cb8af11cc014c0309cd6f1a693be6",
+      "bytes": 27380
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0041210_chatlog_1746455697.json",
+      "sha256": "b2bb39565f9f7093f112a7a398faebdd1ce9cbefd2c2b4000f1532550801843a",
+      "bytes": 27663
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0041381_chatlog_1746455768.json",
+      "sha256": "683e0ca640cb9fa9cd85a5b7e04a9e4164b16d3b11b7db0cb0c986b2e4963d78",
+      "bytes": 35847
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0041506_chatlog_1746455791.json",
+      "sha256": "c0fd7c00ea4ed3ece378d194acc8f9a23e72cead4832d2060414b3a27e7cc998",
+      "bytes": 14282
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0042090_chatlog_1746455816.json",
+      "sha256": "01ff1a8117a3d0c5057abc622e98fbf4d8c3d07014e047c3150328566cfd61d8",
+      "bytes": 11090
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0042530_chatlog_1746455871.json",
+      "sha256": "2a16237946a5a27e2ce26509c0c5a31e2a66ce9ab3ebb8bf4607e0e102d5aa39",
+      "bytes": 17065
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0042652_chatlog_1746455924.json",
+      "sha256": "51b2454b87e95741dfe69587ac871b306f32d523fb72c9f4b5e9ce97c69a34c0",
+      "bytes": 29047
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0043363_chatlog_1746455961.json",
+      "sha256": "2c09e9475746f3bd5447a490bfae4a3faf3b45f3fe2cbe1f32b31a1993f66301",
+      "bytes": 14362
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0043580_chatlog_1746456007.json",
+      "sha256": "2f762b94ba89cd97d24827031d05b2409929b8c8dde0e27861648d77cfe8979d",
+      "bytes": 17489
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0043590_chatlog_1746456029.json",
+      "sha256": "e6200e1468ff41e4e764038c5ec47fda9c9630e814628110ba251cc49b1b3f1f",
+      "bytes": 11011
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0044015_chatlog_1746456080.json",
+      "sha256": "6eefe74a552f546945c08b3a07a995225d830a594c65b6959786441f1c436aa9",
+      "bytes": 20903
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0044063_chatlog_1746456100.json",
+      "sha256": "ca05b3b31767cf194a5cd24a84d284280f6300c714343bc201a69c6f6d44426a",
+      "bytes": 8753
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0044328_chatlog_1746456165.json",
+      "sha256": "ce844dec15316249675fad1f1392706888e5c7b7503d16c5f859a15017993d7b",
+      "bytes": 26205
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0044449_chatlog_1746456204.json",
+      "sha256": "03556f2cd2180802f4a9176fe8cf4a65976a826747532185fd92315cd03672ac",
+      "bytes": 31418
+    },
+    {
+      "path": "agent_logs_msk/llama31-8b/P-0044903_chatlog_1746456234.json",
+      "sha256": "25a362ea51b9867ed0ec338507420f5326154e0d451cb15dab90f894a360f9c9",
+      "bytes": 14929
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0004727_chatlog_1747256348.json",
+      "sha256": "a8e3f490e86c76eb466d88e21ec37676075dc2be9a0d8fa7e7654bae61b5d618",
+      "bytes": 55934
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0005014_chatlog_1747257344.json",
+      "sha256": "8427d90d86c1a0ee1e0528db39795333617a9ce6cb303c1d73b299b9d2c6ba41",
+      "bytes": 70835
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0005708_chatlog_1747256509.json",
+      "sha256": "f169cf465e37cfb39d4a624a72255d3867fc0bfe332fee98afab28d13361e6a6",
+      "bytes": 29678
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0006191_chatlog_1747256635.json",
+      "sha256": "cbc417f63d001b40640b8209a10c82971a4d7c44c3e40b1b60d8aac2c8ff9cdb",
+      "bytes": 45698
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0006687_chatlog_1747256741.json",
+      "sha256": "3225e30f9c54beea1d16bad2afd45e771542ced1e65f9fac0ec392e29f98fdd5",
+      "bytes": 69938
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0006691_chatlog_1747256977.json",
+      "sha256": "cf91743895f923a812f4bfdd92789d1c386ab75d99b5b6d01bc7d2385017257c",
+      "bytes": 73761
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0007637_chatlog_1747257030.json",
+      "sha256": "f09a82e906b661280904399c810a8643d5e67a3b5b817a703bba754fadfcaba9",
+      "bytes": 17918
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0009786_chatlog_1747257434.json",
+      "sha256": "26ffe6ae14ad1b554354b7d29cd6271d29ce54bdfb9f8994004fbc32afb314eb",
+      "bytes": 40051
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0022292_chatlog_1747257643.json",
+      "sha256": "7890ff45727a03e36a8d71eed30c91a1c697fa94dc71cdba0aaa27c8b2fdaca9",
+      "bytes": 87253
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0022653_chatlog_1747257749.json",
+      "sha256": "b39b8042ed4f7ec58a4bc1500c55a6558d6571ee9ea1679bfe556f7f0b1c7d6d",
+      "bytes": 58944
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0022826_chatlog_1747257899.json",
+      "sha256": "0036f0b22cb8a439527f3d923ec8ed0c90dba8236f9b2246315422fa05b89214",
+      "bytes": 54694
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0022916_chatlog_1747258024.json",
+      "sha256": "13f73fa185935f1f0f92f8b6fe04790a6750296d529ba12549b4d6e8f17417c0",
+      "bytes": 63939
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0024579_chatlog_1747256393.json",
+      "sha256": "6e94becd606f4e285b9db6cf18d03d82548ac21012ae1c1a88bc431ccd23e32d",
+      "bytes": 25902
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0027883_chatlog_1747258154.json",
+      "sha256": "90ab43867cb2e7ce7a606caca2b77069aae5c5b2e0618ac1cba47f78ac173bc3",
+      "bytes": 65529
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0028198_chatlog_1747258316.json",
+      "sha256": "0ae53c8a05068fbb28173a5b139b4fec6eba8571deb166315268ddce6eff5172",
+      "bytes": 62534
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0031600_chatlog_1747258439.json",
+      "sha256": "136e15c330fb1f0cbd655ccfd414bcdc7e4ef1f5812ebef2196a79dc454f9d97",
+      "bytes": 50051
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0032535_chatlog_1747258600.json",
+      "sha256": "be7e6a228d7d7b5331839c0d79d0dbc7ef9f320b97c80c83d525b15f46b12c54",
+      "bytes": 63343
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0035737_chatlog_1747258700.json",
+      "sha256": "efbedc44ceeba19a3bba5b2b8153146c39c44a6fc865d63a5f900ed1d4b2a8ce",
+      "bytes": 42355
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0039020_chatlog_1747258828.json",
+      "sha256": "01572522d8c900e5468ea3d161460a74eb2d745c17d7560ec55ee5c706d8c25b",
+      "bytes": 42130
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0039147_chatlog_1747258907.json",
+      "sha256": "48a3d2ccb938ca8e94b1cc23c4d63d98889b02f1c0e2ec2b17c52188b7dca1a1",
+      "bytes": 39173
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040042_chatlog_1747259030.json",
+      "sha256": "eb0fa53c765a8f848d365d286c672056b2d81d66f73e0fda719df64194113f5e",
+      "bytes": 81786
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040055_chatlog_1747259159.json",
+      "sha256": "040895c5ef3d183adec576b0d74ffc45d7f2b638e80a74e2d212488a73176f83",
+      "bytes": 49655
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040144_chatlog_1747259260.json",
+      "sha256": "163b3fa2a3e3ccc37837ccd24466f5f0cb57aa388d5af340637aeda749b12d10",
+      "bytes": 40922
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040302_chatlog_1747259343.json",
+      "sha256": "f006863d4c2840d84ca79e474131ab5ceca4012483bf52d2023f99f5ad9759cb",
+      "bytes": 42222
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040923_chatlog_1747259430.json",
+      "sha256": "0281154e4ac2e13a33721e6037d1bf6a13396d5b6dda4aafc80e7b32a1a7b942",
+      "bytes": 43703
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0040957_chatlog_1747259488.json",
+      "sha256": "4f3952816fabeb2e857a335411cb4024d4e97605db091b546beb765cf5695402",
+      "bytes": 34227
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0041210_chatlog_1747259622.json",
+      "sha256": "2e964a8de2a9772962ced7e8c1669d54a9cd7badc5b73db89624f7900ef5c756",
+      "bytes": 55548
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0041381_chatlog_1747259900.json",
+      "sha256": "2330d356342ac7b71b1a9178323b22ede1c99f5c7f8bdd80a064ced4639ebb79",
+      "bytes": 116501
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0041506_chatlog_1747259956.json",
+      "sha256": "6b4fe72d10153daa72aa883e607836306125e69e6280db298358554c523e1209",
+      "bytes": 40347
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0042090_chatlog_1747260082.json",
+      "sha256": "2a9f472f2a761cc5a4129d9c5c86474a870aa533f85ffada3f4de20a58283c2b",
+      "bytes": 52812
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0042530_chatlog_1747260274.json",
+      "sha256": "543dbb5a52584fe269f53835b3b81fce1341874d66773c8e4ed464d198a129bc",
+      "bytes": 65979
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0042652_chatlog_1747260402.json",
+      "sha256": "71cbb06bc32d58e55112e493825c41166083d08f01394cb52382f7453a69718f",
+      "bytes": 59318
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0043363_chatlog_1747260513.json",
+      "sha256": "eca0019c219431b5ba8cc0e93155450786b5b02e3e1feb09a8b04978dc48003f",
+      "bytes": 43098
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0043580_chatlog_1747260686.json",
+      "sha256": "5697a44ad0ac88c19f7c2ffdb987728daaae3b0f44d564e03b90fffad7345350",
+      "bytes": 80872
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0043590_chatlog_1747260743.json",
+      "sha256": "1596afd0e05b54fcdc706b574df6b6d20a80dbb46f2a258ff1a9a0192ac22575",
+      "bytes": 25409
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0044015_chatlog_1747260917.json",
+      "sha256": "e55c84ca922d08de9aefd84ff9eb04858251f0931ef10a35339dcfcd805190ed",
+      "bytes": 69052
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0044063_chatlog_1747260982.json",
+      "sha256": "6f6bcd5eb21504f4dd438b4d994b625a7307001bbc00310d70ee203093985cf2",
+      "bytes": 32230
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0044328_chatlog_1747261076.json",
+      "sha256": "9df6613368342367f77c7facbcadd26098a0ba1e45b5d23850850f9b35b07333",
+      "bytes": 48323
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0044449_chatlog_1747261253.json",
+      "sha256": "0a02d44d3860a560be729fd8dec31216f9b3d5f3dd5f38e04dd36986ab150ea7",
+      "bytes": 66769
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b-with-tools/P-0044903_chatlog_1747261318.json",
+      "sha256": "277d6225f017b459a47839e6a177426ae04c3ed6dfdb3b50bcb9735d658468b5",
+      "bytes": 43236
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0004727_chatlog_1746604170.json",
+      "sha256": "730b271c35d4a3f6638ac8a5966bd47a095a9d3941325875edf1888e7a5e0500",
+      "bytes": 14857
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0005014_chatlog_1746604532.json",
+      "sha256": "00b21ef38d1f10efafb1611295dcb9138f9ac63562c03ce5f19ae5194d76d761",
+      "bytes": 34726
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0005708_chatlog_1746604232.json",
+      "sha256": "168b24fbf35deb112746baf0b5261c2c73bac48ef4a11350e86fb2bee88b4357",
+      "bytes": 7396
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0006191_chatlog_1746604273.json",
+      "sha256": "1446af0b2ab337d249eb0fd4c0dc3063079098f07ae858ae4962a23fdccbcb77",
+      "bytes": 13067
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0006687_chatlog_1746604336.json",
+      "sha256": "1730d9455ddf6990c26c95bae843a8fb358fba85d67c3f02a1b0b8be623caee0",
+      "bytes": 36869
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0006691_chatlog_1746604392.json",
+      "sha256": "6e70c05e0a81229a33628ea00bc5f1c176fbe1d1095acf4a3fe61bb875775504",
+      "bytes": 20935
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0007637_chatlog_1746604437.json",
+      "sha256": "1041599170ad272676d45a8fdcd9bb187134ac12b930fce3fa0fa5f6206d6150",
+      "bytes": 14119
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0009786_chatlog_1746604610.json",
+      "sha256": "6d612661d8248cdf62df2b0a64a1384738b11a313ca3b3cc3e98bee782654e30",
+      "bytes": 31116
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0022292_chatlog_1746604680.json",
+      "sha256": "d764aaa053e07f6e397800b25515229484c10a3a3ee0cbbed020ee4825b18b56",
+      "bytes": 27604
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0022653_chatlog_1746604753.json",
+      "sha256": "98c5006853b223a49ff48560b97d20baf155fdc525c3ad46baed2a1bf5172e2d",
+      "bytes": 22906
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0022826_chatlog_1746604828.json",
+      "sha256": "f811df89c8608be1e89fc271d83f71e2c8a2c2f7bf6bfc7937692b3eb98aa059",
+      "bytes": 18884
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0022916_chatlog_1746604908.json",
+      "sha256": "8b45094fe33da91437b22f2975d21d6d2e564ecbf85a595ee410b8b5968e112e",
+      "bytes": 41181
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0024579_chatlog_1746604211.json",
+      "sha256": "f05769e296f9b4399057fc4e15967059bb81594de257aab3c28718546f811bb7",
+      "bytes": 12522
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0027883_chatlog_1746605009.json",
+      "sha256": "f770d10364242fff9a9732f787c05d301ffbb5e3d5a35f40d92309c21dc29a61",
+      "bytes": 27810
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0028198_chatlog_1746605048.json",
+      "sha256": "a44beeee2d01e11dcff9e105d9c1a3d3bb5a415e03f9ab2d7d58ffa439e52d85",
+      "bytes": 13758
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0031600_chatlog_1746605102.json",
+      "sha256": "b370bf8695c756d8fed7a4c0e526e71a9f6c0667403ced0e4fa723b05dee34e8",
+      "bytes": 23167
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0032535_chatlog_1746605166.json",
+      "sha256": "2703d430e9e7f94abd1b97307e0dafed4cfd9c5dacf436a6eddac2f390862da8",
+      "bytes": 35392
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0035737_chatlog_1746605227.json",
+      "sha256": "dab962c963478c476e53761e128b107a0d3c868fe9ffc4682cfa0640653fe091",
+      "bytes": 18855
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0039020_chatlog_1746605273.json",
+      "sha256": "0ec65f548795e8fc6484a84c127e69a0d587fe150d7807a2f504b0575b876713",
+      "bytes": 16152
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0039147_chatlog_1746605319.json",
+      "sha256": "c56d43c63dd32e1796ad569d84e7a097ea225e7bdbe5f777f0214f835b9288a5",
+      "bytes": 13899
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040042_chatlog_1746605399.json",
+      "sha256": "ed00817e020d8e67c02d611cdc30891ff04d495887555a8a46d5bf1996beb697",
+      "bytes": 34597
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040055_chatlog_1746605437.json",
+      "sha256": "b7abed9cd19e2ce089379618b84ac741378cc9b71932c112404d4f2aebe0c5d0",
+      "bytes": 14144
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040144_chatlog_1746605476.json",
+      "sha256": "52f70cba0030d007b2a92f3215071e2b3dd6697314e5bead194312410e673e4f",
+      "bytes": 15652
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040302_chatlog_1746605549.json",
+      "sha256": "cd185c925dd81f1a5a2b830d4fde4547bf19a74dd73fd8dcbef382a489946ad1",
+      "bytes": 25035
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040923_chatlog_1746605640.json",
+      "sha256": "4018d91b6a3b27cb70dc52f7cdd7f5346e3227dc519ab6d83efd6aaa559dedad",
+      "bytes": 25402
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0040957_chatlog_1746605690.json",
+      "sha256": "e561593f8516b6d4e9e6e9c84631835eb06a5b762834c719747f83a94102b478",
+      "bytes": 19363
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0041210_chatlog_1746605763.json",
+      "sha256": "036baf34ef15ebdb480aa6df78d67184e291007b02c8eebdecfb3ca1f9e5bc7d",
+      "bytes": 30998
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0041381_chatlog_1746605924.json",
+      "sha256": "c751c6316a014fd76cda44c2339b6bfc0b996f77cddbc9d906c4141381f498d5",
+      "bytes": 50939
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0041506_chatlog_1746605988.json",
+      "sha256": "40fdacdd02bf15eaea0b775874922aa2be637d15bba46ffb74ffe3425e094b47",
+      "bytes": 19542
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0042090_chatlog_1746606031.json",
+      "sha256": "e1c867c2a1c3995944e54193e3565985734795994e5fde872ff04f538a176430",
+      "bytes": 12865
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0042530_chatlog_1746606142.json",
+      "sha256": "27a29452a383d3092006ea25957477ea106106c740d9424013c74410a93d8168",
+      "bytes": 34589
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0042652_chatlog_1746606189.json",
+      "sha256": "53ec13fb3898febfde54ce2a8b4f7202240c1b62928c3b0ef1ddb4378e2663f4",
+      "bytes": 26574
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0043363_chatlog_1746606232.json",
+      "sha256": "1cde6192ce4b883af6cba62d63cf9204b4f537d2095fab44110a37ae26a293f8",
+      "bytes": 13570
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0043580_chatlog_1746606316.json",
+      "sha256": "ae69a4635c020c4fa25b1f5de030d9a01f6f41fbb8936096cac4121eb40c44c0",
+      "bytes": 22790
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0043590_chatlog_1746606338.json",
+      "sha256": "f265628499f8e807db5e319197f85d381034b4be44f9db92c28861bd4b5e25a5",
+      "bytes": 7744
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0044015_chatlog_1746606453.json",
+      "sha256": "2dd6056d41542452238cdfe7204e86aac8feddece2912e116b158371a951e43c",
+      "bytes": 27160
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0044063_chatlog_1746606496.json",
+      "sha256": "21962af5e7766f865c0712f8b4218e1c35352ffdae349c307afcb84f6eceef30",
+      "bytes": 16835
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0044328_chatlog_1746606542.json",
+      "sha256": "26752273ce1eea9f1eeb8f55018c41f858dde2ef163f8ad729bf4349c0de0a95",
+      "bytes": 15313
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0044449_chatlog_1746606612.json",
+      "sha256": "0cce4e805bd517dd34a9669a122a78df137c61b364f3bb5107398f92db30403e",
+      "bytes": 29764
+    },
+    {
+      "path": "agent_logs_msk/llama33-70b/P-0044903_chatlog_1746606653.json",
+      "sha256": "e51553d271464e154e90978ad009d65f21cf8aa493f3a227d9a1949f49323093",
+      "bytes": 16109
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0004727_chatlog_1747351924.json",
+      "sha256": "d751a6a9ec64ad5bf1bdcd313cad60d9ac51024f2e56ee07f763ea29ca030875",
+      "bytes": 11287
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0005014_chatlog_1747352215.json",
+      "sha256": "feb4c3040037204bc54ac59e0be055b5df9292350509a4b5adbeb5ccfd0722b7",
+      "bytes": 15516
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0005708_chatlog_1747351997.json",
+      "sha256": "22182a791d4eff29073eb3d4a6c64b5961f52311dc1da2bf4d09921d0507bfe6",
+      "bytes": 10080
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0006191_chatlog_1747352030.json",
+      "sha256": "3e6ea255a42b8bbeed8718e2008f5f97962968b78de9d5787bde96bb576a5548",
+      "bytes": 13250
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0006687_chatlog_1747352075.json",
+      "sha256": "daf6c9627b117655d8a146b2a6151f87a68317833e2372cf28e32a4e40aeda00",
+      "bytes": 20105
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0006691_chatlog_1747352131.json",
+      "sha256": "5fbeb5e0c52944ab306b6bf7200b9835bd2ae00f7a3a5beb794a5b95b5afd6ce",
+      "bytes": 13555
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0007637_chatlog_1747352163.json",
+      "sha256": "ac4b6d06c152ee01a51e9812cab9c63e34a569c93a98ec2aac8ff83eb328ccab",
+      "bytes": 8246
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0009786_chatlog_1747352270.json",
+      "sha256": "0cbd1b356b334ac412e34e7073733f2778ae0e0fc04a5cb1c41f7cbe1cf3aba0",
+      "bytes": 11777
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0022292_chatlog_1747352334.json",
+      "sha256": "eec77cf5a7b2c7792052d17c5f2a857b3e2057e4cc8d20fe548820833d633240",
+      "bytes": 9773
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0022653_chatlog_1747352387.json",
+      "sha256": "1ad20d0ca6881192841c446f7a541636a87b31d4e42b518e9896bbfe31992f87",
+      "bytes": 8959
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0022826_chatlog_1747352426.json",
+      "sha256": "c13a43beb241196080d4532a1d9b9ded2f6fa836611a0f6b301d6ed96907461a",
+      "bytes": 7467
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0022916_chatlog_1747352534.json",
+      "sha256": "e7579030f254cefec64e9ee57c997cd16a028a6d129f6006b238c6112c63e2d3",
+      "bytes": 17638
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0024579_chatlog_1747351948.json",
+      "sha256": "ba401705a943db046512757fe10a06835ed576e67814def05eba43c0dfa428ae",
+      "bytes": 5683
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0027883_chatlog_1747352637.json",
+      "sha256": "11f31ab2334a6e12dc0025f5f6835412fb156a3f03431a0c97f81e73b8f46de5",
+      "bytes": 14840
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0028198_chatlog_1747352696.json",
+      "sha256": "2b4554ff032e1e9b64294b0a5029477f2409fe2b5faed3c7553cd677499d2009",
+      "bytes": 9782
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0031600_chatlog_1747352756.json",
+      "sha256": "309eda3e750ea6c5f3841a9e93a32fa88e3b23aa97aa805ae1ee91ccbf8b84a1",
+      "bytes": 16388
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0032535_chatlog_1747352825.json",
+      "sha256": "7653d4c5f7ae9fd67c45c2c08282a9a9fba4c1192c3a7b2df8d5e2df8fa54a75",
+      "bytes": 19910
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0035737_chatlog_1747352854.json",
+      "sha256": "ea1801ef21051bf9cd21c0272ea1352c32c7894bcc83135bae32c31220e6c654",
+      "bytes": 10020
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0039020_chatlog_1747352881.json",
+      "sha256": "6dd7c759e1a7553a1fcea2b720ea4cf89d2d3abb4034e939a75a90fd4089c490",
+      "bytes": 10141
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0039147_chatlog_1747353610.json",
+      "sha256": "5fa780510e34e951e3acbad6ea17348503ff86dd56cd8187a7b302e3b16bcc5f",
+      "bytes": 11950
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040042_chatlog_1747353675.json",
+      "sha256": "c087973264d70132440464fd6afadf434dc10d45f873fc194145a2f76073bddc",
+      "bytes": 19319
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040055_chatlog_1747353722.json",
+      "sha256": "e4e8b8a1287e5900d1e106ff078958b8816a0d6657b6dcf1061731cb309a4045",
+      "bytes": 13177
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040144_chatlog_1747353748.json",
+      "sha256": "8ba0b3f8f7b5555d523dcbae28d6b894a90d0f51809d2ad42a4c545fe8650397",
+      "bytes": 10128
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040302_chatlog_1747353801.json",
+      "sha256": "25fcf6e0195b20683bd244b0c43d29d2112a922997c00b3d430748aa28613f34",
+      "bytes": 11033
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040923_chatlog_1747353837.json",
+      "sha256": "ebe6dcb542fccbbb5b0d3970999ba559189373d132671c0210ce31c2a8762852",
+      "bytes": 9422
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0040957_chatlog_1747353877.json",
+      "sha256": "c9e9e82c702a499f13e68b6d1162b9073a34095aa28c4a12f3e9a5a8623db6ca",
+      "bytes": 15888
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0041210_chatlog_1747353946.json",
+      "sha256": "81b7d0f99758f9cd790a7143b568e7c9cfd1b23c7920fb11c5c9f45bfa90e3b3",
+      "bytes": 11674
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0041381_chatlog_1747354409.json",
+      "sha256": "24afb324ec895af56e4d4c6187c50c8edcb31d4320afdfd91d4079ef7ee3681e",
+      "bytes": 27746
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0041506_chatlog_1747354458.json",
+      "sha256": "9794d22e179fb318d0e30366634be8c3ad2ae5e8dfca8d15300ad757f92653be",
+      "bytes": 9267
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0042090_chatlog_1747354508.json",
+      "sha256": "5c01ecf78f24e8faea6998b40eb5f007e67a687b565edf1a4e6b479345b4f16f",
+      "bytes": 8647
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0042530_chatlog_1747354559.json",
+      "sha256": "e03e25cc30be9f510f675d9547a23271d9ede6cde9fdb780f45efcdecc1a59d5",
+      "bytes": 8585
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0042652_chatlog_1747354596.json",
+      "sha256": "3c9d6b7210e7600a6533fe9cf36f0519c6ece60e1c3ea5f29bf51d3d27d6423b",
+      "bytes": 20576
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0043363_chatlog_1747354652.json",
+      "sha256": "fb895bc41255e7500c615b4a86b408edcaee99995c5cb1a5c2f35f5f75945b60",
+      "bytes": 8390
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0043580_chatlog_1747354735.json",
+      "sha256": "0ad49bedf4aab65ecef795d01443c95a6ce4d89f5296c35bd9377509eb0ec670",
+      "bytes": 19698
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0043590_chatlog_1747354766.json",
+      "sha256": "8baa5384667cf726e98c4cc3780bac7d9a454a37173dc9b7cae5f46510124957",
+      "bytes": 10683
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0044015_chatlog_1747354834.json",
+      "sha256": "713b19b6e936690bbe7ad914be8788093b9b7c232b7287b97bb14920db2e538b",
+      "bytes": 12685
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0044063_chatlog_1747354864.json",
+      "sha256": "4027a0c86a066778593198370c480d1702ba79adaf56a1d87548796ea760bbe3",
+      "bytes": 10532
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0044328_chatlog_1747354908.json",
+      "sha256": "5f17efd78cebade0f711d76d338578525e90f10745d83df02d73fe31795832a2",
+      "bytes": 9681
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0044449_chatlog_1747354992.json",
+      "sha256": "e2924b6d2bf710ffb9dc5b829adf93bdc7b4bcbc62261ff121ae1c3f30ad151e",
+      "bytes": 8847
+    },
+    {
+      "path": "agent_logs_msk/o4-mini/P-0044903_chatlog_1747355016.json",
+      "sha256": "9b86a7ce980c99197c83882f2d62483d672639c55f6151d30bf7805ca66ae333",
+      "bytes": 5272
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0004727_chatlog_1747248176.json",
+      "sha256": "27f7c8b7bff36e6e56e7215b40e6d2b1335ad025d7939e3943e133fa9b12ffc3",
+      "bytes": 37963
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0005014_chatlog_1747248878.json",
+      "sha256": "3a4b5f3c0d2dd98ac726890f0a8fda1f41efebcb71f56f3d84f8ae729a11cc3b",
+      "bytes": 44062
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0005708_chatlog_1747248353.json",
+      "sha256": "3b3797ec09c6a41ba4854dc18afeffbaa67a452992b6f545f4effc81e8ee544d",
+      "bytes": 33456
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0006191_chatlog_1747248461.json",
+      "sha256": "86e278617ba00200590602eab1dee93c9a0b0e23b25cd9d5537ddd95ecfa5227",
+      "bytes": 42929
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0006687_chatlog_1747248576.json",
+      "sha256": "74dafff17ece40f982f3536a345807c3b1d25e3a3b160a8f2ce5c8d5bb59bcd2",
+      "bytes": 67281
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0006691_chatlog_1747248698.json",
+      "sha256": "ddb7208083e5c84c9fa5d394c83a23ef2c4a47f83f4e6299bb39c90f1fd13a45",
+      "bytes": 60864
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0007637_chatlog_1747248780.json",
+      "sha256": "084a5c5404ed80f5fb26674dadce509133a543ec9aeeef73a1a0202a814b6013",
+      "bytes": 24137
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0009786_chatlog_1747249042.json",
+      "sha256": "edee41e1b410506e7657e76d46303a44bcca5ef03bd7e51520593ee19b53f1f9",
+      "bytes": 56377
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0022292_chatlog_1747249205.json",
+      "sha256": "d2fb77a19c86d85999a438048c14c4a256541a45a376659672d11b9488d75dd0",
+      "bytes": 80939
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0022653_chatlog_1747249303.json",
+      "sha256": "bac1fc60024b6eafffb4a4340bf989ba5813225158a59ac8ea75635ef03d3650",
+      "bytes": 48270
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0022826_chatlog_1747249419.json",
+      "sha256": "c01556241e51dbd6162922aeac270b44d7d1107cb582f6a48030e97293454225",
+      "bytes": 48280
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0022916_chatlog_1747249572.json",
+      "sha256": "d7e1c6e838904da93e3d9ce0424858aac482812becdb224d02a80c541840daa5",
+      "bytes": 67477
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0024579_chatlog_1747248272.json",
+      "sha256": "2188c5ee41c916f4544e2d9a3816ee79ebc75d1dd7969f0dd8bb7be748ac71c8",
+      "bytes": 33488
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0027883_chatlog_1747249753.json",
+      "sha256": "88eeb72cc3a391995cc5493b3971d098469fdd14037a71ec57a395e6492b3da4",
+      "bytes": 71774
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0028198_chatlog_1747249866.json",
+      "sha256": "b2e028f2558bda4493686eef933890ad984a6a5cd825aa268fa97f027885fcc6",
+      "bytes": 43308
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0031600_chatlog_1747249915.json",
+      "sha256": "5aeeb875aded3c10bf315642fb3ebad0a6d87367bf2ef3ffaa5274bba7093a03",
+      "bytes": 28222
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0032535_chatlog_1747250039.json",
+      "sha256": "f02100057ca17b09c035c722b3a06d55ad82b722d4f7a0c50e0d03d744ec72ff",
+      "bytes": 55677
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0035737_chatlog_1747250119.json",
+      "sha256": "a04065bff319442cdb2bf34f336cb0e09b4c17a178cfb6d0c9252b7c0abf5443",
+      "bytes": 36647
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0039020_chatlog_1747250209.json",
+      "sha256": "609c5e78b60c7f89ed75fac83d97d4bb67c1b601e9ceaf23c8d5e8b5ee931d6b",
+      "bytes": 38348
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0039147_chatlog_1747250312.json",
+      "sha256": "c87f1daf554e623fb681c23b343d22a5368d73d7a05f523fe431d0c7077a276b",
+      "bytes": 47616
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040042_chatlog_1747250454.json",
+      "sha256": "1a870c5f984675e39034c74aafc99300efc1020fadce85a64d9c66f7007f3cac",
+      "bytes": 77002
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040055_chatlog_1747250529.json",
+      "sha256": "a3db15ceaba087ac8e0889300c38c66ac3b15daaf45599027a3a938d4900cdee",
+      "bytes": 26561
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040144_chatlog_1747250585.json",
+      "sha256": "d49eefbca0abe53c31117137b25dfd5c60c75b9ad5f654d9c4227b492b9af276",
+      "bytes": 20886
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040302_chatlog_1747250676.json",
+      "sha256": "121ac0cf3bb90dbc7a62f2a72fcd562242698d4ed74eaa9987afe6506799fdf0",
+      "bytes": 36909
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040923_chatlog_1747250794.json",
+      "sha256": "cd32b28c5bba132aaa75da369072821e6f6cf3e883c00101322eda2fe08e17b3",
+      "bytes": 36831
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0040957_chatlog_1747250858.json",
+      "sha256": "296533edf6436a35be8355c7d55b6695da973998f369f1ba793496c12cc88c10",
+      "bytes": 31769
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0041210_chatlog_1747250982.json",
+      "sha256": "2a669cfbdad7ab65ac4e4068fdb3c156bb7f59143efdfb419a913410a7fe67d8",
+      "bytes": 45955
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0041381_chatlog_1747251240.json",
+      "sha256": "1a0754603e7f3e3ad6ab289c1ef377a6a033a353229ee3869be2c3cdd27ac0a7",
+      "bytes": 98139
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0041506_chatlog_1747251317.json",
+      "sha256": "55f4d041a59c6d0586524f965bbbaeb7d1fa20e20a0e58a15420a5b11fbcf03f",
+      "bytes": 33441
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0042090_chatlog_1747251414.json",
+      "sha256": "9c05d6b6d02a7a6e0bdc1f29b727d2df10942b250c8d72bf2d7750cb26dd9ecc",
+      "bytes": 31863
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0042530_chatlog_1747251539.json",
+      "sha256": "a00030af4ca15a5a6135b7aa01ebb299d672dfd526d3a65f7f5e2dc140745035",
+      "bytes": 51559
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0042652_chatlog_1747251653.json",
+      "sha256": "2da9ac2f2d50d0ba0b0dc5a835354e893b06fde51f67793f5481f7171a5f9df8",
+      "bytes": 49962
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0043363_chatlog_1747251755.json",
+      "sha256": "b9b5d7fb64cfdb5bdb951d109d70e05873057f8e72c77c8d4831452d307851d0",
+      "bytes": 33287
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0043580_chatlog_1747251903.json",
+      "sha256": "3ddfeee17c814bb35298378401a2282cbc40f2b1788688179987f1cffa67c7e3",
+      "bytes": 54536
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0043590_chatlog_1747251950.json",
+      "sha256": "c5f61a04ae999d8ed9606d117d2139b1181d61682ee410391b9a9bf320a4c893",
+      "bytes": 20876
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0044015_chatlog_1747252065.json",
+      "sha256": "5fff471f124d211f7a61910cc5b25bbcc42ec024823a83b872f56f16887107a1",
+      "bytes": 44110
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0044063_chatlog_1747252128.json",
+      "sha256": "1f54801e07ed78e6b20d51362c18c40bba5ebbc07d143a6afa2cd763368965d8",
+      "bytes": 22898
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0044328_chatlog_1747252228.json",
+      "sha256": "6749274ab06f8f6243d18e0890408d8c0879a7a0015da3addeafabfa3745977c",
+      "bytes": 34472
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0044449_chatlog_1747252359.json",
+      "sha256": "302ca070b9695a1f62125ee8191f2cf2bbec5eb62561500b6995057da53afad5",
+      "bytes": 52008
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b-with-tools/P-0044903_chatlog_1747252448.json",
+      "sha256": "66688f41100890d521e127c9e8eb9b1ac70d8c364dff73d73dbcf8b56a0a0712",
+      "bytes": 35229
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0004727_chatlog_1746473267.json",
+      "sha256": "52f63a73b4e8a352e9827d7d188cd34f3625787fbe9fe9359d3f42264f419e59",
+      "bytes": 20131
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0005014_chatlog_1746474350.json",
+      "sha256": "e252135df6b31c9fed688a087c212b296e0c175fd40ff771cddf890aef9721ad",
+      "bytes": 26275
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0005708_chatlog_1746473519.json",
+      "sha256": "fbbb82cbb64dfad0c2b4f614cb91ec956934594990403573fad0e582fca47e05",
+      "bytes": 19703
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0006191_chatlog_1746473679.json",
+      "sha256": "37e3c95c4c6165a9be6c3f0960b85876b866b9094f06ae141342ddda808a8b65",
+      "bytes": 23529
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0006687_chatlog_1746473870.json",
+      "sha256": "08cceabfa469da82555ecb1d0b0f8d2bfa5101a2ff80995fdf3d00c63787dc06",
+      "bytes": 40890
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0006691_chatlog_1746474049.json",
+      "sha256": "4246d3cc4b3611ccb43ae25c435dbf6b9e78b3c15536f0af02460241487784a0",
+      "bytes": 31173
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0007637_chatlog_1746474175.json",
+      "sha256": "9f9e022b8a84050c2acc4aed3d1d700f8715c40ba2e15a64e208a01f714e439e",
+      "bytes": 19787
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0009786_chatlog_1746474575.json",
+      "sha256": "5d1bebd47ac5494f1e56349d6413584f07e84a0ec5088cf137f25ee85db0069b",
+      "bytes": 43701
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0022292_chatlog_1746474798.json",
+      "sha256": "3b6301625573e7c770b63e9eeaa8faa632f73cf0ddb8df5c041ab40daaae0b1e",
+      "bytes": 39724
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0022653_chatlog_1746474964.json",
+      "sha256": "355e052492b27f2d2c79ea867294802209186acbda7bd71e0141a4b8544d6004",
+      "bytes": 27742
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0022826_chatlog_1746475121.json",
+      "sha256": "5c18e017f16b67105832474d1b313281f33e8e47f7c7bc8580fee0c015c70a0f",
+      "bytes": 24572
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0022916_chatlog_1746475331.json",
+      "sha256": "117665798889ccd04fcbb7d247effa7f5301642abc212d2e3ac42abf5215399e",
+      "bytes": 34604
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0024579_chatlog_1746473409.json",
+      "sha256": "bc6754e974498e5b311a3aeb44b56500fdf7dd03c8ca92d68a69479cc0053ef5",
+      "bytes": 19702
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0027883_chatlog_1746475603.json",
+      "sha256": "0658474a7b42017f30d085724db632d45412c21a0436bbf2b25c34802c572281",
+      "bytes": 41172
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0028198_chatlog_1746566576.json",
+      "sha256": "732500eecdddd72c015000daaadba57168196b85eca3a86970eff333c9f7c29a",
+      "bytes": 20640
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0031600_chatlog_1746566668.json",
+      "sha256": "87d0317f86cfc481c484e414bf122219b71bf62ffa76bf38acba1ac003d7e4f5",
+      "bytes": 13992
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0032535_chatlog_1746566809.json",
+      "sha256": "12fca3a2105f69f7d5b9f519cad3d0ef11f76568cbf0d87244595ee4f95f2eb9",
+      "bytes": 23852
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0035737_chatlog_1746566929.json",
+      "sha256": "e3b2cb84bc722078cf747622a50156df64ca60cd2345dda05b8d07c90a3f2908",
+      "bytes": 17428
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0039020_chatlog_1746567075.json",
+      "sha256": "36ddceaef2763947ef6d79653b487b20ae800405f2f913d79653f10153961498",
+      "bytes": 23563
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0039147_chatlog_1746567222.json",
+      "sha256": "97cee6f69a104380376b848868276d3e8cc4c4f247d810890616ef3610aada00",
+      "bytes": 20952
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040042_chatlog_1746567437.json",
+      "sha256": "73b129304ed461fe01d5629cc02fd5ec67f5772b1d5777acc525bf698e00e961",
+      "bytes": 38747
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040055_chatlog_1746567566.json",
+      "sha256": "1cf7ff005b6a475e567da97b0f150de75d536d931fdb6eee99b2846edefb95b0",
+      "bytes": 25122
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040144_chatlog_1746567653.json",
+      "sha256": "b9f5ab1597477db312cd490add187ae90314a07122bdd81a1d398815e802f1b2",
+      "bytes": 14047
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040302_chatlog_1746567844.json",
+      "sha256": "057e0e9a4ea33d3a363b516b91fc475e39cfb5ca49586f1f10ac8c0711e74549",
+      "bytes": 27366
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040923_chatlog_1746567984.json",
+      "sha256": "939f00730d5ba537996adb3c57ff200ebe5a6a1a13a57cf74a1702912e81665e",
+      "bytes": 22110
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0040957_chatlog_1746568123.json",
+      "sha256": "af13b551eaa3ef048c1953a19e7a7f34adda9701c45dc2791ccc6c151f4ef203",
+      "bytes": 24768
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0041210_chatlog_1746568300.json",
+      "sha256": "77f663c22ca349e1bf26691c051c4b76732553adad18093697abe7019873850e",
+      "bytes": 30361
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0041381_chatlog_1746568684.json",
+      "sha256": "87c38707eade6529c4558294d98a1303c2795e8fb86c91d8a96505db7a2b4fcc",
+      "bytes": 65475
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0041506_chatlog_1746568804.json",
+      "sha256": "2f9c514650830da5e9141978df348437c1e58891acd529be202949cec1ebba19",
+      "bytes": 17233
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0042090_chatlog_1746568952.json",
+      "sha256": "80ec5ddbd49857a91fa17cf8f52cbf7eea68a48b88266acbf0ea9c15168c314e",
+      "bytes": 21909
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0042530_chatlog_1746569128.json",
+      "sha256": "aa8fc374bb4bce9db62d98d0c5f0c6c2fe1a46903e7043041b1f3b01c85e20c3",
+      "bytes": 26685
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0042652_chatlog_1746569253.json",
+      "sha256": "895100712036aa37b231e0a4bfe97757686cfd32e2b7a5a4064db959bf15fc15",
+      "bytes": 22809
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0043363_chatlog_1746569378.json",
+      "sha256": "a13ce3e0a669e5020602de728e3b1c2f500d6abd64fcec0a6f94aabab9bc91d4",
+      "bytes": 19902
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0043580_chatlog_1746569613.json",
+      "sha256": "b793acbc5c39eb8cf49ebd8d2c594244e3dbaf19e6299eed8aa1e2c7208354d7",
+      "bytes": 34592
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0043590_chatlog_1746569656.json",
+      "sha256": "ee1f7b32334d2b4f45ba92b1f74e5caa45e7934845a70177c0f28e569c17b149",
+      "bytes": 7962
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0044015_chatlog_1746569836.json",
+      "sha256": "087b72414afb7c8e7e5b5e166a04c87ac1d099ab68355c4a0c37db8ac19a00f4",
+      "bytes": 28220
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0044063_chatlog_1746569911.json",
+      "sha256": "f03c9c5564ca5fa6caa94dad25524a782a00ec14c1166b34024916cef80cf715",
+      "bytes": 12589
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0044328_chatlog_1746570088.json",
+      "sha256": "fdb5476c0dce154ed2958e364118deaaedff95a0d3ca262ea9d11858463c2ee3",
+      "bytes": 27216
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0044449_chatlog_1746570265.json",
+      "sha256": "d0bfdf3b6a3e4c60ee4c510edc77152f7d3411efc8f03e7e4ba4e0bad358195f",
+      "bytes": 25993
+    },
+    {
+      "path": "agent_logs_msk/qwen3-32b/P-0044903_chatlog_1746570353.json",
+      "sha256": "ac0a0ef6ef1b26e6d0796e3118009ca4c8cbc5a99f4332a73453b151fabd3cfa",
+      "bytes": 13854
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0004727_chatlog_1747246565.json",
+      "sha256": "a484a6261f3be5fba4d449978d6a81f7ec0ca202383055ae345cdc44fadee379",
+      "bytes": 52924
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0005014_chatlog_1747246842.json",
+      "sha256": "42a6fc150a06dce5ca93612b2c5b1e2d8908437ad5d59828a5de3695c434e04a",
+      "bytes": 54771
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0005708_chatlog_1747246612.json",
+      "sha256": "d90eb77bdaac02fd3b0476eceb8f22fe275e5505544c2512e4a9f3b0f6233db0",
+      "bytes": 25187
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0006191_chatlog_1747246647.json",
+      "sha256": "a3a8720516d34608ec994d8c15bdb3f8598494d37f5c76376b4be0e59246d775",
+      "bytes": 37564
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0006687_chatlog_1747246696.json",
+      "sha256": "dde8966cc67dff48e021972b3c587d73e9adfdef398eed18de7dbec34a3e5c1f",
+      "bytes": 73272
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0006691_chatlog_1747246754.json",
+      "sha256": "5ad4858cb6de141838815aed9ad8267f7dc31648304a3bf993bce7a3abe6a4cb",
+      "bytes": 62120
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0007637_chatlog_1747246796.json",
+      "sha256": "241647efe96127792f53fbf0c6683352868f27902b30614dc43b8f890086322a",
+      "bytes": 34914
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0009786_chatlog_1747246889.json",
+      "sha256": "8580204511632b8c1e37a67b84713c5efdcf9beefc5554f8fc5a1bd431e1db93",
+      "bytes": 63951
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0022292_chatlog_1747246931.json",
+      "sha256": "b8f487d056630d05f093582cd6ba22e0d2bf26c9622f75a5f3bd58194a03c13a",
+      "bytes": 70958
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0022653_chatlog_1747246970.json",
+      "sha256": "5ee31ecdc5be4fa11f0fb60d4c0db191b8a6a50746e4019ff2bb3d0e0374ed21",
+      "bytes": 60671
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0022826_chatlog_1747247012.json",
+      "sha256": "16d0da861deb304b4181857010bc9afe50a6a15772d21bc56d13820af3da5603",
+      "bytes": 48018
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0022916_chatlog_1747247078.json",
+      "sha256": "3a4a271c0de4d09dd73bf8f25ea9a38999ed8c21905d0104710f820557b06b95",
+      "bytes": 78905
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0024579_chatlog_1747246593.json",
+      "sha256": "c99459a3dfb9f9cc4030dc990dee4e8a163d9fc049684b819b8778d4120df8b5",
+      "bytes": 41235
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0027883_chatlog_1747247149.json",
+      "sha256": "55f4166289f037960d9373499b81b900148786dd1ac4125b9e19abeb2d981793",
+      "bytes": 114421
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0028198_chatlog_1747247186.json",
+      "sha256": "e911b12624eb3b0ca3f5c683c84a67ba47afa7974b6dba992a0778d1cb7e5838",
+      "bytes": 44097
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0031600_chatlog_1747247210.json",
+      "sha256": "21d55f4abcf82b505ca12fd0ee62a04459cdb247f7bc0481da6c5883e5dec2ce",
+      "bytes": 45844
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0032535_chatlog_1747247242.json",
+      "sha256": "f7c5ae507f3b727f3a5dc8413f6c88176db77b1f351cc20740e315d9728051f7",
+      "bytes": 65466
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0035737_chatlog_1747247263.json",
+      "sha256": "373c2977f6eb44d58ebe9c5b10174d465e114055dc7011187293f21b14ab3669",
+      "bytes": 27763
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0039020_chatlog_1747247291.json",
+      "sha256": "c2fd8f22acfa27160da5c67d686f5e3faf2c9225ec76d0c45e13095af75950f3",
+      "bytes": 50996
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0039147_chatlog_1747247320.json",
+      "sha256": "583a665fe0a313aaff7649e09a4004bf379a520a2e3f1b98140045ad071a47a0",
+      "bytes": 36579
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040042_chatlog_1747247364.json",
+      "sha256": "2811ce93c5e1a9430f33b2333f2c5644e35e5aa4e5e6ad86e30a552c943793ca",
+      "bytes": 88651
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040055_chatlog_1747247389.json",
+      "sha256": "86acb63082fa4b82be2856708167d9902db14ee55bfbdcfa78d4f00b50da45cc",
+      "bytes": 27831
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040144_chatlog_1747247414.json",
+      "sha256": "924a517a0456e26464aac8c0a4edca726e659342784f502daf6270008a2c442a",
+      "bytes": 24714
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040302_chatlog_1747247454.json",
+      "sha256": "9a2fd8228145e8686a4df8b3f8077c365e89f4ae807da55623939a498cfb8274",
+      "bytes": 42490
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040923_chatlog_1747247481.json",
+      "sha256": "dca3091e7d5b7cc483946a455cc43e23a97a70c8ab8d51eac3ed3b2a1d91021b",
+      "bytes": 32734
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0040957_chatlog_1747247536.json",
+      "sha256": "f8317c8ebf9c0e8b7e066f6358ce7509e24ae0d85febb14edd5cd32edc50cf50",
+      "bytes": 43559
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0041210_chatlog_1747247587.json",
+      "sha256": "f781f113b19e739e87685f1ec46c8b3c010958d97b6901b82c9ec906dfe8d1a3",
+      "bytes": 54738
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0041381_chatlog_1747247667.json",
+      "sha256": "6574566ab80ca25f0b726426e444edc6a53de1ca2987e382d06381e1543af548",
+      "bytes": 105597
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0041506_chatlog_1747247733.json",
+      "sha256": "da41a4853c8afb86f44d778082008c4f958eef582dc6ff04d19d52190ac764eb",
+      "bytes": 55073
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0042090_chatlog_1747247769.json",
+      "sha256": "ba6d98a477a9183806ac098427952d496a101b0928ec2a91e2de5db3f22d094c",
+      "bytes": 40882
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0042530_chatlog_1747247821.json",
+      "sha256": "a4016a2e8a7dcb48b83984a9bbbf04264d6bcdfd08a0f0e57562280a23fad408",
+      "bytes": 64588
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0042652_chatlog_1747247852.json",
+      "sha256": "eb2093c87ee0255248c4fa076f44a32a72d4ce8fede9b7ce16e2c5cc38d79683",
+      "bytes": 43386
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0043363_chatlog_1747247889.json",
+      "sha256": "16925809a478b1b16d9426fa689bb861074abbbe07c83b8b0e876fc16a5ce955",
+      "bytes": 38750
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0043580_chatlog_1747247949.json",
+      "sha256": "ac212aa8fb8ff68e20bc6c708b9aa991f0d91a4f519a4093ce36cbe40329e946",
+      "bytes": 75447
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0043590_chatlog_1747247965.json",
+      "sha256": "3b9c8a457692b3a04bf3425098733dd9705bc34f55555c71569391f3ca470bec",
+      "bytes": 20859
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0044015_chatlog_1747248009.json",
+      "sha256": "e41ad2108cfe8080782471d794b0b39e00d2074cab93d7889f3ca5e2edb30b89",
+      "bytes": 54044
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0044063_chatlog_1747248031.json",
+      "sha256": "9c89b91b14f08632d1dd8564d9dc324af92bddc5689ca0d0191ef1202ce5cd85",
+      "bytes": 31422
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0044328_chatlog_1747248061.json",
+      "sha256": "6d6b19c4c521697111cc8a9a0b0b6e836839ebbe8d682a2833954db830c358d1",
+      "bytes": 36645
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0044449_chatlog_1747248107.json",
+      "sha256": "e7f0f8b459f8b1f1a5e0bdb4bc3b6c677f65feda385e75dd16f1e0e4e2d6d5db",
+      "bytes": 50782
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b-with-tools/P-0044903_chatlog_1747248136.json",
+      "sha256": "871f30873b38ecd75c66142b1d3f8001734603aae0f9e5bf51f6cf35b0893479",
+      "bytes": 24548
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0004727_chatlog_1746450671.json",
+      "sha256": "a850981157b043ba42864f0e8b74ebffc7d74418da65666bdbc4d8ea0cc6ee14",
+      "bytes": 18682
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0005014_chatlog_1746450860.json",
+      "sha256": "d2687493acebc1c1872910a7f2d06a02bac96e7c889c33af09f9c4282f33c2b2",
+      "bytes": 11460
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0005708_chatlog_1746450704.json",
+      "sha256": "54607eb0420830992e87ab20e0e149caf6e36436be8ee6b72df01ae6a6dd898d",
+      "bytes": 4727
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0006191_chatlog_1746450735.json",
+      "sha256": "8f4883d623f120a31b4095e399c6568f32285ef6b7734d1d11a8c3177883e645",
+      "bytes": 19936
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0006687_chatlog_1746450766.json",
+      "sha256": "7fecbf8a56ea9d205ddd4a4dfff4f05ffab7d6296e8aa784ab7eb56de4f907c1",
+      "bytes": 27950
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0006691_chatlog_1746450784.json",
+      "sha256": "4aa5ba8f315a2046c8cf235a08ab02b875cf00e98af002c0dbf27e3a5e5b6514",
+      "bytes": 8786
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0007637_chatlog_1746450826.json",
+      "sha256": "bc918f9fe62c668c05d16abadb1c95fa02fd266bcf9d2c34d8159c70bddbe74b",
+      "bytes": 12886
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0009786_chatlog_1746450894.json",
+      "sha256": "a55dae16c9dcd8a6860b200d4045b9418a7570ecc2d51c60046911eb22a817a2",
+      "bytes": 22979
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0022292_chatlog_1746450939.json",
+      "sha256": "572af33c0886cf46607f6d535c64ebf62f9eda8fb03c0b34b24d69af758509b7",
+      "bytes": 21933
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0022653_chatlog_1746450962.json",
+      "sha256": "c2e5a10040614a3163a1daea96788bf75324b4e066e51db6fed57a2228f532c7",
+      "bytes": 9746
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0022826_chatlog_1746450992.json",
+      "sha256": "1b267474cef0440ac5ea9aec4b60b75e199158aff2b36106dbc11c7890993622",
+      "bytes": 10648
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0022916_chatlog_1746451034.json",
+      "sha256": "22ec47c6f7e35d3aa294d105043e1cb79ea58935e8722b2ae281e190d00a5a2d",
+      "bytes": 34969
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0024579_chatlog_1746450690.json",
+      "sha256": "8ee6e2fde26e8cfb846c9d4a42320994bab0d5ec8309c96a43649ada8e6c0dea",
+      "bytes": 15531
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0027883_chatlog_1746451104.json",
+      "sha256": "eae4f7127e03058556e176f1866f090dfedbfbc34dc2fc3305bc731f47cfb1ed",
+      "bytes": 19549
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0028198_chatlog_1746451126.json",
+      "sha256": "9f2ed09f8656c97ce45f0927036f281d3ab40d4cb8e2e52d1b12d47706a1f5a1",
+      "bytes": 18165
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0031600_chatlog_1746451151.json",
+      "sha256": "b37aac278eed094f1af7cfc8e7f91cc265f325e47d41bdfd575858937489f31e",
+      "bytes": 16068
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0032535_chatlog_1746451196.json",
+      "sha256": "48247798d0e9a23dfa0265545e2ca257c45d7fe4c6f65e8d20266cbf94d491c3",
+      "bytes": 23710
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0035737_chatlog_1746451214.json",
+      "sha256": "53d4af2e113d4dea2e229ef94a4b187fd13d5e7000719bc7193c60917983168e",
+      "bytes": 12167
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0039020_chatlog_1746451234.json",
+      "sha256": "b153d7078c4cbc2b178dd6a2a3b859c40f403e08e76503a0756b2999e25ab081",
+      "bytes": 17390
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0039147_chatlog_1746451263.json",
+      "sha256": "76806752c50c6b1a74592b4aabff52624e2dc2163bc5447d5566cd7c415f7b62",
+      "bytes": 12253
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040042_chatlog_1746451305.json",
+      "sha256": "ec19728c69da590a1de02d4c5cbfe2adbdfc4556fa05f7bbaafba927ee8a8a07",
+      "bytes": 27935
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040055_chatlog_1746451328.json",
+      "sha256": "c3acde4320aef3ba9995820d5ffb75ba406b26f76c3ec97b0704e8c95ccfec7b",
+      "bytes": 13276
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040144_chatlog_1746451346.json",
+      "sha256": "e7ec3d570149b16d6e7bcef9e5d6f1aada30a10b58a87bf145087b013d8b42de",
+      "bytes": 10062
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040302_chatlog_1746451372.json",
+      "sha256": "7865a010ca4bf24b9df3d2d82fcb3994a3dcd3b947f2dfd86a39a27362cad9e9",
+      "bytes": 17042
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040923_chatlog_1746451394.json",
+      "sha256": "a9db0daf71ba79eb45d0b407055851d98ba3e3aa07dd1d2b273010df2e0e3a61",
+      "bytes": 13886
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0040957_chatlog_1746451411.json",
+      "sha256": "3abe6963fadf3e972672bfd2d7a1e9202a3b9beab7df13671040b24ca4f3c2e3",
+      "bytes": 7857
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0041210_chatlog_1746451454.json",
+      "sha256": "34eb250f983f710ac12cfdf11e74227d703ebbe97ba2a10edb36312a7ff59b68",
+      "bytes": 24529
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0041381_chatlog_1746451633.json",
+      "sha256": "fc20e31dfd17a2e4b9745e2a72cce21c6dbf3cc6212bb0d4984423963f907889",
+      "bytes": 32661
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0041506_chatlog_1746451688.json",
+      "sha256": "2a2c2fe1f1c92719a5898d0322fd73b15898d2556d3c9c621a24319346917653",
+      "bytes": 13029
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0042090_chatlog_1746451714.json",
+      "sha256": "0556a1da564875c55e09d48b186fed0152dab086ddf6ae8b8d9ae29dd03a0908",
+      "bytes": 15425
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0042530_chatlog_1746451746.json",
+      "sha256": "b156ba25b3d56258e460f6cc6663aa49456d1fdb1bda8e86c7e88b3e2a284500",
+      "bytes": 10830
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0042652_chatlog_1746451770.json",
+      "sha256": "d41b93ccd94b0bf750af057680b9e42ed3ab23367feb5a84949429577d4c4672",
+      "bytes": 11935
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0043363_chatlog_1746451799.json",
+      "sha256": "65e09831084d7a8796b7ade8a4c7e9eb33219e538f537277468a156954279ad0",
+      "bytes": 8829
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0043580_chatlog_1746451883.json",
+      "sha256": "967f4274f6831ec4089c10ae6be7f74dff2f6262423f49298f9263d44cf6989e",
+      "bytes": 15828
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0043590_chatlog_1746451924.json",
+      "sha256": "222156aca6ffd3c7477530989af95358fc434cbdc86f499db6be0ab088480edc",
+      "bytes": 7272
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0044015_chatlog_1746451983.json",
+      "sha256": "8809b37223a8a4c416bd7143a17954a9542972429e2588d632b1b02ff73f820a",
+      "bytes": 14304
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0044063_chatlog_1746452012.json",
+      "sha256": "a8f0077698febd64eb7b233e73e7cda588f3d58c1f71b86b7e0b78c83fb8d5cc",
+      "bytes": 6646
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0044328_chatlog_1746452053.json",
+      "sha256": "1c2cfef7f4eaaf365b9e55c74cb9131f9a9dbd06bc5d19dc4ac3872ddbfa689b",
+      "bytes": 11250
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0044449_chatlog_1746452145.json",
+      "sha256": "b7cc633d42d29b887f59b3d663dba521e7e88b2531b6fdadf87fa1f809c99bf5",
+      "bytes": 31408
+    },
+    {
+      "path": "agent_logs_msk/qwen3-8b/P-0044903_chatlog_1746452165.json",
+      "sha256": "6c94cfb11befdc6d18c0a2b50f3393e9d5d6531d7926cfbadd5e563ef8784395",
+      "bytes": 12729
+    },
+    {
+      "path": "neurips25/benchmarks/run_agent_benchmark.py",
+      "sha256": "45de8506975efc080a19ec7a92796a499894c6f8cf40260d786e421ce778cc2c",
+      "bytes": 3122
+    },
+    {
+      "path": "neurips25/configs/base.yaml",
+      "sha256": "e4cc8e54a39e65cf0448aea2a2a3eff177f17480166c359cd6d5b7579516a040",
+      "bytes": 1012
+    },
+    {
+      "path": "neurips25/eval/__init__.py",
+      "sha256": "98b3acdc67a4b32aa063dd629983e1c0bf6134b006b89a4e3076fb84ed4ca711",
+      "bytes": 346
+    },
+    {
+      "path": "neurips25/eval/base_hf_eval.py",
+      "sha256": "bdbc9481faa61195c4ba3570add2e8bbe7d5279bddbfed6fa10c745a8da21efe",
+      "bytes": 1556
+    },
+    {
+      "path": "neurips25/eval/gemma_3.py",
+      "sha256": "cf5bc61d160b5bce61e79f6d59d033947c7e8276886b2770573697a8aee1b030",
+      "bytes": 3419
+    },
+    {
+      "path": "neurips25/eval/gpt_4o.py",
+      "sha256": "50a70a972d713a1809fb3e549c0298c3886321d2726d15b38964cce675910901",
+      "bytes": 2718
+    },
+    {
+      "path": "neurips25/eval/hf_eval_text2text.py",
+      "sha256": "6c6c5fe527dfa83d24a4b8128beef95690e0735facce210eeed37998b0042ab7",
+      "bytes": 6902
+    },
+    {
+      "path": "neurips25/eval/internvl.py",
+      "sha256": "77bdb358dda742018b9594e901ba814d5cf1c3cf99502665f19ba32f5c1155f9",
+      "bytes": 3369
+    },
+    {
+      "path": "neurips25/eval/qwen_25_vl.py",
+      "sha256": "575c84a9532c256de308bd7b372909a5c28dd68925b99c35701f6a4e442f9fce",
+      "bytes": 3493
+    },
+    {
+      "path": "neurips25/eval/vllm_eval_multimodal.py",
+      "sha256": "b9ca28becaf7610337f9134548e0bf7328b2d9509f8b77f0bd20835138f6ad43",
+      "bytes": 6280
+    },
+    {
+      "path": "neurips25/models/agent.py",
+      "sha256": "4cbb9037667d79985b0d2353ef2e57912338687cf504fd3bf9262ed1f76aaa36",
+      "bytes": 14327
+    },
+    {
+      "path": "neurips25/models/agent_with_tools.py",
+      "sha256": "e4cf9dcb3a42980f87971a9c30e210e48efe72810c869008d463d5ced14d56e8",
+      "bytes": 23034
+    },
+    {
+      "path": "neurips25/models/agent_with_tools_msk.py",
+      "sha256": "5fee0164fe758d9257ade5b981757c239491269661e4fe871c664aafeec66c1d",
+      "bytes": 18057
+    },
+    {
+      "path": "neurips25/tools/__init__.py",
+      "sha256": "cbf2d0a50b03b1f86f782609b0e79f9317c7ba4da7ebdb5d10dfa19a604d8bcb",
+      "bytes": 48
+    },
+    {
+      "path": "neurips25/tools/conch.py",
+      "sha256": "8d1cbd2f2340953eee2db0b0e765ef3f226b3a729ae69f77a88fdcb759875bca",
+      "bytes": 5372
+    },
+    {
+      "path": "neurips25/tools/drugbank.py",
+      "sha256": "597c094d7ded54ffb4a1cb83d5f139a618de0100ce757eadb57133220349a136",
+      "bytes": 6781
+    },
+    {
+      "path": "neurips25/tools/pubmed.py",
+      "sha256": "e93d1dbbad89d610fda74acb1f1bfce8b2584460644db6b44670b105ce15b013",
+      "bytes": 5808
+    },
+    {
+      "path": "neurips25/utils/args.py",
+      "sha256": "77a13fa1043fb62b3b0b0bf690dd407e50cac186fee95e32517a5e3a5781bd1c",
+      "bytes": 1002
+    },
+    {
+      "path": "neurips25/utils/create_patient_cases.py",
+      "sha256": "ec565e8213b7cdcc47d876ab2746627bd6be0e6b414202ada4a68b38cb859646",
+      "bytes": 7193
+    },
+    {
+      "path": "neurips25/utils/generate_questions.py",
+      "sha256": "c34e0453e2519e3982f5e743840d727d19d78a226b54300b271f12727540cfcf",
+      "bytes": 20159
+    },
+    {
+      "path": "neurips25/utils/hancock_patient.py",
+      "sha256": "8d1b470ea1738c73f3188a6149954e205e80a2403ec9f50e0eb50efc3468400f",
+      "bytes": 27858
+    },
+    {
+      "path": "neurips25/utils/ihc_tool.py",
+      "sha256": "a7bd63913858dddb64f8f2edb350e401fb99ce2d9ac66b410b534a4a3270d5e0",
+      "bytes": 2043
+    },
+    {
+      "path": "neurips25/utils/load_model.py",
+      "sha256": "0fab7484a5eda1d173ad6e778257883eade3a94d1acddab124baef80d85e7f0c",
+      "bytes": 1237
+    },
+    {
+      "path": "neurips25/utils/msk_question_generation.py",
+      "sha256": "90126214b5bd66de18ad181dd7f99c051b9f38034a9c020ad223ca92281af064",
+      "bytes": 16427
+    },
+    {
+      "path": "neurips25/utils/patient.py",
+      "sha256": "ad9b22ef238a79f2e1f0947ff561c42a2fa446bdd3d25facac4844377630c7d1",
+      "bytes": 13823
+    },
+    {
+      "path": "neurips25/utils/train_abmil.py",
+      "sha256": "ffee935a52dc1e7f1ed0c8515c01510387b5476254dab16f969d89b005495b39",
+      "bytes": 7823
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "sha256": "84e5dbdeaeeef0cddeb371eb9083429dbc5884663aff5c847d927149edf3256f",
+      "bytes": 1319
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2b8575c3a114e2fd374807bbe51d967abbcb8e63381882c4efd8c23f1400f18a",
+      "bytes": 340
+    },
+    {
+      "path": "scripts/analyze_smoke.py",
+      "sha256": "3b1bfe2b2006990007cc6c5c0b7aa6c8e1e4da0b2485fc3553881dc37e141388",
+      "bytes": 8207
+    },
+    {
+      "path": "scripts/build_cell_density_csv.py",
+      "sha256": "fcbd6706d9c937e23259989ed47e3cedb388fb7bd652c6dcf32147bfd38b49e8",
+      "bytes": 7020
+    },
+    {
+      "path": "scripts/link_data.sh",
+      "sha256": "4409aea43e976d8604fe08636d0421e1cb862ba8785921f3bfc7f133a732378c",
+      "bytes": 2270
+    },
+    {
+      "path": "scripts/preprocess_msk_chord.py",
+      "sha256": "b234737affb8403cba1546b6fc92644eae97d50156ee478728c4a5229af9080e",
+      "bytes": 6759
+    },
+    {
+      "path": "scripts/setup_runtime.sh",
+      "sha256": "63ef815d9aa5d0a079d4e40821d4d2e465b12e05dd02f504363a6005f769b005",
+      "bytes": 1324
+    },
+    {
+      "path": "scripts/smoke.sh",
+      "sha256": "67cb5685b36563326c3b4a47cfbf54392fca5f74711a726aff6ff3efcf493cc6",
+      "bytes": 2135
+    },
+    {
+      "path": "scripts/validate_ihc_tool_path.py",
+      "sha256": "822bb908deabc468d3db9e33842cb25e12f328761a8c00bb7653911005817133",
+      "bytes": 4712
+    },
+    {
+      "path": "setup.sh",
+      "sha256": "8a03914dae6687436f3d8c0482e826935f8638c3b0d81715177cd6f6976d240a",
+      "bytes": 1115
+    },
+    {
+      "path": "tests/test_build_cell_density_csv.py",
+      "sha256": "ccce3a8cd698c1fdd867184ff5549e8352d713e3c7913fad11a3e510f0157683",
+      "bytes": 3313
+    },
+    {
+      "path": "tests/test_preprocess_msk_chord.py",
+      "sha256": "be671fea7f141fc55716de83b9ba3fd182e4f819ff4ab24da436026df8348149",
+      "bytes": 4026
+    }
+  ]
+}

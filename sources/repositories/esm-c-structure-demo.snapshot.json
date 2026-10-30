@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/goodfire-ai/esm-c-structure-demo",
+  "revision": "99312f01dc4b86f2fd4cf1c17de39e78952ab5d0",
+  "archive_sha256": "515246bedd769f414d26d498f90e3c976f3abe7115893d20e3486f8bb47f66f8",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "4e753ec747c2efc403d623e6047acc2e1bc6f77416066f5bd5ac1660360669b5",
+      "bytes": 2914
+    }
+  ]
+}

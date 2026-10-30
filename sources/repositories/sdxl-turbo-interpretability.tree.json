@@ -1,0 +1,63 @@
+{
+  "repository": "https://github.com/goodfire-ai/sdxl-turbo-interpretability",
+  "revision": "0c59a8b9ada2db0b4e31e9dc6e2d44cd7a206784",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5ac7936c5c65810a5db0786828e4a9e284fcb1",
+      "size": 17,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/0e5ac7936c5c65810a5db0786828e4a9e284fcb1"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4278fe58f7f37cef0a12f2579f68e170610063d",
+      "size": 1065,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/f4278fe58f7f37cef0a12f2579f68e170610063d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5118d23baefe4b437aeec42d8169336260f54f03",
+      "size": 614,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/5118d23baefe4b437aeec42d8169336260f54f03"
+    },
+    {
+      "path": "example_activations.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95883089683a0a4a0d050db782732889da5aa40",
+      "size": 656540,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/a95883089683a0a4a0d050db782732889da5aa40"
+    },
+    {
+      "path": "example_img.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "102157073708cd4af12889ed8e219482105089d4",
+      "size": 437626,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/102157073708cd4af12889ed8e219482105089d4"
+    },
+    {
+      "path": "inference_example.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b65f4bb55eddf15b66dd08703e44e2a5ae1e7bf",
+      "size": 150692,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/7b65f4bb55eddf15b66dd08703e44e2a5ae1e7bf"
+    },
+    {
+      "path": "sae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d97325f45e63321c18a81dbe61a9b099f2e89f5",
+      "size": 2641,
+      "url": "https://api.github.com/repos/goodfire-ai/sdxl-turbo-interpretability/git/blobs/0d97325f45e63321c18a81dbe61a9b099f2e89f5"
+    }
+  ]
+}

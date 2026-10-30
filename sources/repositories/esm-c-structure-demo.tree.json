@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/goodfire-ai/esm-c-structure-demo",
+  "revision": "99312f01dc4b86f2fd4cf1c17de39e78952ab5d0",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/esm-c-structure-demo/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bcafac30f9fb642bccb38a631e8b300dde43e5b",
+      "size": 2914,
+      "url": "https://api.github.com/repos/goodfire-ai/esm-c-structure-demo/git/blobs/8bcafac30f9fb642bccb38a631e8b300dde43e5b"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ce1392f39d3dc6ef55652b22bce450274d75f9",
+      "size": 2785578,
+      "url": "https://api.github.com/repos/goodfire-ai/esm-c-structure-demo/git/blobs/a6ce1392f39d3dc6ef55652b22bce450274d75f9"
+    },
+    {
+      "path": "preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d47b0d190963e3520d2019f240a4946d844cc1d",
+      "size": 209157,
+      "url": "https://api.github.com/repos/goodfire-ai/esm-c-structure-demo/git/blobs/1d47b0d190963e3520d2019f240a4946d844cc1d"
+    }
+  ]
+}

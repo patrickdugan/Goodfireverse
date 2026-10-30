@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/goodfire-ai/r1-interpretability",
+  "revision": "3e312b54e2193ed069c6019d45bf9a8dd9bef715",
+  "archive_sha256": "06cdc106fbf5ce2fc7d03fd72b2b9da8652c090ceff9de90ebda6ec8db9421af",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a02c9d071f663db983c449bd32229c9b2e20472196bd106f0fa7a57ebea09e4d",
+      "bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "sha256": "4c951a5b2255372c8e7d5d124ddd1953d1027ae75ec3b742d96f4b606f16ce71",
+      "bytes": 5120
+    },
+    {
+      "path": "db_example.ipynb",
+      "sha256": "d0a1d1e1f02174b91d65c3f2faf85257cceaf6fe1381539f7626d9442619c0eb",
+      "bytes": 10146
+    },
+    {
+      "path": "sae.py",
+      "sha256": "ea334cf11f45dfbfed5f5ce6334ca4f68bceeee581765057a1334426075e82ad",
+      "bytes": 2416
+    },
+    {
+      "path": "sae_example.ipynb",
+      "sha256": "53ab772ab0481ecb88631531648da6f86b61afbff9dca0513857aa6c54f5060a",
+      "bytes": 8845
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "repository": "https://github.com/goodfire-ai/scribe-task-suite",
+  "revision": "737c88b6ccf93d54729a8e62178aee416342e1b8",
+  "archive_sha256": "581a5b4cea68b263b9d59a6e4372d2cc95a5e7c0b2eb7c22f19ef61a3edb2733",
+  "source_files": [
+    {
+      "path": ".claude/settings.json",
+      "sha256": "55df3b736dab532a4a08ae9cb21c167f31026647e5c22368bd9afe02b054eb10",
+      "bytes": 512
+    },
+    {
+      "path": ".gemini/settings.json",
+      "sha256": "3c3e3391d66a4b70ccef9b89a0162a6f2fe25d592572b0ea4cf0ae2837e3aec6",
+      "bytes": 411
+    },
+    {
+      "path": "README.md",
+      "sha256": "37235fcb9fd2a9e9385e9946f98a5d05489e6d27ec06161f53abe07e3a4c6e91",
+      "bytes": 5949
+    },
+    {
+      "path": "benchmark_all_providers.sh",
+      "sha256": "59c3b8ba942c39be46367e371e486c0e7980dbf729969489768c151e7a8060d3",
+      "bytes": 3728
+    },
+    {
+      "path": "data/dataset_hc.json",
+      "sha256": "11dfb47cee064d037b9c66a1e56da6dfb9257f5c53bc29a4310c83a45de1bfe3",
+      "bytes": 783593
+    },
+    {
+      "path": "data/dataset_rf.json",
+      "sha256": "966f6f32d5c2246579a1d9b544c082790fec6067d4efea6c6ef755c9d0a154a4",
+      "bytes": 159565
+    },
+    {
+      "path": "data/dataset_si.json",
+      "sha256": "37c3de0e5eae2d83dc33c9e657d3a84407cbaa64900338dfb466d814e6002e7d",
+      "bytes": 365366
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_hl_model_info.json",
+      "sha256": "55a2b7982b359a581fd8bf5963cdc9b80894c1ec54b43548d622fddd4023fbbe",
+      "bytes": 685
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_ll_model_config.json",
+      "sha256": "a414657629e68f02f3dbd64bf18d166ed3fb7fde7e59a5c4fa987a04caccc33c",
+      "bytes": 1346
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_hl_model_info.json",
+      "sha256": "543a09d13ce285d19148bdbf3a68e8e62d3eb6d1f3073e76e66884c8466fc1e2",
+      "bytes": 1071
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_ll_model_config.json",
+      "sha256": "0982b2f00de3028a2713af16fcf329c60ee63816a0732b4e62c8fd9be975c8a0",
+      "bytes": 1361
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_hl_model_info.json",
+      "sha256": "629c8aac5860bc0606586c79055b723a515de1a23662b1a935cdb23411ea2aff",
+      "bytes": 1028
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_ll_model_config.json",
+      "sha256": "2827022876a180e002f56a18259f8f919409c54693392b914f68a140d0b04344",
+      "bytes": 1348
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_hl_model_info.json",
+      "sha256": "37021251be13c91ab4bcaf55db2f38350bff590f345e22e34cde9ad07c4f7270",
+      "bytes": 475
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_ll_model_config.json",
+      "sha256": "20fd6c7a6caacefd8106e40bdbd816f3559af90b6cb0465644b12cce022db85a",
+      "bytes": 1356
+    },
+    {
+      "path": "evaluation_data/regularization_evaluation_results.json",
+      "sha256": "03454dc61fdb484cef19f22036d46db72fe81faf94a01774cd69117f651137ef",
+      "bytes": 1489
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_1.ipynb",
+      "sha256": "b3649a1f79951b6ac0973e6fa0d27afef1106fa5c6f565855b94578be9f2d3a5",
+      "bytes": 5756
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_2.ipynb",
+      "sha256": "d9a2aa08326e70ee31179e593554d89050957b8650fd533bc7204f24aa9ad817",
+      "bytes": 6606
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_4.ipynb",
+      "sha256": "f3a7c526e8456d162e8b82c748f6a6c0536074289c5e5539ee1eb4fb834e6ab1",
+      "bytes": 4493
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_5.ipynb",
+      "sha256": "9a1c575899a0e041382daaa54afe9c2448917cdf6824c298abfad54be4774f5c",
+      "bytes": 4592
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gemma_ioi.ipynb",
+      "sha256": "a2d6d61353c848e8836d588b3268ff9993078b6cb95d4e4328a5d8612550c9bd",
+      "bytes": 5621
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gemma_mcqa.ipynb",
+      "sha256": "eacea19ff9def80b34cf9adee7d7a7e901cac90feef6fb97f7922018d7a49dfc",
+      "bytes": 6568
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gpt_ioi.ipynb",
+      "sha256": "f80c8359f520445a130596cee0b3910ffd1391bd6a09c25801be817cf5ddd7bb",
+      "bytes": 2591
+    },
+    {
+      "path": "notebooks/circuits_notebooks/llama_ioi.ipynb",
+      "sha256": "92f4c673b1f2377df61922ce77268cb1f91e7d12c9be852931f3bb751f04d7e1",
+      "bytes": 2584
+    },
+    {
+      "path": "notebooks/circuits_notebooks/llama_mcqa.ipynb",
+      "sha256": "2c421646dc5042f15f79381af3f7af9d68dda0499b877cde77b0cc5a0df23102",
+      "bytes": 3411
+    },
+    {
+      "path": "notebooks/circuits_notebooks/qwen_MCQA.ipynb",
+      "sha256": "51da8bdf2f663f0848e706a7ea76c20cb64d2e54495f354924ecc5159d7e41f3",
+      "bytes": 6506
+    },
+    {
+      "path": "notebooks/circuits_notebooks/qwen_ioi.ipynb",
+      "sha256": "321e79d00474de9306e808561331358d78c7e4df29d2743a268e72869ef41e10",
+      "bytes": 4679
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_hc_cv.ipynb",
+      "sha256": "03dcf447b11749f734181967ad0b633f64426ef49b7bd1512bc4fcc09e3a3533",
+      "bytes": 847
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_rf_cv.ipynb",
+      "sha256": "c57d22f6d2d46d9bc6972889fa226181676ae05748d01724017f7705cdf38cf2",
+      "bytes": 847
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_si_cv.ipynb",
+      "sha256": "1212a62c8742f2feae48b94f8998ca8c36638748a07f9d2bac6073b95ca46ed3",
+      "bytes": 847
+    },
+    {
+      "path": "notebooks/probe_notebooks/dim_probe.ipynb",
+      "sha256": "19e4de03b317c99c0311e4fc823781e8fe19b2164327c79092dfc606baca62da",
+      "bytes": 639
+    },
+    {
+      "path": "notebooks/probe_notebooks/greater_than_pca.ipynb",
+      "sha256": "4bf79803aa11c5092d7e43f90d010465d115d230d4ef9ccf93263cd1e3835826",
+      "bytes": 12179
+    },
+    {
+      "path": "notebooks/probe_notebooks/linear_probe_grammar.ipynb",
+      "sha256": "25b7eb470e37fb9a7a42285fee120869aa75dbd06d859d2c93977cb25adf7ecf",
+      "bytes": 913
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_cities.ipynb",
+      "sha256": "7d49b20f334d0712712cc8259a5d6cfcd7b659240204ebe06b9bed48fa89fe91",
+      "bytes": 522
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_greater_than_probe.ipynb",
+      "sha256": "7e1ce58a46b50e587ed97d5f9f7cfb04a454fbc001369db7be7c55bcab7ddf19",
+      "bytes": 837
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_smaller_than_probe.ipynb",
+      "sha256": "b6db79701770af4e5fc127dfefb8821c7786e39eb96ec89502cac37faf4ffa91",
+      "bytes": 838
+    },
+    {
+      "path": "notebooks/probe_notebooks/smaller_than_pca.ipynb",
+      "sha256": "2db841a3a98479707f48fe2f74f714e3a34fee923309db5e136a6a7aac957b44",
+      "bytes": 806
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_alphabet.ipynb",
+      "sha256": "14c2f3c13a8428925bd08c7636480ab81558e55a79958088e4cbc501465ccc71",
+      "bytes": 2625
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_position.ipynb",
+      "sha256": "3f424dcbaa0f7732ffb5bcb09999df947115ed70afd56b0672205ef37255a1c7",
+      "bytes": 911
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_position_2.ipynb",
+      "sha256": "0750da46eb5064287f3704af2ce657a188ee8878507e5baa73d235f308059c8d",
+      "bytes": 2600
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_syntax_mc.ipynb",
+      "sha256": "189dcc812c333b8924b02b2cc0116cce4dffc94081d05b7d68f5cfef5875dc29",
+      "bytes": 809
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_unigram_mc.ipynb",
+      "sha256": "189dcc812c333b8924b02b2cc0116cce4dffc94081d05b7d68f5cfef5875dc29",
+      "bytes": 809
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gemma_ioi.txt",
+      "sha256": "3e7458e4e41959a0bedbd2d1ab8487182566a02a51808e2c09eb14d31034e72e",
+      "bytes": 3541
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gemma_mcqa.txt",
+      "sha256": "43b7482f3929ebc093ac868611fcf383b1a9192c2a6583074ba5932d6ecfa8ad",
+      "bytes": 3581
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gpt_ioi.txt",
+      "sha256": "5ce0833024c92c3ce68a4439b0c242eb511cde946c537fd60fa61b7dcc9e0982",
+      "bytes": 3556
+    },
+    {
+      "path": "prompts/large_circuits_prompts/llama_ioi.txt",
+      "sha256": "103b6f81ee6d639878755d14d03fa8dccf72ea9f560e3d39e043b459fdeb8a25",
+      "bytes": 3541
+    },
+    {
+      "path": "prompts/large_circuits_prompts/llama_mcqa.txt",
+      "sha256": "1cca3c57a9f2176b9c9b0ffe4b12e6e52ddf7a5a52aecc4abc228d2342fb27d1",
+      "bytes": 3584
+    },
+    {
+      "path": "prompts/large_circuits_prompts/qwen_ioi.txt",
+      "sha256": "5930083ff469c364d9352fa21785394ba498f57fad4f7c885f4b824a2425091f",
+      "bytes": 3558
+    },
+    {
+      "path": "prompts/large_circuits_prompts/qwen_mcqa.txt",
+      "sha256": "42171cf6da4d69ec06b4a036e6683e8b555562541d04d0189feb9325c033c617",
+      "bytes": 3601
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_1.txt",
+      "sha256": "e2cd486ad5b94369887123ef14d63339e30e02916bb5864b35b6cb00ec54ab8d",
+      "bytes": 1338
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_10.txt",
+      "sha256": "081f7a29e88c0a8567725ca860c272e30da850261f43ec0767cdf9427db02fe6",
+      "bytes": 2336
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_2.txt",
+      "sha256": "6e17c5fbf2f232eefe07240c716735ef06ec4c4a979244f18c6d8bdd4bf1bb6f",
+      "bytes": 1802
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_3.txt",
+      "sha256": "d9cde5f5106b921e4c60ff0260749bbadcbc00b200bea733b6f9844b23bda557",
+      "bytes": 1800
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_4.txt",
+      "sha256": "71b059e94573e57876648e785825d832793f6795d8142afb35c0e4a6583c0367",
+      "bytes": 1741
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_5.txt",
+      "sha256": "1ef9fd5185436458cc52082581ffa4904714bda0ef3ee3e9d2be64809d6127a0",
+      "bytes": 1662
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_6.txt",
+      "sha256": "b00bd668ea540c24643d03fbf1a29cbaa15e505dad12cc50ad510c2d2d460f2f",
+      "bytes": 2191
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_7.txt",
+      "sha256": "feef876d46af35d93e4c3c23f65dce539f268b89681055da91a2f07a8b0828f0",
+      "bytes": 2191
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_8.txt",
+      "sha256": "0051d9dbb534385024c6ddafb5d3326d2dcb879748beff9192cf22256b46dfca",
+      "bytes": 2353
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_9.txt",
+      "sha256": "5628e4c79d0c600002a512bed4e6b3e7e86b803e84e0418427abe2904a5a7be4",
+      "bytes": 2330
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_1.txt",
+      "sha256": "7f6bfc3e0d4547ff9011c43e8881be9311c7b4681b1295c3496377ab3d148130",
+      "bytes": 3075
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_2.txt",
+      "sha256": "4c21fa29a67bc95529fa0858e2684bfe277f6ace2fe263cce8a90d45231ec2e0",
+      "bytes": 3092
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_3.txt",
+      "sha256": "fce174c4fd15dc0af1de5236b5bd76492bc6840db7ba3ea7356b082f275d01ac",
+      "bytes": 3099
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_4.txt",
+      "sha256": "fb5bf6b177a0850d4a9b035a741210370a2c4ef5063b77e15c97c4a27a711d7d",
+      "bytes": 3099
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_5.txt",
+      "sha256": "f4b3eaff761eb207c90b3235da432a037428b3e72b3ce0f21fc1739a5e6dc1b9",
+      "bytes": 3098
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_1.txt",
+      "sha256": "494eaf4c47c17ee473dcf06e51e412f20769e320af713206590f920d801b6cfe",
+      "bytes": 1371
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_2.txt",
+      "sha256": "0783aa5abb71b289b93a15dc499e2b0525d973b150ec6475a5e04ffbca8c8246",
+      "bytes": 1436
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_3.txt",
+      "sha256": "32c01696236c31d6c940bcdfe21d405fb06fa355ff1c7605c2d32375b49c1ddd",
+      "bytes": 1024
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_4.txt",
+      "sha256": "3764e84d38ad1ad058c844dc2785c384c2cd1e4ee7097a316bc29a26806f3afc",
+      "bytes": 1585
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_5.txt",
+      "sha256": "661ceda7c4fe36bc6d11144715365a101c9bab26efddfb3829fff98163a8f683",
+      "bytes": 1671
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "630b4769a35fa2723b93740e6f90a569921bb4d5f42d7e5dc98335f8ca550472",
+      "bytes": 298
+    },
+    {
+      "path": "scripts/evaluators/evaluate_circuits.py",
+      "sha256": "9f98af1923329a4d889d71b5d4c000183c6d670888feea536e445c0923b6c9c5",
+      "bytes": 8877
+    },
+    {
+      "path": "scripts/evaluators/evaluate_large_circuits.py",
+      "sha256": "e89a91d07d66147d2ae0e2e50e50f334049e83fdc8b32a961dfb7affdfee659d",
+      "bytes": 4286
+    },
+    {
+      "path": "scripts/evaluators/evaluate_neurons.py",
+      "sha256": "dc7b9cd4fdda3ab15f668a116288fa0147144938bf521e2f89bd390b7c7ee9b5",
+      "bytes": 9665
+    },
+    {
+      "path": "scripts/evaluators/evaluate_probes.py",
+      "sha256": "fbe33d2e6d4bec9544719ee99b53d9832022e8ab7c79ccb66b43d44ad44b932c",
+      "bytes": 26855
+    },
+    {
+      "path": "scripts/evaluators/large_circuits_utils.py",
+      "sha256": "c1e53a9bbb11067c8f2924e31ac7b1973027f16730c33cbf78cacf49cb7ac766",
+      "bytes": 16595
+    },
+    {
+      "path": "scripts/runners/run_circuits_copilot.sh",
+      "sha256": "dc52426a9c75531d6bd2c7c512a98703067f15d7b95f1dddd3f8d718540b6e03",
+      "bytes": 10710
+    },
+    {
+      "path": "scripts/runners/run_neurons_copilot.sh",
+      "sha256": "020e2fdf180e763d72d12f48701f8bbaa6d5438301aa6b9ba6bd052eab338c95",
+      "bytes": 10350
+    },
+    {
+      "path": "scripts/runners/run_probes_copilot.sh",
+      "sha256": "85e4bda03893c527f221b323e2da6edd30387691f11dfe67e878fb6b56e2e7f3",
+      "bytes": 11067
+    },
+    {
+      "path": "scripts/utils/organize_existing_files.sh",
+      "sha256": "0199f0a72a611d5854aea487df3a72b3d702af9a61dbe85d4c1f0bd4006633e1",
+      "bytes": 1593
+    }
+  ]
+}

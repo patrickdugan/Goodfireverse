@@ -1,0 +1,283 @@
+[
+  {
+    "url": "https://agora-intelligence.com/en/blog/ai-interpretability-goodfire-bsf-breakthrough",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://agora-intelligence.com/it/blog/ai-interpretability-goodfire-bsf-breakthrough",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://askwhocastsai.substack.com/p/neural-networks-are-already-clean",
+    "participation": "commentary_or_narration",
+    "review_reason": "Narration or highlights do not establish a team appearance",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://grep.news/tamez-labs/episode/how-goodfire-found-alzheimer's-clues-inside-ai-weights",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://innovation-pulse.podbean.com/e/startups-pulse-openai-chooses-windsurf-over-cursor-deep-dive-into-adizes-theory-of-corporate-lifecycles-part-1",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcast.ausha.co/enginears/building-an-interpretability-research-lab-designing-advanced-ai-systems-with-goodfire-i-enginears",
+    "participation": "confirmed",
+    "speakers": [
+      "Daniel Balsam"
+    ],
+    "participation_basis": "Publisher RSS description explicitly says CTO and co-founder Dan Balsam joins the episode",
+    "review_evidence": "<p>Goodfire is an AI interpretability research lab focused on understanding and intentionally designing advanced AI systems. We had CTO and co-founder Dan Balsam come and join us to talk about what they're building, why and how.<br><br>• Introducing Goodfire<br>• Introducing the problem space they are in and the mission at hand.<br>• The engineering mentality that sparked Goodfire to life in late 2022.<br>• What is a research lab?<br>• Dan walks us through Silico and really breaks down for us the what, the why, the how.<br><br>• What is AI Safety + AI Alignment?<br>o An emphasis inside Goodfir"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/balderdashacademy/episodes/PortFringe-Special-Chris-DeFilipp--Chimera-Theatre-CollectivePolyphonic-Theatre-Ensembles-VILLAINY--or-Something-e1jo0ob",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/balderdashacademy/episodes/PortFringe-Special-Elizabeth-Freeman--Sex-Lives-of-the-Recently-Widowed-e1jukgb",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/balderdashacademy/episodes/PortFringe-Special-Hal-Cohen-of-YOUVE-ALWAYS-LOVED-THE-SUN--On-A-Dare-Productions-e1jcfk6",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/balderdashacademy/episodes/PortFringe-Special-Kerry-Anderson-and-Catherine-Buxton-of-Windows95-Relaunch-at-PortFringe-e1jfhl3",
+    "participation": "out_of_scope",
+    "review_reason": "Different organization or band, not the AI lab",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/balderdashacademy/episodes/PortFringe-Special-Marie-Stewart-Harmon--MTWTFSS-Theatre-Companys-TITLE-GOES-HERE-e1jkcd6",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/foundxjp/episodes/Goodfire-AIAI-e3fg273",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/generativenow/episodes/Inside-the-Black-Box-The-Urgency-of-AI-Interpretability-e38vnm9",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/ikuo-suzuki/episodes/Ep-66-AnthropicGoodfireAI2025424-e31ro3d",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/jeremiah-stephenson/episodes/Acceptance-w-Lane--Matt-eigoi8",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/jeremiah-stephenson/episodes/Lane-Silva---Musician--Composer--Lead-of-Goodfires-ebvet1",
+    "participation": "out_of_scope",
+    "review_reason": "Different organization or band, not the AI lab",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://podcasters.spotify.com/pod/show/jeremiah-stephenson/episodes/Tim-Dunker---Drummer-of-Goodfires--Royal-Oaks-ebvesn",
+    "participation": "out_of_scope",
+    "review_reason": "Different organization or band, not the AI lab",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://strivecast.libsyn.com/season-3-episode-12-mitch-waterman-of-goodfire-brewing",
+    "participation": "out_of_scope",
+    "review_reason": "Different organization or band, not the AI lab",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://sub.thursdai.news/p/dec-26-openai-o3-and-o3",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://www.16ozcanvas.com/podcasts/episode-120-ryan-adams-goodfire-brewing-co",
+    "participation": "out_of_scope",
+    "review_reason": "Different organization or band, not the AI lab",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/",
+    "participation": "superseded",
+    "review_reason": "Publisher homepage was supplied for multiple feed episodes; exact episode permalinks are cataloged"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/ai-in-the-am-week-2-highlights-june-2026",
+    "participation": "commentary_or_narration",
+    "review_reason": "Narration or highlights do not establish a team appearance",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/more-truthful-ais-report-conscious-experience-new-mechanistic-research-w-cameron-berg-ae-studio",
+    "participation": "review_required",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/zero-to-one-in-ai-safety-halcyon-s-mike-mccormick-on-launching-30-new-orgs-the-founder-bottleneck",
+    "participation": "review_required",
+    "role": "podcast",
+    "participation_basis": "Mention in description only"
+  },
+  {
+    "url": "https://www.onhealthcare.tech/p/goodfire-ai-and-the-billion-dollar",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://www.xiaoyuzhoufm.com/episode/6ad15ec1641ef406308c58df",
+    "participation": "review_required",
+    "review_reason": "Organization mentioned in title but guest participation is not established",
+    "role": "podcast",
+    "participation_basis": "Publisher episode title identifies guest or Goodfire"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=3hcCRD8NsJo",
+    "participation": "commentary_or_narration",
+    "role": "podcast"
+  },
+  {
+    "audio_url": "https://audio.ausha.co/vpL3VCYjD1d9.mp3?t=1792554216",
+    "description": "Goodfire is an AI interpretability research lab focused on understanding and intentionally designing advanced AI systems. We had CTO and co-founder Dan Balsam come and join us to talk about what they're building, why and how.• Introducing Goodfire• Introducing the problem space they are in and the mission at hand.• The engineering mentality that sparked Goodfire to life in late 2022.• What is a research lab?• Dan walks us through Silico and really breaks down for us the what, the why, the how.• What is AI Safety + AI Alignment?o An emphasis inside Goodfire is AI alignment via interprability; what does this mean and how are you building towards AI alignment?o AI Safety is a pretty big umbrella; Dan breaks down why we need great engineers? Understanding how do great engineers step into AI safety research and be effective.• Engineering challenges:o Supporting model frontier level infrastructureo long horizon agents; creating the right scaffolding and harnesses.• Future bets being placed on Goodfire/AI generally HiringIf you're keen to share your story, please reach out to us!Guest: https://www.linkedin.com/in/dbalsam/\n\nPowered by Artifeks!\nhttps://www.linkedin.com/company/artifeksrecruitment\nhttps://www.artifeks.co.uk\nhttps://www.linkedin.com/in/agilerecruiter\n\nLinkedIn: https://www.linkedin.com/company/enginearsio\nTwitter: https://x.com/Enginearsio\nAll Podcast Platforms: https://smartlink.ausha.co/enginears\n\n\n\nHosted on Ausha. See ausha.co/privacy-policy for more information.",
+    "discovered_from": "https://itunes.apple.com/search?term=Goodfire&entity=podcastEpisode&limit=200&country=US",
+    "duration_ms": 1758000,
+    "feed_url": "https://feed.ausha.co/PdLGMIYGG1GM",
+    "participation": "confirmed",
+    "published": "2026-10-21T13:00:00Z",
+    "publisher": "Enginears",
+    "review_reason": "Directory search mention is not proof of guest participation",
+    "title": "Building an interpretability research lab designing advanced AI systems with Goodfire I Enginears",
+    "url": "https://podcasts.apple.com/us/podcast/building-an-interpretability-research-lab-designing/id1490276189?i=1000797441121&uo=4",
+    "role": "interview",
+    "participation_basis": "Publisher-provided episode description explicitly introduces the Goodfire guest",
+    "review_evidence": "Goodfire is an AI interpretability research lab focused on understanding and intentionally designing advanced AI systems. We had CTO and co-founder Dan Balsam come and join us to talk about what they're building, why and how.• Introducing Goodfire• Introducing the problem space they are in and the mission at hand.• The engineering mentality that sparked Goodfire to life in late 2022.• What is a research lab?• Dan walks us through Silico and really breaks down for us the what, the why, the how.• What is AI Safety + AI Alignment?o An emphasis inside Goodfire is AI alignment via interprability; what does this mean and how are you building towards AI alignment?o AI Safety is a pretty big umbrella; Dan breaks down why we need great engineers? Un"
+  },
+  {
+    "audio_url": "https://anchor.fm/s/e9b477e4/podcast/play/109091977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-2%2F408509715-44100-2-66f11760ff195.mp3",
+    "description": "Recorded live at Lightspeed’s offices in San Francisco, this special episode of Generative Now dives into the urgency and promise of AI interpretability. Lightspeed partner Nnamdi Iregbulem spoke with Anthropic researcher Jack Lindsey and Goodfire co-founder and Chief Scientist Tom McGrath, who previously co-founded Google DeepMind’s interpretability team. They discuss opening the black box of modern AI models in order to understand their reliability and spot real-world safety concerns, in order to build AI systems of the future that we can trust. \n\n\nEpisode Chapters: \n00:42 Welcome and Introduction\n00:36 Overview of Lightspeed and AI Investments\n03:19 Event Agenda and Guest Introductions\n05:35 Discussion on Interpretability in AI\n18:44 Technical Challenges in AI Interpretability\n29:42 Advancements in Model Interpretability\n30:05 Smarter Models and Interpretability\n31:26 Models Doing the Work for Us\n32:43 Real-World Applications of Interpretability\n34:32 Philanthropics' Approach to Interpretability\n39:15 Breakthrough Moments in AI Interpretability\n44:41 Challenges and Future Directions\n48:18 Neuroscience and Model Training Insights\n54:42 Emergent Misalignment and Model Behavior\n01:01:30 Concluding Thoughts and Networking\n\n\nStay in touch:\nwww.lsvp.com\nX: https://twitter.com/lightspeedvp\nLinkedIn: https://www.linkedin.com/company/lightspeed-venture-partners/\nInstagram: https://www.instagram.com/lightspeedventurepartners/\nSubscribe on your favorite podcast app: generativenow.co\nEmail: generativenow@lsvp.com\nThe content here does not constitute tax, legal, business or investment advice or an offer to provide such advice, should not be construed as advocating the purchase or sale of any security or investment or a recommendation of any company, and is not an offer, or solicitation of an offer, for the purchase or sale of any security or investment product. For more details please see lsvp.com/legal.",
+    "discovered_from": "https://itunes.apple.com/search?term=Goodfire&entity=podcastEpisode&limit=200&country=US",
+    "duration_ms": 3737000,
+    "feed_url": "https://anchor.fm/s/e9b477e4/podcast/rss",
+    "participation": "confirmed",
+    "published": "2025-10-02T09:00:00Z",
+    "publisher": "Generative Now | AI Builders on Creating the Future",
+    "review_reason": "Directory search mention is not proof of guest participation",
+    "title": "Inside the Black Box: The Urgency of AI Interpretability",
+    "url": "https://podcasts.apple.com/us/podcast/inside-the-black-box-the-urgency-of-ai-interpretability/id1709773028?i=1000729676657&uo=4",
+    "role": "interview",
+    "participation_basis": "Publisher-provided episode description explicitly introduces the Goodfire guest",
+    "review_evidence": "Recorded live at Lightspeed’s offices in San Francisco, this special episode of Generative Now dives into the urgency and promise of AI interpretability. Lightspeed partner Nnamdi Iregbulem spoke with Anthropic researcher Jack Lindsey and Goodfire co-founder and Chief Scientist Tom McGrath, who previously co-founded Google DeepMind’s interpretability team. They discuss opening the black box of modern AI models in order to understand their reliability and spot real-world safety concerns, in order to build AI systems of the future that we can trust. \n\n\nEpisode Chapters: \n00:42 Welcome and Introduction\n00:36 Overview of Lightspeed and AI Investments\n03:19 Event Agenda and Guest Introductions\n05:35 Discussion on Interpretability in AI\n18:44 Tec"
+  },
+  {
+    "audio_url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI9154425844.mp3?updated=1751996708",
+    "description": "Eric Ho is building Goodfire to solve one of AI’s most critical challenges: understanding what’s actually happening inside neural networks. His team is developing techniques to understand, audit and edit neural networks at the feature level. Eric discusses breakthrough results in resolving superposition through sparse autoencoders, successful model editing demonstrations and real-world applications in genomics with Arc Institute's DNA foundation models. He argues that interpretability will be critical as AI systems become more powerful and take on mission-critical roles in society.\n\nHosted by Sonya Huang and Roelof Botha, Sequoia Capital\n\nMentioned in this episode:\n\n\n  \nMech interp: Mechanistic interpretability, list of important papers here\n\n\n\n  \nPhineas Gage: 19th century railway engineer who lost most of his brain’s left frontal lobe in an accident. Became a famous case study in neuroscience.\n\n\n\n  \nHuman Genome Project: Effort from 1990-2003 to generate the first sequence of the human genome which accelerated the study of human biology\n\n\n\n  \nEmergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs\n\n\n\n  \nZoom In: An Introduction to Circuits: First important mechanistic interpretability paper from OpenAI in 2020\n\n\n\n  \nSuperposition: Concept from physics applied to interpretability that allows neural networks to simulate larger networks (e.g. more concepts than neurons)\n\n\n\n  \nApollo Research: AI safety company that designs AI model evaluations and conducts interpretability research\n\n\n\n  \nTowards Monosemanticity: Decomposing Language Models With Dictionary Learning. 2023 Anthropic paper that uses a sparse autoencoder to extract interpretable features; followed by Scaling Monosemanticity\n\n\n\n  \nUnder the Hood of a Reasoning Model: 2025 Goodfire paper that interprets DeepSeek’s reasoning model R1\n\n\n\n  \nAuto-interpretability: The ability to use LLMs to automatically write explanations for the behavior of neurons in LLMs\n\n\n\n  \nInterpreting Evo 2: Arc Institute's Next-Generation Genomic Foundation Model. (see episode with Arc co-founder Patrick Hsu)\n\n\n\n  \nPaint with Ember: Canvas interface from Goodfire that lets you steer an LLM’s visual output  in real time (paper here)\n\n\n\n  \nModel diffing: Interpreting how a model differs from checkpoint to checkpoint during finetuning\n\n\n\n  \nFeature steering: The ability to change the style of LLM output by up or down weighting features (e.g. talking like a pirate vs factual information about the Andromeda Galaxy)\n\n\n\n  \nWeight based interpretability: Method for directly decomposing neural network parameters into mechanistic components, instead of using features\n\n\n\n  \nThe Urgency of Interpretability: Essay by Anthropic founder Dario Amodei\n\nOn the Biology of a Large Language Model: Goodfire collaboration with Anthropic",
+    "discovered_from": "https://itunes.apple.com/search?term=Eric+Ho&entity=podcastEpisode&limit=200&country=US",
+    "duration_ms": 2827000,
+    "feed_url": "https://feeds.megaphone.fm/trainingdata",
+    "participation": "confirmed",
+    "published": "2025-07-08T17:30:00Z",
+    "publisher": "Training Data",
+    "review_reason": "Directory search mention is not proof of guest participation",
+    "title": "Mapping the Mind of a Neural Net: Goodfire’s Eric Ho on the Future of Interpretability",
+    "url": "https://podcasts.apple.com/us/podcast/mapping-the-mind-of-a-neural-net-goodfires-eric/id1750736528?i=1000716299893&uo=4",
+    "role": "interview",
+    "participation_basis": "Publisher-provided episode description explicitly introduces the Goodfire guest",
+    "review_evidence": "Eric Ho is building Goodfire to solve one of AI’s most critical challenges: understanding what’s actually happening inside neural networks. His team is developing techniques to understand, audit and edit neural networks at the feature level. Eric discusses breakthrough results in resolving superposition through sparse autoencoders, successful model editing demonstrations and real-world applications in genomics with Arc Institute's DNA foundation models. He argues that interpretability will be critical as AI systems become more powerful and take on mission-critical roles in society.\n\nHosted by Sonya Huang and Roelof Botha, Sequoia Capital\n\nMentioned in this episode:\n\n\n  \nMech interp: Mechanistic interpretability, list of important papers her"
+  },
+  {
+    "audio_url": "https://anchor.fm/s/10803d078/podcast/play/124501320/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-20%2F430222046-44100-2-bcce4caea7888.mp3",
+    "description": "This Week In AI is made possible by:\nPayPal - Pay zero processing fees on your first $100K in eligible PayPal payment volume. Learn more at paypal.launch.co\nToday’s show:\n*On “All In,” Gavin Baker said that Anthropic leadership privately believes that it could one day become “the only private company in the world.” The ensuing street fight on X turned into a referendum on doomerism, the nature of regulatory capture, and why the public hates AI so darn much.\nJason’s take: If a frontier lab really believes they’re destined to be the world’s only company, they’re studying your data and planning to steal your business.\nPLUS why AI agents don’t understand it’s wrong to cheat (and how we can teach them), why Grok Bot may be AI’s “iPhone moment,” and the panel reacts to Amazon feeding rare books into a dino-themed shredding machine.\nGuests\nGalina Antova on X: https://x.com/GalinaAntova\nKai: https://www.kai.security/\nEric Ho on X: https://x.com/eric_ho\nGoodfire: https://www.goodfire.com/\nSilico: https://www.goodfire.com/silico\nRelevant Links\nAll-In Podcast: Gavin Baker on Anthropic: https://x.com/theallinpod/status/2088367978270142811\nSholto Douglas response: https://x.com/_sholtodouglas/status/2088463770318516734\nGavin Baker response: https://x.com/GavinSBaker/status/2088611616577253502\nDario Amodei response: https://x.com/DarioAmodei/status/2088758816376807762\nZuckerberg AI manifesto: https://www.meta.com/thefutureisforeveryone/\nHugging Face: Anatomy of a Frontier Lab Agent Intrusion: https://huggingface.co/blog/agent-intrusion-technical-timeline\nSimon Willison: OpenAI’s accidental cyberattack on Hugging Face: https://simonwillison.net/2026/Jul/22/openai-cyberattack/\nSWE-bench Leaderboards: https://www.swebench.com/\nxAI: Introducing Grok Bot: https://x.ai/news/introducing-grok-bot\nPeter Yang praises Grok Bot: https://x.com/petergyang/status/2089401696946634801?s=20\nWispr Flow: https://wisprflow.ai/\n@Aaronp613 on X: AirPods with Cameras in action: https://x.com/aaronp613/status/2089522745184760112?s=20\n9to5 Mac: AirPods with cameras get their clearest leak yet: https://9to5mac.com/2026/08/17/airpods-with-camera-get-their-clearest-leak-yet/\nToms Hardware: Google Buys Spirit Airlines Data for AI Training: https://www.tomshardware.com/tech-industry/artificial-intelligence/google-buys-spirit-airlines-data-for-ai-training-for-just-usd10-million-purchase-includes-hundreds-of-millions-of-emails-microsoft-teams-chats-billions-of-flight-pricing-records-and-anonymized-passenger-records\n\nMicro1: https://www.micro1.ai/\n\nTimestamps:\n0:00 Why is everyone mad at Dario Amodei?\n1:47 Is Anthropic training to kill your company?\n10:10 How to talk to the public about cyber risk\n15:33 Reward hacking and sycophancy\n21:55 Why do models care about rewards?\n28:55 Is Grok Bot an iPhone Moment?\n38:26 First look at AirPods with Cameras\n42:16 Why Google bought Spirit Airlines' data\n48:52 Amazon is scanning and shredding rare books\n59:06 Can we build a \"moral layer\" on top of models?\n1:01:14 Your LLM could catch a mind virus\n1:10:55 Are we already in the AGI Era?\n1:14:17 Silicon Valley's lost hippie vibes\nSubscribe to the TWiST500 newsletter: https://ticker.thisweekinstartups.com\nCheck out the TWIST500: https://www.twist500.com\nSubscribe to This Week in Startups on Apple: https://rb.gy/v19fcp\nFollow Lon:\nX: https://x.com/lons\nFollow Jason:\nX: https://twitter.com/Jason\nLinkedIn: https://www.linkedin.com/in/jasoncalacanis\nCheck out all our partner offers: https://partners.launch.co/\nGreat TWIST interviews: Will Guidara, Eoghan McCabe, Steve Huffman, Brian Chesky, Bob Moesta, Aaron Levie, Sophia Amoruso, Reid Hoffman, Frank Slootman, Billy McFarland\nCheck out Jason’s suite of newsletters: https://substack.com/@calacanis\nFollow TWiST:\nTwitter: https://twitter.com/TWiStartups\nYouTube: https://www.youtube.com/thisweekin\nInstagram: https://www.instagram.com/thisweekinstartups\nTikTok: https://www.tiktok.com/@thisweekinstartups\nSubstack: https://twistartups.substack.com",
+    "discovered_from": "https://itunes.apple.com/search?term=Anthropic+is+training+to+destroy+your+company&entity=podcastEpisode&limit=100",
+    "feed_url": "https://anchor.fm/s/10803d078/podcast/rss",
+    "participation": "confirmed",
+    "participation_basis": "Publisher episode description explicitly identifies Eric Ho, CEO of Goodfire",
+    "published": "2026-08-20T19:08:03Z",
+    "role": "interview",
+    "title": "Anthropic is training to destroy your company | EP 27",
+    "url": "https://podcasts.apple.com/us/podcast/anthropic-is-training-to-destroy-your-company-ep-27/id1874648722?i=1000784653168&uo=4"
+  },
+  {
+    "audio_url": "https://anchor.fm/s/f51d3fd0/podcast/play/122881043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-15%2F428021025-44100-2-c0c5961af9ddb.mp3",
+    "description": " What if neural networks are less like mysterious black boxes and more like systems we can inspect, debug, and eventually design with intention?\n\nIn this episode of The Neuron: AI Explained, Corey Noles and Grant Harvey talk with Eric Ho, Cofounder & CEO of Goodfire, an AI interpretability company working to understand what’s happening inside neural networks. Eric explains why models may contain meaningful internal structures — including features, representations, circuits, and curved manifolds — and how mapping those structures could make AI systems safer, more reliable, and more useful.\n\nThey discuss why models may “think in shapes,” how Goodfire uses AI to interpret other AI systems, what neural geometry can reveal about hallucinations and model behavior, and why interpretability could change how companies train and control their own models.\n\nThey also get into consciousness, robotics, multimodal models, the bitter lesson, and why Eric thinks more people should be looking under the hood of the most consequential technology of our time.\n\nSubscribe to The Neuron for more grounded conversations about how AI actually works: https://www.theneuron.ai/\n\nSponsored by SAS AI Governance: Visit https://www.sas.com/en_us/solutions/ai/governance.html?utm_source=other&utm_medium=cpm&utm_campaign=sas-vpl-gbc-gps-global#\n\nThe Neuron Academy helps professionals build practical AI skills they can use right away, with lessons on prompting, workflows, and real workplace use cases. Check out https://theneuronacademy.com/ today!",
+    "discovered_from": "https://itunes.apple.com/search?term=Inside+the+Hidden+Geometry+of+AI&entity=podcastEpisode&limit=100",
+    "feed_url": "https://anchor.fm/s/f51d3fd0/podcast/rss",
+    "participation": "confirmed",
+    "participation_basis": "Publisher episode description explicitly identifies Eric Ho, CEO of Goodfire",
+    "published": "2026-07-15T18:45:00Z",
+    "role": "interview",
+    "title": "Inside the Hidden Geometry of AI",
+    "url": "https://podcasts.apple.com/us/podcast/inside-the-hidden-geometry-of-ai/id1742267001?i=1000776949938&uo=4"
+  },
+  {
+    "audio_url": "https://anchor.fm/s/f51d3fd0/podcast/play/122881043/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-15%2F428021025-44100-2-c0c5961af9ddb.mp3",
+    "description": " What if neural networks are less like mysterious black boxes and more like systems we can inspect, debug, and eventually design with intention?\n\nIn this episode of The Neuron: AI Explained, Corey Noles and Grant Harvey talk with Eric Ho, Cofounder & CEO of Goodfire, an AI interpretability company working to understand what’s happening inside neural networks. Eric explains why models may contain meaningful internal structures — including features, representations, circuits, and curved manifolds — and how mapping those structures could make AI systems safer, more reliable, and more useful.\n\nThey discuss why models may “think in shapes,” how Goodfire uses AI to interpret other AI systems, what neural geometry can reveal about hallucinations and model behavior, and why interpretability could change how companies train and control their own models.\n\nThey also get into consciousness, robotics, multimodal models, the bitter lesson, and why Eric thinks more people should be looking under the hood of the most consequential technology of our time.\n\nSubscribe to The Neuron for more grounded conversations about how AI actually works: https://www.theneuron.ai/\n\nSponsored by SAS AI Governance: Visit https://www.sas.com/en_us/solutions/ai/governance.html?utm_source=other&utm_medium=cpm&utm_campaign=sas-vpl-gbc-gps-global#\n\nThe Neuron Academy helps professionals build practical AI skills they can use right away, with lessons on prompting, workflows, and real workplace use cases. Check out https://theneuronacademy.com/ today!",
+    "discovered_from": "https://itunes.apple.com/search?term=Inside+the+Hidden+Geometry+of+AI&entity=podcastEpisode&limit=100",
+    "feed_url": "https://anchor.fm/s/f51d3fd0/podcast/rss",
+    "participation": "confirmed",
+    "participation_basis": "Publisher episode description explicitly identifies Eric Ho, CEO of Goodfire",
+    "published": "2026-07-15T18:45:00Z",
+    "role": "interview",
+    "title": "Inside the Hidden Geometry of AI",
+    "url": "https://podcasts.apple.com/us/podcast/inside-the-hidden-geometry-of-ai/id1821043405?i=1000776950240&uo=4"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=gJQGYs2YthY",
+    "title_hint": "Anthropic is training to destroy your company | EP 27",
+    "participation": "review_required",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "role": "panel",
+    "discovered_from": "https://podcasts.apple.com/ca/podcast/anthropic-is-training-to-destroy-your-company-ep-27/id1874648722?i=1000784653168",
+    "participation_basis": "Primary publisher episode description names Eric Ho; secondary source points to this episode video",
+    "review_reason": "Episode guest is verified by primary publisher metadata; this video ID is supplied by a secondary source and awaits original-host verification"
+  }
+]

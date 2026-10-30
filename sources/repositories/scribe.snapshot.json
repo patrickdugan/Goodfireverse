@@ -1,0 +1,107 @@
+{
+  "repository": "https://github.com/goodfire-ai/scribe",
+  "revision": "981047904e8ef874dc200689d9f2286afc779219",
+  "archive_sha256": "cff9264bc3fe67971b2c923f80b404b77bb6d7fbd065a26e9d17222ef12872a6",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "55f275b35ee5531bd91647c3c6d627f38c7f846796dc3e47ef16ff5fe9b33c4e",
+      "bytes": 2856
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "887af749af7854fc2dd5cbb7de2f90ed468e690bd6a34f717c36ba2330c22b2c",
+      "bytes": 520
+    },
+    {
+      "path": "scribe/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "scribe/cli/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "scribe/cli/_cli_utils.py",
+      "sha256": "8eff34c76088aa98c4e5f6d291e5102a520e61f136185a343e8724621f5e0bcc",
+      "bytes": 1584
+    },
+    {
+      "path": "scribe/cli/cli.py",
+      "sha256": "ec40134e16f1417a9f6f7e41901d9a935aec708be894f76fdead6e2b1b3135e4",
+      "bytes": 3033
+    },
+    {
+      "path": "scribe/cli/commands.py",
+      "sha256": "983da3140a4acea5a64373bb6b51475106aa8496f352a470d69b5d4bc5eed7c5",
+      "bytes": 6579
+    },
+    {
+      "path": "scribe/cli/constants.py",
+      "sha256": "db6f4b57b5f066bfd254c64f4ca8e5a4e49094a127b013d31a673ca516f7d5d1",
+      "bytes": 107
+    },
+    {
+      "path": "scribe/notebook/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "scribe/notebook/_image_processing_utils.py",
+      "sha256": "2fdf0a970228ba6dcfb66a049d0cba83ec64f3b8e78b9854b666c45e7f8c47bd",
+      "bytes": 2244
+    },
+    {
+      "path": "scribe/notebook/_notebook_server_utils.py",
+      "sha256": "5b2fe8a06c127317100dcbb91104b3a27170b9379b4396071bd3b60548628b3e",
+      "bytes": 7374
+    },
+    {
+      "path": "scribe/notebook/notebook_mcp_server.py",
+      "sha256": "7b9ea8072dec143668bd86b29a2f244f976f505903a821917c06a458ffec330b",
+      "bytes": 20509
+    },
+    {
+      "path": "scribe/notebook/notebook_server.py",
+      "sha256": "1b8c24749898d22134af422614d558da7e80d74c1a2f7d601580ac9716e9ced7",
+      "bytes": 32491
+    },
+    {
+      "path": "scribe/notebook/notebook_sever_handlers.py",
+      "sha256": "ab45e314e38b834418c2ba0c91ddc88cd011005d92bdd66f5473bf69f74bc63c",
+      "bytes": 6627
+    },
+    {
+      "path": "scribe/providers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "scribe/providers/_provider_utils.py",
+      "sha256": "310b389a41b45fd5c94de9bc92fafa4b0bd9f524f15529c512592a1d1649e592",
+      "bytes": 1580
+    },
+    {
+      "path": "scribe/providers/base.py",
+      "sha256": "2cc1553d0b306334977d1159befadb4b240c618e1c6aeb45763d35c7cfad3d4c",
+      "bytes": 612
+    },
+    {
+      "path": "scribe/providers/claude.py",
+      "sha256": "ef482fd1063ae314f31d3d22603c6bba5ca29f87283e31dbc5eb2791b093efa2",
+      "bytes": 2027
+    },
+    {
+      "path": "scribe/providers/codex.py",
+      "sha256": "5564098b57a1142751c7347504073d4355976c5b9632d753e5f9ed20ecc1a5ab",
+      "bytes": 2347
+    },
+    {
+      "path": "scribe/providers/gemini.py",
+      "sha256": "b6d8b08555b382fa8ec25162767c97f48e2dad5b4d4e8364031e2982ed428b41",
+      "bytes": 2673
+    }
+  ]
+}

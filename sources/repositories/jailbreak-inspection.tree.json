@@ -1,0 +1,166 @@
+{
+  "repository": "https://github.com/goodfire-ai/jailbreak-inspection",
+  "revision": "cdc8301c742e07120711e2071c7c55718d639ef0",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c651b8b4f8a1a45901a41ba59f6fdc42b8e83fc",
+      "size": 3212,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/3c651b8b4f8a1a45901a41ba59f6fdc42b8e83fc"
+    },
+    {
+      "path": "calibration.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0b8ac1d24eef077ed6429f1621ab957692ae482",
+      "size": 6593,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/c0b8ac1d24eef077ed6429f1621ab957692ae482"
+    },
+    {
+      "path": "calibration.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915ef3c447a2a6ec290020d1789b7f7799746121",
+      "size": 116525,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/915ef3c447a2a6ec290020d1789b7f7799746121"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337244129a99c5d6e716a0edc2dd42d9d2c8a054",
+      "size": 187,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/337244129a99c5d6e716a0edc2dd42d9d2c8a054"
+    },
+    {
+      "path": "inspection.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3000e7603e54d1062c6a9f87fba62586755aa3d4",
+      "size": 8961092,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/3000e7603e54d1062c6a9f87fba62586755aa3d4"
+    },
+    {
+      "path": "manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d1572ca4c4a8aba9721cb8906108fa3f7dbb3b7",
+      "size": 6103,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/8d1572ca4c4a8aba9721cb8906108fa3f7dbb3b7"
+    },
+    {
+      "path": "overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ebffa02bb8e5e7ab4dbfb34f1b9736a24676c6",
+      "size": 94339,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/f0ebffa02bb8e5e7ab4dbfb34f1b9736a24676c6"
+    },
+    {
+      "path": "probability-report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a7336f7797e5a06590b65810a82cfa6dbdf6ef",
+      "size": 2737,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/43a7336f7797e5a06590b65810a82cfa6dbdf6ef"
+    },
+    {
+      "path": "results.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c939de203ddce1a8598763e3ce68b716886fdc8a",
+      "size": 3094,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/c939de203ddce1a8598763e3ce68b716886fdc8a"
+    },
+    {
+      "path": "top-hits.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c9f38e4949242ad8093369e5d9a639765dbd7dd",
+      "size": 8907582,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/4c9f38e4949242ad8093369e5d9a639765dbd7dd"
+    },
+    {
+      "path": "top-hits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "943331f16c3a0ed50c17a515e4419dddb2ff9c55",
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/trees/943331f16c3a0ed50c17a515e4419dddb2ff9c55"
+    },
+    {
+      "path": "top-hits/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c08261fdc83cc1edda0984bb89f402a764806a72",
+      "size": 416715,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/c08261fdc83cc1edda0984bb89f402a764806a72"
+    },
+    {
+      "path": "top-hits/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cd9026b0e5f766c5d02e657079e94feb208b71e",
+      "size": 1861,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/0cd9026b0e5f766c5d02e657079e94feb208b71e"
+    },
+    {
+      "path": "top-hits/mining.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033b458950d7e64fbbeb250341a5b65aa2e4a8a7",
+      "size": 165701,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/033b458950d7e64fbbeb250341a5b65aa2e4a8a7"
+    },
+    {
+      "path": "top-hits/operating-points.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9bac55ad90b79f65a86f299e8e4cd5881ab4ac1",
+      "size": 6155,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/b9bac55ad90b79f65a86f299e8e4cd5881ab4ac1"
+    },
+    {
+      "path": "top-hits/operating-points.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ead62c238d947a19f5f179c8472a9625f4bf285",
+      "size": 47736,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/7ead62c238d947a19f5f179c8472a9625f4bf285"
+    },
+    {
+      "path": "top-hits/round-report.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48e836dc457c309854b9550e0f5d3111eb3c945",
+      "size": 6202,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/f48e836dc457c309854b9550e0f5d3111eb3c945"
+    },
+    {
+      "path": "top-hits/sql-score-changes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94cd9aea8d88b45058e94e71b64750d93108cac",
+      "size": 2409,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/c94cd9aea8d88b45058e94e71b64750d93108cac"
+    },
+    {
+      "path": "top-hits/sql-score-changes.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4e283793768bd31f2b12e03767a57657f2c9e3",
+      "size": 74092,
+      "url": "https://api.github.com/repos/goodfire-ai/jailbreak-inspection/git/blobs/2f4e283793768bd31f2b12e03767a57657f2c9e3"
+    }
+  ]
+}

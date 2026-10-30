@@ -1,0 +1,1114 @@
+{
+  "repository": "https://github.com/goodfire-ai/scribe-task-suite",
+  "revision": "737c88b6ccf93d54729a8e62178aee416342e1b8",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "685967d4bef005bdc86d29759c103559900bdebe",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/685967d4bef005bdc86d29759c103559900bdebe"
+    },
+    {
+      "path": ".claude/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78dc391885e42a0d48992cc567b60999cc974d5a",
+      "size": 512,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/78dc391885e42a0d48992cc567b60999cc974d5a"
+    },
+    {
+      "path": ".gemini",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7941aa7731f8b9053318c0332a41bcde53b6e001",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/7941aa7731f8b9053318c0332a41bcde53b6e001"
+    },
+    {
+      "path": ".gemini/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2affe76a8fda8285c4ba426de6d6bea22f9c7f52",
+      "size": 411,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/2affe76a8fda8285c4ba426de6d6bea22f9c7f52"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c32340cba98ed07a9192a1f81a292a535c5174",
+      "size": 52,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/f1c32340cba98ed07a9192a1f81a292a535c5174"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b043674226b991ebe66923d150aa3d25d8b13781",
+      "size": 69,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/b043674226b991ebe66923d150aa3d25d8b13781"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9031f7965b449f8a8a8082f2243612d461218c3b",
+      "size": 5949,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/9031f7965b449f8a8a8082f2243612d461218c3b"
+    },
+    {
+      "path": "benchmark_all_providers.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d29491f1f6bbcd349788502caffd95fc4251a576",
+      "size": 3728,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/d29491f1f6bbcd349788502caffd95fc4251a576"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1ea427a81bcc84af531ccd32233a86a0b5ef3b1",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/f1ea427a81bcc84af531ccd32233a86a0b5ef3b1"
+    },
+    {
+      "path": "data/cities.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "333224e86f2eb81e95cc54c5c0fd8a7556c698b9",
+      "size": 95041,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/333224e86f2eb81e95cc54c5c0fd8a7556c698b9"
+    },
+    {
+      "path": "data/dataset_hc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "705e2051454f2f231752891ac5cf7900aabe3e91",
+      "size": 783593,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/705e2051454f2f231752891ac5cf7900aabe3e91"
+    },
+    {
+      "path": "data/dataset_rf.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cd8023b8f3f6632430d205d8bcfb9d585c2de2b",
+      "size": 159565,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/2cd8023b8f3f6632430d205d8bcfb9d585c2de2b"
+    },
+    {
+      "path": "data/dataset_si.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "931db2e38f69149da868c4351454aa858e348889",
+      "size": 365366,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/931db2e38f69149da868c4351454aa858e348889"
+    },
+    {
+      "path": "data/larger_than.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cbe0a0772b654c1e29414034b44bafe73f4dfb3",
+      "size": 105858,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6cbe0a0772b654c1e29414034b44bafe73f4dfb3"
+    },
+    {
+      "path": "data/negation.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35e47317e6ed3e2f4afd14d24abd8cab79f978b0",
+      "size": 6215,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/35e47317e6ed3e2f4afd14d24abd8cab79f978b0"
+    },
+    {
+      "path": "data/smaller_than.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd7b6652ab26b508149135779e2fc3e268582314",
+      "size": 107838,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/dd7b6652ab26b508149135779e2fc3e268582314"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79fca1c7b80622f8699876309d55f8355388f69e",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/79fca1c7b80622f8699876309d55f8355388f69e"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_clean_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73eb0cc4966cee826563d24de34040c3544c9cc3",
+      "size": 33538,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/73eb0cc4966cee826563d24de34040c3544c9cc3"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_corrupted_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e387d65de7cf63a81476b4364e6e37c6ab81f",
+      "size": 33562,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/412e387d65de7cf63a81476b4364e6e37c6ab81f"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_decoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb75278d9dbe253b8282beeb5924c4c8470c1a4",
+      "size": 347,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/dbb75278d9dbe253b8282beeb5924c4c8470c1a4"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_encoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ddd132b9a6bcd8ee4712248fb2fc9b7aae5341",
+      "size": 1271,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/e8ddd132b9a6bcd8ee4712248fb2fc9b7aae5341"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_hl_model_info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26392f40ff6be6eb346c35b1eafca54947e1365",
+      "size": 685,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/d26392f40ff6be6eb346c35b1eafca54947e1365"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_ll_model_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98957e7a4cb0f27a7cfa35f8e37dea85b8e63202",
+      "size": 1346,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/98957e7a4cb0f27a7cfa35f8e37dea85b8e63202"
+    },
+    {
+      "path": "data/task_102_simple_tracr_model/102_ll_model_weights.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f2fd86bd67bf8e1a830f7ba7e0593fe35be89a",
+      "size": 14922,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/60f2fd86bd67bf8e1a830f7ba7e0593fe35be89a"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0b7d0b52a1c83ccdf78d4fa85042fb8e5f3a928",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/e0b7d0b52a1c83ccdf78d4fa85042fb8e5f3a928"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_clean_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a78c6b81a5f179a35ca7f99bcb8806a5c37f46f",
+      "size": 113526,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3a78c6b81a5f179a35ca7f99bcb8806a5c37f46f"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_corrupted_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2557a3ace8395fd6fa21b5776e0707601e1b95d6",
+      "size": 113550,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/2557a3ace8395fd6fa21b5776e0707601e1b95d6"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_decoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8646c62c63b54df813159f182b71283f2af670",
+      "size": 843,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/eb8646c62c63b54df813159f182b71283f2af670"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_encoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8540a15568757941f41233f58b2d973ece9db23e",
+      "size": 895,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/8540a15568757941f41233f58b2d973ece9db23e"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_hl_model_info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6587e8b3deedf66d5b8c07d3a2a1f4ff11a7186c",
+      "size": 1071,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6587e8b3deedf66d5b8c07d3a2a1f4ff11a7186c"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_ll_model_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ac5f3bc45410b45b56b3ad3c7678cbff2f1c6a0",
+      "size": 1361,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/7ac5f3bc45410b45b56b3ad3c7678cbff2f1c6a0"
+    },
+    {
+      "path": "data/task_2_simple_tracr_model/2_ll_model_weights.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db091862405942b3dd495b562242c28ae7ce1778",
+      "size": 647010,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/db091862405942b3dd495b562242c28ae7ce1778"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e6839e54901da3c0070afaa16a48a307131a371",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/0e6839e54901da3c0070afaa16a48a307131a371"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_clean_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d1b735820d886120c67843f6407b1d94583bab",
+      "size": 13494,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/09d1b735820d886120c67843f6407b1d94583bab"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_corrupted_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9d85d343eca3e5da5819128c6929384c5eafb5",
+      "size": 13518,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/bc9d85d343eca3e5da5819128c6929384c5eafb5"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_decoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2e2bec818dff331d53bda75d33521d01dbe0bb8",
+      "size": 159,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/e2e2bec818dff331d53bda75d33521d01dbe0bb8"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_encoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead2632bbf00dda4e85293297324fb1dd8d00d20",
+      "size": 391,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ead2632bbf00dda4e85293297324fb1dd8d00d20"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_hl_model_info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553f41f57acf7a26edcd568d06e0658aa9402759",
+      "size": 1028,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/553f41f57acf7a26edcd568d06e0658aa9402759"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_ll_model_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "580fc6e5dd65026c2f215fafea2e82ba0313f287",
+      "size": 1348,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/580fc6e5dd65026c2f215fafea2e82ba0313f287"
+    },
+    {
+      "path": "data/task_4_simple_tracr_model/4_ll_model_weights.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f9f26d3958db42164afe11994badc6656eb35c",
+      "size": 53442,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/58f9f26d3958db42164afe11994badc6656eb35c"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d60a2ad515ac9015efa66552f4b843db60bbe728",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/d60a2ad515ac9015efa66552f4b843db60bbe728"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_clean_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9c32619a1a6516ecc6de45fd03ed578c7b1728",
+      "size": 49526,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/af9c32619a1a6516ecc6de45fd03ed578c7b1728"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_corrupted_data.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd6379eeb3eac058eb554b083566f07867a266fd",
+      "size": 49550,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/cd6379eeb3eac058eb554b083566f07867a266fd"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_decoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711e66e2fdf31189885d0314f2671e9edaff44d7",
+      "size": 436,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/711e66e2fdf31189885d0314f2671e9edaff44d7"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_encoder.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6026f718795555de07fad888b175e225fa1ce5",
+      "size": 343,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ef6026f718795555de07fad888b175e225fa1ce5"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_hl_model_info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee2538efd9ba6cce512c29f87697614d35a4c18",
+      "size": 475,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/8ee2538efd9ba6cce512c29f87697614d35a4c18"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_ll_model_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdf4e8fdf137c3612666ca11d5bb68be15ca4c2",
+      "size": 1356,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/abdf4e8fdf137c3612666ca11d5bb68be15ca4c2"
+    },
+    {
+      "path": "data/task_7_simple_tracr_model/7_ll_model_weights.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b09cc589892b1bb13bf14439cb8a2f3eb95249",
+      "size": 42306,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/21b09cc589892b1bb13bf14439cb8a2f3eb95249"
+    },
+    {
+      "path": "data/weights.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883ca49a2f7532d1bfe0c42f0d5a097268f73295",
+      "size": 134,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/883ca49a2f7532d1bfe0c42f0d5a097268f73295"
+    },
+    {
+      "path": "evaluation_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0608d8af5c8d853a7f94b039dd484ab218a06cf",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/d0608d8af5c8d853a7f94b039dd484ab218a06cf"
+    },
+    {
+      "path": "evaluation_data/regularization_evaluation_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beaa94ca94e7eb594126692d74f13e5b6a5c753b",
+      "size": 1489,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/beaa94ca94e7eb594126692d74f13e5b6a5c753b"
+    },
+    {
+      "path": "ground_truth_large_circuits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "063a64b1602316e803e628ab403b9336bee66123",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/063a64b1602316e803e628ab403b9336bee66123"
+    },
+    {
+      "path": "ground_truth_large_circuits/GPT_IOI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b56033da2370ee5657bfc3d835a895128875e545",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/b56033da2370ee5657bfc3d835a895128875e545"
+    },
+    {
+      "path": "ground_truth_large_circuits/GPT_IOI/0.02_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9babe39f514484be5053d7c80adc027418913fd7",
+      "size": 80947,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/9babe39f514484be5053d7c80adc027418913fd7"
+    },
+    {
+      "path": "ground_truth_large_circuits/Gemma_IOI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69f0f28ef11e4b3cfcd66a3f3c89d6bc261e688b",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/69f0f28ef11e4b3cfcd66a3f3c89d6bc261e688b"
+    },
+    {
+      "path": "ground_truth_large_circuits/Gemma_IOI/0.1_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90eb74a656e3ae4c80e210db86f42aa5049c2b41",
+      "size": 169199,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/90eb74a656e3ae4c80e210db86f42aa5049c2b41"
+    },
+    {
+      "path": "ground_truth_large_circuits/Gemma_MCQA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ae59350e850e7fcd2f0c701ef6c68b1a63eb31a",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/7ae59350e850e7fcd2f0c701ef6c68b1a63eb31a"
+    },
+    {
+      "path": "ground_truth_large_circuits/Gemma_MCQA/0.001_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c55175a6910a982bf008134a996ece2e03e7b4b",
+      "size": 169207,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/4c55175a6910a982bf008134a996ece2e03e7b4b"
+    },
+    {
+      "path": "ground_truth_large_circuits/Llama_IOI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14c822f1a0debb6455d75f9b58ab05b502973497",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/14c822f1a0debb6455d75f9b58ab05b502973497"
+    },
+    {
+      "path": "ground_truth_large_circuits/Llama_IOI/0.005_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88051ca1e0bd978d66690ba5786255993686fdfe",
+      "size": 3360695,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/88051ca1e0bd978d66690ba5786255993686fdfe"
+    },
+    {
+      "path": "ground_truth_large_circuits/Llama_MCQA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f033f39712e64efc63609559da57110c17c597e",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/7f033f39712e64efc63609559da57110c17c597e"
+    },
+    {
+      "path": "ground_truth_large_circuits/Llama_MCQA/0.001_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa07a81fcb035bc9888e07b3bb6e4bc4f8d20aa",
+      "size": 3360695,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/9fa07a81fcb035bc9888e07b3bb6e4bc4f8d20aa"
+    },
+    {
+      "path": "ground_truth_large_circuits/Qwen_IOI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "953cfce9ec3d4755ee95c68521afaae25e869c7d",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/953cfce9ec3d4755ee95c68521afaae25e869c7d"
+    },
+    {
+      "path": "ground_truth_large_circuits/Qwen_IOI/0.001_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc8dda36af32b0c1d8e2b675de3ae9ff72b0707",
+      "size": 398711,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/0cc8dda36af32b0c1d8e2b675de3ae9ff72b0707"
+    },
+    {
+      "path": "ground_truth_large_circuits/Qwen_MCQA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f53346e3424baedecefbdef33044323a35e34ad9",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/f53346e3424baedecefbdef33044323a35e34ad9"
+    },
+    {
+      "path": "ground_truth_large_circuits/Qwen_MCQA/0.001_edges.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2bb575927e6769288bd4004ab783fc489caabc",
+      "size": 398711,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3f2bb575927e6769288bd4004ab783fc489caabc"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65291c8181787cd997f663420d40a5ffb0b3afd9",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/65291c8181787cd997f663420d40a5ffb0b3afd9"
+    },
+    {
+      "path": "notebooks/circuits_notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb7c71a99acd204cb90a92fb6946aff1ece73e12",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/bb7c71a99acd204cb90a92fb6946aff1ece73e12"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_1.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3486f7769cc09839ce3b17af113772079bf8547d",
+      "size": 5756,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3486f7769cc09839ce3b17af113772079bf8547d"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_2.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270b53da5c861093ac2f7a14e58db91fcf1b517b",
+      "size": 6606,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/270b53da5c861093ac2f7a14e58db91fcf1b517b"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_4.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d1ad0fbb5c52dd2e071c8b5ae403dfb525f206",
+      "size": 4493,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/75d1ad0fbb5c52dd2e071c8b5ae403dfb525f206"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/circuits_5.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab17388703627dbf68b88ecbbe62562f4f6e0b2f",
+      "size": 4592,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ab17388703627dbf68b88ecbbe62562f4f6e0b2f"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gemma_ioi.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e00d140b6c43517ee6bdf56a40a45c63d117377",
+      "size": 5621,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/8e00d140b6c43517ee6bdf56a40a45c63d117377"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gemma_mcqa.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c1e11255a0d3df55cc3b71f23dc26728765856",
+      "size": 6568,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/d7c1e11255a0d3df55cc3b71f23dc26728765856"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/gpt_ioi.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15db7881a4a8a8bcb7a4380157ec82035e4f4c8",
+      "size": 2591,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/b15db7881a4a8a8bcb7a4380157ec82035e4f4c8"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/llama_ioi.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fca18fbb236ecebfa0216dd78e95e1f753759ea",
+      "size": 2584,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/7fca18fbb236ecebfa0216dd78e95e1f753759ea"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/llama_mcqa.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48c68de114f66e1a012b860a293f49658a8b71f3",
+      "size": 3411,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/48c68de114f66e1a012b860a293f49658a8b71f3"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/qwen_MCQA.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ccb9854fbe51b1e3ff3e3bc5768901f1299956d",
+      "size": 6506,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/2ccb9854fbe51b1e3ff3e3bc5768901f1299956d"
+    },
+    {
+      "path": "notebooks/circuits_notebooks/qwen_ioi.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b56e7c8e38382d3f01cb676f400061ca65ec44f",
+      "size": 4679,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6b56e7c8e38382d3f01cb676f400061ca65ec44f"
+    },
+    {
+      "path": "notebooks/probe_notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eec26b43062afe9fe676dcabc34f537540f46aa4",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/eec26b43062afe9fe676dcabc34f537540f46aa4"
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_hc_cv.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "782cbf26ef5c54e31d5b2189a39d73dea76db37f",
+      "size": 847,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/782cbf26ef5c54e31d5b2189a39d73dea76db37f"
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_rf_cv.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260468f911bcfcc1780cdf2a02f3f2969e46b3fb",
+      "size": 847,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/260468f911bcfcc1780cdf2a02f3f2969e46b3fb"
+    },
+    {
+      "path": "notebooks/probe_notebooks/LR_si_cv.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "346fc3135933b1c37b0f47e57b655c41b76e2abd",
+      "size": 847,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/346fc3135933b1c37b0f47e57b655c41b76e2abd"
+    },
+    {
+      "path": "notebooks/probe_notebooks/dim_probe.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef252b788dc7a5b7152077d81694417f9aa5570",
+      "size": 639,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/eef252b788dc7a5b7152077d81694417f9aa5570"
+    },
+    {
+      "path": "notebooks/probe_notebooks/greater_than_pca.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bbb02c4fda0aa96c054cd3fc5f25a1a1d0be4e0",
+      "size": 12179,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6bbb02c4fda0aa96c054cd3fc5f25a1a1d0be4e0"
+    },
+    {
+      "path": "notebooks/probe_notebooks/linear_probe_grammar.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac2e3a58e62669389f77b6be1b41cb6d0ad92917",
+      "size": 913,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ac2e3a58e62669389f77b6be1b41cb6d0ad92917"
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_cities.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a55b9c002958a3615f4998b6ae323022bffebee",
+      "size": 522,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3a55b9c002958a3615f4998b6ae323022bffebee"
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_greater_than_probe.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80b4c93777052fd2163d5dbd4177345af9612f8",
+      "size": 837,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/a80b4c93777052fd2163d5dbd4177345af9612f8"
+    },
+    {
+      "path": "notebooks/probe_notebooks/mmp_smaller_than_probe.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5257c725730f76a1f6eb32a8c6183829c903fc93",
+      "size": 838,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/5257c725730f76a1f6eb32a8c6183829c903fc93"
+    },
+    {
+      "path": "notebooks/probe_notebooks/smaller_than_pca.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c893cf7bb0f071586ec40c2f113c438200e11e",
+      "size": 806,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/62c893cf7bb0f071586ec40c2f113c438200e11e"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf5e131f00930a68b50573cfd0cd8066ad9f8341",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/bf5e131f00930a68b50573cfd0cd8066ad9f8341"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_alphabet.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29688cb1791e058f982b5566e1f4ca610425ea8",
+      "size": 2625,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/c29688cb1791e058f982b5566e1f4ca610425ea8"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_position.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e19d0c1bb112e094bf15fe04dd78ef3116071e",
+      "size": 911,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/55e19d0c1bb112e094bf15fe04dd78ef3116071e"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_position_2.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399a8e72957a9a30fe6814761fef128df706bc20",
+      "size": 2600,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/399a8e72957a9a30fe6814761fef128df706bc20"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_syntax_mc.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "739f7c9bb31df142570c9b865343c6c24387fdbe",
+      "size": 809,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/739f7c9bb31df142570c9b865343c6c24387fdbe"
+    },
+    {
+      "path": "notebooks/universal_neuron_notebooks/universal_neuron_unigram_mc.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "739f7c9bb31df142570c9b865343c6c24387fdbe",
+      "size": 809,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/739f7c9bb31df142570c9b865343c6c24387fdbe"
+    },
+    {
+      "path": "prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f5a3b8c627265209d860889ad1448cbc0839858",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/8f5a3b8c627265209d860889ad1448cbc0839858"
+    },
+    {
+      "path": "prompts/large_circuits_prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1301bb28fd3efd735066d5c0e3eaebedf910dfce",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/1301bb28fd3efd735066d5c0e3eaebedf910dfce"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gemma_ioi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c319d2592ad159289e2188001a154e504af4cae",
+      "size": 3541,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/4c319d2592ad159289e2188001a154e504af4cae"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gemma_mcqa.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c1c581c8d59272c3f300f87d360755afc162716",
+      "size": 3581,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3c1c581c8d59272c3f300f87d360755afc162716"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/gpt_ioi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedc44701e8d4ba1ea2a7f74de89a0cd6b4cd0a3",
+      "size": 3556,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/bedc44701e8d4ba1ea2a7f74de89a0cd6b4cd0a3"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/llama_ioi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd41a36073b2d1ccb4cf010d2786d87fd4fbdf0e",
+      "size": 3541,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/bd41a36073b2d1ccb4cf010d2786d87fd4fbdf0e"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/llama_mcqa.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be821929dd75e0c243f4805aba663b1e50f6777",
+      "size": 3584,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/1be821929dd75e0c243f4805aba663b1e50f6777"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/qwen_ioi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c4cb27abeda8bc6b25d12a0c741e785ae516b0",
+      "size": 3558,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/b4c4cb27abeda8bc6b25d12a0c741e785ae516b0"
+    },
+    {
+      "path": "prompts/large_circuits_prompts/qwen_mcqa.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ae9db58f962f3cbd8aafde052b0c5db916e25f",
+      "size": 3601,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/b6ae9db58f962f3cbd8aafde052b0c5db916e25f"
+    },
+    {
+      "path": "prompts/probe_prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fa37e6536d324755aa0240068cd3e36a4c73a83",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/4fa37e6536d324755aa0240068cd3e36a4c73a83"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c305edb2404913dddd03656c7e1dd1adf8f0f7bb",
+      "size": 1338,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/c305edb2404913dddd03656c7e1dd1adf8f0f7bb"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_10.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08067a03f11479eedf743f00980d0baccc1d84c6",
+      "size": 2336,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/08067a03f11479eedf743f00980d0baccc1d84c6"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90419a5d3046f45c6deeee563810dbae0aea896",
+      "size": 1802,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/c90419a5d3046f45c6deeee563810dbae0aea896"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568bfb130ddb7f4d1cdf6e83d5d63159c6b75bd9",
+      "size": 1800,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/568bfb130ddb7f4d1cdf6e83d5d63159c6b75bd9"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9e8bd38c3453b40ff9aac21ae8d3c8a2b32b3d",
+      "size": 1741,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/3c9e8bd38c3453b40ff9aac21ae8d3c8a2b32b3d"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_5.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f5eab9cc1c5f8a34688187e77b366c6c794d8f",
+      "size": 1662,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/23f5eab9cc1c5f8a34688187e77b366c6c794d8f"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_6.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db736c5811cd7064b93850236cb5c2add6efe7ff",
+      "size": 2191,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/db736c5811cd7064b93850236cb5c2add6efe7ff"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_7.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87901839a54b901bade97509c7b55eb70eae2665",
+      "size": 2191,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/87901839a54b901bade97509c7b55eb70eae2665"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_8.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cd06c92d603e5fa29ea59c8ef5792c0d6ff6c69",
+      "size": 2353,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/0cd06c92d603e5fa29ea59c8ef5792c0d6ff6c69"
+    },
+    {
+      "path": "prompts/probe_prompts/linear_probe_9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a46c524016f649395b8a0f5d1a232fbcdadec97",
+      "size": 2330,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/0a46c524016f649395b8a0f5d1a232fbcdadec97"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2e483bca944d1d9649b925fa6b8c1e0c72b798b",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/f2e483bca944d1d9649b925fa6b8c1e0c72b798b"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87514122eaa805e615db940e31ed43406ac04174",
+      "size": 3075,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/87514122eaa805e615db940e31ed43406ac04174"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172717484c8c7d8631d846060cc71c23ff8d1d31",
+      "size": 3092,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/172717484c8c7d8631d846060cc71c23ff8d1d31"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee3b8a6fb14ca9665343d25ecf07bf4ce1cf1219",
+      "size": 3099,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ee3b8a6fb14ca9665343d25ecf07bf4ce1cf1219"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41bb6d460c604867ab7d0636a26c403e88579a8b",
+      "size": 3099,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/41bb6d460c604867ab7d0636a26c403e88579a8b"
+    },
+    {
+      "path": "prompts/tracr_circuit_prompts/circuit_prompt_5.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff0479fae281b45fecfe7bd46734abcea126b93a",
+      "size": 3098,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/ff0479fae281b45fecfe7bd46734abcea126b93a"
+    },
+    {
+      "path": "prompts/universal_neurons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3a7589c8831ed0d0fd4120763c876fe50745acb",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/a3a7589c8831ed0d0fd4120763c876fe50745acb"
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc45964403bd2e2b2f1b52d5043a16457fb712d8",
+      "size": 1371,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/bc45964403bd2e2b2f1b52d5043a16457fb712d8"
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f3494dc7d9c36f0faa2966bf0045305b61f408",
+      "size": 1436,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/85f3494dc7d9c36f0faa2966bf0045305b61f408"
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_3.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "956a61fe0e696dcd6760d985f0c4b1292a91dfc2",
+      "size": 1024,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/956a61fe0e696dcd6760d985f0c4b1292a91dfc2"
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40ddd103953aa482374b0f17e0a8ce853d2e16ad",
+      "size": 1585,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/40ddd103953aa482374b0f17e0a8ce853d2e16ad"
+    },
+    {
+      "path": "prompts/universal_neurons/universal_neuron_prompt_5.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b349e6e888704d1bab2f3e435392d83559d69b",
+      "size": 1671,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/a9b349e6e888704d1bab2f3e435392d83559d69b"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8793eda713936b030900969e54ef0133500072c",
+      "size": 298,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/f8793eda713936b030900969e54ef0133500072c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e190ffe9a97a8386467aeb80123ab212a6cdfec7",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/e190ffe9a97a8386467aeb80123ab212a6cdfec7"
+    },
+    {
+      "path": "scripts/evaluators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c2bdaf0c6bcf87d28c0836d2697eca056950e8b",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/8c2bdaf0c6bcf87d28c0836d2697eca056950e8b"
+    },
+    {
+      "path": "scripts/evaluators/evaluate_circuits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cdd8217ce075d5f0b3d3e1046fed3a48d61e521",
+      "size": 8877,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6cdd8217ce075d5f0b3d3e1046fed3a48d61e521"
+    },
+    {
+      "path": "scripts/evaluators/evaluate_large_circuits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06605e566b818714c13174ec22a6d0ba5e8a182",
+      "size": 4286,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/d06605e566b818714c13174ec22a6d0ba5e8a182"
+    },
+    {
+      "path": "scripts/evaluators/evaluate_neurons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44e31ae03dcdf0dd37a2e228b2bf9a2697b3cb1c",
+      "size": 9665,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/44e31ae03dcdf0dd37a2e228b2bf9a2697b3cb1c"
+    },
+    {
+      "path": "scripts/evaluators/evaluate_probes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54928c74188c0f9955efdfe9321fb8b959fc83a",
+      "size": 26855,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/e54928c74188c0f9955efdfe9321fb8b959fc83a"
+    },
+    {
+      "path": "scripts/evaluators/large_circuits_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6abfe98bbd38b0051be45af56b481a1e60beebfb",
+      "size": 16595,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/6abfe98bbd38b0051be45af56b481a1e60beebfb"
+    },
+    {
+      "path": "scripts/runners",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35e86f8bb2faf8b8852cfecabef3b7ed106ab2d6",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/35e86f8bb2faf8b8852cfecabef3b7ed106ab2d6"
+    },
+    {
+      "path": "scripts/runners/run_circuits_copilot.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0cb7594ab38ca177f129be17831f5862376466fa",
+      "size": 10710,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/0cb7594ab38ca177f129be17831f5862376466fa"
+    },
+    {
+      "path": "scripts/runners/run_neurons_copilot.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cef3a2d1311be759efb1c3093af245fc58805561",
+      "size": 10350,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/cef3a2d1311be759efb1c3093af245fc58805561"
+    },
+    {
+      "path": "scripts/runners/run_probes_copilot.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c56fe9f57b45e39a4ce2c9b65d7e90f7b2a48135",
+      "size": 11067,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/c56fe9f57b45e39a4ce2c9b65d7e90f7b2a48135"
+    },
+    {
+      "path": "scripts/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6777a62c0cf995110a6fd385074dd1705d3830c",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/trees/a6777a62c0cf995110a6fd385074dd1705d3830c"
+    },
+    {
+      "path": "scripts/utils/organize_existing_files.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9ec505dcd7c54e24c6dd9ca98f3b8099fa483174",
+      "size": 1593,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe-task-suite/git/blobs/9ec505dcd7c54e24c6dd9ca98f3b8099fa483174"
+    }
+  ]
+}

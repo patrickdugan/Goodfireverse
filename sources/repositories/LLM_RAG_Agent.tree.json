@@ -1,0 +1,391 @@
+{
+  "repository": "https://github.com/goodfire-ai/LLM_RAG_Agent",
+  "revision": "acbbc061545c2b9f5c1568e269e1f65aefe48af8",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bec4b1fc5731b1525af6661c67d16a557e279e5f",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/bec4b1fc5731b1525af6661c67d16a557e279e5f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b688dd2b861b28274678efb0283cfa8a629bc63",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/8b688dd2b861b28274678efb0283cfa8a629bc63"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac1762a11d6eedc6e15c64278c94fa68fa53291e",
+      "size": 1479,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/ac1762a11d6eedc6e15c64278c94fa68fa53291e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856c52922d702ac1a296e2022927842c78f4dbeb",
+      "size": 3200,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/856c52922d702ac1a296e2022927842c78f4dbeb"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38a3e2808921e36bd6190d23bd5f57266a1f6467",
+      "size": 1069,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/38a3e2808921e36bd6190d23bd5f57266a1f6467"
+    },
+    {
+      "path": "RAGent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1435292f092a7f5fdb1df2ff1352f7f98f1dd75",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/c1435292f092a7f5fdb1df2ff1352f7f98f1dd75"
+    },
+    {
+      "path": "RAGent/DSPY",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40ccd70eb44493578eae4afc83114857bdd2b44a",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/40ccd70eb44493578eae4afc83114857bdd2b44a"
+    },
+    {
+      "path": "RAGent/DSPY/agent_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd94518d6ecb5784c3e710010ce9c86cb71a389c",
+      "size": 20425,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/cd94518d6ecb5784c3e710010ce9c86cb71a389c"
+    },
+    {
+      "path": "RAGent/DSPY/agent_tools_dummy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e8199578142c06e23a3a764341fdfba242c400",
+      "size": 16777,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/02e8199578142c06e23a3a764341fdfba242c400"
+    },
+    {
+      "path": "RAGent/DSPY/chroma_db_retriever.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f40d1f9aa9bdeedb0b29c6c7ae129c6ef5c86d",
+      "size": 6533,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/a1f40d1f9aa9bdeedb0b29c6c7ae129c6ef5c86d"
+    },
+    {
+      "path": "RAGent/DSPY/citations_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99c7f87f85194ca24051f1a7f6504210cdf6d160",
+      "size": 7448,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/99c7f87f85194ca24051f1a7f6504210cdf6d160"
+    },
+    {
+      "path": "RAGent/DSPY/deduplicate_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "207b15491c1b67a211d68af3ad09e49e3f44527e",
+      "size": 2573,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/207b15491c1b67a211d68af3ad09e49e3f44527e"
+    },
+    {
+      "path": "RAGent/DSPY/embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7da1b5c4c92f9896bddab537d325fbbc0e3f83",
+      "size": 3208,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/eb7da1b5c4c92f9896bddab537d325fbbc0e3f83"
+    },
+    {
+      "path": "RAGent/DSPY/filter_data_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14ba20de994ed3a6063b8b9b66aebe88978e0cf",
+      "size": 4058,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/f14ba20de994ed3a6063b8b9b66aebe88978e0cf"
+    },
+    {
+      "path": "RAGent/DSPY/loguru_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf13d92ace382a59c18cec2cee028435c0f8419",
+      "size": 274,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/2cf13d92ace382a59c18cec2cee028435c0f8419"
+    },
+    {
+      "path": "RAGent/DSPY/med_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665aadf2988dd67d5102fbcc5c59eb41bbd5d16b",
+      "size": 28430,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/665aadf2988dd67d5102fbcc5c59eb41bbd5d16b"
+    },
+    {
+      "path": "RAGent/DSPY/patient_cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f41ec74e82f3a7d71eb48e004d3b4a0821f97b5",
+      "size": 3794,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/2f41ec74e82f3a7d71eb48e004d3b4a0821f97b5"
+    },
+    {
+      "path": "RAGent/DSPY/preprocess_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6eb4315e6952c71315c86ce22edda92c7ce122",
+      "size": 277,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/bb6eb4315e6952c71315c86ce22edda92c7ce122"
+    },
+    {
+      "path": "RAGent/DSPY/preprocess_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5172492b4483a59a4837e68325af7c767e0a1fad",
+      "size": 1208,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/5172492b4483a59a4837e68325af7c767e0a1fad"
+    },
+    {
+      "path": "RAGent/DSPY/rag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a198b7efc0fef14355e0ac259be47388dfa98c",
+      "size": 15595,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/43a198b7efc0fef14355e0ac259be47388dfa98c"
+    },
+    {
+      "path": "RAGent/DSPY/rag_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97024914ac55270a5cc5ab1891cbfafdeaf3fb72",
+      "size": 2477,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/97024914ac55270a5cc5ab1891cbfafdeaf3fb72"
+    },
+    {
+      "path": "RAGent/DSPY/rag_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff35d29e6d8ce6dc8a20ccb7bdf57c4f06b1af20",
+      "size": 271,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/ff35d29e6d8ce6dc8a20ccb7bdf57c4f06b1af20"
+    },
+    {
+      "path": "RAGent/DSPY/rag_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b630f427a6ec340b9a62619be6839cd709cba57",
+      "size": 2413,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/7b630f427a6ec340b9a62619be6839cd709cba57"
+    },
+    {
+      "path": "RAGent/DSPY/run_experiment.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3bdee4e3e7f74d2068e471e48fa213704c5b6fe",
+      "size": 4831,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/b3bdee4e3e7f74d2068e471e48fa213704c5b6fe"
+    },
+    {
+      "path": "RAGent/DSPY/scrape_meditron.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d90393e8d83383fd60ed4ec5d6c55866cf22db",
+      "size": 278,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/45d90393e8d83383fd60ed4ec5d6c55866cf22db"
+    },
+    {
+      "path": "RAGent/DSPY/signatures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad7a9053a01439dcbe32a93b0b1b05ab0dfea70",
+      "size": 17175,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/3ad7a9053a01439dcbe32a93b0b1b05ab0dfea70"
+    },
+    {
+      "path": "RAGent/DSPY/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6bac8b0fe1a8f48981af2762f2f9c8925d7fe5",
+      "size": 2419,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/ec6bac8b0fe1a8f48981af2762f2f9c8925d7fe5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268805b0da9edcfd146a834b38556984edc89b98",
+      "size": 17066,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/268805b0da9edcfd146a834b38556984edc89b98"
+    },
+    {
+      "path": "ferber_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6bb573c286e76ded751b732c31944d29e12f3c9",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/e6bb573c286e76ded751b732c31944d29e12f3c9"
+    },
+    {
+      "path": "ferber_agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b75af522c1616c7a294cf407c8be28a2c91b7a",
+      "size": 315,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/16b75af522c1616c7a294cf407c8be28a2c91b7a"
+    },
+    {
+      "path": "ferber_agent/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4cc284f56789d60080cd0d0dde0b553d84c3690",
+      "size": 30002,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/f4cc284f56789d60080cd0d0dde0b553d84c3690"
+    },
+    {
+      "path": "ferber_agent/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67e2ec0b1f95d2aa825df7af03080befc2525b15",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/67e2ec0b1f95d2aa825df7af03080befc2525b15"
+    },
+    {
+      "path": "ferber_agent/data/histology_lookup.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc19083826b0cac4400b02d2f79e0b06eaffaf3",
+      "size": 8847,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/fbc19083826b0cac4400b02d2f79e0b06eaffaf3"
+    },
+    {
+      "path": "ferber_agent/faithful_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2415ed315975cd4d73b2a287cbcf38db2672b46",
+      "size": 20283,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/d2415ed315975cd4d73b2a287cbcf38db2672b46"
+    },
+    {
+      "path": "ferber_agent/result.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce17b530bccbb4906173f452ac1881c8498a259",
+      "size": 340,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/2ce17b530bccbb4906173f452ac1881c8498a259"
+    },
+    {
+      "path": "ferber_agent/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3d432f7c784c498083ee415087991f99b099117",
+      "size": 39801,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/a3d432f7c784c498083ee415087991f99b099117"
+    },
+    {
+      "path": "overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08fd080da069ccf7451e57001a61978afe2eb609",
+      "size": 625339,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/08fd080da069ccf7451e57001a61978afe2eb609"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa74ae01b7c19da229f914cc35f3f89042ff3dc0",
+      "size": 1173,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/aa74ae01b7c19da229f914cc35f3f89042ff3dc0"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b05d9f562de3f9b26defb009e69f82adde65b3",
+      "size": 5170,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/06b05d9f562de3f9b26defb009e69f82adde65b3"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7436102924d318f1317c660eb4830425b609054",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/e7436102924d318f1317c660eb4830425b609054"
+    },
+    {
+      "path": "scripts/build_histology_lookup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c8850b7a7a8becab67e91cf893edff371855b56",
+      "size": 7997,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/5c8850b7a7a8becab67e91cf893edff371855b56"
+    },
+    {
+      "path": "scripts/extract_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678cfa39b61828da0351d24781a350f75979e084",
+      "size": 12203,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/678cfa39b61828da0351d24781a350f75979e084"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66d45d21c6ac936e41503da119fc62048c70ef83",
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/trees/66d45d21c6ac936e41503da119fc62048c70ef83"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65487bb034b6733193f2dd94aad47b4786ea7d7d",
+      "size": 5619,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/65487bb034b6733193f2dd94aad47b4786ea7d7d"
+    },
+    {
+      "path": "tests/test_equivalence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b0794e0620be491c0823efb2ece450977b06c8c",
+      "size": 3635,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/1b0794e0620be491c0823efb2ece450977b06c8c"
+    },
+    {
+      "path": "tests/test_faithful_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37d231c83e9ecdfd46a68981f7b9d2b4b07b833d",
+      "size": 3442,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/37d231c83e9ecdfd46a68981f7b9d2b4b07b833d"
+    },
+    {
+      "path": "tests/test_prompt_fidelity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f900d81e0c2cb28a2b4a4c32c652b4c199e0cc",
+      "size": 2028,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/21f900d81e0c2cb28a2b4a4c32c652b4c199e0cc"
+    },
+    {
+      "path": "tests/test_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3244fb155b5dea0356a5a38ce434498784a004",
+      "size": 2489,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/dd3244fb155b5dea0356a5a38ce434498784a004"
+    },
+    {
+      "path": "tests/test_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2dbe3adcd5ffb78a12d855f53ea522b19ddcde9",
+      "size": 6614,
+      "url": "https://api.github.com/repos/goodfire-ai/LLM_RAG_Agent/git/blobs/f2dbe3adcd5ffb78a12d855f53ea522b19ddcde9"
+    }
+  ]
+}

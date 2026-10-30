@@ -1,0 +1,52 @@
+{
+  "repository": "https://github.com/goodfire-ai/robotics_multi_dimensional",
+  "revision": "abdabd8163c6e3d5e479d8f050fdc127222bd5df",
+  "archive_sha256": "bf98a4a8a26799506ffa742ebe926f3c81d5a3670749c546ae1c5d187e44c8d7",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "5d3e1b560022f10f48349bcac7446b74a71d2d0f581fc4be1a4d574f28d5b39b",
+      "bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "sha256": "ad42c720ee383b382c7b5bac090800cd9fdfbb7b284ea0d81c16418c36835c64",
+      "bytes": 1068
+    },
+    {
+      "path": "train/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "train/bsf.py",
+      "sha256": "5ead371da2c3762b77651a446468199164882b82bcdd209edd4d10a16c14d413",
+      "bytes": 6266
+    },
+    {
+      "path": "train/encode.py",
+      "sha256": "5d878100b903ca4fa9172cf9f61ddbea1b816198a734cd92314649b9c6ecd709",
+      "bytes": 8693
+    },
+    {
+      "path": "train/finalize.py",
+      "sha256": "39a54678c853003afd5386446e2d24f115057e929f8c7d3141a93d6ee5b08f4e",
+      "bytes": 7206
+    },
+    {
+      "path": "train/fisher.py",
+      "sha256": "0c71ba0df169ad56726a2b4b035697f372284ddb31dba69147d6c69b18b8e5b8",
+      "bytes": 18016
+    },
+    {
+      "path": "train/site.py",
+      "sha256": "524a5ac32420a12b90c5a58bb0e52c8f45382d7e2abd49c24c61304e1b288dae",
+      "bytes": 6490
+    },
+    {
+      "path": "train/train.py",
+      "sha256": "d6efd6b1c6581093b57eeb5515e1e88b9f1f82fe2fd0b94b25ca003275a57960",
+      "bytes": 16965
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "repository": "https://github.com/goodfire-ai/hackathon-gpt-oss-interpretability",
+  "revision": "dc3d3e32111b5b58936893ff0286281c1e9c4feb",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba0430d26c996e7f078385407f959c96c271087c",
+      "size": 12,
+      "url": "https://api.github.com/repos/goodfire-ai/hackathon-gpt-oss-interpretability/git/blobs/ba0430d26c996e7f078385407f959c96c271087c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4278fe58f7f37cef0a12f2579f68e170610063d",
+      "size": 1065,
+      "url": "https://api.github.com/repos/goodfire-ai/hackathon-gpt-oss-interpretability/git/blobs/f4278fe58f7f37cef0a12f2579f68e170610063d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "599c2aafd87a4550613e8a9984312c94921f0865",
+      "size": 289,
+      "url": "https://api.github.com/repos/goodfire-ai/hackathon-gpt-oss-interpretability/git/blobs/599c2aafd87a4550613e8a9984312c94921f0865"
+    },
+    {
+      "path": "demo.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4d1e9f2ab007823206e42c067c1865aad4fc4de",
+      "size": 29502,
+      "url": "https://api.github.com/repos/goodfire-ai/hackathon-gpt-oss-interpretability/git/blobs/a4d1e9f2ab007823206e42c067c1865aad4fc4de"
+    },
+    {
+      "path": "sae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d075bff34b99820b4fab8c76d49bab7f0a584991",
+      "size": 1593,
+      "url": "https://api.github.com/repos/goodfire-ai/hackathon-gpt-oss-interpretability/git/blobs/d075bff34b99820b4fab8c76d49bab7f0a584991"
+    }
+  ]
+}

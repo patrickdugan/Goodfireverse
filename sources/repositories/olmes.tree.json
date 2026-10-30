@@ -1,0 +1,4382 @@
+{
+  "repository": "https://github.com/goodfire-ai/olmes",
+  "revision": "5a51f502d463b8cdc4a2dcad7d7096c41ff1197e",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26d9d11eff5dd0c2791062cf8aee7e7913b605f",
+      "size": 451,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f26d9d11eff5dd0c2791062cf8aee7e7913b605f"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b259bdfcf9022e7f4999a318ab7261300644e11",
+      "size": 11359,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9b259bdfcf9022e7f4999a318ab7261300644e11"
+    },
+    {
+      "path": "OUTPUT_FORMATS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e24e195d416db249db245050538f58cce2e6ad1",
+      "size": 10837,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5e24e195d416db249db245050538f58cce2e6ad1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfb283b769c7f2cf652e6d9708b702b3e73ccf0",
+      "size": 9857,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1bfb283b769c7f2cf652e6d9708b702b3e73ccf0"
+    },
+    {
+      "path": "oe_eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06cc15be581735b3d46eae6cb11d867023ad97cf",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/06cc15be581735b3d46eae6cb11d867023ad97cf"
+    },
+    {
+      "path": "oe_eval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b230225699f8a12d10e41e3e146d088b7eecbe14",
+      "size": 44,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b230225699f8a12d10e41e3e146d088b7eecbe14"
+    },
+    {
+      "path": "oe_eval/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be3cd6e941d70a9f342a29e30feb5a0b858a785c",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/be3cd6e941d70a9f342a29e30feb5a0b858a785c"
+    },
+    {
+      "path": "oe_eval/components/instances.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59cc7a7ea643409c600961eecde8f84fcdd564c4",
+      "size": 3961,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/59cc7a7ea643409c600961eecde8f84fcdd564c4"
+    },
+    {
+      "path": "oe_eval/components/requests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7dfeb7a34951ce2588f74d314c42e2b17bf6bd6",
+      "size": 2201,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b7dfeb7a34951ce2588f74d314c42e2b17bf6bd6"
+    },
+    {
+      "path": "oe_eval/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cff8cea1dc13254411f745292cbff93d497c2682",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/cff8cea1dc13254411f745292cbff93d497c2682"
+    },
+    {
+      "path": "oe_eval/configs/alpaca_eval_gpt41_azure.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dda92e5fd9ed39c87caed6ac39bebf68b58f620",
+      "size": 336,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1dda92e5fd9ed39c87caed6ac39bebf68b58f620"
+    },
+    {
+      "path": "oe_eval/configs/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe8ecbca0e6eecb85815355ceb9bfdf8145f19c7",
+      "size": 20886,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fe8ecbca0e6eecb85815355ceb9bfdf8145f19c7"
+    },
+    {
+      "path": "oe_eval/configs/regexes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0091c54b3e6c9f6b762621c87a474f132e1a59f8",
+      "size": 773,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0091c54b3e6c9f6b762621c87a474f132e1a59f8"
+    },
+    {
+      "path": "oe_eval/configs/task_suites.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1222a8bcd22ce47cb19a4087f9609ce44c174dbd",
+      "size": 39453,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1222a8bcd22ce47cb19a4087f9609ce44c174dbd"
+    },
+    {
+      "path": "oe_eval/configs/tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658df961ffa80e3172136fd583de27c2f7a9813a",
+      "size": 324779,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/658df961ffa80e3172136fd583de27c2f7a9813a"
+    },
+    {
+      "path": "oe_eval/configs/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ce2e3f5a38743e35612acd83740f18d742800a3",
+      "size": 1764,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3ce2e3f5a38743e35612acd83740f18d742800a3"
+    },
+    {
+      "path": "oe_eval/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e87aa4007c16bdbbdf9ddb74a0fad65a943a4b8",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/4e87aa4007c16bdbbdf9ddb74a0fad65a943a4b8"
+    },
+    {
+      "path": "oe_eval/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/data/agi_eval_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ad413693116a04dc35d5eb1938ed3bf8725c947",
+      "size": 192,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4ad413693116a04dc35d5eb1938ed3bf8725c947"
+    },
+    {
+      "path": "oe_eval/data/basic_skills_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbd0dc2ec85e01faf59608e5362d2d5c48cd51fc",
+      "size": 146,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cbd0dc2ec85e01faf59608e5362d2d5c48cd51fc"
+    },
+    {
+      "path": "oe_eval/data/bbh_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b0d2a4a287aed2725582520863b8c451a80047",
+      "size": 4051,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a3b0d2a4a287aed2725582520863b8c451a80047"
+    },
+    {
+      "path": "oe_eval/data/bfcl_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e31b0516f7680d2ae3aaf3f59e67a6f692754d",
+      "size": 1547,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/66e31b0516f7680d2ae3aaf3f59e67a6f692754d"
+    },
+    {
+      "path": "oe_eval/data/code_editor_bench_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffccbc4c5b9c882eaefd027e40cc38e4bfcedd8e",
+      "size": 1192,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ffccbc4c5b9c882eaefd027e40cc38e4bfcedd8e"
+    },
+    {
+      "path": "oe_eval/data/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f52d7c9c9d656bd27b8d7b43118b46b536453f",
+      "size": 196,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/72f52d7c9c9d656bd27b8d7b43118b46b536453f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_categories.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e836d30fe5e5cbf50971af6b502b3f571fadac0f",
+      "size": 6036,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e836d30fe5e5cbf50971af6b502b3f571fadac0f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14eb8c515c304f17f6da89d7cb214fc864399abf",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/14eb8c515c304f17f6da89d7cb214fc864399abf"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf9b1439150607e10abe396a3eecd2e6539d6dd",
+      "size": 2910,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ddf9b1439150607e10abe396a3eecd2e6539d6dd"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_1d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da435990c524b68c4a4b28432574992b0d53ad6e",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/da435990c524b68c4a4b28432574992b0d53ad6e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_1d/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d590b4ee2a1457a6461dff072bbefd4141e5ff31",
+      "size": 2063,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d590b4ee2a1457a6461dff072bbefd4141e5ff31"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_1d_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38da29da2c9a23f6ac64c75b298142ff2fd7b778",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/38da29da2c9a23f6ac64c75b298142ff2fd7b778"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_1d_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b6a8537bdbe37313ea33d832d1f4b1e2de10f2",
+      "size": 4037,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f9b6a8537bdbe37313ea33d832d1f4b1e2de10f2"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_2d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e65e777cb7956c0618a801489475498b0cb92164",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/e65e777cb7956c0618a801489475498b0cb92164"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_2d/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a08513f23a47c0d82b5dd9547f20ff214d33f3",
+      "size": 2617,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/80a08513f23a47c0d82b5dd9547f20ff214d33f3"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_2d_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2a8df0908e2af3a83b1f5c538e1cfd6eaf3468b",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/d2a8df0908e2af3a83b1f5c538e1cfd6eaf3468b"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__linear_2d_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76d515d5ec50fcb6cd95edc637b75588e081f81",
+      "size": 4776,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e76d515d5ec50fcb6cd95edc637b75588e081f81"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__polynomial_roots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f708fe8fba6a9bf2be80d653309bf27660ac429b",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f708fe8fba6a9bf2be80d653309bf27660ac429b"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__polynomial_roots/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ce8fd01e5dc4bf089b1cfba4bb5533a41e6437",
+      "size": 3719,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/56ce8fd01e5dc4bf089b1cfba4bb5533a41e6437"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__polynomial_roots_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0a6a1d1668caccae03eea108d535c0ea26079bc",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f0a6a1d1668caccae03eea108d535c0ea26079bc"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__polynomial_roots_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87142869c82f3a84a503b23449267c878246f5e",
+      "size": 4852,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c87142869c82f3a84a503b23449267c878246f5e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__sequence_next_term",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "573bfc0b283ef333670451fae4a7999d9b821c13",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/573bfc0b283ef333670451fae4a7999d9b821c13"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__sequence_next_term/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31598b0cb66a73af77b68565734efc48a8aa05f8",
+      "size": 2766,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/31598b0cb66a73af77b68565734efc48a8aa05f8"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__sequence_nth_term",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5988577da74a49bc6c9e4fff5f92a0badcdf3720",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/5988577da74a49bc6c9e4fff5f92a0badcdf3720"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/algebra__sequence_nth_term/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ca9b7e5623dfe757284f518aff662eed7b15f4",
+      "size": 3428,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/02ca9b7e5623dfe757284f518aff662eed7b15f4"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_or_sub",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0825eab0fc4c8d5e6b68ab6a1c705ce8088ae757",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/0825eab0fc4c8d5e6b68ab6a1c705ce8088ae757"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_or_sub/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7a7c60d87f1bd7f576bab32a2925c3f26764e3e",
+      "size": 2061,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c7a7c60d87f1bd7f576bab32a2925c3f26764e3e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_or_sub_in_base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64cb48611f95bc4cb29ee9f56a7874a0fd13c52f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/64cb48611f95bc4cb29ee9f56a7874a0fd13c52f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_or_sub_in_base/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfe6582411e8a18d593eb24c5b7ef29d39f3fb3",
+      "size": 1501,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/acfe6582411e8a18d593eb24c5b7ef29d39f3fb3"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_sub_multiple",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c96953b2bbc92632b4df581737981ab459e85359",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/c96953b2bbc92632b4df581737981ab459e85359"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__add_sub_multiple/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5167d06a8b39d66b795273442e176fc296550c6f",
+      "size": 1748,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5167d06a8b39d66b795273442e176fc296550c6f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__div",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed4a41290850f67bdee2147b0a170b2022df3318",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/ed4a41290850f67bdee2147b0a170b2022df3318"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__div/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf64266cff35e99bac56550c1fa63bda08001e8a",
+      "size": 1521,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bf64266cff35e99bac56550c1fa63bda08001e8a"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mixed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd7aa934a224f6469d9384864a845de396e9eefa",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/bd7aa934a224f6469d9384864a845de396e9eefa"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mixed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb704f6c9cfd12c68fa137230b4a1d850d42993",
+      "size": 2036,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bbb704f6c9cfd12c68fa137230b4a1d850d42993"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mul",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f7d1235f2b4da9e21f2a3bd579ddca2d820daf3",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/5f7d1235f2b4da9e21f2a3bd579ddca2d820daf3"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mul/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ade5deceebf2e715681228c74c3de1e8e16dad3",
+      "size": 1650,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5ade5deceebf2e715681228c74c3de1e8e16dad3"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mul_div_multiple",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "742e08a7f84b73918ffd5ec0ab9a6142f2ff7a8c",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/742e08a7f84b73918ffd5ec0ab9a6142f2ff7a8c"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__mul_div_multiple/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "197a15909d3d0ef50758a1002431483c3950971b",
+      "size": 1985,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/197a15909d3d0ef50758a1002431483c3950971b"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__nearest_integer_root",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20416d838cf9073b8c08acc68867b53edc8cf488",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/20416d838cf9073b8c08acc68867b53edc8cf488"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__nearest_integer_root/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259bbb09e1e60d4cbaec7edf4342c59ae6f2ec37",
+      "size": 1214,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/259bbb09e1e60d4cbaec7edf4342c59ae6f2ec37"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__simplify_surd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d2b66e970aff9b3214361a1d9dba9df6b78b6a7",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/4d2b66e970aff9b3214361a1d9dba9df6b78b6a7"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/arithmetic__simplify_surd/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c6970cc4cd61dfa6de2c4eaf311eb46fe53d9e",
+      "size": 3616,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e2c6970cc4cd61dfa6de2c4eaf311eb46fe53d9e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/calculus__differentiate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24b1761145961baea3b3610ee34eddc0b658e782",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/24b1761145961baea3b3610ee34eddc0b658e782"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/calculus__differentiate/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018a0741c3d7064adb21848f72fa1e05248766e5",
+      "size": 3418,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/018a0741c3d7064adb21848f72fa1e05248766e5"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/calculus__differentiate_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbd69139b8423b98ba8f5d6f1c9229402028fd8e",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/fbd69139b8423b98ba8f5d6f1c9229402028fd8e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/calculus__differentiate_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "431628772181c96747e5ad816899154f0218ac3b",
+      "size": 4601,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/431628772181c96747e5ad816899154f0218ac3b"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__closest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56e24ef5ab69935bcf476114fec823ff13c759e0",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/56e24ef5ab69935bcf476114fec823ff13c759e0"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__closest/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41afb720f2bc2ca5b159550d1fcb8216a7121fbb",
+      "size": 1867,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/41afb720f2bc2ca5b159550d1fcb8216a7121fbb"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__closest_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23ba5c4dd97507736141108703328598a4f27835",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/23ba5c4dd97507736141108703328598a4f27835"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__closest_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d7af4953f6054d83723e36b7cba445ec67fa368",
+      "size": 3640,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0d7af4953f6054d83723e36b7cba445ec67fa368"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__kth_biggest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08961c670ef30e051f7281a2d6e9239ea387f3ea",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/08961c670ef30e051f7281a2d6e9239ea387f3ea"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__kth_biggest/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc0a3f5858fe765d27f34cef283b617bf4a6140",
+      "size": 2022,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9cc0a3f5858fe765d27f34cef283b617bf4a6140"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__kth_biggest_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "566484529fba1482b1b5928bb43c62c400b873ac",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/566484529fba1482b1b5928bb43c62c400b873ac"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__kth_biggest_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc0df4929f948e13de051cbb948fc7aa14938fe6",
+      "size": 3889,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bc0df4929f948e13de051cbb948fc7aa14938fe6"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__pair",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a7c0365d0efe50154c7e4729370ab1be6ec5c60",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/4a7c0365d0efe50154c7e4729370ab1be6ec5c60"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__pair/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7d6ad2178b0ea2ea8fcf1f1779bb3d0db715e7",
+      "size": 1530,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6d7d6ad2178b0ea2ea8fcf1f1779bb3d0db715e7"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__pair_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "512d139d574d9f1f102c7bd630ab3fb03dc1ea76",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/512d139d574d9f1f102c7bd630ab3fb03dc1ea76"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__pair_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d2721ed7e62ed007a2a40f679a007c698dc738",
+      "size": 3728,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/16d2721ed7e62ed007a2a40f679a007c698dc738"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__sort",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98ee4bb32879fd271def9fc6ac0cc5e59af2b0ea",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/98ee4bb32879fd271def9fc6ac0cc5e59af2b0ea"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__sort/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54af61a76fd315b12a7dd03ef3662e5a089da09f",
+      "size": 2023,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/54af61a76fd315b12a7dd03ef3662e5a089da09f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__sort_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d7b707bdacceca5be5e603a3ecd68fdc27b8dd9",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/8d7b707bdacceca5be5e603a3ecd68fdc27b8dd9"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/comparison__sort_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fda4336f9fc04a710c2441250bc0e01fd15469d8",
+      "size": 4176,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fda4336f9fc04a710c2441250bc0e01fd15469d8"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/measurement__conversion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e316ceda5c18d3687d3fb1328fc572e6bbfea2f3",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/e316ceda5c18d3687d3fb1328fc572e6bbfea2f3"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/measurement__conversion/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a873b6fab3f116aa706db4589b44e1c143788b29",
+      "size": 1759,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a873b6fab3f116aa706db4589b44e1c143788b29"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/measurement__time",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfbc62adc9fa4d81b7ad269f4b9c05c0ddf97b5d",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/cfbc62adc9fa4d81b7ad269f4b9c05c0ddf97b5d"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/measurement__time/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e7682613b26362554db87035acba049c892e0a1",
+      "size": 1287,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4e7682613b26362554db87035acba049c892e0a1"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__base_conversion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93b45ef9d386e1427afbd1250a5e2e60bbf39972",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/93b45ef9d386e1427afbd1250a5e2e60bbf39972"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__base_conversion/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb7345aff78735108168e386208cf75546c58e1e",
+      "size": 1530,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fb7345aff78735108168e386208cf75546c58e1e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__div_remainder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a919082359b555d8a29e56eccb82fdd74fb3323f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/a919082359b555d8a29e56eccb82fdd74fb3323f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__div_remainder/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f035410dcf6b5bdd303348c773038416b2255763",
+      "size": 1249,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f035410dcf6b5bdd303348c773038416b2255763"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__div_remainder_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7554786235319fdcb3321b58df8d609760d772b",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/b7554786235319fdcb3321b58df8d609760d772b"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__div_remainder_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d5411165fdb3e92dad0523d5e8b61a6e2f51eb",
+      "size": 3631,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/20d5411165fdb3e92dad0523d5e8b61a6e2f51eb"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__gcd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af879c89c598a0d38f60b091414e5b5c5cf14669",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/af879c89c598a0d38f60b091414e5b5c5cf14669"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__gcd/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3fbb15ed22fcfea132677ff4fc80574e0ce84e",
+      "size": 1375,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bc3fbb15ed22fcfea132677ff4fc80574e0ce84e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__gcd_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "274b40c36af6799791a0617481ccae0959383e74",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/274b40c36af6799791a0617481ccae0959383e74"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__gcd_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6019ac5d22638719719f311503c98bc18266f6",
+      "size": 3852,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7d6019ac5d22638719719f311503c98bc18266f6"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_factor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7d3862d7554e8fd504173d45e36c54e9ee08269",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/a7d3862d7554e8fd504173d45e36c54e9ee08269"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_factor/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3378ea14ed662b35281c9d4e31f8f09f33de4dca",
+      "size": 1059,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3378ea14ed662b35281c9d4e31f8f09f33de4dca"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_factor_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ab0a5ac5f1a7cee90589a5b4af7fa869058483c",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/0ab0a5ac5f1a7cee90589a5b4af7fa869058483c"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_factor_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37bac2280ac551ad67d14d38e86a031c4cbd267",
+      "size": 3544,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d37bac2280ac551ad67d14d38e86a031c4cbd267"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_prime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "281fbb40ff5229e2074c235d1c86eb08e712d80d",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/281fbb40ff5229e2074c235d1c86eb08e712d80d"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_prime/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "588908eb21208a2e716831de68394c39cd669591",
+      "size": 876,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/588908eb21208a2e716831de68394c39cd669591"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_prime_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b69499141134c421aae212142af477fb9b2e93d",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/8b69499141134c421aae212142af477fb9b2e93d"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__is_prime_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c9b81b1a7f2708bc0953364ce83f007042e520",
+      "size": 3407,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/14c9b81b1a7f2708bc0953364ce83f007042e520"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__lcm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5405ba07c9b76ce98e11a429fdb8e22af3e6d2ae",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/5405ba07c9b76ce98e11a429fdb8e22af3e6d2ae"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__lcm/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901bc219ecda136d851c5d2d4b2ff38be6008c80",
+      "size": 1864,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/901bc219ecda136d851c5d2d4b2ff38be6008c80"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__lcm_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "262781171b7f3f5408c1fd503781a87a53fdf474",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/262781171b7f3f5408c1fd503781a87a53fdf474"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__lcm_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525c803dcaa5b730302e5cf106d7908b64e2343e",
+      "size": 3984,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/525c803dcaa5b730302e5cf106d7908b64e2343e"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__list_prime_factors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a287290ea82773c932cd86db6a2120f9b7ca3a1c",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/a287290ea82773c932cd86db6a2120f9b7ca3a1c"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__list_prime_factors/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c0f5b91dec36544776f79f52e502d62c07aeac",
+      "size": 1460,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/10c0f5b91dec36544776f79f52e502d62c07aeac"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__list_prime_factors_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91db3a333db5ce4de711143aeca4e069330a8f8f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/91db3a333db5ce4de711143aeca4e069330a8f8f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__list_prime_factors_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b13ca661d875def123372033352045e2e16d107",
+      "size": 3407,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2b13ca661d875def123372033352045e2e16d107"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__place_value",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "749b3e634aceb9c7691642a9e89f72100c982058",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/749b3e634aceb9c7691642a9e89f72100c982058"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__place_value/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01efe9204d253b566e3c0466d5ab360bb452a0df",
+      "size": 978,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/01efe9204d253b566e3c0466d5ab360bb452a0df"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__place_value_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27bcf54559c36711b9c9191dccb017c62eb9282f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/27bcf54559c36711b9c9191dccb017c62eb9282f"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__place_value_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0575b0b2a6c718b32c6dc63986463425e2bd8ba5",
+      "size": 3281,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0575b0b2a6c718b32c6dc63986463425e2bd8ba5"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__round_number",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88e68a91e74cda1e7464343df9a9eee8c01226be",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/88e68a91e74cda1e7464343df9a9eee8c01226be"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__round_number/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69e982aefc50fa9e4bb094602450d1d9e5b5244",
+      "size": 1552,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d69e982aefc50fa9e4bb094602450d1d9e5b5244"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__round_number_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89c17f4d3254bd0530935f8ba18c83fd37ec7576",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/89c17f4d3254bd0530935f8ba18c83fd37ec7576"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/numbers__round_number_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798391c078f779e53225a4452de92ab4cc17e936",
+      "size": 3443,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/798391c078f779e53225a4452de92ab4cc17e936"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__add",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "034770db8ab5abc8aee761650a981de432f5cac4",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/034770db8ab5abc8aee761650a981de432f5cac4"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__add/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7a3fd6697495977f57177fc56f36d7e614efee",
+      "size": 5016,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ed7a3fd6697495977f57177fc56f36d7e614efee"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__coefficient_named",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dabafdd96a7ad4a07da850896ab15d446254afa",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/8dabafdd96a7ad4a07da850896ab15d446254afa"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__coefficient_named/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ff8a55ec9c5f46c3cfc8bc342dc86e1353ee6c",
+      "size": 3984,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d5ff8a55ec9c5f46c3cfc8bc342dc86e1353ee6c"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__collect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b9c55228bb397039c44659be53383d1f86f7b6a",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/8b9c55228bb397039c44659be53383d1f86f7b6a"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__collect/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddec901b2e87e0f0b22cbcea3e2798c7de9c285",
+      "size": 2338,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/dddec901b2e87e0f0b22cbcea3e2798c7de9c285"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__compose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b192d96362ae38813f24ae3c893a07b560526ec",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/6b192d96362ae38813f24ae3c893a07b560526ec"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__compose/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb010e0bd7d6e4a7260cc32ba15b618193c8abe",
+      "size": 4501,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6eb010e0bd7d6e4a7260cc32ba15b618193c8abe"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__evaluate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f682a42f523fb7c90a9ed3d4aa128b1ba58ec572",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f682a42f523fb7c90a9ed3d4aa128b1ba58ec572"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__evaluate/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfa9fd4ed683514be6133d1e2da4fab0aa84474",
+      "size": 2400,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1cfa9fd4ed683514be6133d1e2da4fab0aa84474"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__evaluate_composed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7397590003102c0e9c1fbc7320aef9271093994",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/a7397590003102c0e9c1fbc7320aef9271093994"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__evaluate_composed/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da363f156d795b535e6ce8a92211063548bc81e4",
+      "size": 4401,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/da363f156d795b535e6ce8a92211063548bc81e4"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__expand",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa4852084f6b93a5fb63bc2027cb3f1ef43d7e61",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/fa4852084f6b93a5fb63bc2027cb3f1ef43d7e61"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__expand/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05161b055af5c4726505150cb739af9459d9f508",
+      "size": 3784,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/05161b055af5c4726505150cb739af9459d9f508"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__simplify_power",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f0a913fa69d409f37b0a10bd1206d9ffb631d86",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/1f0a913fa69d409f37b0a10bd1206d9ffb631d86"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/polynomials__simplify_power/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "978a98a68957d2f8ba26cd050daa725c4f6df572",
+      "size": 3914,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/978a98a68957d2f8ba26cd050daa725c4f6df572"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/probability__swr_p_level_set",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6be50f08567352fc27668bf466ff843f98f52b4",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/e6be50f08567352fc27668bf466ff843f98f52b4"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/probability__swr_p_level_set/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb4f3e42c9577ee1364bfbeb01bede9e705c698",
+      "size": 2351,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3fb4f3e42c9577ee1364bfbeb01bede9e705c698"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/probability__swr_p_sequence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89d939e54c5e7770579de7a8ff0cfb80811fa048",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/89d939e54c5e7770579de7a8ff0cfb80811fa048"
+    },
+    {
+      "path": "oe_eval/data/deepmind_math_sample100/probability__swr_p_sequence/test.jsonl.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658bfbeb36bcdd6173fa0f7f7a48304337f948c9",
+      "size": 2152,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/658bfbeb36bcdd6173fa0f7f7a48304337f948c9"
+    },
+    {
+      "path": "oe_eval/data/helmet_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b14336ebf7fb63feeeed86870f2058664a87831",
+      "size": 64034,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6b14336ebf7fb63feeeed86870f2058664a87831"
+    },
+    {
+      "path": "oe_eval/data/hendrycks_math_split.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d073fed0ad136cf5ccd9fa7e7fada77ec6fd49",
+      "size": 4494,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d4d073fed0ad136cf5ccd9fa7e7fada77ec6fd49"
+    },
+    {
+      "path": "oe_eval/data/ifeval_mt_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9954d81871e21b046a48938718312e1734042fc1",
+      "size": 268,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9954d81871e21b046a48938718312e1734042fc1"
+    },
+    {
+      "path": "oe_eval/data/lab_bench_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45805571290e7f4e8bd61c994273551ec072509c",
+      "size": 321,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/45805571290e7f4e8bd61c994273551ec072509c"
+    },
+    {
+      "path": "oe_eval/data/math_task_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060989ff0becb0d165c418c96236c2818c21f9eb",
+      "size": 171,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/060989ff0becb0d165c418c96236c2818c21f9eb"
+    },
+    {
+      "path": "oe_eval/data/mmlu_pro_categories.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757de445fd9b3251b8dc6de52524d0aadcd2f856",
+      "size": 250,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/757de445fd9b3251b8dc6de52524d0aadcd2f856"
+    },
+    {
+      "path": "oe_eval/data/mmlu_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb651153ec89aad818f1fee5342e66a76feaec9",
+      "size": 1604,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/aeb651153ec89aad818f1fee5342e66a76feaec9"
+    },
+    {
+      "path": "oe_eval/data/mt_alpacaeval_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668f13e63daf0a5f03c67c970056652aa77e6299",
+      "size": 844,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/668f13e63daf0a5f03c67c970056652aa77e6299"
+    },
+    {
+      "path": "oe_eval/data/mt_eval_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ab45f27d450491f254d1139b9afb25b6e33605",
+      "size": 405,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/74ab45f27d450491f254d1139b9afb25b6e33605"
+    },
+    {
+      "path": "oe_eval/data/multilingual_mbpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80720c43c26b90e8130d2bfaae6a744f59fa8e58",
+      "size": 251,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/80720c43c26b90e8130d2bfaae6a744f59fa8e58"
+    },
+    {
+      "path": "oe_eval/data/multipl_e.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a14f0d301d171aff52a9876389b1885ef35bea7",
+      "size": 1679,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8a14f0d301d171aff52a9876389b1885ef35bea7"
+    },
+    {
+      "path": "oe_eval/data/omega_categories.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792cb0eb581f337dc4be3cb3384066d21ef9e846",
+      "size": 1999,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/792cb0eb581f337dc4be3cb3384066d21ef9e846"
+    },
+    {
+      "path": "oe_eval/data/openai_mrcr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0922931dfcba8747dc29aafa5e29fe014dff5d8",
+      "size": 171,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c0922931dfcba8747dc29aafa5e29fe014dff5d8"
+    },
+    {
+      "path": "oe_eval/data/ruler_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644c3494f81e238902f620341b8f88e8d647891e",
+      "size": 25864,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/644c3494f81e238902f620341b8f88e8d647891e"
+    },
+    {
+      "path": "oe_eval/data/safety_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bf7cc21526f7e1b8dd831fa0c7ab6f43dd40e7a",
+      "size": 5687,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3bf7cc21526f7e1b8dd831fa0c7ab6f43dd40e7a"
+    },
+    {
+      "path": "oe_eval/data/simpletom_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c00bb3628086946d736460b91cc180b7d00c928f",
+      "size": 83,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c00bb3628086946d736460b91cc180b7d00c928f"
+    },
+    {
+      "path": "oe_eval/data/styled_tasks_perturbations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70f3b0290e168036352a1334213818324800d8c4",
+      "size": 416,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/70f3b0290e168036352a1334213818324800d8c4"
+    },
+    {
+      "path": "oe_eval/data/tydiqa_languages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff430949626d8d0824c087c82641befd7da0c806",
+      "size": 2986,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ff430949626d8d0824c087c82641befd7da0c806"
+    },
+    {
+      "path": "oe_eval/data/zero_scrolls_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd10649800cc00c4dd64a70789a69f16cbbb26c0",
+      "size": 207,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cd10649800cc00c4dd64a70789a69f16cbbb26c0"
+    },
+    {
+      "path": "oe_eval/datasets_extra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c19a8765ea9fac2737faefdd15d230d48838c602",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/c19a8765ea9fac2737faefdd15d230d48838c602"
+    },
+    {
+      "path": "oe_eval/datasets_extra/paloma_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f6da8ae014b24c0c4ea178325bf293910cf7a4",
+      "size": 369,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/05f6da8ae014b24c0c4ea178325bf293910cf7a4"
+    },
+    {
+      "path": "oe_eval/default_configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f993585cdf49de0e54d882151687e23501dca1aa",
+      "size": 1717,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f993585cdf49de0e54d882151687e23501dca1aa"
+    },
+    {
+      "path": "oe_eval/dependencies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72e5e1ddfed576c33bd343e87909020adb9e1847",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/72e5e1ddfed576c33bd343e87909020adb9e1847"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1227a6ae51f677720855b821e40bae1b4e16e004",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/1227a6ae51f677720855b821e40bae1b4e16e004"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e8dbcade2e0f820e8cc5ba62a094f9ca2354c8e",
+      "size": 181,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7e8dbcade2e0f820e8cc5ba62a094f9ca2354c8e"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da8b191f7b8c0a4c38522d8855a47d0c29a71780",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/da8b191f7b8c0a4c38522d8855a47d0c29a71780"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/few_shot_prompts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e318c19c0e29c88cc9189edeffef0395edfecaa",
+      "size": 140072,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5e318c19c0e29c88cc9189edeffef0395edfecaa"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85dcaa0d5f13e55ce366ee1625e5d08400c7f064",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/85dcaa0d5f13e55ce366ee1625e5d08400c7f064"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7c2a6f5048c5d87126678a0149bba9298c3cd3",
+      "size": 5668,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cb7c2a6f5048c5d87126678a0149bba9298c3cd3"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/aqua-rat.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40dc6d141be82479b403f08b79e4fe030675ff83",
+      "size": 141876,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/40dc6d141be82479b403f08b79e4fe030675ff83"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/gaokao-english.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "433b185668a9ebf3418ced36e6962b4f62f53ac1",
+      "size": 690134,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/433b185668a9ebf3418ced36e6962b4f62f53ac1"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/logiqa-en.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798463c824e025cfd40a4d924d5ad92534e8a675",
+      "size": 626353,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/798463c824e025cfd40a4d924d5ad92534e8a675"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/lsat-ar.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b0d8dd3da8982a4df6deda2b7a841796ed0bc8",
+      "size": 231632,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/64b0d8dd3da8982a4df6deda2b7a841796ed0bc8"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/lsat-lr.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7baefd04b445e62c5fe40fe627597071ae3d62fc",
+      "size": 615608,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7baefd04b445e62c5fe40fe627597071ae3d62fc"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/lsat-rc.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37195a362d5562cbbf434ddd37acbf43c35a43ef",
+      "size": 998240,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/37195a362d5562cbbf434ddd37acbf43c35a43ef"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/math.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5878eb3e3c447aa2d36a1ca52795e624c43d1b59",
+      "size": 902615,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5878eb3e3c447aa2d36a1ca52795e624c43d1b59"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/sat-en-without-passage.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbff00a53c69e51e2a6052a41eae77c9b820c2d3",
+      "size": 235962,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cbff00a53c69e51e2a6052a41eae77c9b820c2d3"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/sat-en.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d31a0e0013758925a3a8688d4a205a23e7372b3",
+      "size": 1106708,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8d31a0e0013758925a3a8688d4a205a23e7372b3"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/data/v1/sat-math.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3cab9dd80d01662b088fb85a52dd0939f864328",
+      "size": 280509,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d3cab9dd80d01662b088fb85a52dd0939f864328"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "719a813db1f8cd81c8cbd4ab32d39eaae55fd6ee",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/719a813db1f8cd81c8cbd4ab32d39eaae55fd6ee"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/constructions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7bb1c8e433d4330e9195f60dbea2e3f049d5b44",
+      "size": 3013,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b7bb1c8e433d4330e9195f60dbea2e3f049d5b44"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/dataset_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59c24cf2727a7ad2c41766657c7df73a1b02c6b3",
+      "size": 16110,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/59c24cf2727a7ad2c41766657c7df73a1b02c6b3"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff79e77d6fb7f59bbfb30a21b2229feee92ff4b",
+      "size": 798,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8ff79e77d6fb7f59bbfb30a21b2229feee92ff4b"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/math_equivalence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a002a594198a3e3d12aa70696fa184a15492a33e",
+      "size": 4555,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a002a594198a3e3d12aa70696fa184a15492a33e"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/post_process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b7b1bfd3e13b5a8b320640b1590102630ab70f",
+      "size": 6597,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f4b7b1bfd3e13b5a8b320640b1590102630ab70f"
+    },
+    {
+      "path": "oe_eval/dependencies/AGIEval/src/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f10f348f48a18a41e8a2a0551a295c05a36a0b39",
+      "size": 1156,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f10f348f48a18a41e8a2a0551a295c05a36a0b39"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a9e97f8fc33032858c992d9de08039735182dd5",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/3a9e97f8fc33032858c992d9de08039735182dd5"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df43a41b6cced57f0df0652d7c5f6acd17a064cc",
+      "size": 841,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/df43a41b6cced57f0df0652d7c5f6acd17a064cc"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eea9f028a078b935424b76a8c0ca8d1d80d3a06",
+      "size": 37114,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7eea9f028a078b935424b76a8c0ca8d1d80d3a06"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03bdb60c2b87d0771a6afd03d0f064977b1bda75",
+      "size": 9278,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/03bdb60c2b87d0771a6afd03d0f064977b1bda75"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028ae3996529295b1965a4173796a697c580070f",
+      "size": 388,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/028ae3996529295b1965a4173796a697c580070f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/Dockerfile.oss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e591596864e8584f356b89d39aec528e041200",
+      "size": 496,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/53e591596864e8584f356b89d39aec528e041200"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/LOG_GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11aafdb5feb220b4bccea97dd3c3bb01742b5a88",
+      "size": 3082,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/11aafdb5feb220b4bccea97dd3c3bb01742b5a88"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebdc0b4988308347c47855710a313e4756f27f4",
+      "size": 11065,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7ebdc0b4988308347c47855710a313e4756f27f4"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/SUPPORTED_MODELS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee9b7a5e6c2430813b495fd007812a7af711081",
+      "size": 17720,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/eee9b7a5e6c2430813b495fd007812a7af711081"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/TEST_CATEGORIES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b8a3afa6f4f433db4a87eafdf998523859d4696",
+      "size": 2184,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6b8a3afa6f4f433db4a87eafdf998523859d4696"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/architecture_diagram.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f7464362af0a38fee44b65b05b0a92990fdbb7",
+      "size": 115465,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e4f7464362af0a38fee44b65b05b0a92990fdbb7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbfb1f907fe838f642f3975e85ae8e28c3495647",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/dbfb1f907fe838f642f3975e85ae8e28c3495647"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52f3df702e835a65443743b5a2512906e4af80e7",
+      "size": 10206,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/52f3df702e835a65443743b5a2512906e4af80e7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/_llm_response_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a38ce11f5a413b81354367b08d26b94ffbbaec2e",
+      "size": 12649,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a38ce11f5a413b81354367b08d26b94ffbbaec2e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51ab5501548030eb296f19565266663c3a5488be",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/51ab5501548030eb296f19565266663c3a5488be"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/category_mapping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e7308baa11512903656ae26e0efa2c998e87a1",
+      "size": 4164,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/66e7308baa11512903656ae26e0efa2c998e87a1"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/column_headers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc6a9f0cee921250e75358453276af08f747465",
+      "size": 1411,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4bc6a9f0cee921250e75358453276af08f747465"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/default_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37eb080480daff689748601c2c77179578c187e3",
+      "size": 1463,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/37eb080480daff689748601c2c77179578c187e3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/eval_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05ce6b92df55f9e9010234d6a4d259d435d3284f",
+      "size": 1268,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/05ce6b92df55f9e9010234d6a4d259d435d3284f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/model_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c45855563c1907513a7441aeb1a05230ab8c70e",
+      "size": 60242,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0c45855563c1907513a7441aeb1a05230ab8c70e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/supported_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5847427f80a1c5fdcd2f59747d1cc3733b6fd6b8",
+      "size": 5085,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5847427f80a1c5fdcd2f59747d1cc3733b6fd6b8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/constants/type_mappings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdbdde48402f8f2812b146f9b7341b6aae9e55b8",
+      "size": 1813,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fdbdde48402f8f2812b146f9b7341b6aae9e55b8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a1dfc18c6fb0383dca5edb596ccda860adc5161",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/0a1dfc18c6fb0383dca5edb596ccda860adc5161"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67ed83af5ae1318b48ddec86ecd2180af23c2eaa",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/67ed83af5ae1318b48ddec86ecd2180af23c2eaa"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/ast_checker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfea738c2946a53ec1c6fcaae05c52ca8d91e767",
+      "size": 24952,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/dfea738c2946a53ec1c6fcaae05c52ca8d91e767"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89061c926d02f298ac043921fa5b8010b0f7d0c0",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/89061c926d02f298ac043921fa5b8010b0f7d0c0"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/java_type_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9a54a20bc7b2d2a3572de5174e566d3cba4e55",
+      "size": 15711,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3e9a54a20bc7b2d2a3572de5174e566d3cba4e55"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/ast_eval/type_convertor/js_type_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c07ab4247f32459964747fbd19d99a0480b0b26",
+      "size": 11701,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8c07ab4247f32459964747fbd19d99a0480b0b26"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/eval_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8829bf83d66cdba6481d6b8e3a8f8fa529d958a0",
+      "size": 23432,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8829bf83d66cdba6481d6b8e3a8f8fa529d958a0"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/eval_runner_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8663a15f7a9c21717bfd281e9b17e9f2d055749",
+      "size": 18969,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d8663a15f7a9c21717bfd281e9b17e9f2d055749"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50d662661efcc6b49e125f5b6ad58a5d785a9871",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/50d662661efcc6b49e125f5b6ad58a5d785a9871"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c89715c2e67f0977881e2e1fb28614c58266ce89",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/c89715c2e67f0977881e2e1fb28614c58266ce89"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/gorilla_file_system.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5996592ea6da49568766e61938d624d6533ea527",
+      "size": 31918,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5996592ea6da49568766e61938d624d6533ea527"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/long_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938105bea5a07e46ee15615ab11d1c0988124b5d",
+      "size": 190330,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/938105bea5a07e46ee15615ab11d1c0988124b5d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/math_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1b43b3817a3d8cbedc011bb36d4d9253fd6a05a",
+      "size": 12252,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e1b43b3817a3d8cbedc011bb36d4d9253fd6a05a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/message_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e99a56e40a920370d15c606755b165ca0d40c7",
+      "size": 12598,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c4e99a56e40a920370d15c606755b165ca0d40c7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/posting_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d02842c410b5503469d0ecbcae7c7ff0998989",
+      "size": 12505,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/02d02842c410b5503469d0ecbcae7c7ff0998989"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/ticket_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98dc7120e4455b620367416b1662a282c7939664",
+      "size": 9666,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/98dc7120e4455b620367416b1662a282c7939664"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/trading_bot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d19698a7af57de639d3f5a2e79bcef77b283a3",
+      "size": 25999,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/98d19698a7af57de639d3f5a2e79bcef77b283a3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/travel_booking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da34ea16a330b57f5ad599bc6447b2a55d956237",
+      "size": 33773,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/da34ea16a330b57f5ad599bc6447b2a55d956237"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/func_source_code/vehicle_control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b39edcb58d60c93033e36e02cd23ffe17c4cb37",
+      "size": 29463,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3b39edcb58d60c93033e36e02cd23ffe17c4cb37"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/multi_turn_checker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d2b403840b0cbd26acddc6cb6e72535de51aa8",
+      "size": 13587,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/16d2b403840b0cbd26acddc6cb6e72535de51aa8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/eval_checker/multi_turn_eval/multi_turn_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233f7d2a5d40ae33f09542153f8ee557348d8735",
+      "size": 5957,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/233f7d2a5d40ae33f09542153f8ee557348d8735"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cce147c8347ca5c40f94b5e0bfeabd822f240ba",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/0cce147c8347ca5c40f94b5e0bfeabd822f240ba"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa0d5e36fa1103b307b6e3355f7e5d9f1d8c756e",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/aa0d5e36fa1103b307b6e3355f7e5d9f1d8c756e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/claude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21d29d2424b6ab5a27f0919dbf1d18c45768a2c5",
+      "size": 13262,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/21d29d2424b6ab5a27f0919dbf1d18c45768a2c5"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/cohere.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8447b736151cd4138f12a02f93791c76d7d82dc",
+      "size": 11964,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f8447b736151cd4138f12a02f93791c76d7d82dc"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/databricks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19b71037c2845cc8a9e55fc25f68060844fe9129",
+      "size": 3441,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/19b71037c2845cc8a9e55fc25f68060844fe9129"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/deepseek.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f2d94290db917653a724013e9236dae4582c29",
+      "size": 4777,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/13f2d94290db917653a724013e9236dae4582c29"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/fireworks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4897ef4365abfaa909134037873614d8f6be222e",
+      "size": 3946,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4897ef4365abfaa909134037873614d8f6be222e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/functionary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fb95e888790297b211d5ed8dce95c60c123e53",
+      "size": 531,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e4fb95e888790297b211d5ed8dce95c60c123e53"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c98872e077002afc87ce60a7f13c677767c642b6",
+      "size": 13115,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c98872e077002afc87ce60a7f13c677767c642b6"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gogoagent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f23f31322b32ea2ff976783c063d548302be9d",
+      "size": 413,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e4f23f31322b32ea2ff976783c063d548302be9d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/gorilla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6f00e20e295e8574496cc62e2c2942c551843d",
+      "size": 3790,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2a6f00e20e295e8574496cc62e2c2942c551843d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/grok.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186e9ef979793203e9886389aec7651dd4652000",
+      "size": 993,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/186e9ef979793203e9886389aec7651dd4652000"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/mining.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d1d9841f30ba6a6142f6fb2574164c5b9189bf",
+      "size": 4854,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a8d1d9841f30ba6a6142f6fb2574164c5b9189bf"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/mistral.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6929a3e7b9351638a300d832d4aa3574641e6881",
+      "size": 8180,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6929a3e7b9351638a300d832d4aa3574641e6881"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nexus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf4c340c3057a73be14294399f8712813271b70",
+      "size": 7668,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6bf4c340c3057a73be14294399f8712813271b70"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nova.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c175f0b86b58e361fdc83557bc8c6fd0d7bb963",
+      "size": 7554,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5c175f0b86b58e361fdc83557bc8c6fd0d7bb963"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/novita.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110f728a4d193566c5a8b2f24d726eec71a10745",
+      "size": 1690,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/110f728a4d193566c5a8b2f24d726eec71a10745"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/nvidia.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424c596020c4b278dd9b7c6ae03c5629951a81ca",
+      "size": 2825,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/424c596020c4b278dd9b7c6ae03c5629951a81ca"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a70476a0b02b8db7150e08b2aac5b06563c2f98",
+      "size": 9780,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5a70476a0b02b8db7150e08b2aac5b06563c2f98"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83cb167335a4dce4265caac37b38d2891dc9108a",
+      "size": 1309,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/83cb167335a4dce4265caac37b38d2891dc9108a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/api_inference/yi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49468d7f0610b326580e895bc6babebb067663e0",
+      "size": 5263,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/49468d7f0610b326580e895bc6babebb067663e0"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/base_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260a000ee43906fd1062adcc479739eaf895d7e9",
+      "size": 39087,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/260a000ee43906fd1062adcc479739eaf895d7e9"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b9329a7d1e27264ba7d3e8d3d23cf7df5e5bfc8",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/1b9329a7d1e27264ba7d3e8d3d23cf7df5e5bfc8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/allenai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fbb6b0996f0953c520b08d810801a4bba707ca7",
+      "size": 15196,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1fbb6b0996f0953c520b08d810801a4bba707ca7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/base_oss_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade92cec69134b3a95abab5f1740c03baa8da4ef",
+      "size": 17407,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ade92cec69134b3a95abab5f1740c03baa8da4ef"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/bielik.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4510f99e32ec993599c22696acb41802b3dc1327",
+      "size": 977,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4510f99e32ec993599c22696acb41802b3dc1327"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36dabc3b16398c01f5b6f84f2bb3fb77e368141",
+      "size": 3412,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f36dabc3b16398c01f5b6f84f2bb3fb77e368141"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek_coder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e193889a199d5db51267969521d8751c308a97b1",
+      "size": 11411,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e193889a199d5db51267969521d8751c308a97b1"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/deepseek_reasoning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e27203d4916a0233b9beed9d8e7da63132223f3",
+      "size": 10176,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2e27203d4916a0233b9beed9d8e7da63132223f3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/falcon_fc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10603cc09ec21b9a7d320f26723eaae52669afea",
+      "size": 3456,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/10603cc09ec21b9a7d320f26723eaae52669afea"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/gemma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4d224041b8eb14b7e230da0973333712df0f19",
+      "size": 3795,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8f4d224041b8eb14b7e230da0973333712df0f19"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/glaive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85b6a10c05e0edff15310020147892b7a2cac79",
+      "size": 1392,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e85b6a10c05e0edff15310020147892b7a2cac79"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/glm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c94d7eb8dd277630f31cf4e66bb4a50d035e7e4",
+      "size": 5367,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4c94d7eb8dd277630f31cf4e66bb4a50d035e7e4"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/granite.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af14c07f6a6117cfbacdbc4288ea0a0dcfcf4fb",
+      "size": 4449,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7af14c07f6a6117cfbacdbc4288ea0a0dcfcf4fb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/hammer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bd9caea0f779eccde308c13bdfd12ff05d5ae6",
+      "size": 8944,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a4bd9caea0f779eccde308c13bdfd12ff05d5ae6"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/hermes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca82f2b44536539ff979cc25224fd49db42678b",
+      "size": 5097,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bca82f2b44536539ff979cc25224fd49db42678b"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e7ce37dbaa1349b9df660c33235e30056d35e",
+      "size": 2475,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/412e7ce37dbaa1349b9df660c33235e30056d35e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/llama_3_1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2e0e428cd54371fcbf3f8339cc7d70b0ebf9be4",
+      "size": 11419,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f2e0e428cd54371fcbf3f8339cc7d70b0ebf9be4"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/minicpm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfe27e2686d77d839ac97c2f5f2dd3679e317924",
+      "size": 849,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cfe27e2686d77d839ac97c2f5f2dd3679e317924"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/minicpm_fc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7259a0da6acfcc5f44551b48b696202f49416423",
+      "size": 20497,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7259a0da6acfcc5f44551b48b696202f49416423"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/mistral_fc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab9f6387a40a0febad08ed9cc7d6d57605d0935",
+      "size": 12666,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bab9f6387a40a0febad08ed9cc7d6d57605d0935"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/phi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18ea49dd8c693f46547bf400cb5f9e32da0abeb",
+      "size": 2485,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a18ea49dd8c693f46547bf400cb5f9e32da0abeb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/phi_fc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b76e36d5d0b50b6237db38743b5e4e676cfaa9",
+      "size": 9813,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/85b76e36d5d0b50b6237db38743b5e4e676cfaa9"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/quick_testing_oss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e48404af79c459bd663f1aaab4bbc4be4d2047a",
+      "size": 912,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5e48404af79c459bd663f1aaab4bbc4be4d2047a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ca838294e8adfa062bb5a8efe85ccc95909fe6",
+      "size": 3308,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/76ca838294e8adfa062bb5a8efe85ccc95909fe6"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/qwen_fc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10dd8a662591d33c8223b2931621fa7fd512a7ec",
+      "size": 9257,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/10dd8a662591d33c8223b2931621fa7fd512a7ec"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/salesforce_llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c48321ee8442345a262a321281dc8fc8aee2686",
+      "size": 4981,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3c48321ee8442345a262a321281dc8fc8aee2686"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/salesforce_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f717c50b3cb4c983883feabc970f94d9c8f6c9a",
+      "size": 4926,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2f717c50b3cb4c983883feabc970f94d9c8f6c9a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/local_inference/think_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8d97016a15d3290d9eb9dcd8ba7c513d7bac84",
+      "size": 7756,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ac8d97016a15d3290d9eb9dcd8ba7c513d7bac84"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/model_style.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3f39d534aa5884b599f5f419795ed20e093b98",
+      "size": 395,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cf3f39d534aa5884b599f5f419795ed20e093b98"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "646d1110fb58b2a23b0c985fc150195c7121d408",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/646d1110fb58b2a23b0c985fc150195c7121d408"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/java_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbbe721dc2d0eaa9cb0902ca97e70e9152730559",
+      "size": 5508,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bbbe721dc2d0eaa9cb0902ca97e70e9152730559"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/parser/js_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e9e5849fd4df837a88cd1e99dae2518ae902e1",
+      "size": 2733,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f5e9e5849fd4df837a88cd1e99dae2518ae902e1"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/model_handler/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d1aaf05bdabae5a6823d3299b2b685919c632f",
+      "size": 30303,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/67d1aaf05bdabae5a6823d3299b2b685919c632f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/bfcl/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecaf162bb43674d2bb49534991b1eec8933867ed",
+      "size": 7907,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ecaf162bb43674d2bb49534991b1eec8933867ed"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/build_image.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dc5a3d13b3dfb6d2f1dc8ea599b4647f8f8fb2fd",
+      "size": 521,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/dc5a3d13b3dfb6d2f1dc8ea599b4647f8f8fb2fd"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9d8e2ab38e2cc98717e3f57ac7e7ffc7f7b33df",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/d9d8e2ab38e2cc98717e3f57ac7e7ffc7f7b33df"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_irrelevance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9daeeff29ddb6ba7edb6383d42ca322a3ad0d7fe",
+      "size": 160114,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9daeeff29ddb6ba7edb6383d42ca322a3ad0d7fe"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_java.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8b3f138b00e0091b06a69fc395e4a6ed05d7ae",
+      "size": 85919,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0f8b3f138b00e0091b06a69fc395e4a6ed05d7ae"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_javascript.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e7fb051ba4e7a8655291e665da52bf22ab26e9",
+      "size": 46713,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/93e7fb051ba4e7a8655291e665da52bf22ab26e9"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_irrelevance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8ca8eb2f00dba7b55f20647dd7a7a73e679a10",
+      "size": 2202715,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5a8ca8eb2f00dba7b55f20647dd7a7a73e679a10"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd956897939d662b40562a5f045beb694195e44c",
+      "size": 3891342,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fd956897939d662b40562a5f045beb694195e44c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb88e7e7f12cb0e557750a043833bab87c6f98b1",
+      "size": 15649,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fb88e7e7f12cb0e557750a043833bab87c6f98b1"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54997d2e1fa4061d5701f6f42079c95102f8c09e",
+      "size": 82332,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/54997d2e1fa4061d5701f6f42079c95102f8c09e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_relevance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8af6aa22ae8a2b5ac87e37134eaeb7a73336e6b",
+      "size": 54134,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e8af6aa22ae8a2b5ac87e37134eaeb7a73336e6b"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_live_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c449440319c4aef6e4b908803b3471ddff2ec8f",
+      "size": 260127,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2c449440319c4aef6e4b908803b3471ddff2ec8f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_base.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0349c2c6f8c2ecc0b23eb1ea8dcbff42c3ed626a",
+      "size": 391058,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0349c2c6f8c2ecc0b23eb1ea8dcbff42c3ed626a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_long_context.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa34b70b598ed6444deefe8867fb9000f5f5f470",
+      "size": 392651,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/aa34b70b598ed6444deefe8867fb9000f5f5f470"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_miss_func.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93bda0b2ea83d84ec3d3357ae96b7efec49c4e7e",
+      "size": 401840,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/93bda0b2ea83d84ec3d3357ae96b7efec49c4e7e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multi_turn_miss_param.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d665c1f04fec053c11b2331f660d345e91bd3395",
+      "size": 403181,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d665c1f04fec053c11b2331f660d345e91bd3395"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83643fa853e7a29a50e7303b0279284c37dd63c8",
+      "size": 316583,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/83643fa853e7a29a50e7303b0279284c37dd63c8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb343e9d4139976924239026c3689ae4886ed6d",
+      "size": 172094,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/adb343e9d4139976924239026c3689ae4886ed6d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832039d6758e2569d65342b3fc9524924a03832a",
+      "size": 347080,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/832039d6758e2569d65342b3fc9524924a03832a"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/BFCL_v3_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927611976758b084570299cbda641199b9368765",
+      "size": 280474,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/927611976758b084570299cbda641199b9368765"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec61783d930f4a6be9a47f2ca8e3854ba01e02a8",
+      "size": 16122,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ec61783d930f4a6be9a47f2ca8e3854ba01e02a8"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81f92f8e6be78b5f2c20bbe1821462088e5c6ba5",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/81f92f8e6be78b5f2c20bbe1821462088e5c6ba5"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/gorilla_file_system.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ea49cbc240b35974de971aec880f6b25a33f5c",
+      "size": 13951,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/55ea49cbc240b35974de971aec880f6b25a33f5c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/math_api.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a911035a2b71390027e02af70c1abb904c71b3",
+      "size": 9158,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/52a911035a2b71390027e02af70c1abb904c71b3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/message_api.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2846829b1552b9b131662b5576f8cd58d8cc17",
+      "size": 6097,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bc2846829b1552b9b131662b5576f8cd58d8cc17"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/posting_api.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8737a376640ba304c313d23d63049927f823eb",
+      "size": 10573,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2a8737a376640ba304c313d23d63049927f823eb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/ticket_api.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac2452e8f69261cd34fe78513c6d6605f9088f5",
+      "size": 6577,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1ac2452e8f69261cd34fe78513c6d6605f9088f5"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/trading_bot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006a2a336c75d6c566a65118c7963bfee15ca0e7",
+      "size": 14075,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/006a2a336c75d6c566a65118c7963bfee15ca0e7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/travel_booking.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69bf5ad2863fb675e3cedc2904f1f3f43d507851",
+      "size": 15930,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/69bf5ad2863fb675e3cedc2904f1f3f43d507851"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/multi_turn_func_doc/vehicle_control.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "641c163f1195019edcbffd9d4bfeee265f9e8cb3",
+      "size": 17545,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/641c163f1195019edcbffd9d4bfeee265f9e8cb3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe4e8961f8757accbade2b491d0cea6e6c4de1da",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/fe4e8961f8757accbade2b491d0cea6e6c4de1da"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_java.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28880dc4e96197e7140d0e0452dfd39b696e2fbb",
+      "size": 15707,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/28880dc4e96197e7140d0e0452dfd39b696e2fbb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_javascript.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62ca3934f2259ad770284fc13fb120dc8fcfddda",
+      "size": 7529,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/62ca3934f2259ad770284fc13fb120dc8fcfddda"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f4c71547d3a534e2e40231db14943bfa81cc74",
+      "size": 199668,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b2f4c71547d3a534e2e40231db14943bfa81cc74"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce1166ea549eea85f7f6b325108788308055da9",
+      "size": 4974,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0ce1166ea549eea85f7f6b325108788308055da9"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df36b6020f21ef6f38ebb4a8c6e90206915985af",
+      "size": 7420,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/df36b6020f21ef6f38ebb4a8c6e90206915985af"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_live_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33b95487d895b4e5684423e8aaf426e9621c3b4c",
+      "size": 46971,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/33b95487d895b4e5684423e8aaf426e9621c3b4c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_base.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80521d083f79df2730a425f0a1d0436ca9315bf3",
+      "size": 80429,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/80521d083f79df2730a425f0a1d0436ca9315bf3"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_long_context.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7d622d43be9079b73e8313604e234e968bef60",
+      "size": 116024,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7e7d622d43be9079b73e8313604e234e968bef60"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_miss_func.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbe933ef239f6752044b1b2c99ad0ee40dd5683",
+      "size": 82136,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8dbe933ef239f6752044b1b2c99ad0ee40dd5683"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multi_turn_miss_param.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c504834f35100f5942d79fb591974d83ea654c",
+      "size": 82360,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b5c504834f35100f5942d79fb591974d83ea654c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2f1fbfd9b7c8859ef5a92d6c18b0a6b2bc2663",
+      "size": 32254,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1f2f1fbfd9b7c8859ef5a92d6c18b0a6b2bc2663"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474e53307f47d51e1fcfd73cb5e7cdbbadf48db9",
+      "size": 65905,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/474e53307f47d51e1fcfd73cb5e7cdbbadf48db9"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f91131098d7b93492043ea55e7754a55bb57d69",
+      "size": 74601,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9f91131098d7b93492043ea55e7754a55bb57d69"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/possible_answer/BFCL_v3_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4985e93c8035ed012e1f38123761bc719aed146e",
+      "size": 60809,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4985e93c8035ed012e1f38123761bc719aed146e"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e68bc713cb62e3f3e7571dca368a464f960f4bb",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/3e68bc713cb62e3f3e7571dca368a464f960f4bb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/executable_eval_sanity_check",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f741cfda55dbf3498087d185c32641b04561f5d2",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f741cfda55dbf3498087d185c32641b04561f5d2"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/executable_eval_sanity_check/api_status_check_ground_truth_executable.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1109b02e5eaee7d0dc766f5a8c1a43998984d8de",
+      "size": 8681,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1109b02e5eaee7d0dc766f5a8c1a43998984d8de"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/executable_eval_sanity_check/api_status_check_ground_truth_rest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a06e53659ab3d07b7c2a0fc2d0c5f5d417c8b4f",
+      "size": 14052,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4a06e53659ab3d07b7c2a0fc2d0c5f5d417c8b4f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f92327a5c25f956c72a913529f95d1933bc85036",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f92327a5c25f956c72a913529f95d1933bc85036"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5de111e301e2eb8fb1b97ba72c2e722b22409b7",
+      "size": 7232,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b5de111e301e2eb8fb1b97ba72c2e722b22409b7"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb47c2c6767ce7821ca082aa24a426824f38b36",
+      "size": 16710,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/deb47c2c6767ce7821ca082aa24a426824f38b36"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfdeff3ac259cefdb3051d3ff25f3b125af37d8c",
+      "size": 10666,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bfdeff3ac259cefdb3051d3ff25f3b125af37d8c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_exec_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1b4547ce22d97284f4cc70c594f7c3794ff31b",
+      "size": 14055,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3b1b4547ce22d97284f4cc70c594f7c3794ff31b"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_multi_turn_composite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aad823b1853007270ed91900c172d682c502fe6d",
+      "size": 115938,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/aad823b1853007270ed91900c172d682c502fe6d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_rest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3210ff5615260ac18335b04761bac405eb130edd",
+      "size": 113056,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3210ff5615260ac18335b04761bac405eb130edd"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/possible_answer/BFCL_v3_sql.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3e07e7afffd795df13d0b563aa81cd1443670d",
+      "size": 20541,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9f3e07e7afffd795df13d0b563aa81cd1443670d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08c89565c0e87e876c5e61e2a7a8292459b815ea",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/08c89565c0e87e876c5e61e2a7a8292459b815ea"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_chatable.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f7df2a6bfa055a2b38e548b6b7176ed66eaf4c",
+      "size": 24980,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/40f7df2a6bfa055a2b38e548b6b7176ed66eaf4c"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85004c07a907be4cdd352ebbddfe338622c722d",
+      "size": 75924,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d85004c07a907be4cdd352ebbddfe338622c722d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_parallel.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9082a340c7c3a961b56ccfcb4fbf1eb8288a201b",
+      "size": 40389,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9082a340c7c3a961b56ccfcb4fbf1eb8288a201b"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_parallel_multiple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af02d3efcd4ac48a661ac44d2720d96ee5184fb",
+      "size": 64362,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0af02d3efcd4ac48a661ac44d2720d96ee5184fb"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_exec_simple.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f039df47633266fd7f606217a72313530a968bfd",
+      "size": 75888,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f039df47633266fd7f606217a72313530a968bfd"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_multi_turn_composite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208afda8089127549fa8b6ed44b77be8dc62141f",
+      "size": 404501,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/208afda8089127549fa8b6ed44b77be8dc62141f"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_rest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3981b2d05068afae17824230731b62172ed55969",
+      "size": 208186,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3981b2d05068afae17824230731b62172ed55969"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/data/unused_datasets/question/BFCL_v3_sql.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187b96ec7f922ce575342baf54bfc06cc16cc834",
+      "size": 152641,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/187b96ec7f922ce575342baf54bfc06cc16cc834"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/evaluate_model.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8cbd9880749bbd60d77d93122463a56ec0ee3136",
+      "size": 5963,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8cbd9880749bbd60d77d93122463a56ec0ee3136"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/evaluate_template.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2bf21871161e179a3b48ffbc5f1fb3fa1998f6",
+      "size": 2783,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ee2bf21871161e179a3b48ffbc5f1fb3fa1998f6"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/openfunctions_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224b5f3acd6ea093a5b6626dea1bea0b74015d66",
+      "size": 488,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/224b5f3acd6ea093a5b6626dea1bea0b74015d66"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c2a4cd23ba334d6e298f9f0b7d6623e53ad49b2",
+      "size": 1323,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9c2a4cd23ba334d6e298f9f0b7d6623e53ad49b2"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/test_case_ids_to_generate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b9203b5c4a37a78c5b6a387e8d9e7b764cb651",
+      "size": 470,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a4b9203b5c4a37a78c5b6a387e8d9e7b764cb651"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8630cf4aa614bdac1ebdfd7ec2b6456acee40986",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/8630cf4aa614bdac1ebdfd7ec2b6456acee40986"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/_compile_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "294a272d4d4d039fa76334bc7ae2d1bf2623267d",
+      "size": 10018,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/294a272d4d4d039fa76334bc7ae2d1bf2623267d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/check_func_doc_format.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73997a0bc64fb505c0489d9ea5ca1f817e9f776d",
+      "size": 15804,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/73997a0bc64fb505c0489d9ea5ca1f817e9f776d"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/check_illegal_python_param_name.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ae44e9fb0cdc6c379ad2b43b7623cbf79662c6",
+      "size": 3197,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/98ae44e9fb0cdc6c379ad2b43b7623cbf79662c6"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/compile_multi_turn_func_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "922ec847e59b0a16ece29bd9458c4823b169e3e1",
+      "size": 2380,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/922ec847e59b0a16ece29bd9458c4823b169e3e1"
+    },
+    {
+      "path": "oe_eval/dependencies/BFCL/utils/visualize_multi_turn_ground_truth_conversation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bda569fb679cdfe67d77b8fc855b895fa3f798",
+      "size": 5229,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e2bda569fb679cdfe67d77b8fc855b895fa3f798"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50af6c9cd5ba09dcdc4257e154598fc2f2c722d5",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/50af6c9cd5ba09dcdc4257e154598fc2f2c722d5"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8861cb808a1e08c53b01f72a17960c3f9c9225a7",
+      "size": 2561,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8861cb808a1e08c53b01f72a17960c3f9c9225a7"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/code_editor_bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0c602dd744d05c6b5fdf29349e1ea38a642af30",
+      "size": 18181,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c0c602dd744d05c6b5fdf29349e1ea38a642af30"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e97779ae3bf2d4d53dea5d3fb807fb53d46252",
+      "size": 1023,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/10e97779ae3bf2d4d53dea5d3fb807fb53d46252"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ef6c401ba0152082499efafade8f163f84e8f09",
+      "size": 25541,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0ef6c401ba0152082499efafade8f163f84e8f09"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/prompt_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0a46ccc2c714f822ecb875af85d693ec09551a1",
+      "size": 10084,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a0a46ccc2c714f822ecb875af85d693ec09551a1"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/result_postprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4037bb5186832fc7cd4eea85cbfa1287e3c0e9ce",
+      "size": 11703,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4037bb5186832fc7cd4eea85cbfa1287e3c0e9ce"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/test_output_match.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a029d8cc92a74572f0b1aac4df3ecd9b12e312fe",
+      "size": 8239,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a029d8cc92a74572f0b1aac4df3ecd9b12e312fe"
+    },
+    {
+      "path": "oe_eval/dependencies/CodeEditorBench/test_run_codeeditorbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b9b9beb3f29c73ac598597bc7b00f784faf8960",
+      "size": 3366,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1b9b9beb3f29c73ac598597bc7b00f784faf8960"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1db6b32fe2795fb46d896224362da539fe8865aa",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/1db6b32fe2795fb46d896224362da539fe8865aa"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94d0582eaf9fc31b15c9d91c3e68cfcd7463b27",
+      "size": 1094,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b94d0582eaf9fc31b15c9d91c3e68cfcd7463b27"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/arguments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fac0ee67b0e58733bf3c098116bde43d53d67bbb",
+      "size": 3700,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fac0ee67b0e58733bf3c098116bde43d53d67bbb"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1141d3c3750919e830c7b56919d6ad83c33cab0d",
+      "size": 40373,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/1141d3c3750919e830c7b56919d6ad83c33cab0d"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "557411e8e2c62b5028801c560cd040734f630852",
+      "size": 8414,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/557411e8e2c62b5028801c560cd040734f630852"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/eval_alce.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fc28fc0843c1b00b2b968511f9f6bfd9382d747",
+      "size": 27796,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6fc28fc0843c1b00b2b968511f9f6bfd9382d747"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c39d868024ae9efd375ef31eabe20e4b0b57039f",
+      "size": 28780,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c39d868024ae9efd375ef31eabe20e4b0b57039f"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21edc7ded78d21b024c0c6dc0bb7a46f2e3b9fdb",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/21edc7ded78d21b024c0c6dc0bb7a46f2e3b9fdb"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/asqa_nocite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e77d309469d9e28ab7b49d35f04fcc68c98391b6",
+      "size": 17270,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e77d309469d9e28ab7b49d35f04fcc68c98391b6"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/asqa_revised.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc95fde61cf25cb2d2e79f4e5361eea12d518ab7",
+      "size": 17770,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fc95fde61cf25cb2d2e79f4e5361eea12d518ab7"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/qampari_nocite.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84497da0fb12650dfdac685b2f3d11310ad09767",
+      "size": 16125,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/84497da0fb12650dfdac685b2f3d11310ad09767"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/prompts/qampari_revised.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf86a21cb84195d60f881c996ec247de42f6ab4",
+      "size": 16417,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9cf86a21cb84195d60f881c996ec247de42f6ab4"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3030250c176dc8bbc9dc33f5a2f08a5e6daedbe4",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/3030250c176dc8bbc9dc33f5a2f08a5e6daedbe4"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/scripts/eval_gpt4_longqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2887d6e49fadb1efec51bc3ba609b735636fd8c0",
+      "size": 9215,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2887d6e49fadb1efec51bc3ba609b735636fd8c0"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/scripts/eval_gpt4_summ.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf7fa71a72048c81951e228916252dfc6dae354",
+      "size": 66207,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/daf7fa71a72048c81951e228916252dfc6dae354"
+    },
+    {
+      "path": "oe_eval/dependencies/HELMET/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cfd17ec99f8752b971457737320661bdc66dae",
+      "size": 9177,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/85cfd17ec99f8752b971457737320661bdc66dae"
+    },
+    {
+      "path": "oe_eval/dependencies/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09f4a5ddb2b991f4c7ce9ddd994d5ee876bb4153",
+      "size": 304,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/09f4a5ddb2b991f4c7ce9ddd994d5ee876bb4153"
+    },
+    {
+      "path": "oe_eval/dependencies/appworld",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4d5386731e5cd03ffd2c98d61479cdb84f9c39f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/b4d5386731e5cd03ffd2c98d61479cdb84f9c39f"
+    },
+    {
+      "path": "oe_eval/dependencies/appworld/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/appworld/exec_appworld.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0918cd8d6f6cdbf8a23373dd9f7a663a89092696",
+      "size": 1253,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0918cd8d6f6cdbf8a23373dd9f7a663a89092696"
+    },
+    {
+      "path": "oe_eval/dependencies/drop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3104a439184ee25a53939357563acb8c1f6f9917",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/3104a439184ee25a53939357563acb8c1f6f9917"
+    },
+    {
+      "path": "oe_eval/dependencies/drop/process_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec741ee256e1da3b11aa90a86e0adeea0aa8ee9d",
+      "size": 4362,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ec741ee256e1da3b11aa90a86e0adeea0aa8ee9d"
+    },
+    {
+      "path": "oe_eval/dependencies/hf_evaluate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9c220220c846cac5cba5fae516fa2161f2e8a1f",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/c9c220220c846cac5cba5fae516fa2161f2e8a1f"
+    },
+    {
+      "path": "oe_eval/dependencies/hf_evaluate/exact_match.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da03d466ee88d00f98c6828989906c5ee700f52",
+      "size": 2246,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7da03d466ee88d00f98c6828989906c5ee700f52"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da1355c9774add842717c0e00550c2c70c6ace1a",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/da1355c9774add842717c0e00550c2c70c6ace1a"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cffb5ad85d0b6380d6da811a888690d6cd4c62",
+      "size": 164953,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/89cffb5ad85d0b6380d6da811a888690d6cd4c62"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25637bdae255a9e3a48ba773d467d8e1a9f5f2d9",
+      "size": 12954,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/25637bdae255a9e3a48ba773d467d8e1a9f5f2d9"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b717daba1d4e4e0c6dfd5c2f9f874f2dc25be2",
+      "size": 126738,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/34b717daba1d4e4e0c6dfd5c2f9f874f2dc25be2"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/instructions_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3653a078a0c62d3e22a09fa1c2da330cdb35aee",
+      "size": 28953,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c3653a078a0c62d3e22a09fa1c2da330cdb35aee"
+    },
+    {
+      "path": "oe_eval/dependencies/ifeval/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc372f31457a341bb0dd99b95bab341ebbd0100",
+      "size": 5515,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bcc372f31457a341bb0dd99b95bab341ebbd0100"
+    },
+    {
+      "path": "oe_eval/dependencies/safety",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a75b9328ba8922e2194ad1271c4c8489480120fd",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/a75b9328ba8922e2194ad1271c4c8489480120fd"
+    },
+    {
+      "path": "oe_eval/dependencies/safety/cleanup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "614710ec3fe35bc93da69578bbdf9bbadcfdef4c",
+      "size": 39,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/614710ec3fe35bc93da69578bbdf9bbadcfdef4c"
+    },
+    {
+      "path": "oe_eval/dependencies/safety/install.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0b15581149a34ba2881f90f2d12825598238c71",
+      "size": 252,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b0b15581149a34ba2881f90f2d12825598238c71"
+    },
+    {
+      "path": "oe_eval/dependencies/squad",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f177e3f7d49d16c821391c815ba9e45341056a88",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f177e3f7d49d16c821391c815ba9e45341056a88"
+    },
+    {
+      "path": "oe_eval/dependencies/squad/squad_emf1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737f903dc68e2ef2988ccf370e918ed24d897a67",
+      "size": 1514,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/737f903dc68e2ef2988ccf370e918ed24d897a67"
+    },
+    {
+      "path": "oe_eval/external_evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ba8654c184e5f8335ca35a1b48032160c10c434",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/0ba8654c184e5f8335ca35a1b48032160c10c434"
+    },
+    {
+      "path": "oe_eval/external_evals/run_appworld.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a7fcfbaeb30a87ad50fe3c6a4611320c1e82c4",
+      "size": 6998,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/79a7fcfbaeb30a87ad50fe3c6a4611320c1e82c4"
+    },
+    {
+      "path": "oe_eval/external_evals/run_bfcl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4710c5031f728c96b4e7b6fd4a67aabc7974be8e",
+      "size": 5761,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4710c5031f728c96b4e7b6fd4a67aabc7974be8e"
+    },
+    {
+      "path": "oe_eval/external_evals/run_code_editor_bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297741d3a19a2f9ab0008c3e5660a981efaaf7fb",
+      "size": 2196,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/297741d3a19a2f9ab0008c3e5660a981efaaf7fb"
+    },
+    {
+      "path": "oe_eval/external_evals/run_external.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a27ff2c085494bb9f122770ac630e51951aa61ec",
+      "size": 3959,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a27ff2c085494bb9f122770ac630e51951aa61ec"
+    },
+    {
+      "path": "oe_eval/external_evals/run_safety.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13b03037c449421020304ea14c55154d8bcad03",
+      "size": 6798,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c13b03037c449421020304ea14c55154d8bcad03"
+    },
+    {
+      "path": "oe_eval/external_evals/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca32b85ee05f328b75972b7c48bbb51e21363df7",
+      "size": 488,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ca32b85ee05f328b75972b7c48bbb51e21363df7"
+    },
+    {
+      "path": "oe_eval/launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c70f7860c737ef1221d660c5fcca50519ca8fb34",
+      "size": 14858,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c70f7860c737ef1221d660c5fcca50519ca8fb34"
+    },
+    {
+      "path": "oe_eval/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2489b0d0790374b5a02bc6cce296ef2056094d0",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/e2489b0d0790374b5a02bc6cce296ef2056094d0"
+    },
+    {
+      "path": "oe_eval/metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70d7942caf9d4d2a26a7b45cba04e7618f1ec3d",
+      "size": 181,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b70d7942caf9d4d2a26a7b45cba04e7618f1ec3d"
+    },
+    {
+      "path": "oe_eval/metrics/code_evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93642be37b40dd70bc0e3e95384e24f28ea6f67a",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/93642be37b40dd70bc0e3e95384e24f28ea6f67a"
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_eval_routes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afd5f002511e8c9e814d040a2627b6cb2706449",
+      "size": 12292,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9afd5f002511e8c9e814d040a2627b6cb2706449"
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_execution_local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95a87be3d2519b445bb4087cc877901a890cae9",
+      "size": 7334,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f95a87be3d2519b445bb4087cc877901a890cae9"
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/code_execution_remote.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f969cdc4cfa9b2aed97e8c4e0066699a7995800",
+      "size": 3759,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9f969cdc4cfa9b2aed97e8c4e0066699a7995800"
+    },
+    {
+      "path": "oe_eval/metrics/code_evals/sanitize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa3e33bbb064d919e12c694e1c79e3c8298ee8c",
+      "size": 5672,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/caa3e33bbb064d919e12c694e1c79e3c8298ee8c"
+    },
+    {
+      "path": "oe_eval/metrics/llm_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5e4eb3abccbbf9d069be1578e53532554f344e",
+      "size": 3875,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bc5e4eb3abccbbf9d069be1578e53532554f344e"
+    },
+    {
+      "path": "oe_eval/metrics/metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e74a01fa4a660ce99962bfae4e8458573146a90",
+      "size": 50900,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8e74a01fa4a660ce99962bfae4e8458573146a90"
+    },
+    {
+      "path": "oe_eval/metrics/metric_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c227c636d5061f0328d18f83bb6fc530ee40ce",
+      "size": 3875,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/17c227c636d5061f0328d18f83bb6fc530ee40ce"
+    },
+    {
+      "path": "oe_eval/metrics/model_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017c566d2d932fc729df0946eb4669b1dd70cc33",
+      "size": 4451,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/017c566d2d932fc729df0946eb4669b1dd70cc33"
+    },
+    {
+      "path": "oe_eval/metrics/perplexity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413dd4c15a9094abbb4e1f33b47b3d1ae6c04e0f",
+      "size": 5537,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/413dd4c15a9094abbb4e1f33b47b3d1ae6c04e0f"
+    },
+    {
+      "path": "oe_eval/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3f87f00fd7732fcd0d74b04214773dba7933cf7",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f3f87f00fd7732fcd0d74b04214773dba7933cf7"
+    },
+    {
+      "path": "oe_eval/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/models/eleuther_huggingface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1356e0425c135afa61f4bddd0cd458ed203be8e",
+      "size": 35752,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e1356e0425c135afa61f4bddd0cd458ed203be8e"
+    },
+    {
+      "path": "oe_eval/models/eleuther_olmo_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "933646bb04b32cbf7df23cc82b3c6a100574d246",
+      "size": 41243,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/933646bb04b32cbf7df23cc82b3c6a100574d246"
+    },
+    {
+      "path": "oe_eval/models/eleuther_vllm_causallms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cca0a3959ada04ca275010e0497a506f9670c65c",
+      "size": 25968,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cca0a3959ada04ca275010e0497a506f9670c65c"
+    },
+    {
+      "path": "oe_eval/models/judge_models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13097a567821ea0e9934711883accb758786dd3d",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/13097a567821ea0e9934711883accb758786dd3d"
+    },
+    {
+      "path": "oe_eval/models/judge_models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e7d57b35cec9d34bda521f19876eba549be45f2",
+      "size": 448,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8e7d57b35cec9d34bda521f19876eba549be45f2"
+    },
+    {
+      "path": "oe_eval/models/judge_models/api_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba92b747e47ea1047043a9be4b2e748df3c0781",
+      "size": 6168,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/eba92b747e47ea1047043a9be4b2e748df3c0781"
+    },
+    {
+      "path": "oe_eval/models/judge_models/base_judge_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152e76b4a7ed011f5ef02a89b0cc3f81e39a2763",
+      "size": 4757,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/152e76b4a7ed011f5ef02a89b0cc3f81e39a2763"
+    },
+    {
+      "path": "oe_eval/models/judge_models/huggingface_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e051e943594ab053c918423baaddfa4fcfa8282c",
+      "size": 2559,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e051e943594ab053c918423baaddfa4fcfa8282c"
+    },
+    {
+      "path": "oe_eval/models/judge_models/vllm_judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3f0a27662e9d1192a9968eb60e8467e31d896b",
+      "size": 4203,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bc3f0a27662e9d1192a9968eb60e8467e31d896b"
+    },
+    {
+      "path": "oe_eval/models/litellm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a43cbf9b3ae1e0432845d973ac8b8db3fd59b1ed",
+      "size": 6699,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a43cbf9b3ae1e0432845d973ac8b8db3fd59b1ed"
+    },
+    {
+      "path": "oe_eval/models/output_processors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2cd974e4f631a4a1a3d3b426508e4eca7d78032",
+      "size": 898,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c2cd974e4f631a4a1a3d3b426508e4eca7d78032"
+    },
+    {
+      "path": "oe_eval/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/run_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd9bf30eedfe27c04e99904897d34799072a889",
+      "size": 47256,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0bd9bf30eedfe27c04e99904897d34799072a889"
+    },
+    {
+      "path": "oe_eval/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26809a291ee6b05522d41e3de864f36dfc840d86",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/26809a291ee6b05522d41e3de864f36dfc840d86"
+    },
+    {
+      "path": "oe_eval/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/tasks/aggregate_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b592b63999b30b2e8ae4f727e8e4166a9f5f82c9",
+      "size": 8460,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b592b63999b30b2e8ae4f727e8e4166a9f5f82c9"
+    },
+    {
+      "path": "oe_eval/tasks/base_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9cfd6eaab1758f1a96291080cd2155f64395bed",
+      "size": 30973,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f9cfd6eaab1758f1a96291080cd2155f64395bed"
+    },
+    {
+      "path": "oe_eval/tasks/chat_templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d88d2792b080344ab8f5b133002412bb024ebb15",
+      "size": 9553,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d88d2792b080344ab8f5b133002412bb024ebb15"
+    },
+    {
+      "path": "oe_eval/tasks/eleuther_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2e7c42593827e1826a878b9585720ace84ede8",
+      "size": 8553,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/dd2e7c42593827e1826a878b9585720ace84ede8"
+    },
+    {
+      "path": "oe_eval/tasks/fewshot_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a48d238d62843112e8a34f66199f620ba6abbe",
+      "size": 447098,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/39a48d238d62843112e8a34f66199f620ba6abbe"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca1970adcfae1db1366e0c57d14a6a7e555ed89c",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/ca1970adcfae1db1366e0c57d14a6a7e555ed89c"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a3c0ef526c063ab0bd72325a449b1eac25a3231",
+      "size": 8326,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9a3c0ef526c063ab0bd72325a449b1eac25a3231"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/agi_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2c13a777ecfe94ff76a982092ec08e61c68ba1",
+      "size": 12127,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fe2c13a777ecfe94ff76a982092ec08e61c68ba1"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/aime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5aca6056ae5b89a4d2215a14935696fbf3befc0",
+      "size": 8780,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d5aca6056ae5b89a4d2215a14935696fbf3befc0"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/alpaca_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ac9cdcd2e143a79ddab31f83ff291aadc7e6a3",
+      "size": 9236,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f4ac9cdcd2e143a79ddab31f83ff291aadc7e6a3"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/arc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da12a4e34c1a8043b41361f3e6b42c08c27fa8ca",
+      "size": 5077,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/da12a4e34c1a8043b41361f3e6b42c08c27fa8ca"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/basic_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f1fca3d321f760e3ad9115b08d08d87ff8eb71",
+      "size": 3750,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/01f1fca3d321f760e3ad9115b08d08d87ff8eb71"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/bbh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd7643b1376c3ce4d3fafd0e41dc1e89b8fc96c",
+      "size": 10569,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bfd7643b1376c3ce4d3fafd0e41dc1e89b8fc96c"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/boolq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ec5ae1df6d8beff6d4dfddd6f45c62b68889a7",
+      "size": 2719,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/11ec5ae1df6d8beff6d4dfddd6f45c62b68889a7"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_bigcodebench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e261bd54b76d719bcf4860177fb3fdd60b7c74",
+      "size": 13300,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/89e261bd54b76d719bcf4860177fb3fdd60b7c74"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_humaneval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e592fa13f7ea53195df7f8b7256a58072c0b08",
+      "size": 8453,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a8e592fa13f7ea53195df7f8b7256a58072c0b08"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_humanevalfim.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7c89efe9cf37160bea63a4f3049fe46fe791f1",
+      "size": 8078,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ed7c89efe9cf37160bea63a4f3049fe46fe791f1"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/codex_mbpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df36c12b52c52719c541ed0ca689e384aa516132",
+      "size": 14718,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/df36c12b52c52719c541ed0ca689e384aa516132"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/copa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f845540fc5e9f71fe40edb84265e5cc43f7f4c11",
+      "size": 1679,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f845540fc5e9f71fe40edb84265e5cc43f7f4c11"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/copycolors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8a0f17a33d99b021473dc617370f415f105783",
+      "size": 5736,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ab8a0f17a33d99b021473dc617370f415f105783"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/coqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aacf9e28b667238cd648569a955f5e32392bd7d",
+      "size": 5466,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6aacf9e28b667238cd648569a955f5e32392bd7d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/coqa_mc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88da51de96bffb64c3b0641086432ca80905e6af",
+      "size": 9550,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/88da51de96bffb64c3b0641086432ca80905e6af"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/cosmosqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5255b2a86445e8bb22b2b6264febce7d9dffbb4",
+      "size": 3175,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f5255b2a86445e8bb22b2b6264febce7d9dffbb4"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/cruxeval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf9a88043d7f6b86d06ad7afdd187f52353bb23",
+      "size": 7245,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9cf9a88043d7f6b86d06ad7afdd187f52353bb23"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/csqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b020897bd08ff602d3288c99c582ef682beb012",
+      "size": 3314,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3b020897bd08ff602d3288c99c582ef682beb012"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/deepmind_math.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "309e2f9e3168e4f89fcfee6a909ab7e180b2bbb4",
+      "size": 8762,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/309e2f9e3168e4f89fcfee6a909ab7e180b2bbb4"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/deepseek_leetcode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2c3ed58f0ab18fa67bb7987eb7134add6fa95b",
+      "size": 4140,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fe2c3ed58f0ab18fa67bb7987eb7134add6fa95b"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/drop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8ef9c780446fcce858117a41f9d2e3598ca45d2",
+      "size": 6711,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f8ef9c780446fcce858117a41f9d2e3598ca45d2"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/drop_mc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed4ec631a467446a80504a1863b3928b3cbbe33",
+      "size": 10258,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9ed4ec631a467446a80504a1863b3928b3cbbe33"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ds1000.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "725a8773e26524138dfbd69d66acdd7ff5428800",
+      "size": 5687,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/725a8773e26524138dfbd69d66acdd7ff5428800"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/external_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428ae7752fee612e57a6e2811203b4123c3b58b0",
+      "size": 824,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/428ae7752fee612e57a6e2811203b4123c3b58b0"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gpqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4cc7cdb089e0ed55d1862e87f23441bacfe794b",
+      "size": 8786,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f4cc7cdb089e0ed55d1862e87f23441bacfe794b"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm8k.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e77cf5210726b965bf68de6198352f40f29b73",
+      "size": 13000,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/41e77cf5210726b965bf68de6198352f40f29b73"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm_plus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84112f60c9a19366cdc57e9698117cb91f70fea",
+      "size": 1544,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c84112f60c9a19366cdc57e9698117cb91f70fea"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/gsm_symbolic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4397efaf0bf169d3400ff083d8d94dd6e878937c",
+      "size": 1541,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4397efaf0bf169d3400ff083d8d94dd6e878937c"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/hellaswag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae820d796c37b9b7eda60c28a080ff1c5d981336",
+      "size": 5292,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ae820d796c37b9b7eda60c28a080ff1c5d981336"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/helmet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e87b38abe9cbb593c5f512c051680963dd1ef4a6",
+      "size": 18625,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e87b38abe9cbb593c5f512c051680963dd1ef4a6"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "840eea4114331efedbb750fd22a7aa52ebf66193",
+      "size": 3191,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/840eea4114331efedbb750fd22a7aa52ebf66193"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifeval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266f3375b8b8e71d146252f684f8964cdeeeac62",
+      "size": 4923,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/266f3375b8b8e71d146252f684f8964cdeeeac62"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ifeval_mt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edda81b8b8bcc24f7904e86491b1ebe31844de40",
+      "size": 3572,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/edda81b8b8bcc24f7904e86491b1ebe31844de40"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/jeopardy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50699a9d6e10399bfc47e2fcea4f67e8616a4886",
+      "size": 2854,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/50699a9d6e10399bfc47e2fcea4f67e8616a4886"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/jeopardy_mc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af03f5f8e6bf18af6e7149823a190945ec4e826",
+      "size": 9685,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4af03f5f8e6bf18af6e7149823a190945ec4e826"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lab_bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a517d0552779889a6d051ceb34bb6821037a69",
+      "size": 3648,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e2a517d0552779889a6d051ceb34bb6821037a69"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lambada.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa8e44b8cec6efbd54aa9f6862964eee5e256c8",
+      "size": 3100,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7aa8e44b8cec6efbd54aa9f6862964eee5e256c8"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lbpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6faac2e927e1c0fb691bf01b9b50727ca7e644f",
+      "size": 12687,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a6faac2e927e1c0fb691bf01b9b50727ca7e644f"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/lexam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "899e1700227c4775db17d561c3152d93274b11dc",
+      "size": 5585,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/899e1700227c4775db17d561c3152d93274b11dc"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/livecodebench_codegeneration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19dfcac87585fde6d0d53a8c45a1761a36df7bf1",
+      "size": 17280,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/19dfcac87585fde6d0d53a8c45a1761a36df7bf1"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/logiqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0085f6a442d6427b0bf23a59d4001ab696af0a4",
+      "size": 3859,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d0085f6a442d6427b0bf23a59d4001ab696af0a4"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/masked_ppl_sets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f77b13f0379ca18647fdf348ff87757ae25ee5e4",
+      "size": 2550,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/f77b13f0379ca18647fdf348ff87757ae25ee5e4"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mattbpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c86b892fcf6da403bff3bf4130245edde7e45e5",
+      "size": 2477,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9c86b892fcf6da403bff3bf4130245edde7e45e5"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/medmcqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3787a85509c2d3655f4ed0a2f9a2ef6776720174",
+      "size": 3682,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/3787a85509c2d3655f4ed0a2f9a2ef6776720174"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/medqa_en.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6444f210a6f02f7d6b11ddf6cbde6aa1ecb2ce6e",
+      "size": 3552,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6444f210a6f02f7d6b11ddf6cbde6aa1ecb2ce6e"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/minerva_math.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1254968fa666183e7af2fd1d84cfa29c6dc6608",
+      "size": 12566,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/a1254968fa666183e7af2fd1d84cfa29c6dc6608"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/minerva_math_500.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d72ef7c24faac9201752992db604025ffbce4d39",
+      "size": 1635,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d72ef7c24faac9201752992db604025ffbce4d39"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mmlu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0794a76a9b69d6057f735c29b4eef3fd54814d12",
+      "size": 10715,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/0794a76a9b69d6057f735c29b4eef3fd54814d12"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mmlu_pro.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ac1bb87f76d07e813f35a9593baf47bc7c12d8",
+      "size": 9130,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/36ac1bb87f76d07e813f35a9593baf47bc7c12d8"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mt_alpacaeval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba644aaf9868c27010e7d33920ee344a5f614736",
+      "size": 11683,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ba644aaf9868c27010e7d33920ee344a5f614736"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/mt_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dc10501ba85e5b09a2e93d8da89b7d491bf44cc",
+      "size": 8386,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6dc10501ba85e5b09a2e93d8da89b7d491bf44cc"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/multilingual_mbpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "119ea0bd7697b961b763e15d2dc861ab4f07403d",
+      "size": 8114,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/119ea0bd7697b961b763e15d2dc861ab4f07403d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/multipl_e.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8d30a25227f2d93f86512b5b859703e664b0b7",
+      "size": 5808,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6a8d30a25227f2d93f86512b5b859703e664b0b7"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/naturalqs_open.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ed21024c20174f80e9934bc01565c3b7335d8d",
+      "size": 4231,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/73ed21024c20174f80e9934bc01565c3b7335d8d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/naturalqs_open_mc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "837bb06ac5a429d95cf2f207ef4578884147747d",
+      "size": 10123,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/837bb06ac5a429d95cf2f207ef4578884147747d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/omega.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7e244364e048822f34a59f678a3d6df9799e2b",
+      "size": 5280,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fa7e244364e048822f34a59f678a3d6df9799e2b"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/omega_500.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18e6bd35bca4526926e42c7c322b23c54e65797d",
+      "size": 1239,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/18e6bd35bca4526926e42c7c322b23c54e65797d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/openai_mrcr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b396ec217ca2e9324cfa9f299327a49a13ea704b",
+      "size": 5774,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b396ec217ca2e9324cfa9f299327a49a13ea704b"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/openbookqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337ef151e75138cc3c6bb9b094fb209bb19c73d0",
+      "size": 3986,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/337ef151e75138cc3c6bb9b094fb209bb19c73d0"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/paloma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6004edd9ff4a7033f502b96bd2a88d861a806aca",
+      "size": 2598,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6004edd9ff4a7033f502b96bd2a88d861a806aca"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/piqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d77722672dc4cc47b97850779c4c6731123fb8",
+      "size": 3677,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/14d77722672dc4cc47b97850779c4c6731123fb8"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/popqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8636a6e6ed4b9fd1cfb059334f9ba664d1847ae3",
+      "size": 6530,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8636a6e6ed4b9fd1cfb059334f9ba664d1847ae3"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/qasper_yesno.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0a3a89e62ecc66126039598fc50af3a5c240f3",
+      "size": 3655,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/2f0a3a89e62ecc66126039598fc50af3a5c240f3"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/ruler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05de02e628bd571b2aa6ee2ca33993fab093cf44",
+      "size": 8618,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/05de02e628bd571b2aa6ee2ca33993fab093cf44"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/sciq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c68557215d7615dd008732965ed10a14e6c8dfa1",
+      "size": 3655,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c68557215d7615dd008732965ed10a14e6c8dfa1"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/sciriff_yesno.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19fb197fb95865048202a1dc819ec039f227c69",
+      "size": 4919,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/c19fb197fb95865048202a1dc819ec039f227c69"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/simpleqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b337c9fe2dd6f95ee6320973fb5481f5b951d7",
+      "size": 16562,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/85b337c9fe2dd6f95ee6320973fb5481f5b951d7"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/simpletom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23986a3f532264b87d16574e941d0491c59aa693",
+      "size": 6598,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/23986a3f532264b87d16574e941d0491c59aa693"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/siqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e952dbcffc2b1c3645581b26ee7e2d366191c04e",
+      "size": 3503,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e952dbcffc2b1c3645581b26ee7e2d366191c04e"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/split_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a62835ea6a3c16d55e004dc6d66469822ba723",
+      "size": 7812,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/29a62835ea6a3c16d55e004dc6d66469822ba723"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24f18962aff4b95f069262e58c4e27ab5c87d998",
+      "size": 3804,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/24f18962aff4b95f069262e58c4e27ab5c87d998"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8baf953dac300f9579411dc4e922fcb060b9983d",
+      "size": 4222,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8baf953dac300f9579411dc4e922fcb060b9983d"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/squad_mc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad61e0d16244964bf87c022331c188942fcd6cc0",
+      "size": 10338,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/ad61e0d16244964bf87c022331c188942fcd6cc0"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_alpacaeval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e838c3bd9aa288b624742b8173e81abf0c0230",
+      "size": 10215,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/66e838c3bd9aa288b624742b8173e81abf0c0230"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_math500.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c7c4b80099814d26f89a8a0ae752951b46d2561",
+      "size": 1722,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4c7c4b80099814d26f89a8a0ae752951b46d2561"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_popqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ec4d801a11f1611170eb75ffc1579a6f4bef30",
+      "size": 1216,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/42ec4d801a11f1611170eb75ffc1579a6f4bef30"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/styled_truthfulqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb15418b2185fa0717fb05018c22d05a54acec0",
+      "size": 1147,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/4eb15418b2185fa0717fb05018c22d05a54acec0"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/triviaqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "760e8a5413f2cd028f0e7ec593d9dcdf0aa5e839",
+      "size": 3180,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/760e8a5413f2cd028f0e7ec593d9dcdf0aa5e839"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/truthfulqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "673a500de22fcf227bd0e92776eb35fdd4b7bbdc",
+      "size": 4403,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/673a500de22fcf227bd0e92776eb35fdd4b7bbdc"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/tydiqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc2d0f51fa86bd3346fd88f96ea89b2c0f24cf5",
+      "size": 4669,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/adc2d0f51fa86bd3346fd88f96ea89b2c0f24cf5"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/winogrande.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e539c425ac439e2a90d54e80f9227f88de8f4883",
+      "size": 6973,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e539c425ac439e2a90d54e80f9227f88de8f4883"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/zebralogic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed18964d7a41a9918c59e3e3a6586df6c722cb1",
+      "size": 7369,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/9ed18964d7a41a9918c59e3e3a6586df6c722cb1"
+    },
+    {
+      "path": "oe_eval/tasks/oe_eval_tasks/zero_scrolls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edf8282fd8c667a78efe7e4cdd53750725e0a6c",
+      "size": 4070,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/8edf8282fd8c667a78efe7e4cdd53750725e0a6c"
+    },
+    {
+      "path": "oe_eval/tasks/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f51e10a518ba9bd1f9989a4fb3f0f8671ced4d",
+      "size": 9018,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d1f51e10a518ba9bd1f9989a4fb3f0f8671ced4d"
+    },
+    {
+      "path": "oe_eval/utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f379d56bbc33e78a2205b991cd6be8d60d54bbab",
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/trees/f379d56bbc33e78a2205b991cd6be8d60d54bbab"
+    },
+    {
+      "path": "oe_eval/utilities/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "oe_eval/utilities/datasets_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "125ace8d272bb72fb58bb2e9e2be83455d620cc5",
+      "size": 18786,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/125ace8d272bb72fb58bb2e9e2be83455d620cc5"
+    },
+    {
+      "path": "oe_eval/utilities/extraction_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c27b0319c785eed28339a6c0effed5c13bd551f",
+      "size": 2417,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/6c27b0319c785eed28339a6c0effed5c13bd551f"
+    },
+    {
+      "path": "oe_eval/utilities/gsheet_writing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8f76933f7acffb8b8a6e882087bae3adddd1940",
+      "size": 25439,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/b8f76933f7acffb8b8a6e882087bae3adddd1940"
+    },
+    {
+      "path": "oe_eval/utilities/hf_hub_writing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33b44cd1f8ff53b77cf39e57e52bc560e55c3f6b",
+      "size": 325,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/33b44cd1f8ff53b77cf39e57e52bc560e55c3f6b"
+    },
+    {
+      "path": "oe_eval/utilities/lm_styles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac197bad60aeaf4c9ccf0391a33af416d476ca8",
+      "size": 27083,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/bac197bad60aeaf4c9ccf0391a33af416d476ca8"
+    },
+    {
+      "path": "oe_eval/utilities/model_results_collation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4f20fa2d8ee7972468da120d801568575ccf45",
+      "size": 1824,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5d4f20fa2d8ee7972468da120d801568575ccf45"
+    },
+    {
+      "path": "oe_eval/utilities/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc10d0eb9a1b0949af643594833c770045d5c854",
+      "size": 6733,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/fc10d0eb9a1b0949af643594833c770045d5c854"
+    },
+    {
+      "path": "oe_eval/utilities/remote_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7e94e5e7dbd414b2f398f93ca874d0d7ba7bd40",
+      "size": 4831,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/d7e94e5e7dbd414b2f398f93ca874d0d7ba7bd40"
+    },
+    {
+      "path": "oe_eval/utilities/rtest_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32022c263b0682b6f21b9a2ec0a1999312aa6113",
+      "size": 3942,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/32022c263b0682b6f21b9a2ec0a1999312aa6113"
+    },
+    {
+      "path": "oe_eval/utilities/testing_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b5ece4abf6dcc1b2629dd16bafee599c368cfc",
+      "size": 19460,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/99b5ece4abf6dcc1b2629dd16bafee599c368cfc"
+    },
+    {
+      "path": "oe_eval/utilities/wandb_writing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d2ff692dfee5ba1146975102ad07eb4907b69e",
+      "size": 1493,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/25d2ff692dfee5ba1146975102ad07eb4907b69e"
+    },
+    {
+      "path": "oe_eval/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dec1caddac5302ca56180ca20cba971d27fddfb",
+      "size": 18303,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/5dec1caddac5302ca56180ca20cba971d27fddfb"
+    },
+    {
+      "path": "oe_eval/version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1aef3bea1e4e4e7b8c8a98ce514e77d979771f",
+      "size": 407,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/7c1aef3bea1e4e4e7b8c8a98ce514e77d979771f"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7c3a085db2c15f89d38ba3a28d653c2e2b795a",
+      "size": 5473,
+      "url": "https://api.github.com/repos/goodfire-ai/olmes/git/blobs/cb7c3a085db2c15f89d38ba3a28d653c2e2b795a"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-10-30T16:17:01.499493+00:00",
+  "publication_urls": 65,
+  "blogs": 21,
+  "research_entries": 44,
+  "publication_texts_stored": 65,
+  "official_repositories": 26,
+  "pinned_repositories": 26,
+  "repository_snapshots": 26,
+  "indexed_repository_source_files": 4522,
+  "linked_repository_records": 14,
+  "primary_linked_paper_records": 22,
+  "primary_paper_texts_stored": 20,
+  "reference_paper_urls": 331,
+  "appearance_source_records": 105,
+  "confirmed_appearance_source_records": 41,
+  "appearance_participation": {
+    "review_required": 52,
+    "commentary_or_narration": 3,
+    "confirmed": 41,
+    "index_only": 2,
+    "announced": 1,
+    "out_of_scope": 5,
+    "superseded": 1
+  },
+  "transcript_records_all": 24,
+  "confirmed_transcript_source_records": 20,
+  "distinct_confirmed_text_hashes": 19,
+  "confirmed_transcript_kinds": {
+    "native_caption_track": 1,
+    "local_whisper": 10,
+    "publisher_transcript": 9
+  },
+  "acquisition_failures": 20,
+  "exhaustive_coverage_established": false,
+  "limits": [
+    "Source URLs are not distinct event counts.",
+    "Some paper links are citations rather than Goodfire-authored work.",
+    "YouTube rate limiting leaves caption availability unknown.",
+    "Full texts and snapshots are local research copies in ignored private/.",
+    "Machine transcripts are unverified and not diarized.",
+    "No recurring collection schedule is installed."
+  ]
+}

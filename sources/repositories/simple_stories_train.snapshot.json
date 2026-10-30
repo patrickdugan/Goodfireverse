@@ -1,0 +1,237 @@
+{
+  "repository": "https://github.com/goodfire-ai/simple_stories_train",
+  "revision": "92a9a73a877306d26c4a5190c3c9fc01fe07f8f4",
+  "archive_sha256": "cf06e259d43d9af7fbd9c90e676df9f01a383451ae2875e7295ce84dfc4ba046",
+  "source_files": [
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "7ad0230d83b5d4ee58d1ac364a690a40fb10b2aa650f4e24346d8cee7de8ab50",
+      "bytes": 566
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "sha256": "caa7a2d0c4a2ebd5cb9cb522b458fa5b5fba5425795065dae5ffc21eda93f25f",
+      "bytes": 831
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha256": "c5eb3c71aa94142efe9ea338716937df10501052dbaf49c13e253ec2f8363999",
+      "bytes": 808
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "sha256": "3f73134acfffaa2576beb7b28963dc456e180020539bea0a6fd8f101b53a6f70",
+      "bytes": 170
+    },
+    {
+      "path": ".vscode/launch.json",
+      "sha256": "f67f3e7672fb1269080f87be36b0fe32ed58f315937834d65a304a8f660143e1",
+      "bytes": 878
+    },
+    {
+      "path": ".vscode/settings-example.json",
+      "sha256": "e0344eb74f1a75c28c0b430bd198c69ee7547d6184be00ab3954dcddc4081b26",
+      "bytes": 429
+    },
+    {
+      "path": "ACCESS.md",
+      "sha256": "91c3bb30e549fd6a28e9c54d71f1304507d81ef1617fab9629e043c803c34024",
+      "bytes": 143
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "81947154984be244846e85e2e42be9b2d6d6518bd666b24964bd8e68570aabc6",
+      "bytes": 1066
+    },
+    {
+      "path": "Makefile",
+      "sha256": "0dae0bca6574e2f4c09cfcd55fe490b7e93f4a8617820c25988e1d766c2131cb",
+      "bytes": 593
+    },
+    {
+      "path": "README.md",
+      "sha256": "acfc26c1a709bbac43b0d14bf1312ddc01a4e33e269b238bb99b197bc9f4a5dd",
+      "bytes": 3586
+    },
+    {
+      "path": "conftest.py",
+      "sha256": "d4ef30223631f0ceab74595d5a0133fa339c0de8fecc392857e40bdf7cfadae3",
+      "bytes": 850
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "662d8b3705f216b0f362ce4a817244bb82a447997e8d06541e412571931acc41",
+      "bytes": 1914
+    },
+    {
+      "path": "scripts/collect_ln_stats.py",
+      "sha256": "3e151104676f88804c0dcd547be4fe7b17f9167464163454999555d1e21dd5a2",
+      "bytes": 4110
+    },
+    {
+      "path": "setup_pkg.sh",
+      "sha256": "a0e7f7108a3aa91493981a53bfea601b2669f17b4cf14c2e6e138063dae33a71",
+      "bytes": 1113
+    },
+    {
+      "path": "simple_stories_train/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "simple_stories_train/base_config.py",
+      "sha256": "452216f1ac5ecf3c69afeddabf28441742d44837180bb25538da7c8dc707b33a",
+      "bytes": 209
+    },
+    {
+      "path": "simple_stories_train/configs/gpt2_simple_2L.yaml",
+      "sha256": "b0e2324f34e31df024dadb0d959bab7e62cede523b770cfa6eb16a105136fe90",
+      "bytes": 877
+    },
+    {
+      "path": "simple_stories_train/configs/llama_simple_mlp_2L.yaml",
+      "sha256": "99a0e2d15960a18c1bf4404431039351ead5f41ad7deb18a3051b980f0ceb4b0",
+      "bytes": 984
+    },
+    {
+      "path": "simple_stories_train/configs/llama_simple_mlp_4L_wide.yaml",
+      "sha256": "818cb16c37201d39e1daf7bffdbd3971edd7b2464c939ecd33f597ddf04bf7bf",
+      "bytes": 984
+    },
+    {
+      "path": "simple_stories_train/configs/pile_llama_simple_mlp_2L.yaml",
+      "sha256": "c5f6a793cab4338515393b1fdc525d193fbea0725f313947fe5cf3e90b56e598",
+      "bytes": 1018
+    },
+    {
+      "path": "simple_stories_train/configs/pile_llama_simple_mlp_4L.yaml",
+      "sha256": "fa7c776eb4e04d1c4c8641a71b3c6225bc067484d935bf463297bc55ae4f63c4",
+      "bytes": 1018
+    },
+    {
+      "path": "simple_stories_train/dataloaders.py",
+      "sha256": "d682e7e22edb775c5ca33a75eb4bc40154e50fcdd135f5381d24db564e15a801",
+      "bytes": 10418
+    },
+    {
+      "path": "simple_stories_train/deploy_train.py",
+      "sha256": "877072b9cf4df9c574f6281dcc5db79557468f62a385db299a6b6cfdc84e2633",
+      "bytes": 5212
+    },
+    {
+      "path": "simple_stories_train/ln_free.py",
+      "sha256": "2447ca86268f28156f3a5b85a96e1de9c83c796d5747388a9864fe6c3aa13520",
+      "bytes": 3065
+    },
+    {
+      "path": "simple_stories_train/log.py",
+      "sha256": "eafde7cb496234e47454f58f25c75cd5c6cd03fb23e47899ccf22999089e657b",
+      "bytes": 1962
+    },
+    {
+      "path": "simple_stories_train/models/__init__.py",
+      "sha256": "c9420bee0c38f772b4727fc11877dc759ab4bf660abe89bb8db30d773e75e581",
+      "bytes": 1238
+    },
+    {
+      "path": "simple_stories_train/models/gpt2.py",
+      "sha256": "e15a9a7ec8510faa9db272e2ac65297d6c50c73cce7069bc98f4588c657dbaa8",
+      "bytes": 17824
+    },
+    {
+      "path": "simple_stories_train/models/gpt2_simple.py",
+      "sha256": "b0012ea16f8985e1ef0626a239f920f92281add67a77e1285062ffff6233018b",
+      "bytes": 13376
+    },
+    {
+      "path": "simple_stories_train/models/llama.py",
+      "sha256": "80b1f0f802fa09cbb3457c5d59f4798461f3a2eac746c367c75a61732e6d1b95",
+      "bytes": 27678
+    },
+    {
+      "path": "simple_stories_train/models/llama_simple.py",
+      "sha256": "48d3df78ff15c55abe6d7cc18a19efadb98f49f681b507d38577d11ff3aa15c0",
+      "bytes": 22395
+    },
+    {
+      "path": "simple_stories_train/models/llama_simple_mlp.py",
+      "sha256": "a0d7ed3d18fa333504714638da9e764e801f81f0647d92782b3b208c254c76cf",
+      "bytes": 21554
+    },
+    {
+      "path": "simple_stories_train/run_info.py",
+      "sha256": "3d3c8603f147f455dc75018fd42acd7bc0814f215784b193c3eda753bf73b380",
+      "bytes": 9882
+    },
+    {
+      "path": "simple_stories_train/settings.py",
+      "sha256": "7b6da1e6dd3c0eaf38bc74dea8c7cdacfeda49899d6070e1532d033c85fccc29",
+      "bytes": 292
+    },
+    {
+      "path": "simple_stories_train/tinyshakespeare.py",
+      "sha256": "96ce4130ce452e20ae6ecd775654cd060a32a89919ffec37bc7477f17c5ead13",
+      "bytes": 7005
+    },
+    {
+      "path": "simple_stories_train/tokenizer.py",
+      "sha256": "2fb5359b0e10da44d4dbda5fc2629ee28e8eb9734b537f6d2b00846fc13407b5",
+      "bytes": 8629
+    },
+    {
+      "path": "simple_stories_train/tokenizer/simplestories-4096.json",
+      "sha256": "db7cdb1b1d23e2788cb816f3d336124ee00cc3a0d2f21fa9e934bbfb7d26c293",
+      "bytes": 88136
+    },
+    {
+      "path": "simple_stories_train/tokenizer/simplestories-tokenizer.json",
+      "sha256": "64d914c8e3015325b6caacd5d9d9908d8594da7af9bf27b2680fa10e489609d5",
+      "bytes": 86286
+    },
+    {
+      "path": "simple_stories_train/tokenizer/stories-3072.json",
+      "sha256": "e67ad0e25a1f35e8016a9e2b9cd4c755d906d5edbb775373eb7a10c56a5257dd",
+      "bytes": 70927
+    },
+    {
+      "path": "simple_stories_train/train.py",
+      "sha256": "c894256396121e8c4818dcbc0dc678a65e30977752d41af151160083db09a079",
+      "bytes": 19734
+    },
+    {
+      "path": "simple_stories_train/utils.py",
+      "sha256": "f5c746fea09b5c755cbcb7f24de78d7323a0f5b51a4a633342445b1a90eb752a",
+      "bytes": 6435
+    },
+    {
+      "path": "tests/test_dataloader.py",
+      "sha256": "33624dbcd80e19ba00c7ebae95d2022eba76c7bda95ebdd4a16fdc71da0d6b8d",
+      "bytes": 2137
+    },
+    {
+      "path": "tests/test_gpt2_hf_converters.py",
+      "sha256": "a60407603f2b1e7df8a22755a33b764fb2e28c5d5234ea22b54643103ba38ad3",
+      "bytes": 2195
+    },
+    {
+      "path": "tests/test_llama_implementation.py",
+      "sha256": "34e6afa5500fcb0ba71bc8c807bfc96e8a94ea2aabb499f1af7dc5b727f901a9",
+      "bytes": 7001
+    },
+    {
+      "path": "tests/test_simple_gpt2.py",
+      "sha256": "a8d5a64a683484c30a5bb4e2318630ef1a155f0962db95f9d3542cb2983715b1",
+      "bytes": 1917
+    },
+    {
+      "path": "tests/test_tokenizer.py",
+      "sha256": "febefec20aeb1787b686d0987e6ee54a1a9daf886f6ae488df7e7802f1760126",
+      "bytes": 3553
+    },
+    {
+      "path": "tests/test_utils.py",
+      "sha256": "227641929cd25f03d781047103b8a56475a4f66ac52cfc4007940853321ac842",
+      "bytes": 1155
+    }
+  ]
+}

@@ -1,0 +1,4514 @@
+{
+  "repository": "https://github.com/goodfire-ai/param-decomp",
+  "revision": "177d0cce809896d9d84b2bd04bbc2e319c64e9d0",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0c7786336f10ef95c92992df3cf2242a2d80c5",
+      "size": 57,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fd0c7786336f10ef95c92992df3cf2242a2d80c5"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b855f494fb469a04f80d6c744dc072272b1a2d29",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/b855f494fb469a04f80d6c744dc072272b1a2d29"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e07eecb1e233f40612c314c50e869082de6149",
+      "size": 264,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/75e07eecb1e233f40612c314c50e869082de6149"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8f8eeacac5674cb3da38554222c4a6f2e876a6",
+      "size": 565,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5d8f8eeacac5674cb3da38554222c4a6f2e876a6"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3969314197232eccea82bfeec096687d9b1b27e8",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/3969314197232eccea82bfeec096687d9b1b27e8"
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a92fe2075cb62b5ad99bd6304950f23c0e82d28",
+      "size": 7491,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5a92fe2075cb62b5ad99bd6304950f23c0e82d28"
+    },
+    {
+      "path": ".github/workflows/claude.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a77077482833695415f4b3ac8bb89ccf91d4aa32",
+      "size": 1101,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a77077482833695415f4b3ac8bb89ccf91d4aa32"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe8a614011cd38a7de5c826ca01180c1c63585c",
+      "size": 3362,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ebe8a614011cd38a7de5c826ca01180c1c63585c"
+    },
+    {
+      "path": ".mcp.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da39e4ffafe816be90259a3f68b763a3f71b93ed",
+      "size": 23,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/da39e4ffafe816be90259a3f68b763a3f71b93ed"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24e19f69a02ce5d0bb014badedf4e49e947f383",
+      "size": 705,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e24e19f69a02ce5d0bb014badedf4e49e947f383"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e608247fbe3b130c9c0d9bde90722898f39119cc",
+      "size": 11165,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e608247fbe3b130c9c0d9bde90722898f39119cc"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e608247fbe3b130c9c0d9bde90722898f39119cc",
+      "size": 11165,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e608247fbe3b130c9c0d9bde90722898f39119cc"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4278fe58f7f37cef0a12f2579f68e170610063d",
+      "size": 1065,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f4278fe58f7f37cef0a12f2579f68e170610063d"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75a002b5e8748227a6ceb8995419cc532e468f3b",
+      "size": 20270,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/75a002b5e8748227a6ceb8995419cc532e468f3b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e608247fbe3b130c9c0d9bde90722898f39119cc",
+      "size": 11165,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e608247fbe3b130c9c0d9bde90722898f39119cc"
+    },
+    {
+      "path": "conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e13dbd8b9b4622257a82095680bbcb4d275845a6",
+      "size": 5702,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e13dbd8b9b4622257a82095680bbcb4d275845a6"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b16690be2101b02e3e87ea365bd73071c6603795",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/b16690be2101b02e3e87ea365bd73071c6603795"
+    },
+    {
+      "path": "docs/handbook.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e732165acb7c2280dfe8c2d37d192c2a55ff915",
+      "size": 30654,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5e732165acb7c2280dfe8c2d37d192c2a55ff915"
+    },
+    {
+      "path": "docs/skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d5750eb297781c4d0ed82883f5fed691636ff9",
+      "size": 31201,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e2d5750eb297781c4d0ed82883f5fed691636ff9"
+    },
+    {
+      "path": "docs/wandb-metrics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db52144319b34101a0536ff59c9c8334aee1fd10",
+      "size": 1952,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/db52144319b34101a0536ff59c9c8334aee1fd10"
+    },
+    {
+      "path": "nano_param_decomp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "acde0f41496576cb4c3faa5b7c6881229ba13ebd",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/acde0f41496576cb4c3faa5b7c6881229ba13ebd"
+    },
+    {
+      "path": "nano_param_decomp/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ce3da0b769aa29635bec96d13d5c47de0c5646",
+      "size": 47481,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/71ce3da0b769aa29635bec96d13d5c47de0c5646"
+    },
+    {
+      "path": "papers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "170d8e20a415cc3e9c84d773a698abf841f9712f",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/170d8e20a415cc3e9c84d773a698abf841f9712f"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05971ce97931383c18291a98f9b83f23d18d3c27",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/05971ce97931383c18291a98f9b83f23d18d3c27"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/apd_paper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3a15bf9c7c679dcd377d97c2848bd0844461fdb",
+      "size": 123992,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c3a15bf9c7c679dcd377d97c2848bd0844461fdb"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de8d174f710bead677fbbbd1ee0d2ba8b8b77c52",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/de8d174f710bead677fbbbd1ee0d2ba8b8b77c52"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/apd_tms_overview-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "988036573e320d81a5291941036dd9a042d06821",
+      "size": 175384,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/988036573e320d81a5291941036dd9a042d06821"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/feature_response_with_subnets_42_1layers_8qz1si1l.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e958f703e91146120e9fea0056f57a90d13700",
+      "size": 157260,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/57e958f703e91146120e9fea0056f57a90d13700"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/feature_response_with_subnets_42_2layers_cb0ej7hj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc997bc27057218daa3b9e0cccb69dd54029bb0",
+      "size": 162691,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5fc997bc27057218daa3b9e0cccb69dd54029bb0"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/l_p_formulation-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5928d7627b628f4e034ed767caca665ff3666d8",
+      "size": 57046,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a5928d7627b628f4e034ed767caca665ff3666d8"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/minimality_target-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce110f532c160411d50cb38445214b9bc4cbd631",
+      "size": 89832,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ce110f532c160411d50cb38445214b9bc4cbd631"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/model_functions_paper.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac06dedcc874aca72432f300477ee681f2674c3",
+      "size": 118186,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/eac06dedcc874aca72432f300477ee681f2674c3"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid1_side-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cda5281540ba9e59549372385d6ed7db60d59c8",
+      "size": 15038,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2cda5281540ba9e59549372385d6ed7db60d59c8"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid2_side-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f8e39c49fd1b98df6a3f7435f4b1f43cce332b",
+      "size": 18087,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c2f8e39c49fd1b98df6a3f7435f4b1f43cce332b"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_avg_components_scatter_1layers_8qz1si1l.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05fddaac3e9c2b330a8004c38123c97a0bd63182",
+      "size": 37417,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/05fddaac3e9c2b330a8004c38123c97a0bd63182"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_avg_components_scatter_2layers_cb0ej7hj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec55de4e74736292002b7c97bb671a14392befc8",
+      "size": 39317,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ec55de4e74736292002b7c97bb671a14392befc8"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_feature_response_multi_1layers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c726dcd41907fe04a862f765a09ff9a709f3943",
+      "size": 437210,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6c726dcd41907fe04a862f765a09ff9a709f3943"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_feature_response_multi_2layers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdc3a5c24db347c6ae33bac5330b76f74d3d41a",
+      "size": 433873,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4fdc3a5c24db347c6ae33bac5330b76f74d3d41a"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_feature_response_single_1layers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddbb3f9aa54d49c8574590b271759edb3ada3dd",
+      "size": 176633,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dddbb3f9aa54d49c8574590b271759edb3ada3dd"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_feature_response_single_2layers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79e567b092504ab1cabac5173e8e9bebdbf6807",
+      "size": 177711,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e79e567b092504ab1cabac5173e8e9bebdbf6807"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_per_feature_performance_1layers_8qz1si1l.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e9fb379b2d2d51164cc3c4e851a3ee7467ac68",
+      "size": 63336,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c3e9fb379b2d2d51164cc3c4e851a3ee7467ac68"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_per_feature_performance_1layers_9a639c6w.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e1ad5c1be5ddc50b5f4e5aedcd9dc788e7ff4c1",
+      "size": 66746,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3e1ad5c1be5ddc50b5f4e5aedcd9dc788e7ff4c1"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_per_feature_performance_2layers_cb0ej7hj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66007585502bb67813569c9ba5b5169ae0648b58",
+      "size": 65414,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/66007585502bb67813569c9ba5b5169ae0648b58"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_per_feature_performance_2layers_wbeghftm.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b24030b584609055133196dbd3afb56b4dc71fbc",
+      "size": 64882,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b24030b584609055133196dbd3afb56b4dc71fbc"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_scrub_hist_1layers_8qz1si1l.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9ee4a74ae5bfdfbf1b1e810394823e42b8f6ce",
+      "size": 127738,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6a9ee4a74ae5bfdfbf1b1e810394823e42b8f6ce"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_scrub_hist_2layers_cb0ej7hj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c1eb6082f6f55ce913ac445a79473e71b66a0a4",
+      "size": 131032,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9c1eb6082f6f55ce913ac445a79473e71b66a0a4"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_weights_1layers_8qz1si1l.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72575dbf15743d5712ee33f9bec6238e897b0336",
+      "size": 82294,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/72575dbf15743d5712ee33f9bec6238e897b0336"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/resid_mlp_weights_2layers_cb0ej7hj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4042c511a004afc029c243d3c32cb10d89aa83c0",
+      "size": 83440,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4042c511a004afc029c243d3c32cb10d89aa83c0"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/spd_target2-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d2ccb87a2d8a9492f32916becf1bb946d10bf30",
+      "size": 65374,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8d2ccb87a2d8a9492f32916becf1bb946d10bf30"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/subnetworks_graph_plots.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af8f0288457697f9a00fe1d9fa49091d5584f6dc",
+      "size": 1957449,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/af8f0288457697f9a00fe1d9fa49091d5584f6dc"
+    },
+    {
+      "path": "papers/Attribution_based_Parameter_Decomposition/figures/tms_combined_diagram.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f0f3b66923bf94445f5bffc6046b4fa20593d0",
+      "size": 641085,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/29f0f3b66923bf94445f5bffc6046b4fa20593d0"
+    },
+    {
+      "path": "papers/Interpreting_Language_Model_Parameters.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "318d44e4e65bc3cecbf66e9f3c9cf53f69f1c89a",
+      "size": 293082,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/318d44e4e65bc3cecbf66e9f3c9cf53f69f1c89a"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c01c3c7e3070b0c51d5daed18c5d9e76ed057a0",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/1c01c3c7e3070b0c51d5daed18c5d9e76ed057a0"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62b07de6aa2f430175301a3481828246ae5a221b",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/62b07de6aa2f430175301a3481828246ae5a221b"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/causal_importance_upper_leaky_2layers_wau744ht.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a105f066b8c8b8106471257c9a6359d4158d795",
+      "size": 522768,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3a105f066b8c8b8106471257c9a6359d4158d795"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/causal_importance_upper_leaky_3layers_qqdugze1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f07aa422b9c4720a3f8634857f35ed00b5301653",
+      "size": 803092,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f07aa422b9c4720a3f8634857f35ed00b5301653"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/neuron_contribution_pairs_1layers_ziro93xq.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb97e38adf809b0def3a93cf927334f38691ba7d",
+      "size": 324269,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bb97e38adf809b0def3a93cf927334f38691ba7d"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/neuron_contribution_pairs_2layers_wau744ht.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b10b5d9bcac4070af8baac9003cce6da1c0ba4",
+      "size": 406806,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/24b10b5d9bcac4070af8baac9003cce6da1c0ba4"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/neuron_contribution_pairs_3layers_qqdugze1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb2c12a54b3ebe707d2a5a56bbdd93875415f63",
+      "size": 422916,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/eeb2c12a54b3ebe707d2a5a56bbdd93875415f63"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/resid1_side-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cda5281540ba9e59549372385d6ed7db60d59c8",
+      "size": 15038,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2cda5281540ba9e59549372385d6ed7db60d59c8"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/resid2_side-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f8e39c49fd1b98df6a3f7435f4b1f43cce332b",
+      "size": 18087,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c2f8e39c49fd1b98df6a3f7435f4b1f43cce332b"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/resid_mlp_varying_importance_minimality_coeff_ci_vals.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94dc5a4b6a4271847ad1d09d38b4ce315f8e7b9d",
+      "size": 511210,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/94dc5a4b6a4271847ad1d09d38b4ce315f8e7b9d"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/resid_mlp_weights_1layers_ziro93xq.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b450a5d4b03cbeb7ab018a4ff3e7615f2cc05512",
+      "size": 602664,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b450a5d4b03cbeb7ab018a4ff3e7615f2cc05512"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/tms_combined_diagram_5-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f452110571d3d0d36ecb8ba07339a4e212c40ab5",
+      "size": 576147,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f452110571d3d0d36ecb8ba07339a4e212c40ab5"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/tms_full_network_5-2-identity.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9a63be2ed4318009824e8d86e55d5f060df7b3",
+      "size": 972218,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0e9a63be2ed4318009824e8d86e55d5f060df7b3"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/tms_hidden_layers_5-2-identity.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29612426b7bd04926022ed3b525a7c2ff1018177",
+      "size": 92579,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/29612426b7bd04926022ed3b525a7c2ff1018177"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/figures/tms_vectors_5-2-identity.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d2220005b6d6fc0dab7c90b7e4be576916671b0",
+      "size": 163965,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3d2220005b6d6fc0dab7c90b7e4be576916671b0"
+    },
+    {
+      "path": "papers/Stochastic_Parameter_Decomposition/spd_paper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0e02008869d5dcab1f511ddb0beceaa2c0e879",
+      "size": 77528,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0c0e02008869d5dcab1f511ddb0beceaa2c0e879"
+    },
+    {
+      "path": "param_decomp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a914b4f3dbc8fbfd9f4258f361225bd2660ca30e",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/a914b4f3dbc8fbfd9f4258f361225bd2660ca30e"
+    },
+    {
+      "path": "param_decomp/MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49845701788b3f9da163f8b86a68c0a0f7cda088",
+      "size": 62,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/49845701788b3f9da163f8b86a68c0a0f7cda088"
+    },
+    {
+      "path": "param_decomp/param_decomp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3af211ea13345a67974e0e1ff25ba1fdec97046",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/d3af211ea13345a67974e0e1ff25ba1fdec97046"
+    },
+    {
+      "path": "param_decomp/param_decomp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f41a4738a22f4ce91572460fce57546cfb6637d8",
+      "size": 6494,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f41a4738a22f4ce91572460fce57546cfb6637d8"
+    },
+    {
+      "path": "param_decomp/param_decomp/attention_kl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab0ea3da2232232212d30d458ad7a0fca459072",
+      "size": 20354,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5ab0ea3da2232232212d30d458ad7a0fca459072"
+    },
+    {
+      "path": "param_decomp/param_decomp/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d45e49731b989ae209f8bb0f62aafd55d7cc6c20",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/d45e49731b989ae209f8bb0f62aafd55d7cc6c20"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ba719407859cbac63d142f25cf9fe5f59a8a5a",
+      "size": 58385,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f1ba719407859cbac63d142f25cf9fe5f59a8a5a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ba719407859cbac63d142f25cf9fe5f59a8a5a",
+      "size": 58385,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f1ba719407859cbac63d142f25cf9fe5f59a8a5a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/LOSS_PARITY_DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a6d495eb080795d2170f2ceecaabefb9d2afdd",
+      "size": 28023,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/33a6d495eb080795d2170f2ceecaabefb9d2afdd"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/PLACEMENT_DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f988f8807a0faa2be51a7d864fde9d0911c870d6",
+      "size": 33128,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f988f8807a0faa2be51a7d864fde9d0911c870d6"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ba719407859cbac63d142f25cf9fe5f59a8a5a",
+      "size": 58385,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f1ba719407859cbac63d142f25cf9fe5f59a8a5a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/adversary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2556ea83ce1fb53adcc84eeb2b47de36543b01a9",
+      "size": 24717,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2556ea83ce1fb53adcc84eeb2b47de36543b01a9"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481d4bf876031f52c57ffaf302e5519f5a28f81f",
+      "size": 2973,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/481d4bf876031f52c57ffaf302e5519f5a28f81f"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/built_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a8e6f0761af14b217094176c92f8d183078e5e",
+      "size": 3715,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/70a8e6f0761af14b217094176c92f8d183078e5e"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cba43087260902ecb2add49be64527d475c6a24",
+      "size": 8219,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8cba43087260902ecb2add49be64527d475c6a24"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc343883461905d3f289ceade0801fc3ec53f1b4",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/bc343883461905d3f289ceade0801fc3ec53f1b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432f47c4b38244ccddadc560413ce988bad2a8b2",
+      "size": 11134,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/432f47c4b38244ccddadc560413ce988bad2a8b2"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f434e4d0decb492f2e90a5f2e121bb9984e2b3cb",
+      "size": 74,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f434e4d0decb492f2e90a5f2e121bb9984e2b3cb"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/architecture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9525f1cec8494ef90289a7fe3bd35fe653d43064",
+      "size": 2344,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9525f1cec8494ef90289a7fe3bd35fe653d43064"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52f6dc7d2fcdd252ed5047c06ac93b1f244c94d8",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/52f6dc7d2fcdd252ed5047c06ac93b1f244c94d8"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9a9c6b8c80b350cef7898b80f1b2335be0b2e1",
+      "size": 88,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ad9a9c6b8c80b350cef7898b80f1b2335be0b2e1"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/block_selected",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48729928c9596174e3c4f86b18db1d3591d77fce",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/48729928c9596174e3c4f86b18db1d3591d77fce"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/block_selected/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5c4fadbae24c7a2e7268f1c52de11ec60ca0a8",
+      "size": 96,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9e5c4fadbae24c7a2e7268f1c52de11ec60ca0a8"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/block_selected/arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274e67c218d547a7b0b652d1f841d7a0ab8093ae",
+      "size": 49035,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/274e67c218d547a7b0b652d1f841d7a0ab8093ae"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/block_selected/placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84a1a15ac735db72afc669d373fcc6e287947a8",
+      "size": 6243,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b84a1a15ac735db72afc669d373fcc6e287947a8"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/block_selected/routing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52134502f27c9d7d3db79c8829d5c03fe7b3759d",
+      "size": 4444,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/52134502f27c9d7d3db79c8829d5c03fe7b3759d"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/chunkwise",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc5e5dbad048faa19b316bf6f978c59e788004de",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/fc5e5dbad048faa19b316bf6f978c59e788004de"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/chunkwise/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2655d47102f6586541ee4c95abd8ab686362dd1a",
+      "size": 96,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2655d47102f6586541ee4c95abd8ab686362dd1a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/chunkwise/arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5445a007fd8df83877c65c6c8a9ef1ff759b2ab4",
+      "size": 25748,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5445a007fd8df83877c65c6c8a9ef1ff759b2ab4"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/chunkwise/chunk_stack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b43f2a2733c392a3b84204ebad3445b9ff53dea",
+      "size": 2332,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5b43f2a2733c392a3b84204ebad3445b9ff53dea"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/chunkwise/placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80de7a1f49867bc17110216ffd1c479d03bf39c4",
+      "size": 9052,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/80de7a1f49867bc17110216ffd1c479d03bf39c4"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/global_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1a1a51a3e1763af3e4d8b59784d28d702cea21",
+      "size": 6397,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ce1a1a51a3e1763af3e4d8b59784d28d702cea21"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/global_transformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ba7c633abb678bf804d1deefdcaeed1696037cc",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/6ba7c633abb678bf804d1deefdcaeed1696037cc"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/global_transformer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08abc1d35eebdcbd9282c48bbec5a09bb7b48c86",
+      "size": 75,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/08abc1d35eebdcbd9282c48bbec5a09bb7b48c86"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/global_transformer/arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7fa628b7fe66c3e44f95f5f4abcbb9203f40b1c",
+      "size": 14612,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e7fa628b7fe66c3e44f95f5f4abcbb9203f40b1c"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/global_transformer/placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0719184e2549cd4a786ed460563ce3b2eb5e9f9",
+      "size": 4618,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c0719184e2549cd4a786ed460563ce3b2eb5e9f9"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/layerwise_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "169e795d95949b38db4e45b060b8accfaae379ba",
+      "size": 6233,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/169e795d95949b38db4e45b060b8accfaae379ba"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5b6cdf62c6baebaad9018d912a6beeb80d077f",
+      "size": 3779,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8a5b6cdf62c6baebaad9018d912a6beeb80d077f"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98b8461fbd605b1e56860d8a52813aa13be30f35",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/98b8461fbd605b1e56860d8a52813aa13be30f35"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e60489b4415c3e0b0a2ae542e1a2db62caeab2",
+      "size": 99,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/99e60489b4415c3e0b0a2ae542e1a2db62caeab2"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer/backbone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399a7447b4c91edcf1e39fb6fccfc85260e33916",
+      "size": 3298,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/399a7447b4c91edcf1e39fb6fccfc85260e33916"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer/component_conditioning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5407ea695f9b84aac365304ff664b34bcad69c9",
+      "size": 17262,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e5407ea695f9b84aac365304ff664b34bcad69c9"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer/layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de24822e066aa4efeab8261551bcfdf42223c47",
+      "size": 25448,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4de24822e066aa4efeab8261551bcfdf42223c47"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/implementations/transformer/placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bbcc529012d9c9c038039c0f48f8c7a7bef4299",
+      "size": 5152,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9bbcc529012d9c9c038039c0f48f8c7a7bef4299"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfb69e43def0df0d27cbaf65d20f835d4590c0f8",
+      "size": 4532,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bfb69e43def0df0d27cbaf65d20f835d4590c0f8"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00fe9dd1f59504601a8242a4dd7fa00ac373a3b9",
+      "size": 2726,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/00fe9dd1f59504601a8242a4dd7fa00ac373a3b9"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ef96fd58c8a5567e7b69947f902ded374e2d68",
+      "size": 839,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/33ef96fd58c8a5567e7b69947f902ded374e2d68"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_fn/squashing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65c462cba5f07521567daafd8b0b7bd661c44be4",
+      "size": 1351,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/65c462cba5f07521567daafd8b0b7bd661c44be4"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/ci_l0_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c57f6ef9a0a6382df883ce5fb960167291c235",
+      "size": 5634,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b9c57f6ef9a0a6382df883ce5fb960167291c235"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/components.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db98b4fd9aa70b3e9394b11772e0d9b345dafccc",
+      "size": 29236,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/db98b4fd9aa70b3e9394b11772e0d9b345dafccc"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e432217e80d0dc5a841f361ad1a4f73ca872b46d",
+      "size": 50146,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e432217e80d0dc5a841f361ad1a4f73ca872b46d"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/decomposed_linear.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc79461de8e0fbd9941138946216e0fcfb0e1a08",
+      "size": 11234,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cc79461de8e0fbd9941138946216e0fcfb0e1a08"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/dict_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0558e102c8a9253abd394766e1f0402eacdf6a6",
+      "size": 1339,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d0558e102c8a9253abd394766e1f0402eacdf6a6"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/eval_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77a59d0c1f1b39698731c5f8379cbf2ec9bd4ff",
+      "size": 1014,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d77a59d0c1f1b39698731c5f8379cbf2ec9bd4ff"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/faithfulness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bbc469b1d77560144b100d5fe089ed8737e5a67",
+      "size": 4591,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7bbc469b1d77560144b100d5fe089ed8737e5a67"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/family.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e0b3295f6a8f89d3172d014e43a47e44774e0d",
+      "size": 4390,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a4e0b3295f6a8f89d3172d014e43a47e44774e0d"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7254dfca34cdc649dd604ce9ddd70df317301739",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/7254dfca34cdc649dd604ce9ddd70df317301739"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4a84118ef79facbac286e377f034b2dbb9fd6b",
+      "size": 74,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2d4a84118ef79facbac286e377f034b2dbb9fd6b"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784246a738d491a48c8093ad2def1c382695e7b5",
+      "size": 1278,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/784246a738d491a48c8093ad2def1c382695e7b5"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1a9b8a814c90dd0f0a7d7873ade458517fc297",
+      "size": 11141,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2c1a9b8a814c90dd0f0a7d7873ade458517fc297"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39293b36a2073f1bf72a1e9ff4d770865418f60a",
+      "size": 12490,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/39293b36a2073f1bf72a1e9ff4d770865418f60a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/target.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6026f6111575b610cdc8425eeebef972c5cf13c7",
+      "size": 6508,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6026f6111575b610cdc8425eeebef972c5cf13c7"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/flops/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9aa86310051aa77ecf43306048f4c625957a054",
+      "size": 1765,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a9aa86310051aa77ecf43306048f4c625957a054"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/gauge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aae92044333c9385a5bafa5d44a40f01c288dbc",
+      "size": 1795,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5aae92044333c9385a5bafa5d44a40f01c288dbc"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/hardware_utilization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16c1bf9bf1d371e54b0526e913d8cd0b24fb906b",
+      "size": 4021,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/16c1bf9bf1d371e54b0526e913d8cd0b24fb906b"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/init_placed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6fb0f39182fa173e8a26b8daf5a206583ec655",
+      "size": 13676,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ef6fb0f39182fa173e8a26b8daf5a206583ec655"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/linear_plan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085333baea487a802b098b97188e756cf7f352ec",
+      "size": 11098,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/085333baea487a802b098b97188e756cf7f352ec"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388cf3779243aca7ec7db99c9b5646f84c323c62",
+      "size": 3724,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/388cf3779243aca7ec7db99c9b5646f84c323c62"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1960753c4fcb29d9dbba3883a8425d02ea2165a",
+      "size": 23993,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f1960753c4fcb29d9dbba3883a8425d02ea2165a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/masking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82399d5bf27c185209d5b3d3e71c3a774e975927",
+      "size": 18201,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/82399d5bf27c185209d5b3d3e71c3a774e975927"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ad09b4562bf75760f890d213bd95b7e73fede2",
+      "size": 939,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b3ad09b4562bf75760f890d213bd95b7e73fede2"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14e7fc37d591646720a3158726a634a1fbaa5e0",
+      "size": 24301,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f14e7fc37d591646720a3158726a634a1fbaa5e0"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/muon_stacked.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e7a8774e656521b12423a8403736c6d602d8b6",
+      "size": 18916,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/85e7a8774e656521b12423a8403736c6d602d8b6"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/nonlinearity_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a62ef44c866aca8920eb5b8fb2da5ef0afe10d",
+      "size": 8567,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d6a62ef44c866aca8920eb5b8fb2da5ef0afe10d"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/objective.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6ccf103f75846f914714573619833b76e4ebfc",
+      "size": 18328,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7d6ccf103f75846f914714573619833b76e4ebfc"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f917e4cb616fac557d438c82ffab7414ea6ee0",
+      "size": 708,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a8f917e4cb616fac557d438c82ffab7414ea6ee0"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c65624a0466c2bb1d8a7113ce9a645a0c95792",
+      "size": 82753,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e5c65624a0466c2bb1d8a7113ce9a645a0c95792"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/precision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "219a7c3f36143842735ccff2dd010cc92c5956e2",
+      "size": 469,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/219a7c3f36143842735ccff2dd010cc92c5956e2"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/pytree.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd9656ecd0da8d21b05225fef63bd57fea146db",
+      "size": 782,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6cd9656ecd0da8d21b05225fef63bd57fea146db"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/recon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "715c6f739cd853808f5264291ded446e723c0f97",
+      "size": 9875,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/715c6f739cd853808f5264291ded446e723c0f97"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/recon_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e19fa617592da0fc948c73b7671deaaa363a2b4",
+      "size": 9642,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9e19fa617592da0fc948c73b7671deaaa363a2b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f94a41d3b20ec1976730f7913e590420085d2876",
+      "size": 66498,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f94a41d3b20ec1976730f7913e590420085d2876"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/run_files.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8781b758e8a35ae566e5c5ec0eb3769b8ee5f99d",
+      "size": 305,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8781b758e8a35ae566e5c5ec0eb3769b8ee5f99d"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/run_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5f3aceeed1d236da94e089517c07eba4f1a6fb",
+      "size": 17450,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ae5f3aceeed1d236da94e089517c07eba4f1a6fb"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/runtime_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21d75242d85cd314c9bc758f1c4e7f2ff1ceee8f",
+      "size": 3634,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/21d75242d85cd314c9bc758f1c4e7f2ff1ceee8f"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb958be062cf97d26950a1f75ae6dc205370a00f",
+      "size": 4490,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cb958be062cf97d26950a1f75ae6dc205370a00f"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/sharding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23bd7ff2120bf381630ac61c5ab68fad780091b",
+      "size": 12158,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e23bd7ff2120bf381630ac61c5ab68fad780091b"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/slow_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45003e9c700612716cb72be1c433bd0e13886485",
+      "size": 49329,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/45003e9c700612716cb72be1c433bd0e13886485"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/source_mask.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77b17b822a028502fd616c7d4006fd5d6e2d5409",
+      "size": 923,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/77b17b822a028502fd616c7d4006fd5d6e2d5409"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fce75d2e5cbffd43c881897b38f5a709955f965a",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/fce75d2e5cbffd43c881897b38f5a709955f965a"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/fit_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d38ef87e000c3f6d99b12df67b4175f2dc19783",
+      "size": 21070,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4d38ef87e000c3f6d99b12df67b4175f2dc19783"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/hlo_census.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea7ba58e61955280b5070737905b39ea501f48f",
+      "size": 8713,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4ea7ba58e61955280b5070737905b39ea501f48f"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/ledger_diff.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03db5d034eef402739bdab6e8e21d38319cda362",
+      "size": 5866,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/03db5d034eef402739bdab6e8e21d38319cda362"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/memory_ledger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4b114d887b180d8918ad9dc5ed0a502773e377",
+      "size": 13913,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bf4b114d887b180d8918ad9dc5ed0a502773e377"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/tools/memreport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147c058534fa6a8794c331ed811c2feb2aed3c53",
+      "size": 24085,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/147c058534fa6a8794c331ed811c2feb2aed3c53"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "582cbeb7dc4930ad3942019e7f053b6b547f4865",
+      "size": 76350,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/582cbeb7dc4930ad3942019e7f053b6b547f4865"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/training_performance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44acd178187b05ea4b1eea8ec11671b78b461c98",
+      "size": 6393,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/44acd178187b05ea4b1eea8ec11671b78b461c98"
+    },
+    {
+      "path": "param_decomp/param_decomp/core/world_size.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1133364874af8e95c4b9a7866e328ed91d0d1597",
+      "size": 1205,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1133364874af8e95c4b9a7866e328ed91d0d1597"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5017d4ab65a48e1ee9443076cbe2824dc981731c",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/5017d4ab65a48e1ee9443076cbe2824dc981731c"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9017f84caeacc2d1e91b2a0a07ddef5b205531e8",
+      "size": 30151,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9017f84caeacc2d1e91b2a0a07ddef5b205531e8"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9017f84caeacc2d1e91b2a0a07ddef5b205531e8",
+      "size": 30151,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9017f84caeacc2d1e91b2a0a07ddef5b205531e8"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9017f84caeacc2d1e91b2a0a07ddef5b205531e8",
+      "size": 30151,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9017f84caeacc2d1e91b2a0a07ddef5b205531e8"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f0074ec19d791cff3816416948098d25b3d9ff",
+      "size": 4786,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b4f0074ec19d791cff3816416948098d25b3d9ff"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/eval_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c6779b4c6ec048f45a59105a9a4588f24114bc",
+      "size": 4975,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/14c6779b4c6ec048f45a59105a9a4588f24114bc"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/eval_keys.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93cf0d706a6f0b52f9be2f7a8f5c393f307cb33",
+      "size": 998,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f93cf0d706a6f0b52f9be2f7a8f5c393f307cb33"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/fast_eval_operations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128cf9434474819368f99df1b62d61ee35424772",
+      "size": 5711,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/128cf9434474819368f99df1b62d61ee35424772"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71f181ea2bd18179a11e8f8b8477e1fd2efbd0f4",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/71f181ea2bd18179a11e8f8b8477e1fd2efbd0f4"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/abstract_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f648352e28f33586f4b12aee05998593adf516b6",
+      "size": 1224,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f648352e28f33586f4b12aee05998593adf516b6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/arithmetic_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b538eb8ac73cc927677aba426236efd0480a4d",
+      "size": 17616,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/48b538eb8ac73cc927677aba426236efd0480a4d"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/arithmetic_eval_operation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c315c05a7366ddd4c2681d9fffa6c475d95bcd",
+      "size": 8068,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/19c315c05a7366ddd4c2681d9fffa6c475d95bcd"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/arithmetic_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bdc07c186975c17bcfddb3b9b2fd433723d92ea",
+      "size": 4923,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2bdc07c186975c17bcfddb3b9b2fd433723d92ea"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/attn_patterns_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c954d9ca9d727adfbc337d5640327ff428260d4",
+      "size": 15215,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5c954d9ca9d727adfbc337d5640327ff428260d4"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/ci_fn_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7c0d3723305ee6acaf51f07255492951e486f1",
+      "size": 4874,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ed7c0d3723305ee6acaf51f07255492951e486f1"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/ci_position_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1f23c3e80ab8b787a53f0da214af323d3a7321",
+      "size": 3318,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ce1f23c3e80ab8b787a53f0da214af323d3a7321"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "523ee5a1baa2b5dc48116582ad821ab2e90bad2d",
+      "size": 64001,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/523ee5a1baa2b5dc48116582ad821ab2e90bad2d"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f7a61d126fa834197a91a5afc778982bb0f7e94",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/4f7a61d126fa834197a91a5afc778982bb0f7e94"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/llama3_1_8b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921b87355c0ef85b02a5979195c64ce62631094a",
+      "size": 4298,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/921b87355c0ef85b02a5979195c64ce62631094a"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/pile_llama_simple_mlp-4L.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97456ad24187dd827d8f1b263268270f5966cd96",
+      "size": 5650,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/97456ad24187dd827d8f1b263268270f5966cd96"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/pile_qwen3_5_moe-4L.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fc586cf7902fd4d658675f2a91f25121d436cab",
+      "size": 7826,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3fc586cf7902fd4d658675f2a91f25121d436cab"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/qwen3_0_6b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff95d83b57745f5788775939d268b511535e1cc3",
+      "size": 5006,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ff95d83b57745f5788775939d268b511535e1cc3"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/qwen3_1_7b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce5f7f7136419a073ff434ed042604290e12319",
+      "size": 7934,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1ce5f7f7136419a073ff434ed042604290e12319"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/qwen3_4b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9dbe3cc950dde69e66fc61643a7651b7f3f8efe",
+      "size": 4403,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a9dbe3cc950dde69e66fc61643a7651b7f3f8efe"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/configs/qwen3_6_35b_a3b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac12777dca75258795a2a67633a649e705a20542",
+      "size": 11129,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ac12777dca75258795a2a67633a649e705a20542"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898d6b0176f63e68654a6303899164a05f519daf",
+      "size": 1531,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/898d6b0176f63e68654a6303899164a05f519daf"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/deliverable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eababacc0a98ac7d0a8ee682031d751f1a3c5c13",
+      "size": 3565,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/eababacc0a98ac7d0a8ee682031d751f1a3c5c13"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/diagnostic_eval_operations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1359e938bc6d6a4593126ad8f35fd797c91b4120",
+      "size": 20938,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1359e938bc6d6a4593126ad8f35fd797c91b4120"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d3bd09ba80796db694003d3098b4d5b4b74e0b4",
+      "size": 26620,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0d3bd09ba80796db694003d3098b4d5b4b74e0b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/eval_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c9faeef2bdea388522fc1af1f256cddf1252c4",
+      "size": 7018,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/66c9faeef2bdea388522fc1af1f256cddf1252c4"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/eval_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726d7d3fdb0bd4b04fe838645496d60134374655",
+      "size": 6970,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/726d7d3fdb0bd4b04fe838645496d60134374655"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/eval_operations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9e4f2a559ffcff2058bd7b30d8d064847df9dc",
+      "size": 11231,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dc9e4f2a559ffcff2058bd7b30d8d064847df9dc"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/fit_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec1c9ebd59e0520a2e5dda1b8727e13df3cc0fc",
+      "size": 20598,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3ec1c9ebd59e0520a2e5dda1b8727e13df3cc0fc"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/input_format.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ac7792cdba531fbd2c4b7e2a26598d3d18b9c7c",
+      "size": 8308,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7ac7792cdba531fbd2c4b7e2a26598d3d18b9c7c"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/llama3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcd5ceb5ae7eb969c844932fc90f59e4c30adfb6",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/bcd5ceb5ae7eb969c844932fc90f59e4c30adfb6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/llama3/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/llama3/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f6bf67daa82fd4f8649d12a0be6637d4938f301",
+      "size": 4635,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8f6bf67daa82fd4f8649d12a0be6637d4938f301"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/llama3/prestage_tokenized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8f986758df2cbf9c8df9d470818fbdb0d9f491",
+      "size": 8908,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/eb8f986758df2cbf9c8df9d470818fbdb0d9f491"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/load_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9452cde4ab479e0211ac7b6712baf4ac3a83141",
+      "size": 28047,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f9452cde4ab479e0211ac7b6712baf4ac3a83141"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/model_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07544cc95d75e0cddb9bc567ee4bf4c398133c2c",
+      "size": 10752,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/07544cc95d75e0cddb9bc567ee4bf4c398133c2c"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80ccd2f00874db598e9b345cc8795c3ec8bf5397",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/80ccd2f00874db598e9b345cc8795c3ec8bf5397"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59369ef8f123ef10b112ed5a9326f1648f216dd6",
+      "size": 4662,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/59369ef8f123ef10b112ed5a9326f1648f216dd6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59369ef8f123ef10b112ed5a9326f1648f216dd6",
+      "size": 4662,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/59369ef8f123ef10b112ed5a9326f1648f216dd6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59369ef8f123ef10b112ed5a9326f1648f216dd6",
+      "size": 4662,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/59369ef8f123ef10b112ed5a9326f1648f216dd6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/pretrain/run_info.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d92f36fbb5eaee09fd74d85daf3250f33d35c2d",
+      "size": 1693,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9d92f36fbb5eaee09fd74d85daf3250f33d35c2d"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/profile_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f265b9e3bc5224eb8ada14a6549d4e933f3617",
+      "size": 4510,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/93f265b9e3bc5224eb8ada14a6549d4e933f3617"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/resolved.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7b970577b7f0d1b22c7313a341ff07df0b335a3",
+      "size": 8034,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a7b970577b7f0d1b22c7313a341ff07df0b335a3"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/router_divergence_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "879b36d122c4ed4982bb053ec813bed1207f37b8",
+      "size": 15501,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/879b36d122c4ed4982bb053ec813bed1207f37b8"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad8614606e572ecf67d799631f048926a9cecca",
+      "size": 1080,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3ad8614606e572ecf67d799631f048926a9cecca"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/run_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f68c1fb3cf94fdc802e8caa05e6a3f5c275b43",
+      "size": 1394,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/54f68c1fb3cf94fdc802e8caa05e6a3f5c275b43"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/run_targeted.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f771bd46cd5ba07aee28d59659823e419f41df",
+      "size": 1098,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/85f771bd46cd5ba07aee28d59659823e419f41df"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c31685935cf6859678a1d8597e295da1ca7714",
+      "size": 24546,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e8c31685935cf6859678a1d8597e295da1ca7714"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/scalar_eval_operations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902c8d8d149c190db53859aeec7f88811a65fbe6",
+      "size": 10234,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/902c8d8d149c190db53859aeec7f88811a65fbe6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/targeted_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78fe051fe6f781ba9529ffe011a205e11a103055",
+      "size": 3791,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/78fe051fe6f781ba9529ffe011a205e11a103055"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/trace_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4f6de43746b5e363ef67edd5780505a6f99dec",
+      "size": 19315,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2f4f6de43746b5e363ef67edd5780505a6f99dec"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/training.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7888505f30356da91a9a4fb24b73b2e1925c4b",
+      "size": 14961,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3d7888505f30356da91a9a4fb24b73b2e1925c4b"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/training_targeted.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039ae142b2e4f41022a1ed76f750b5a14b666622",
+      "size": 13157,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/039ae142b2e4f41022a1ed76f750b5a14b666622"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/well_temperedness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab964925d0a7904900271eb06c27392451aaae0d",
+      "size": 20030,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ab964925d0a7904900271eb06c27392451aaae0d"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/lm/well_temperedness_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df6d640d865a0637ce92fa0c3af6327ee7df6a1",
+      "size": 7262,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4df6d640d865a0637ce92fa0c3af6327ee7df6a1"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/model_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9795fb4fde6da6d0a601c277333c8fb52b86254d",
+      "size": 10520,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9795fb4fde6da6d0a601c277333c8fb52b86254d"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2d871cdf3cbc3e4fd3cc6056f095b711a4d0eb3",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/f2d871cdf3cbc3e4fd3cc6056f095b711a4d0eb3"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30599e3522add3043e5a7e15a75a8363b9ebddb4",
+      "size": 4387,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/30599e3522add3043e5a7e15a75a8363b9ebddb4"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f52ea55980529ee03f9418db01874348ccc8ee6",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/9f52ea55980529ee03f9418db01874348ccc8ee6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/configs/resid_mlp_1l.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df757dbcce8e5062922181fa39b249fd89417956",
+      "size": 2791,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/df757dbcce8e5062922181fa39b249fd89417956"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/configs/resid_mlp_2l.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9bd2e032aef99b6500d36df0c949e0b1c440346",
+      "size": 3030,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e9bd2e032aef99b6500d36df0c949e0b1c440346"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/configs/resid_mlp_3l.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9dc18b80ca5914ef6a0d0a964c30a09b8ac06e1",
+      "size": 3088,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f9dc18b80ca5914ef6a0d0a964c30a09b8ac06e1"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/resid_mlp/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1858cb30e9161e305a13a103b93acf048d3bdc7c",
+      "size": 14978,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1858cb30e9161e305a13a103b93acf048d3bdc7c"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/run_toy_sweep.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c14e6bde349a6185d588732e02840fb96f98a9df",
+      "size": 2507,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c14e6bde349a6185d588732e02840fb96f98a9df"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f26a1b6e94b872302740cb0fceda7eb428606d6",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/9f26a1b6e94b872302740cb0fceda7eb428606d6"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581f863d7bb435f4384310d93b960ac7e0c12021",
+      "size": 2518,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/581f863d7bb435f4384310d93b960ac7e0c12021"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f56dbbd41d70e185d4a3002c562eebee8f64397",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/5f56dbbd41d70e185d4a3002c562eebee8f64397"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/configs/tms_40-10-id.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "872c00cb5ce650dca268ca3991d9da7fe86720e9",
+      "size": 2811,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/872c00cb5ce650dca268ca3991d9da7fe86720e9"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/configs/tms_40-10.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e545bd7b798f88a86de57c086512d5b318dfe75",
+      "size": 2823,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1e545bd7b798f88a86de57c086512d5b318dfe75"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/configs/tms_5-2-id.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa1d1a81e267fb822d5b23a461a0e551d453f10",
+      "size": 2808,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5fa1d1a81e267fb822d5b23a461a0e551d453f10"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/configs/tms_5-2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40b42b3ec25d476b27928341e4f0414b9a1d2edb",
+      "size": 3095,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/40b42b3ec25d476b27928341e4f0414b9a1d2edb"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/tms/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc088e150c5014afaec1dccc498d97a2275f379",
+      "size": 14417,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fdc088e150c5014afaec1dccc498d97a2275f379"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/toy_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c3d173188f79fbe7849b59e42795e14e0adde2",
+      "size": 2824,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b0c3d173188f79fbe7849b59e42795e14e0adde2"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/toy_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0856f2b8de22e0ec5226a24402fec68fce5008",
+      "size": 5697,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0c0856f2b8de22e0ec5226a24402fec68fce5008"
+    },
+    {
+      "path": "param_decomp/param_decomp/experiments/toy_uv_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e547a4e10cfa6f2728cc3f630072c2a13300fa",
+      "size": 3229,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/84e547a4e10cfa6f2728cc3f630072c2a13300fa"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b33c46a00a3ce4330cd1550d77b7b63836a91da1",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/b33c46a00a3ce4330cd1550d77b7b63836a91da1"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra/pretrain_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ccfe312040165f97b3093274ab6e39950ac4982",
+      "size": 5645,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4ccfe312040165f97b3093274ab6e39950ac4982"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra/row_shuffle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bdfd0cdddde75c9524227a5e40cc1aef243125e",
+      "size": 11864,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3bdfd0cdddde75c9524227a5e40cc1aef243125e"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra/run_files.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61456e589a98636c8b7c562b5e6cbe83f3f7e296",
+      "size": 442,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/61456e589a98636c8b7c562b5e6cbe83f3f7e296"
+    },
+    {
+      "path": "param_decomp/param_decomp/infra/wandb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47049a6d803e58d1e575e35319e285fce78483f9",
+      "size": 6593,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/47049a6d803e58d1e575e35319e285fce78483f9"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dccf64de69aa88528a506b86866e2357ed639576",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/dccf64de69aa88528a506b86866e2357ed639576"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm/batch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43cfd90ffe026705102e227c768e93ede5f15588",
+      "size": 1465,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/43cfd90ffe026705102e227c768e93ede5f15588"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm/batch_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822b2662f29cd9a91de91149479cd6e4ae6e094d",
+      "size": 9114,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/822b2662f29cd9a91de91149479cd6e4ae6e094d"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm/batch_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1936293496ff0c55c8b01a570cf3fb9648080762",
+      "size": 6723,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1936293496ff0c55c8b01a570cf3fb9648080762"
+    },
+    {
+      "path": "param_decomp/param_decomp/lm/inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6021268a5442bb43274d63214ee423c083781828",
+      "size": 788,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6021268a5442bb43274d63214ee423c083781828"
+    },
+    {
+      "path": "param_decomp/param_decomp/metric_names.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc6c1e97735bca78d27d4db5c2969d4cf882760e",
+      "size": 1939,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fc6c1e97735bca78d27d4db5c2969d4cf882760e"
+    },
+    {
+      "path": "param_decomp/param_decomp/metric_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4f4ceffc3570fa505b4c7138d94d64410efe03",
+      "size": 2153,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dc4f4ceffc3570fa505b4c7138d94d64410efe03"
+    },
+    {
+      "path": "param_decomp/param_decomp/metric_taxonomy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb09a8f6d9f6d74d65a18d90f0e6c1eec8af6b8",
+      "size": 35555,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8fb09a8f6d9f6d74d65a18d90f0e6c1eec8af6b8"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "456fbf6d739e33e71b0f09e8a86c9bd07643b5a6",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/456fbf6d739e33e71b0f09e8a86c9bd07643b5a6"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad506c15c75367706d81de7b3525e5475577faa2",
+      "size": 302,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ad506c15c75367706d81de7b3525e5475577faa2"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations/ci_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0a86aa097fbf49cabfb914da1056b8f8562bc83",
+      "size": 3318,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a0a86aa097fbf49cabfb914da1056b8f8562bc83"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations/data_layout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23e1e685e14c3bbdc637d23cdd97166e1ee4c8b4",
+      "size": 1610,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/23e1e685e14c3bbdc637d23cdd97166e1ee4c8b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations/decomposition_apparatus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8410f82dfdb53e15ca38e2d9c7e4ca89f32816",
+      "size": 9735,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dd8410f82dfdb53e15ca38e2d9c7e4ca89f32816"
+    },
+    {
+      "path": "param_decomp/param_decomp/migrations/schedule_knots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b322ae42620cda8321f9db9b8ae3186a6254fba5",
+      "size": 6521,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b322ae42620cda8321f9db9b8ae3186a6254fba5"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03fc098cba2eef885e6dd42da8c1687df0fb2b9d",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/03fc098cba2eef885e6dd42da8c1687df0fb2b9d"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d3c0bae8344dceedfb9f22ead1863a6cc8d597e",
+      "size": 3196,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1d3c0bae8344dceedfb9f22ead1863a6cc8d597e"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589ccd48ffe6698b622c5e95f3095fd5895a31a7",
+      "size": 5612,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/589ccd48ffe6698b622c5e95f3095fd5895a31a7"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "292212098d4851943cea9321530c3d6f3f3d6993",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/292212098d4851943cea9321530c3d6f3f3d6993"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/gpt2_simple-2L.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf22e1c0ea428a0dccfcfaf3563d3a7a225db379",
+      "size": 534,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cf22e1c0ea428a0dccfcfaf3563d3a7a225db379"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/pile_llama_simple-4L-768.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75198a5b8ea51e3f0dbf8bd3cdd32e74dade61e",
+      "size": 741,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d75198a5b8ea51e3f0dbf8bd3cdd32e74dade61e"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/pile_llama_simple_mlp-2L-128.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7ef0595e0927c4c73d5a1ecb46ca39c3dfc95a",
+      "size": 667,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2e7ef0595e0927c4c73d5a1ecb46ca39c3dfc95a"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/pile_llama_simple_mlp-2L-128_SMOKE.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f90e8317cb9307fd7b29c9aaaac4d46dc1327e7",
+      "size": 629,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1f90e8317cb9307fd7b29c9aaaac4d46dc1327e7"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/pile_llama_simple_mlp-4L-768-docs.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04504e9c56a875f668de6a755f3ae94f7a89e687",
+      "size": 744,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/04504e9c56a875f668de6a755f3ae94f7a89e687"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/configs/pile_llama_simple_mlp-4L-768.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a89bdcc94147f1f18587b2c280c121195492c5",
+      "size": 748,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c5a89bdcc94147f1f18587b2c280c121195492c5"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1cabed9247cea66135c503932c74c8408cd95b",
+      "size": 18970,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4e1cabed9247cea66135c503932c74c8408cd95b"
+    },
+    {
+      "path": "param_decomp/param_decomp/pretrain/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd50eb213243c2d3586cbcd57a776e78ee14c679",
+      "size": 18690,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bd50eb213243c2d3586cbcd57a776e78ee14c679"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29365323bc68961e8ad0beff5420dd1ef6e924b4",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/29365323bc68961e8ad0beff5420dd1ef6e924b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc0377c23ab4cc518c7d3cc1d43702667e81886",
+      "size": 2566,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2cc0377c23ab4cc518c7d3cc1d43702667e81886"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc0377c23ab4cc518c7d3cc1d43702667e81886",
+      "size": 2566,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2cc0377c23ab4cc518c7d3cc1d43702667e81886"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc0377c23ab4cc518c7d3cc1d43702667e81886",
+      "size": 2566,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2cc0377c23ab4cc518c7d3cc1d43702667e81886"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/dense.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4259e371f3fe83fbdc7846e9aa09585116a484b2",
+      "size": 3301,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4259e371f3fe83fbdc7846e9aa09585116a484b2"
+    },
+    {
+      "path": "param_decomp/param_decomp/routed/experts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21d057ec398b5f6ffb1926d85a2b68be81f86128",
+      "size": 48513,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/21d057ec398b5f6ffb1926d85a2b68be81f86128"
+    },
+    {
+      "path": "param_decomp/param_decomp/sequence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0db1bd55feeaece2f1f0280bf06af7f7958d7ab9",
+      "size": 1606,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0db1bd55feeaece2f1f0280bf06af7f7958d7ab9"
+    },
+    {
+      "path": "param_decomp/param_decomp/target_ports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b24d0f2f1f4b6da67415f3d983385052df91da4",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/8b24d0f2f1f4b6da67415f3d983385052df91da4"
+    },
+    {
+      "path": "param_decomp/param_decomp/target_ports/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/target_ports/llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0781cc4b50c3c33873eecdfd4e04e21f21d900cc",
+      "size": 13765,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0781cc4b50c3c33873eecdfd4e04e21f21d900cc"
+    },
+    {
+      "path": "param_decomp/param_decomp/target_ports/qwen3_5_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffcbf6abce4700f24d68fde65acd4f9e758b94cb",
+      "size": 14263,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ffcbf6abce4700f24d68fde65acd4f9e758b94cb"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9100526136786c647ecacf49dcaec694441216b9",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/9100526136786c647ecacf49dcaec694441216b9"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8993914fcbd3735ab518530c680cd275a6b3d83b",
+      "size": 9935,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8993914fcbd3735ab518530c680cd275a6b3d83b"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/host.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f08767149baa6a0cfbf719dd1456cbeb13c435e8",
+      "size": 501,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f08767149baa6a0cfbf719dd1456cbeb13c435e8"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/invariance_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac20ec33deea0a1f41c2480773a84f500458f2f8",
+      "size": 12360,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ac20ec33deea0a1f41c2480773a84f500458f2f8"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/linear_site_capture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9624bbea95397c5094fcfb0ab027212d1404bc90",
+      "size": 3244,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9624bbea95397c5094fcfb0ab027212d1404bc90"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/llama31.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a7b008d987f7c3461e21b76df55e762f84df1b6",
+      "size": 2463,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9a7b008d987f7c3461e21b76df55e762f84df1b6"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/llama_simple_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d469f0dc2d2a3dcc8894b841edd291e26099ecc",
+      "size": 13340,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1d469f0dc2d2a3dcc8894b841edd291e26099ecc"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/lm_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d1f02e135d73bdf0ee59a688256196115dd9e6",
+      "size": 3192,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d5d1f02e135d73bdf0ee59a688256196115dd9e6"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ef095567e2ee4ad807fd00647b946954e8abfb",
+      "size": 12780,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/08ef095567e2ee4ad807fd00647b946954e8abfb"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f627e7be4aa81956366cb96fe4704081c4619c34",
+      "size": 7225,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f627e7be4aa81956366cb96fe4704081c4619c34"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/qwen36_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61de631d28d4c43de8e9c9b6020d812b115a524",
+      "size": 176813,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c61de631d28d4c43de8e9c9b6020d812b115a524"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/resid_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29646e79729b6e782a03b27198c61434f16c702",
+      "size": 35533,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d29646e79729b6e782a03b27198c61434f16c702"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/testing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffef42fa2a0c9b9822370abfadb75f4fda097b6b",
+      "size": 23433,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ffef42fa2a0c9b9822370abfadb75f4fda097b6b"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/tms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292cff2f0c1808f73d3bf9afbe4ecf1474b17288",
+      "size": 33878,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/292cff2f0c1808f73d3bf9afbe4ecf1474b17288"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b959bc547c097271fc931c236e9ababd376230d0",
+      "size": 100999,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b959bc547c097271fc931c236e9ababd376230d0"
+    },
+    {
+      "path": "param_decomp/param_decomp/targets/transformer_taps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e455a91d96ca653e1620c9e5964486dfec536cd2",
+      "size": 7831,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e455a91d96ca653e1620c9e5964486dfec536cd2"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b76c4638e907c343ebf069b9130bd55970dbe18",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/7b76c4638e907c343ebf069b9130bd55970dbe18"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b6e18d1b0440a8fbf6ccdbe7e44d19ae5c01ea0",
+      "size": 437,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0b6e18d1b0440a8fbf6ccdbe7e44d19ae5c01ea0"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de9c048f1061a93698b0b8f3f6b22997006c4f24",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/de9c048f1061a93698b0b8f3f6b22997006c4f24"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/gen_placement_goldens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f23ce8e154fedef169b8c3f65e1a4e4362a2d15",
+      "size": 528,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9f23ce8e154fedef169b8c3f65e1a4e4362a2d15"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/placement_goldens.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4107a48fe09537c03ac56a7b09d0b4eb6a827f3",
+      "size": 141430,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e4107a48fe09537c03ac56a7b09d0b4eb6a827f3"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_batch_source_checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e20915a0cf7bd56d54ea230c3971676b748556f",
+      "size": 9690,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4e20915a0cf7bd56d54ea230c3971676b748556f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_batch_source_pool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6dba62a83644db52d8491288f07843765863db",
+      "size": 10678,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0e6dba62a83644db52d8491288f07843765863db"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_beartype_live.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fdbbfb8a79498e94314ed5f876d97f3b6aa766",
+      "size": 1108,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/47fdbbfb8a79498e94314ed5f876d97f3b6aa766"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_blocked_factorization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f3f86c8e6e9d3403f1a8d4aa45e2fd2a58d902",
+      "size": 31159,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/97f3f86c8e6e9d3403f1a8d4aa45e2fd2a58d902"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_blocked_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29522cbbab30635dd2cdedddb39f67afcc98341d",
+      "size": 26806,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/29522cbbab30635dd2cdedddb39f67afcc98341d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_capture_comparisons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06770ae24da4ee0a6ab06848e69cd6e2084f2f32",
+      "size": 9472,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/06770ae24da4ee0a6ab06848e69cd6e2084f2f32"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9762e1fd44cee41d5e01a2c7643fd71f3a03b9eb",
+      "size": 29501,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9762e1fd44cee41d5e01a2c7643fd71f3a03b9eb"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_checkpoint_production_topology.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e8f27e98bc79ec8e2ed43a4c341a28f73fda83",
+      "size": 11456,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/68e8f27e98bc79ec8e2ed43a4c341a28f73fda83"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_checkpointing_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b16d639ca2e8e82c96ad9816dc5e3deea44eac",
+      "size": 1593,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/99b16d639ca2e8e82c96ad9816dc5e3deea44eac"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_component_conditioning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c17fa5d0150ef4a269b3c0b794012c01d91087",
+      "size": 27852,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f8c17fa5d0150ef4a269b3c0b794012c01d91087"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_document_isolation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704d7a776b5cce93238eb6d70065599895f57114",
+      "size": 8442,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/704d7a776b5cce93238eb6d70065599895f57114"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "143939b9521c1e6f83c584cd94e86d0bcdd0e5ce",
+      "size": 13353,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/143939b9521c1e6f83c584cd94e86d0bcdd0e5ce"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_fn_ffn_and_norm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a2f6aa16d16cb5c46a21bc6df97f89b364d44d",
+      "size": 7540,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a1a2f6aa16d16cb5c46a21bc6df97f89b364d44d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_fn_gqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afcd7758b3c874e432570be910151fd3c127eb4b",
+      "size": 9375,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/afcd7758b3c874e432570be910151fd3c127eb4b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_fn_positioned_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f650d8e6765934732ffaf7485fd80742dc9f1cc6",
+      "size": 10089,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f650d8e6765934732ffaf7485fd80742dc9f1cc6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_fn_zero_blocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3318f7fed463d837033fa36a7472dfebeaa3da",
+      "size": 9674,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/eb3318f7fed463d837033fa36a7472dfebeaa3da"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_ci_lifecycle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd3cb864982d9eeb5e87a806151456e349a208f",
+      "size": 6470,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ecd3cb864982d9eeb5e87a806151456e349a208f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_compiled_training.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c7138ddf659f5589da9f593b1006ad50b2a6c79",
+      "size": 2115,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9c7138ddf659f5589da9f593b1006ad50b2a6c79"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_component_partition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4fc1ff9826f38d774ae03972cd1287e21e5e227",
+      "size": 1446,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d4fc1ff9826f38d774ae03972cd1287e21e5e227"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_component_partition_ema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "730a2857f0e4cc1302d6367c6baa7a6eeea5a06c",
+      "size": 2945,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/730a2857f0e4cc1302d6367c6baa7a6eeea5a06c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6165aa831a4b0f40da0f2b45c30ba9dcf3583031",
+      "size": 37662,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6165aa831a4b0f40da0f2b45c30ba9dcf3583031"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_dense_expert_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "949b6bde5bd9e7f3d3686bf88bb44e5777789eed",
+      "size": 5892,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/949b6bde5bd9e7f3d3686bf88bb44e5777789eed"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_dict_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8be05290994a49c59169edb4e81af700c91627b",
+      "size": 308,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d8be05290994a49c59169edb4e81af700c91627b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_draw_dtype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a085fb4dcd39f347cb81d06b43de2cf5fd7679a",
+      "size": 1889,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6a085fb4dcd39f347cb81d06b43de2cf5fd7679a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_eval_averaging_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd1ad24801e49f7025b9bfecd867976fada5400",
+      "size": 9933,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bbd1ad24801e49f7025b9bfecd867976fada5400"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_eval_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78da28bc66f0926708d2d98dd6ab500f0ae3a531",
+      "size": 7484,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/78da28bc66f0926708d2d98dd6ab500f0ae3a531"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_faithfulness_normalization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853462dccc967a698f465f3c5b5e6af0ac10addf",
+      "size": 4470,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/853462dccc967a698f465f3c5b5e6af0ac10addf"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_finetune_resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0345aec5162ad9d10eb2a1164abef8b259ca5872",
+      "size": 8455,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0345aec5162ad9d10eb2a1164abef8b259ca5872"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_fit_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626dce4f5c0af369808e94364ae389e022c72a1a",
+      "size": 11010,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/626dce4f5c0af369808e94364ae389e022c72a1a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_fnmatch_site_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d132471dbe92d2094a6f376d31d437de3cb9704",
+      "size": 8132,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6d132471dbe92d2094a6f376d31d437de3cb9704"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_frequency_minimality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af759d6d7a5ddf715acb7b459f945541089eb335",
+      "size": 12794,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/af759d6d7a5ddf715acb7b459f945541089eb335"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_frequency_state_placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d844770c88f2b1252f378698becca7158610edc",
+      "size": 10542,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0d844770c88f2b1252f378698becca7158610edc"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_fresh_pgd_c_source_dp_invariance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd5f20d4d81f230e711554d6e53e5e5e2717b53",
+      "size": 7323,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0bd5f20d4d81f230e711554d6e53e5e5e2717b53"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_generic_model_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff45e18613fd790b27e8cf476372d0d32a5b16c1",
+      "size": 22173,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ff45e18613fd790b27e8cf476372d0d32a5b16c1"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_global_transformer_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d487c33782d658f84ddf91a3c03c2c3644e5184",
+      "size": 18837,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/5d487c33782d658f84ddf91a3c03c2c3644e5184"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_grad_norm_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "074a69ae084e750f62a994884e0f670500070d03",
+      "size": 2210,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/074a69ae084e750f62a994884e0f670500070d03"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_hardware_utilization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0f6d9500317e682e455d437fff9e26c1a84740",
+      "size": 2260,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fa0f6d9500317e682e455d437fff9e26c1a84740"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_hidden_acts_reconstruction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4193649ca67cefb54dc626b50aeaf03a78faf82d",
+      "size": 26489,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4193649ca67cefb54dc626b50aeaf03a78faf82d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_imp_min.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff435256ad8a580aad4304d93979dfbf2a11650",
+      "size": 4990,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3ff435256ad8a580aad4304d93979dfbf2a11650"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_imp_min_global_reduction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b640a25094dc57c5130432af7c56094e8e2f5663",
+      "size": 3350,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b640a25094dc57c5130432af7c56094e8e2f5663"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306a0200524e9b303d70cc36c99f2648d0b47287",
+      "size": 2988,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/306a0200524e9b303d70cc36c99f2648d0b47287"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_loop_profiling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ee2ac4b1e46e7f0f1f8ce1276f672bc9ef6ee8",
+      "size": 10247,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/60ee2ac4b1e46e7f0f1f8ce1276f672bc9ef6ee8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_lower_leaky_hard_grad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19c6da8ec2c4fa4ba637943ac2407a846e9320c",
+      "size": 2137,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a19c6da8ec2c4fa4ba637943ac2407a846e9320c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_masked_forward_remat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "834d99e7956232b884d55d11897a41da446d20bc",
+      "size": 13839,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/834d99e7956232b884d55d11897a41da446d20bc"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_memory_ledger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49441007fd53cb915133326c4a41d0d95a5b9a26",
+      "size": 2947,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/49441007fd53cb915133326c4a41d0d95a5b9a26"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_memreport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcac2436106d7f4f6513d592f2d22cea23c6f11d",
+      "size": 5066,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fcac2436106d7f4f6513d592f2d22cea23c6f11d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_merged_recon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96f926a6ae92585e99b690c06f8d27ce8063c8a2",
+      "size": 17840,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/96f926a6ae92585e99b690c06f8d27ce8063c8a2"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_merged_selected_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc087e5343e291f067f4db0b0cc8435847e3ba4d",
+      "size": 4324,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cc087e5343e291f067f4db0b0cc8435847e3ba4d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_metric_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9859c85905a1ee0082449a580f6bcc6dfe85ed",
+      "size": 12615,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cf9859c85905a1ee0082449a580f6bcc6dfe85ed"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_model_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aab4d1b63ad4ee58ddd65216047b0ba5c03809c",
+      "size": 9039,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6aab4d1b63ad4ee58ddd65216047b0ba5c03809c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_no_ambient_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3201707816f8beccdf0ef6490fa71c87fc2e2059",
+      "size": 936,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3201707816f8beccdf0ef6490fa71c87fc2e2059"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_no_bake_invariant.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45743f85805456a312a904cd93ef56b83e14a67d",
+      "size": 5443,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/45743f85805456a312a904cd93ef56b83e14a67d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_no_checkpointing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568e8220ad8c4e7f49f157dc4c3e09903249fa66",
+      "size": 6114,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/568e8220ad8c4e7f49f157dc4c3e09903249fa66"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_nonlinearity_locality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d2b29de9d5add242162937f0d7e1f365694b9b",
+      "size": 30649,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/65d2b29de9d5add242162937f0d7e1f365694b9b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_optim_torch_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f11cb7f770e7927af696c5ebef04197e74a525",
+      "size": 44417,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/14f11cb7f770e7927af696c5ebef04197e74a525"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_optimizer_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70cffb146c8847ff7ea96c982ba1e102571dce6",
+      "size": 16312,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b70cffb146c8847ff7ea96c982ba1e102571dce6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_persistent_ascent_resume_bias_correction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e409f70872fea897e8b3ed7fb19d17f5cd8efa",
+      "size": 5627,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/14e409f70872fea897e8b3ed7fb19d17f5cd8efa"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_placed_eval_tiers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd9f23bbef44cfade13c6ca3254963fe872ffbbe",
+      "size": 15878,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fd9f23bbef44cfade13c6ca3254963fe872ffbbe"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1469afb0debd2daea40b7da2b9260092101ef01b",
+      "size": 47186,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1469afb0debd2daea40b7da2b9260092101ef01b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_placement_goldens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c021aeecf547d46377872668deef8b8d78e4cce9",
+      "size": 17581,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c021aeecf547d46377872668deef8b8d78e4cce9"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_pretrain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee7c5415e889a3a9ee80b8c631d0d3bae4610dd0",
+      "size": 14854,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ee7c5415e889a3a9ee80b8c631d0d3bae4610dd0"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_recon_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b0254c03e62ec333029e7f8584563ab33889e2d",
+      "size": 1997,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8b0254c03e62ec333029e7f8584563ab33889e2d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_recon_grid_rng.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56e00323692ffe9b8074e8585b7dd49d04ab4445",
+      "size": 2757,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/56e00323692ffe9b8074e8585b7dd49d04ab4445"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_recon_log_keys.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860d5b21414123cf32daf33f85ef7679abd7b417",
+      "size": 5111,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/860d5b21414123cf32daf33f85ef7679abd7b417"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_router_kl_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91b651348962d9611c4af8c596a354e4ed3b624",
+      "size": 16300,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d91b651348962d9611c4af8c596a354e4ed3b624"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_runtime_standalone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88926153d76aa2878d34f9ad9666d5c9b0af9143",
+      "size": 6721,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/88926153d76aa2878d34f9ad9666d5c9b0af9143"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd10dca141111f922cee75be197897590f2819f6",
+      "size": 11847,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cd10dca141111f922cee75be197897590f2819f6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_scheduled_coeffs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c2503b5c2096a98265096017bc7a1186ed097a6",
+      "size": 10870,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4c2503b5c2096a98265096017bc7a1186ed097a6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_selected_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c04f9ddc67e7208330349f48861c4943c075ef70",
+      "size": 15160,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c04f9ddc67e7208330349f48861c4943c075ef70"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_sharding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11698246c5bba7ee97a9e008a639d8a32b7fe960",
+      "size": 55315,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/11698246c5bba7ee97a9e008a639d8a32b7fe960"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_sigterm_consensus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52f7ec923bf760c4f4c44fde8b9d9ed4b80c096",
+      "size": 1464,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f52f7ec923bf760c4f4c44fde8b9d9ed4b80c096"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_slow_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a7eaa85aedbe521bda4fab16eda433186a7abf",
+      "size": 40662,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/28a7eaa85aedbe521bda4fab16eda433186a7abf"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_source_grad_mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad7680c41fbaa285aa237bbe0356140115796e01",
+      "size": 6579,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ad7680c41fbaa285aa237bbe0356140115796e01"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_source_mask_ingredients.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "877015a696386edef41effbf8a12ae7ee55b2d4c",
+      "size": 5496,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/877015a696386edef41effbf8a12ae7ee55b2d4c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_source_stacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35cbe34dc1975cddaa418695825397b07d3fdb98",
+      "size": 8531,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/35cbe34dc1975cddaa418695825397b07d3fdb98"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_source_storage_placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51592a84a0ae3a6a9c69582266fce540261ccce3",
+      "size": 4435,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/51592a84a0ae3a6a9c69582266fce540261ccce3"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_stack_padding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541037ef8db5f213e0cc41e4f155d88f5d236fda",
+      "size": 22433,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/541037ef8db5f213e0cc41e4f155d88f5d236fda"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_targeted.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959afa8f3a05a14640c39f6a01a8d648569f933a",
+      "size": 15765,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/959afa8f3a05a14640c39f6a01a8d648569f933a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_tp_boundary_topology.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "948af332c7b767e783a6f79bf2bc6b377d301691",
+      "size": 21892,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/948af332c7b767e783a6f79bf2bc6b377d301691"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_training_performance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a7ef745da9c2f540cb47ade2975304d866840b",
+      "size": 5550,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/39a7ef745da9c2f540cb47ade2975304d866840b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_training_performance_loop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e2288a3bb61c9354dfdc8effbdd4fa73258442",
+      "size": 10047,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/31e2288a3bb61c9354dfdc8effbdd4fa73258442"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_training_scalar_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c41f1d2daa3da4499ba12c675f5eb8e37022ec",
+      "size": 11841,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/91c41f1d2daa3da4499ba12c675f5eb8e37022ec"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_uv_norm_ratio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3aa92de27a917388ebcb0562fa7d91eb767292c",
+      "size": 758,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a3aa92de27a917388ebcb0562fa7d91eb767292c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/core/test_world_size.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a74914465fca7335c9feedace97c6d1e527e9c44",
+      "size": 2629,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a74914465fca7335c9feedace97c6d1e527e9c44"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8772b73899fac10584c0e77a9ef5435848f99768",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/8772b73899fac10584c0e77a9ef5435848f99768"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c36f043316bebb1a9519a9fc93ef22bbb435f880",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/c36f043316bebb1a9519a9fc93ef22bbb435f880"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/llama3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8da77cf1d887cd541db2de8406fccdc3c0356f23",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/8da77cf1d887cd541db2de8406fccdc3c0356f23"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/llama3/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/llama3/test_preprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28296ee4a00870c7041322f74156769ff6f606d8",
+      "size": 17417,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/28296ee4a00870c7041322f74156769ff6f606d8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_arithmetic_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d23094f390f102da2256e901b0c1d74200066c4d",
+      "size": 11800,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d23094f390f102da2256e901b0c1d74200066c4d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_arithmetic_wiring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "727b17b2e5d6c0153a06d41f95a1906d864b6330",
+      "size": 4121,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/727b17b2e5d6c0153a06d41f95a1906d864b6330"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_attn_patterns_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc707f0fd9dfacea4566f4cb9f188d65866a6a7d",
+      "size": 17762,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dc707f0fd9dfacea4566f4cb9f188d65866a6a7d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_batch_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3eb507d73b303acda435f90bb8f50d1cb71148",
+      "size": 14670,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9d3eb507d73b303acda435f90bb8f50d1cb71148"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_checkpoint_resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75bbf3e5bb60d573fcbed3fb65813e8f4f244c86",
+      "size": 8440,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/75bbf3e5bb60d573fcbed3fb65813e8f4f244c86"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_ci_position_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95e52963ae151b3f12cb9b6d4c759e3f89d3724",
+      "size": 3285,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a95e52963ae151b3f12cb9b6d4c759e3f89d3724"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_deliverable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a0f007275af85db3f0e4db15bf326d94f4dfb4",
+      "size": 7978,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/70a0f007275af85db3f0e4db15bf326d94f4dfb4"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a948a0ab75a5cbaecdfe6067374741afaa03d3ff",
+      "size": 33493,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a948a0ab75a5cbaecdfe6067374741afaa03d3ff"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_eval_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "275135a1ddd13daad572de8eff0e457cd77adf87",
+      "size": 8699,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/275135a1ddd13daad572de8eff0e457cd77adf87"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_eval_operations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2605c49bb54345c2c4306f7f42b7da5af64a043",
+      "size": 16048,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b2605c49bb54345c2c4306f7f42b7da5af64a043"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_lm_ci_fn_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a87d3adfc9b659de3afdf451f60404934be1d2f",
+      "size": 4670,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3a87d3adfc9b659de3afdf451f60404934be1d2f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_lm_ci_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e22238ac7dac9ccb11026a0a50a98bff2de8d7",
+      "size": 11956,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c9e22238ac7dac9ccb11026a0a50a98bff2de8d7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_lm_global_mlp_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3b064d5fd526fcdd91c4123dfc46e5beb4a3b7",
+      "size": 6156,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/be3b064d5fd526fcdd91c4123dfc46e5beb4a3b7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_lm_global_transformer_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30417de789c5b0248ecf3a32101ee3e7c85c64e",
+      "size": 8141,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c30417de789c5b0248ecf3a32101ee3e7c85c64e"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_lm_targeted.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1f9c42dd9020c804874b60cc2c8af87df7430b",
+      "size": 5985,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8b1f9c42dd9020c804874b60cc2c8af87df7430b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_load_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc99f7e04b0e8b66fe59560af48074156251a007",
+      "size": 19276,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/fc99f7e04b0e8b66fe59560af48074156251a007"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_model_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dfb699142ecca0cb0ec7c13548a0d3c52f142e4",
+      "size": 12650,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4dfb699142ecca0cb0ec7c13548a0d3c52f142e4"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_prefix_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209cc74899b6ebd747721918f7f811b4554f0431",
+      "size": 1679,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/209cc74899b6ebd747721918f7f811b4554f0431"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_profile_derivation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f8f04332d8a7209abbe22b21a42a32beb694fa",
+      "size": 2694,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/62f8f04332d8a7209abbe22b21a42a32beb694fa"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_qwen36_targeted_wiring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f05dc8cf53b3f1e67ac64843dd4ed95ce5827d2",
+      "size": 8265,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4f05dc8cf53b3f1e67ac64843dd4ed95ce5827d2"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_qwen36_wiring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525b277dcf9b3a005e1bd97b189cd0def7f3556c",
+      "size": 18250,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/525b277dcf9b3a005e1bd97b189cd0def7f3556c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_router_divergence_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21321071734620763581dce480616ceb8c26105b",
+      "size": 27098,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/21321071734620763581dce480616ceb8c26105b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_run_bootstrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e25b4e06879d68a08868a5801c851f2503ccb37a",
+      "size": 5446,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e25b4e06879d68a08868a5801c851f2503ccb37a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_run_inline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4908eb784826cde40cd1552c4f18a3eebfd4db09",
+      "size": 11917,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4908eb784826cde40cd1552c4f18a3eebfd4db09"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c37e10a8545278e53d6442c8ef215b7630e21e6f",
+      "size": 15263,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c37e10a8545278e53d6442c8ef215b7630e21e6f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_token_batches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d42259d2dae96d3c9bf6f8e3086eb0f470bed8b0",
+      "size": 2775,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/d42259d2dae96d3c9bf6f8e3086eb0f470bed8b0"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_trace_check_import_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3caacd064dbf3f4ac69bbd73c5bdfbdede85fc",
+      "size": 1013,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3a3caacd064dbf3f4ac69bbd73c5bdfbdede85fc"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_training_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c1f400c8f1a281fc3829db69406a29c58874dd1",
+      "size": 1635,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2c1f400c8f1a281fc3829db69406a29c58874dd1"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_training_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61e3bc1491fa5eac0ec9707cc94d1ad539fb047",
+      "size": 7756,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c61e3bc1491fa5eac0ec9707cc94d1ad539fb047"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_well_temperedness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff05843d7762f5bda32927d16b8c80208d5cedb",
+      "size": 28482,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9ff05843d7762f5bda32927d16b8c80208d5cedb"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/lm/test_well_temperedness_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf8ae3d5de4d9a4e033cad26bdcb87c09fd4480",
+      "size": 3758,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ecf8ae3d5de4d9a4e033cad26bdcb87c09fd4480"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/resid_mlp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "324025c435bca78af829392ef083356f329514d0",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/324025c435bca78af829392ef083356f329514d0"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/resid_mlp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/resid_mlp/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ee393e9c26059e0585858dcd07f05690d9706e7",
+      "size": 4814,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6ee393e9c26059e0585858dcd07f05690d9706e7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/resid_mlp/test_resid_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca6df5d0cfe3fb56153e1c9b97e3554cf9263258",
+      "size": 29808,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ca6df5d0cfe3fb56153e1c9b97e3554cf9263258"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_eval_tier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf73ad684fcc21ba36b32b4def5a13bb96d44ca",
+      "size": 7497,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4bf73ad684fcc21ba36b32b4def5a13bb96d44ca"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_prepared_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b229a3c0a9620790c136e9b4eaab1229d67890af",
+      "size": 7657,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b229a3c0a9620790c136e9b4eaab1229d67890af"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_repo_configs_parse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021846be441d763c95169632cb4dbe6a17fb502e",
+      "size": 10297,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/021846be441d763c95169632cb4dbe6a17fb502e"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_toy_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c05340bc3bed6cf39f6aa1ebc15db3b52d57a4c",
+      "size": 1395,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0c05340bc3bed6cf39f6aa1ebc15db3b52d57a4c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_toy_resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a50f3ada2dcafc7a0aa352756a0cee63cd8d89b",
+      "size": 5535,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7a50f3ada2dcafc7a0aa352756a0cee63cd8d89b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/test_toy_uv_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799de2a4008b1112102a515b6ea56f6cdf1cb300",
+      "size": 5173,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/799de2a4008b1112102a515b6ea56f6cdf1cb300"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/tms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f215cec1f6247c6a799af65c3131052a5c1d6060",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/f215cec1f6247c6a799af65c3131052a5c1d6060"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/tms/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/tms/test_targeted_tms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ce6bf82ae3c23ac6317263e1059ae4ff41b319",
+      "size": 42434,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b6ce6bf82ae3c23ac6317263e1059ae4ff41b319"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/experiments/tms/test_tms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a7d1861c25af48527dc23d06f145b798920be2c",
+      "size": 35413,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9a7d1861c25af48527dc23d06f145b798920be2c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "896406b944d686f4355f1992edb7329664150142",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/896406b944d686f4355f1992edb7329664150142"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/test_ci_shards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786dfd6c68910022876fde42f72aee175a7a194c",
+      "size": 4483,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/786dfd6c68910022876fde42f72aee175a7a194c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/test_dataset_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "babbbad5ea2edd6878c65b88202e14bd4c140aec",
+      "size": 5240,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/babbbad5ea2edd6878c65b88202e14bd4c140aec"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/test_parse_wandb_run_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73fd4d8467e3519bc97a9340c3514f09bed47076",
+      "size": 2629,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/73fd4d8467e3519bc97a9340c3514f09bed47076"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/test_pretrain_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c05b81bf6855c8ac515ab9a1b010d8681c9df33",
+      "size": 2450,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3c05b81bf6855c8ac515ab9a1b010d8681c9df33"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/infra/test_row_shuffle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36ac0641ad9d792a12473bcc9b043841883d654",
+      "size": 7418,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a36ac0641ad9d792a12473bcc9b043841883d654"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/lm_configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57b3a72addbee38f68f7a3ed422cb8ab9e11f216",
+      "size": 2830,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/57b3a72addbee38f68f7a3ed422cb8ab9e11f216"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/migrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "109a7e823cb59c89cbe9271e668300a72998ba32",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/109a7e823cb59c89cbe9271e668300a72998ba32"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/migrations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/migrations/test_ci_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd08d053eacf5e0a92c3d5f141dd0876848149a4",
+      "size": 7101,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bd08d053eacf5e0a92c3d5f141dd0876848149a4"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/migrations/test_data_layout_migration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aff2a56e09b403949710e8254cee2bbcdad5231",
+      "size": 2226,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1aff2a56e09b403949710e8254cee2bbcdad5231"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/migrations/test_schedule_knots_migration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9018f471c9613aaee683f25e768ff36c0d06f78e",
+      "size": 4779,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9018f471c9613aaee683f25e768ff36c0d06f78e"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/placed_ci_fn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e977bff4630babd85a4e0044cd49a882bd1462a",
+      "size": 790,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0e977bff4630babd85a4e0044cd49a882bd1462a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/routed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6f75ae04d7ddb43fd9057945683026087c30271",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/d6f75ae04d7ddb43fd9057945683026087c30271"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/routed/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/routed/test_dense_experts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f89b9ea8b1bdf09424ad75359abe6335806bdf30",
+      "size": 8624,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f89b9ea8b1bdf09424ad75359abe6335806bdf30"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/routed/test_expert_source_jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29acece45815bc6cddee6139bbf81e0702e57d5",
+      "size": 4948,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c29acece45815bc6cddee6139bbf81e0702e57d5"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/routed/test_experts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6588544e583b409a73392331378757f2c428d29",
+      "size": 23380,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f6588544e583b409a73392331378757f2c428d29"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/sequence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53834d581fddc3e2749d644983790e6fa403cbee",
+      "size": 552,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/53834d581fddc3e2749d644983790e6fa403cbee"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66a133ffe8d1dcd668a7dcd7caace7330fcc5955",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/66a133ffe8d1dcd668a7dcd7caace7330fcc5955"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports/test_attention_kl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f7ad94b004803e773721ba5b73defcb5e58f5b",
+      "size": 11158,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/56f7ad94b004803e773721ba5b73defcb5e58f5b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports/test_attention_partitioning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84a951c3286ae9c30eaced2077514eeb47a1d63",
+      "size": 7646,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b84a951c3286ae9c30eaced2077514eeb47a1d63"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports/test_attention_softcap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cfaacefd3b066527168a3d6186581d07b43b62",
+      "size": 2850,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/48cfaacefd3b066527168a3d6186581d07b43b62"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/target_ports/test_attn_implementation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aaed1713912960c8e42aefacca1f8a91e9b0ba7",
+      "size": 6411,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3aaed1713912960c8e42aefacca1f8a91e9b0ba7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b535f40f640325fcbe6cc378048fd82d5c0f8e52",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/b535f40f640325fcbe6cc378048fd82d5c0f8e52"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d82c7cde6604ccb4ab08eb8c736825e2c528b1",
+      "size": 191,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/54d82c7cde6604ccb4ab08eb8c736825e2c528b1"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "580402c23a16e8d40ae404cc9ffdccab3fe770a8",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/580402c23a16e8d40ae404cc9ffdccab3fe770a8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/fixtures.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7837cd071171f6325a281a956bb1ad1a1e433e3c",
+      "size": 60860,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7837cd071171f6325a281a956bb1ad1a1e433e3c"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/gen_fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4bd82245dd4c56148bae46cedfd541fcdabdb7",
+      "size": 6371,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8d4bd82245dd4c56148bae46cedfd541fcdabdb7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/jax_equivalence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4aa4cc7226f4e1e33a9b74cffa59833b88bd928",
+      "size": 7538,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b4aa4cc7226f4e1e33a9b74cffa59833b88bd928"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/test_equivalence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "340749d091b1a6b00486c637e651007a1366b355",
+      "size": 11303,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/340749d091b1a6b00486c637e651007a1366b355"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/equivalence/torch_reference.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c039dc1043c0788deda53e96d632cee26a569b",
+      "size": 115,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/33c039dc1043c0788deda53e96d632cee26a569b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e5eb126c16bdeae6440e6842cc0e6b0b74d6862",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/1e5eb126c16bdeae6440e6842cc0e6b0b74d6862"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity/gen_hf_fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe5067c01a2552063b0a8c28a1339a3fb48f891",
+      "size": 6064,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bfe5067c01a2552063b0a8c28a1339a3fb48f891"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity/qwen36_35b_real_logits.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fae15980cbd5da73e8adc6c06ad5cffba436107",
+      "size": 1778849,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0fae15980cbd5da73e8adc6c06ad5cffba436107"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity/qwen36_moe_tiny_hf_fixtures.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb7512339adc7c85bc9dd941b0e5a7eca8b7c12",
+      "size": 187283,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/dcb7512339adc7c85bc9dd941b0e5a7eca8b7c12"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_moe_hf_parity/test_qwen36_moe_hf_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd0004e0c267db8d3b372dac31a243a1716aa5f",
+      "size": 6398,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/4cd0004e0c267db8d3b372dac31a243a1716aa5f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_placement_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6bbf11c2cc60da84b54e1519e03aea34448361",
+      "size": 4701,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7a6bbf11c2cc60da84b54e1519e03aea34448361"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen36_pooled_source_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407a6cdb1422c4187c610a429f86b85987e3c525",
+      "size": 9469,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/407a6cdb1422c4187c610a429f86b85987e3c525"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f157a2a0315cad0684a7644c80e03d0e7f1dffb8",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/f157a2a0315cad0684a7644c80e03d0e7f1dffb8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity/gen_hf_fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "308ce6bd505dd2d05807c1c95cc6cbcd89ccdd62",
+      "size": 4593,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/308ce6bd505dd2d05807c1c95cc6cbcd89ccdd62"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity/qwen3_8b_real_logits.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e361205cd159c070837a6b244f45dcd844935c6",
+      "size": 913338,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6e361205cd159c070837a6b244f45dcd844935c6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity/qwen3_tiny_hf_fixtures.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43860cb1d272b8055cc27ee000db2551fdec18a8",
+      "size": 97292,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/43860cb1d272b8055cc27ee000db2551fdec18a8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/qwen3_hf_parity/test_qwen3_hf_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f13009405c4146dedf9143ff800d934cc707e4",
+      "size": 6672,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a5f13009405c4146dedf9143ff800d934cc707e4"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/simple_mlp_equivalence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d0a64e303305de30b6c156297d6ac303e1b77a9",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/1d0a64e303305de30b6c156297d6ac303e1b77a9"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/simple_mlp_equivalence/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/simple_mlp_equivalence/real_t-9d2b8f02_fixture.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1bc68e52c077e8f603ec1a5c438d926f468d1a",
+      "size": 3218688,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cf1bc68e52c077e8f603ec1a5c438d926f468d1a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/simple_mlp_equivalence/test_torch_equivalence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc32c95effa2562b331985185a78ab31f4fb2d4d",
+      "size": 3110,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cc32c95effa2562b331985185a78ab31f4fb2d4d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/simple_mlp_equivalence/tiny_fixture.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3c6e7aac4bd2706e41ab81f288de04efb4e28d",
+      "size": 121702,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0f3c6e7aac4bd2706e41ab81f288de04efb4e28d"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/stacked_parity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0bcbb73d65301cfa27a74a4d627aa802d795643",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/a0bcbb73d65301cfa27a74a4d627aa802d795643"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/stacked_parity/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/stacked_parity/gen_stacked_fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06abdc5d8b1bef0d97d8f5942bc52a93b744edea",
+      "size": 6877,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/06abdc5d8b1bef0d97d8f5942bc52a93b744edea"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/stacked_parity/stacked_fixtures.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9052d3ae8b3a3226d2c28421e71613fb38c441b2",
+      "size": 521730,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9052d3ae8b3a3226d2c28421e71613fb38c441b2"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/stacked_parity/test_stacked_parity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee3dc705e0de49a331bece0db6eed5ec61b3870e",
+      "size": 6775,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ee3dc705e0de49a331bece0db6eed5ec61b3870e"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_activation_capture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199a8b2b443077cd06c9db9b319472f10b4133f1",
+      "size": 14463,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/199a8b2b443077cd06c9db9b319472f10b4133f1"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_dense_masked_qwen36.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4c7a6e8ee7d99fed9a955f561dff1eccb440bea",
+      "size": 10717,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f4c7a6e8ee7d99fed9a955f561dff1eccb440bea"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_document_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2f22b03c2ebd065febac8227b686e1d36bdf7e",
+      "size": 8916,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bf2f22b03c2ebd065febac8227b686e1d36bdf7e"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_gated_delta_chunkwise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74b26183d2d46348f043f31f1fc39551253b84a",
+      "size": 9631,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c74b26183d2d46348f043f31f1fc39551253b84a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_hf_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4609ea846323ccb8b4a7bda19606e5c74ac3ae1",
+      "size": 5096,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a4609ea846323ccb8b4a7bda19606e5c74ac3ae1"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_llama31.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ead9f965bfc7dd640ff8586bcabfc198abe3a2",
+      "size": 38206,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/04ead9f965bfc7dd640ff8586bcabfc198abe3a2"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_llama_simple_mlp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef43f1633b3c7b630cc4a1e07fec8c66e92663e7",
+      "size": 27380,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ef43f1633b3c7b630cc4a1e07fec8c66e92663e7"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_llama_simple_mlp_placed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c34d5c6e9a9f9cfa1962421a9496b1daf57a9cf",
+      "size": 16888,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0c34d5c6e9a9f9cfa1962421a9496b1daf57a9cf"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_model_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "717ffe12f6d9eb276f346a1f000af5ff49737d92",
+      "size": 20130,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/717ffe12f6d9eb276f346a1f000af5ff49737d92"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_nonlinearity_aligned_initialization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19be85f32e0f95e67ca259885c36bbdd33554e25",
+      "size": 3140,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/19be85f32e0f95e67ca259885c36bbdd33554e25"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe836d8816ccb7b5b2058224c589f523c01fbf5",
+      "size": 26195,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/9fe836d8816ccb7b5b2058224c589f523c01fbf5"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_component_activations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d2108b8ed2d09c105a191ce97499f3b625b13cf",
+      "size": 7182,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0d2108b8ed2d09c105a191ce97499f3b625b13cf"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_dtype_census.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489ac8bcc5b0c10221cbd43dcb0f1afdbe3ba030",
+      "size": 11367,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/489ac8bcc5b0c10221cbd43dcb0f1afdbe3ba030"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_mixer_sites.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e7e99922f6980a05bfbcd7a50ee43a90f19e70",
+      "size": 28833,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c9e7e99922f6980a05bfbcd7a50ee43a90f19e70"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30763a688d91a32ad6f6c70e3b10e2f8413a97a",
+      "size": 48273,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e30763a688d91a32ad6f6c70e3b10e2f8413a97a"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_narrow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632b5c96fe49000ad7520e830b4255891275acf8",
+      "size": 16531,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/632b5c96fe49000ad7520e830b4255891275acf8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_placed_batch_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c960da263f219f2cc3af1f85745ccc9dd2e9c43",
+      "size": 12109,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3c960da263f219f2cc3af1f85745ccc9dd2e9c43"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_placed_ci.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f96010c5ef48a89454399f9d5ec00700e884ffbc",
+      "size": 19555,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f96010c5ef48a89454399f9d5ec00700e884ffbc"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_placed_ci_training.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e03b24667b20ad59bda38f757e47c16efeecb6",
+      "size": 6638,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b7e03b24667b20ad59bda38f757e47c16efeecb6"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_placement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9d9d5a7149e87ac54ade829aa59543d2ba731f",
+      "size": 33391,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/cc9d9d5a7149e87ac54ade829aa59543d2ba731f"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_pooled_dense_tp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea623853f7866d9ee92373108fc7f57b6261789b",
+      "size": 478,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/ea623853f7866d9ee92373108fc7f57b6261789b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_pooled_mixers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732e90df006622cf27867da92ac1d7eaf3a083ab",
+      "size": 476,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/732e90df006622cf27867da92ac1d7eaf3a083ab"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_qwen36_pooled_ragged_tp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19219b87fd15c9f860d6657e07db1415463399de",
+      "size": 457,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/19219b87fd15c9f860d6657e07db1415463399de"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_stack_padding_placed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7831a55614848ec3c3c7c2427e023efad023c99",
+      "size": 34470,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/b7831a55614848ec3c3c7c2427e023efad023c99"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_step_replicate_invariance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93b6d46feef297d64545e74e55a7bc6e791bf68",
+      "size": 1130,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/c93b6d46feef297d64545e74e55a7bc6e791bf68"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_streamed_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d078d20d17d7fa25139ffb35aad437cd51cfb8",
+      "size": 22606,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/92d078d20d17d7fa25139ffb35aad437cd51cfb8"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_streamed_output_contracts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54cb7fb8f17413f1569e5930ea2d1547917ff6dd",
+      "size": 4358,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/54cb7fb8f17413f1569e5930ea2d1547917ff6dd"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/targets/test_taps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38633266f4dafcae768307fe9b7e68991f9a6e9b",
+      "size": 6551,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/38633266f4dafcae768307fe9b7e68991f9a6e9b"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/topology",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45e17f59845242fe229fba06578d0481c3d703b4",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/45e17f59845242fe229fba06578d0481c3d703b4"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/topology/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "param_decomp/param_decomp/tests/topology/test_path_schemas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1172d0564357cb41fcc16338648a26d4a73ba6be",
+      "size": 4895,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/1172d0564357cb41fcc16338648a26d4a73ba6be"
+    },
+    {
+      "path": "param_decomp/param_decomp/topology",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c93526c2e34022318a331fd9e4bf16d80f2165a",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/4c93526c2e34022318a331fd9e4bf16d80f2165a"
+    },
+    {
+      "path": "param_decomp/param_decomp/topology/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "326347e45c189e587a60c1e336bff18447ae6f83",
+      "size": 877,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/326347e45c189e587a60c1e336bff18447ae6f83"
+    },
+    {
+      "path": "param_decomp/param_decomp/topology/canonical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc72c5a8a7cc31653c01b44aca9fc7e4393a9c0",
+      "size": 4145,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/bbc72c5a8a7cc31653c01b44aca9fc7e4393a9c0"
+    },
+    {
+      "path": "param_decomp/param_decomp/topology/path_schemas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c09e5e31b07d34dbb37fb7018c70f2787915c28",
+      "size": 5136,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/2c09e5e31b07d34dbb37fb7018c70f2787915c28"
+    },
+    {
+      "path": "param_decomp/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c609cd56275ba8989a884c8d449e57e1e31caa4",
+      "size": 3612,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/0c609cd56275ba8989a884c8d449e57e1e31caa4"
+    },
+    {
+      "path": "param_decomp/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92aa8a4b0cc6baf6e12d81593e29f8287b1d1e96",
+      "size": 489671,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/92aa8a4b0cc6baf6e12d81593e29f8287b1d1e96"
+    },
+    {
+      "path": "param_decomp_formats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9756b34886998ccf80f3fa0664d2b9b6a1c64839",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/9756b34886998ccf80f3fa0664d2b9b6a1c64839"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09555342137fb9f8d57ef3a8ba6bd3e77075f788",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/09555342137fb9f8d57ef3a8ba6bd3e77075f788"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "649e2cb98c7b2478fc81de8a64686f6d4a1fe8f8",
+      "size": 227,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/649e2cb98c7b2478fc81de8a64686f6d4a1fe8f8"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/component_key.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e5e00a5423e961c77c1d75b951f03c452f5539",
+      "size": 1630,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/f4e5e00a5423e961c77c1d75b951f03c452f5539"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b03411905214be44bab7a97b0eba1924e969b07",
+      "size": 2423,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/7b03411905214be44bab7a97b0eba1924e969b07"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/dataset_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a46ab5b6bbe038f9f700cb1ea6fbe10b694b9416",
+      "size": 6913,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/a46ab5b6bbe038f9f700cb1ea6fbe10b694b9416"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b423d8e8fbeed2a2adf24a5939cd5bfab846996",
+      "size": 4291,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/3b423d8e8fbeed2a2adf24a5939cd5bfab846996"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/nonlinearity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07cae41da289e42f7ef720a9fb05b0ed6692a43c",
+      "size": 2860,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/07cae41da289e42f7ef720a9fb05b0ed6692a43c"
+    },
+    {
+      "path": "param_decomp_formats/param_decomp_formats/packed_rows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8155db2f2f3f5013d583db8f501cb33ceb748d13",
+      "size": 1892,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/8155db2f2f3f5013d583db8f501cb33ceb748d13"
+    },
+    {
+      "path": "param_decomp_formats/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852a683740db926f093f8f92a58de2dfc5812305",
+      "size": 515,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/852a683740db926f093f8f92a58de2dfc5812305"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43bdd7ada5811d27a9481614533eeecd5826733f",
+      "size": 3842,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/43bdd7ada5811d27a9481614533eeecd5826733f"
+    },
+    {
+      "path": "typings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8984539a57498e2b99e5a9997a40da74fe4b200d",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/8984539a57498e2b99e5a9997a40da74fe4b200d"
+    },
+    {
+      "path": "typings/orjson",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "786c63a333155a87c4839bd5ecf64be6708366fa",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/786c63a333155a87c4839bd5ecf64be6708366fa"
+    },
+    {
+      "path": "typings/orjson/__init__.pyi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cce74fdcad4c21a5f439197b94fbb4e18e8cd93",
+      "size": 124,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/6cce74fdcad4c21a5f439197b94fbb4e18e8cd93"
+    },
+    {
+      "path": "typings/transformers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0693835ff831c6cf14dab665e76d1ee20d84b558",
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/trees/0693835ff831c6cf14dab665e76d1ee20d84b558"
+    },
+    {
+      "path": "typings/transformers/__init__.pyi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af866558e97c638aaf041d9426770c8913916c98",
+      "size": 811,
+      "url": "https://api.github.com/repos/goodfire-ai/param-decomp/git/blobs/af866558e97c638aaf041d9426770c8913916c98"
+    }
+  ]
+}

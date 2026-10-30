@@ -1,0 +1,616 @@
+{
+  "repository": "https://github.com/goodfire-ai/arithmetic-wild",
+  "revision": "d03024a9243e3cd6902b166244700d8aed20505e",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b955ec7918a75faebad58c51d1062e2c043fe2",
+      "size": 4756,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/c1b955ec7918a75faebad58c51d1062e2c043fe2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ff01df9c2cc94d9b12e78eb7a57f31df833e40",
+      "size": 3466,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/73ff01df9c2cc94d9b12e78eb7a57f31df833e40"
+    },
+    {
+      "path": "best_das",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ed3b7e52869d7b32fc82966ab99bd7cbc2903d8",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/5ed3b7e52869d7b32fc82966ab99bd7cbc2903d8"
+    },
+    {
+      "path": "best_das/Llama-3.1-8B",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e754098433fe5e2f12dac1f5789c503e1982ca24",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/e754098433fe5e2f12dac1f5789c503e1982ca24"
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_addition.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f05cc99ce10df64d6faf76ed4ec6fb5fa3a8e09",
+      "size": 774,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/2f05cc99ce10df64d6faf76ed4ec6fb5fa3a8e09"
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_hours.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5af5ba9304cb0f68bcdda0e85035e45d81a01108",
+      "size": 769,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/5af5ba9304cb0f68bcdda0e85035e45d81a01108"
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_months.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6048789a29278b1538ccc42e5a4d670b1b542bb",
+      "size": 762,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/b6048789a29278b1538ccc42e5a4d670b1b542bb"
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_weekdays.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac79a22aedddedec3ad62fb0b4d97c4dac29562",
+      "size": 767,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/cac79a22aedddedec3ad62fb0b4d97c4dac29562"
+    },
+    {
+      "path": "datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e762a4d349584855659f6e5879613680a6c5e1e",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/6e762a4d349584855659f6e5879613680a6c5e1e"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af9b5dccb6e5ccdbeb8df58b4ebf1e6f6383a6c5",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/af9b5dccb6e5ccdbeb8df58b4ebf1e6f6383a6c5"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/hours",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70d745153269f1e2c3598056ec025c52639c2ea1",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/70d745153269f1e2c3598056ec025c52639c2ea1"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/hours/filter_metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18332b57531fa42e4d66858c105d20f7aa74ccb",
+      "size": 303,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/a18332b57531fa42e4d66858c105d20f7aa74ccb"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/hours/filtered_dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1aba9bca500f4d28678c049d937f8df07612cc2",
+      "size": 2265172,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/d1aba9bca500f4d28678c049d937f8df07612cc2"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42a8ad01e6e4c39f3e12ec204650b314bc52ffaf",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/42a8ad01e6e4c39f3e12ec204650b314bc52ffaf"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months/filter_metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9832e72b8224d4130b91d487a40927b64978ede0",
+      "size": 290,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/9832e72b8224d4130b91d487a40927b64978ede0"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months/filtered_dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c60b0eb9df9f7b85f41c6c7b4dbee5b2daccc3",
+      "size": 1353975,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/19c60b0eb9df9f7b85f41c6c7b4dbee5b2daccc3"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months/filtered_dataset.json.bak.number",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56db72ab1d905c29275b6508f4a8b34aef146efa",
+      "size": 1837317,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/56db72ab1d905c29275b6508f4a8b34aef146efa"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/weekdays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73c5305f09fe588514adf8732eedda3202429354",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/73c5305f09fe588514adf8732eedda3202429354"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/weekdays/filter_metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e665d907b6e5d93ce83c09448abcb87796f816da",
+      "size": 290,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/e665d907b6e5d93ce83c09448abcb87796f816da"
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/weekdays/filtered_dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644f82f9d9f0ddf62d2481daf3133b46387953d7",
+      "size": 1815662,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/644f82f9d9f0ddf62d2481daf3133b46387953d7"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c9e3693bc306f7652ef0a6e107bad0c68eaa7b",
+      "size": 433,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/01c9e3693bc306f7652ef0a6e107bad0c68eaa7b"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7523bfa36f11eaeab544f69190c9cd9d0190244b",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/7523bfa36f11eaeab544f69190c9cd9d0190244b"
+    },
+    {
+      "path": "src/cache_neuron_activations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d0af05b146a6b956aada5fab5eab17e16f69c5f",
+      "size": 5417,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/8d0af05b146a6b956aada5fab5eab17e16f69c5f"
+    },
+    {
+      "path": "src/cl_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3192905096488f36896f9976ccde5f812f08419",
+      "size": 36533,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/c3192905096488f36896f9976ccde5f812f08419"
+    },
+    {
+      "path": "src/collect_pca.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "877157be254861372c43a241ad73cc5fd2ffa78b",
+      "size": 12762,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/877157be254861372c43a241ad73cc5fd2ffa78b"
+    },
+    {
+      "path": "src/cross_task_patch.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed932596236ffd6c1e3a39ce725d58287e1082a4",
+      "size": 54620,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/ed932596236ffd6c1e3a39ce725d58287e1082a4"
+    },
+    {
+      "path": "src/cross_task_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d1d276cdecdb63a3ccbb5d95a5e1dee303fe659",
+      "size": 13593,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/2d1d276cdecdb63a3ccbb5d95a5e1dee303fe659"
+    },
+    {
+      "path": "src/dynamic_downproj.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ab1ea0ff6fc85229dd854137c68bf7bb1264ab6",
+      "size": 80271,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/0ab1ea0ff6fc85229dd854137c68bf7bb1264ab6"
+    },
+    {
+      "path": "src/extra_addition_neurons.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f386c07915e262092f188a1c61a761dc741ad1",
+      "size": 251,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/01f386c07915e262092f188a1c61a761dc741ad1"
+    },
+    {
+      "path": "src/fourier_probes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f67629176d56c14f6732c01bd118bd33213387c5",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/f67629176d56c14f6732c01bd118bd33213387c5"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57caa736bfd49627b52e1a05b53384b99229f2f3",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/57caa736bfd49627b52e1a05b53384b99229f2f3"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period100_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c72b4203cabb32226498078f7ae451a301aec0c",
+      "size": 18413,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/4c72b4203cabb32226498078f7ae451a301aec0c"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period100_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88c316c9e1ee5f4a01885faefcbab78637095f2",
+      "size": 18413,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/f88c316c9e1ee5f4a01885faefcbab78637095f2"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period10_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d821d59d96afccbe8c38ab452596820de30ca210",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/d821d59d96afccbe8c38ab452596820de30ca210"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period10_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c87dbdb9e47bb54759e33e13becfd163c50a52d",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/8c87dbdb9e47bb54759e33e13becfd163c50a52d"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period20_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0953cb4d90c43e21318daba1e5682929ea468176",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/0953cb4d90c43e21318daba1e5682929ea468176"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period20_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a0bcf4561ece7c5b1a9b341c5c61904f22baecd",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/8a0bcf4561ece7c5b1a9b341c5c61904f22baecd"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period2_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b579b8279f9959387f9db7f94d556a83d3eb3d26",
+      "size": 18397,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/b579b8279f9959387f9db7f94d556a83d3eb3d26"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period2_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50150b25a20abd0e9f61f5f66e935834b3a5ec80",
+      "size": 18397,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/50150b25a20abd0e9f61f5f66e935834b3a5ec80"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period50_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc30e064922aecabcbbc786160e19f4b2fe9843",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/bbc30e064922aecabcbbc786160e19f4b2fe9843"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period50_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5efb1613ea4ee8c4e45f400158f2d20f32c7187",
+      "size": 18405,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/d5efb1613ea4ee8c4e45f400158f2d20f32c7187"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period5_cos.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f87a81875c8c2e017ba77f7031a918962455d67",
+      "size": 18397,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/8f87a81875c8c2e017ba77f7031a918962455d67"
+    },
+    {
+      "path": "src/fourier_probes/addition_probes_layer_18_last_token_resid/probe_period5_sin.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797c9631da6ba160951df85b17947ef806df558e",
+      "size": 18397,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/797c9631da6ba160951df85b17947ef806df558e"
+    },
+    {
+      "path": "src/fourier_probes/fourier_probes_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150cd751fc69cedd350e9ab6012c7db48a321115",
+      "size": 15501,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/150cd751fc69cedd350e9ab6012c7db48a321115"
+    },
+    {
+      "path": "src/fourier_probes/fourier_steering.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bdf6791053c976db146269e9c9e549cc8cb2501",
+      "size": 110365,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/3bdf6791053c976db146269e9c9e549cc8cb2501"
+    },
+    {
+      "path": "src/fourier_probes/pca_fourier_probes_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502fa373ecbf03c4e22e4d8deb4aee9d5756a74",
+      "size": 22932,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/3502fa373ecbf03c4e22e4d8deb4aee9d5756a74"
+    },
+    {
+      "path": "src/generate_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3cd84ed761cafe88753946d9fd91e08b92b162",
+      "size": 11004,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/aa3cd84ed761cafe88753946d9fd91e08b92b162"
+    },
+    {
+      "path": "src/load_das_subspaces.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41b425fe45824f097e06f236d98268a0882bde7",
+      "size": 6029,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/a41b425fe45824f097e06f236d98268a0882bde7"
+    },
+    {
+      "path": "src/missed_neurons.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a00850b9f3844aac90f6b532fb08f00f206ea7",
+      "size": 183025,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/84a00850b9f3844aac90f6b532fb08f00f206ea7"
+    },
+    {
+      "path": "src/neuron_selection.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18dbe38c16bd49d85157af3def3118d18891ea10",
+      "size": 63715,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/18dbe38c16bd49d85157af3def3118d18891ea10"
+    },
+    {
+      "path": "src/neuron_selection_sweep.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d2fec8a5bf977ac5f2bfc450d32c754f24863c",
+      "size": 415406,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/e7d2fec8a5bf977ac5f2bfc450d32c754f24863c"
+    },
+    {
+      "path": "src/neurons_across_prompts.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c777b613ddd2e29c8a142c66e363eb61044d5131",
+      "size": 89669,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/c777b613ddd2e29c8a142c66e363eb61044d5131"
+    },
+    {
+      "path": "src/neurons_across_sums.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dda177d5792dd35aaec65a9d1505c67e11f98f3d",
+      "size": 121350,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/dda177d5792dd35aaec65a9d1505c67e11f98f3d"
+    },
+    {
+      "path": "src/neurons_per_task.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9faa6fce4af383a78f2fea113121ca5104047f52",
+      "size": 587,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/9faa6fce4af383a78f2fea113121ca5104047f52"
+    },
+    {
+      "path": "src/rephrased_templates.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda68e5daa107a8ca598a5ede328cc58aafa4360",
+      "size": 322186,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/eda68e5daa107a8ca598a5ede328cc58aafa4360"
+    },
+    {
+      "path": "src/static_downproj.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c481d99857fffde3afd9f5e6adbf11525904b9e6",
+      "size": 104754,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/c481d99857fffde3afd9f5e6adbf11525904b9e6"
+    },
+    {
+      "path": "src/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "246a2a78c6cc8d0430b7d833616129802a26ba14",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/246a2a78c6cc8d0430b7d833616129802a26ba14"
+    },
+    {
+      "path": "src/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b04c47ba8ae14ea6d91044bff49def83aaf16430",
+      "size": 1742,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/b04c47ba8ae14ea6d91044bff49def83aaf16430"
+    },
+    {
+      "path": "src/tasks/addition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff86f89f27dd631829e166528474d379fd302f85",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/ff86f89f27dd631829e166528474d379fd302f85"
+    },
+    {
+      "path": "src/tasks/addition/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "970c655ce90f303054bd6289f32a2c9dd7d39832",
+      "size": 390,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/970c655ce90f303054bd6289f32a2c9dd7d39832"
+    },
+    {
+      "path": "src/tasks/addition/causal_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b672a626efd24c836c56eae6740230a5ef5afe",
+      "size": 1851,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/74b672a626efd24c836c56eae6740230a5ef5afe"
+    },
+    {
+      "path": "src/tasks/addition/token_positions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5193b1b11059977c5231853a1681b3314e7f1ad",
+      "size": 1721,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/a5193b1b11059977c5231853a1681b3314e7f1ad"
+    },
+    {
+      "path": "src/tasks/counterfactuals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e076948b3cd87b301d8a4ca211c898474a82dc4",
+      "size": 759,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/5e076948b3cd87b301d8a4ca211c898474a82dc4"
+    },
+    {
+      "path": "src/tasks/hours",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a2012f34dbeebb62fab7d63423803eddedc27b",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/f3a2012f34dbeebb62fab7d63423803eddedc27b"
+    },
+    {
+      "path": "src/tasks/hours/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "184a7e6fee8ae4bdc21d98a61743b43a0b6e260a",
+      "size": 368,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/184a7e6fee8ae4bdc21d98a61743b43a0b6e260a"
+    },
+    {
+      "path": "src/tasks/hours/causal_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b078a515767934b65a991dc65e3037793a9c6f",
+      "size": 3066,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/b4b078a515767934b65a991dc65e3037793a9c6f"
+    },
+    {
+      "path": "src/tasks/hours/token_positions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0787935cad1ea5108c19d093c26ef3ac3238cce",
+      "size": 1754,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/f0787935cad1ea5108c19d093c26ef3ac3238cce"
+    },
+    {
+      "path": "src/tasks/months",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed65cf68f94939e109c5256af756eeafd6b77b7a",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/ed65cf68f94939e109c5256af756eeafd6b77b7a"
+    },
+    {
+      "path": "src/tasks/months/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f7ba557bb8529507dfe8f7f7876cc60e15ac780",
+      "size": 374,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/9f7ba557bb8529507dfe8f7f7876cc60e15ac780"
+    },
+    {
+      "path": "src/tasks/months/causal_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e131f95ac23fd8407b30e8fd1d85a013608e60",
+      "size": 2372,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/14e131f95ac23fd8407b30e8fd1d85a013608e60"
+    },
+    {
+      "path": "src/tasks/months/token_positions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "751ca4845f3a54045882f0f7104a3cdcef4e1a8a",
+      "size": 1761,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/751ca4845f3a54045882f0f7104a3cdcef4e1a8a"
+    },
+    {
+      "path": "src/tasks/weekdays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09b6fed2f7d7f8030cbfa2afe77360ef2506f93e",
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/trees/09b6fed2f7d7f8030cbfa2afe77360ef2506f93e"
+    },
+    {
+      "path": "src/tasks/weekdays/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99eaba53fb9cfd3abe254dd599a89186f182718",
+      "size": 378,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/b99eaba53fb9cfd3abe254dd599a89186f182718"
+    },
+    {
+      "path": "src/tasks/weekdays/causal_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bf687f4dda97341a076c5a928f082ffdeb04bc0",
+      "size": 2164,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/2bf687f4dda97341a076c5a928f082ffdeb04bc0"
+    },
+    {
+      "path": "src/tasks/weekdays/token_positions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad663f902e6bd4ae9a31f1fbdb609abce3990278",
+      "size": 1772,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/ad663f902e6bd4ae9a31f1fbdb609abce3990278"
+    },
+    {
+      "path": "src/train_das.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6973fc368a4b6c457847cd722a767445c1e8b787",
+      "size": 16690,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/6973fc368a4b6c457847cd722a767445c1e8b787"
+    },
+    {
+      "path": "src/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b8e49d41521d5d99f45e1a7c5fccfb9ca60a4c",
+      "size": 4958,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/a5b8e49d41521d5d99f45e1a7c5fccfb9ca60a4c"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f73cebadca29f3db308511cf285444d3c00fb9",
+      "size": 1074847,
+      "url": "https://api.github.com/repos/goodfire-ai/arithmetic-wild/git/blobs/98f73cebadca29f3db308511cf285444d3c00fb9"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "url": "https://www.cognitiverevolution.ai/don-t-fight-backprop-goodfire-s-vision-for-intentional-design-w-dan-balsam-tom-mcgrath/",
+    "speakers": [
+      "Daniel Balsam",
+      "Thomas McGrath"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/mechanistic-interpretability-philosophy-practice-progress-with-goodfires-daniel-tom/",
+    "speakers": [
+      "Daniel Balsam",
+      "Thomas McGrath"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.cognitiverevolution.ai/how-agents-decide-goodfire-s-eric-bigelow-on-critical-tokens-phase-shifts-in-context-learning/",
+    "speakers": [
+      "Eric Bigelow"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.latent.space/p/goodfire",
+    "speakers": [
+      "Myra Deng",
+      "Mark Bissell"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.mattturck.com/podcast/why-ai-agents-cheat-eric-ho-goodfire",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.theneurondaily.com/p/watch-goodfire-is-opening-ais-black-box",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://www.ai-in-the-am.com/guests/tom-mcgrath/",
+    "speakers": [
+      "Thomas McGrath"
+    ],
+    "participation": "index_only",
+    "role": "appearance_index"
+  },
+  {
+    "url": "https://www.theinformation.com/titv/aifp2",
+    "speakers": [
+      "Thomas McGrath"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "access": "publisher_restriction_possible"
+  },
+  {
+    "url": "https://odsc.ai/speakers-portfolio/interpretability-as-a-control-surface-for-ai-behavior/",
+    "speakers": [
+      "Daniel Balsam"
+    ],
+    "participation": "announced",
+    "role": "conference_talk"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xuq0T-dKH9w",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "title_hint": "Eric Ho: Goodfire, Interpretability, and Designing AI We Can Understand",
+    "discovered_from": "https://www.youtube.com/watch?v=xuq0T-dKH9w"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7Y3dIOlxvUA",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "title_hint": "We are in a Race To Understand AI | Eric Ho, Goodfire",
+    "discovered_from": "https://www.linkedin.com/posts/eric-ho-53981862_really-fun-reflecting-on-the-goodfire-journey-activity-7425240444315303936-UwxM"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_b1Hs2Q7JNo",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/posts/salesforce-ventures_the-idea-that-launched-goodfire-when-activity-7467647353890721792-TceQ"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=VuDEh3iaaqQ",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "panel",
+    "title_hint": "Unlock 2026: training life sciences AI models",
+    "discovered_from": "https://www.linkedin.com/posts/goodfire-ai_its-deeply-important-in-biology-to-actually-activity-7466213001348476928-9Ao-"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=_egu7OFem-k",
+    "speakers": [
+      "Thomas McGrath"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "title_hint": "Designing How AI Grows — Tom McGrath",
+    "discovered_from": "https://www.linkedin.com/posts/goodfire-ai_why-am-i-optimistic-about-interpretability-activity-7501317483983863808-MVQh"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lDTEFogB_Us",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "review_required",
+    "role": "interview",
+    "title_hint": "Mapping the Mind of a Neural Net: Goodfire's Eric Ho on the Future of Interpretability",
+    "discovered_from": "https://talk-data.com/person/882ac960-eb23-4ea5-9412-7869011bdd32/eric-ho"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=YoRuuz2ZMQs",
+    "speakers": [
+      "Thomas McGrath"
+    ],
+    "participation": "review_required",
+    "role": "interview",
+    "title_hint": "Why OpenAI's Model Hacked Hugging Face | Tom McGrath, Goodfire",
+    "discovered_from": "https://zolotube.com/watch?v=YoRuuz2ZMQs"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=AtOpZ1L9egU",
+    "speakers": [
+      "Daniel Balsam"
+    ],
+    "participation": "confirmed",
+    "role": "interview",
+    "title_hint": "Inside Goodfire with Daniel Balsam",
+    "discovered_from": "https://www.linkedin.com/posts/anglilian_the-inside-goodfire-talk-with-daniel-balsam-activity-7446492590650048512-9dOl"
+  },
+  {
+    "url": "https://sequoiacap.com/podcast/training-data-eric-ho",
+    "speakers": [
+      "Eric Ho"
+    ],
+    "participation": "confirmed",
+    "role": "interview"
+  },
+  {
+    "url": "https://nemiconf.github.io/summer26/",
+    "speakers": [
+      "Thomas McGrath"
+    ],
+    "participation": "index_only",
+    "role": "conference_index"
+  }
+]

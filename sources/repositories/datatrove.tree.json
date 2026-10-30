@@ -1,0 +1,2162 @@
+{
+  "repository": "https://github.com/goodfire-ai/datatrove",
+  "revision": "9b957d4db5c120fbebbc82cb33b251900c78cfda",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b45602ca70c0e26f8bfece4c2ca73dbee995a39",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/0b45602ca70c0e26f8bfece4c2ca73dbee995a39"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4663317097562c576a7549dd405a9340a7bb19a2",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/4663317097562c576a7549dd405a9340a7bb19a2"
+    },
+    {
+      "path": ".github/workflows/pypi-release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cca97b747b0e2bc5e49854a7d816cd5761d9fc88",
+      "size": 2349,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/cca97b747b0e2bc5e49854a7d816cd5761d9fc88"
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6024145cd096196e39f503c199eeda1790139f6",
+      "size": 1542,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d6024145cd096196e39f503c199eeda1790139f6"
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d19156b224d056aa4922fc1a7e579aae4b10fa",
+      "size": 396,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/43d19156b224d056aa4922fc1a7e579aae4b10fa"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5193064378070ab8f513249e914570f2b4e0294",
+      "size": 2851,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d5193064378070ab8f513249e914570f2b4e0294"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae0fda5c046d7ad1425ae0346711abf0c08930b9",
+      "size": 258,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ae0fda5c046d7ad1425ae0346711abf0c08930b9"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d76694e40da1a735c44bdea3de088dd9b7e62bac",
+      "size": 8363,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d76694e40da1a735c44bdea3de088dd9b7e62bac"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae268901ad7cdb39c260d77e0b0f6c6cea40ce93",
+      "size": 1078,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ae268901ad7cdb39c260d77e0b0f6c6cea40ce93"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1b7a49b74a9aa139889fcadfbc14ea626ff568",
+      "size": 936,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3d1b7a49b74a9aa139889fcadfbc14ea626ff568"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623d2899a81ad2d3ebe08790527631b2bf9a210d",
+      "size": 39190,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/623d2899a81ad2d3ebe08790527631b2bf9a210d"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f8c38187f559acaca6923f2b3a42540f8c783a0",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/5f8c38187f559acaca6923f2b3a42540f8c783a0"
+    },
+    {
+      "path": "examples/bucket_synthetic_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2507077d23d74ef428b428e837a6e3a5cb4a953",
+      "size": 4280,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b2507077d23d74ef428b428e837a6e3a5cb4a953"
+    },
+    {
+      "path": "examples/estimate_tokens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2c88199c75d02b15edcaae804a9c6dc320c818",
+      "size": 10470,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ea2c88199c75d02b15edcaae804a9c6dc320c818"
+    },
+    {
+      "path": "examples/exact_substrings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0c67f4c1fb3d10c0d9e3cd61b52b709d2c8f26",
+      "size": 2560,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9f0c67f4c1fb3d10c0d9e3cd61b52b709d2c8f26"
+    },
+    {
+      "path": "examples/filter_hf_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a05fc5df76995bbe41ea8c9e7939e23c712b989",
+      "size": 1925,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4a05fc5df76995bbe41ea8c9e7939e23c712b989"
+    },
+    {
+      "path": "examples/fineweb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ab55c8fd249adeb4c64b1bb0985075c4b85b33",
+      "size": 6478,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f3ab55c8fd249adeb4c64b1bb0985075c4b85b33"
+    },
+    {
+      "path": "examples/inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58595192716988fb5ce58327f72c90f5fcf31619",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/58595192716988fb5ce58327f72c90f5fcf31619"
+    },
+    {
+      "path": "examples/inference/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef45dca368fa376bcbe4a03cb066c6c850f4cc13",
+      "size": 7496,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ef45dca368fa376bcbe4a03cb066c6c850f4cc13"
+    },
+    {
+      "path": "examples/inference/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31bb362336791442fd7fc8827c91bf6b0617ea1f",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/31bb362336791442fd7fc8827c91bf6b0617ea1f"
+    },
+    {
+      "path": "examples/inference/benchmark/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "592a660ff1ed25a73d268885845afe45ea557986",
+      "size": 13065,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/592a660ff1ed25a73d268885845afe45ea557986"
+    },
+    {
+      "path": "examples/inference/benchmark/analyze_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa51f164e742e43ff757a5e14824d16a613ad2f",
+      "size": 32634,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7fa51f164e742e43ff757a5e14824d16a613ad2f"
+    },
+    {
+      "path": "examples/inference/benchmark/launch_experiments.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c33d00a886f37559a87445659a8c273a0e3d27d7",
+      "size": 21239,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c33d00a886f37559a87445659a8c273a0e3d27d7"
+    },
+    {
+      "path": "examples/inference/benchmark/sample_benchmark_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52712754220141425bd386fb276aeb5480b33bec",
+      "size": 14081,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/52712754220141425bd386fb276aeb5480b33bec"
+    },
+    {
+      "path": "examples/inference/finephrase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b776ca4d47c40b16028430e5a04f48a000e1e68",
+      "size": 5011,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/5b776ca4d47c40b16028430e5a04f48a000e1e68"
+    },
+    {
+      "path": "examples/inference/generate_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8ed021fcfe8dda7f3ac83fbab0dc1a9e95aa7e",
+      "size": 21036,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0c8ed021fcfe8dda7f3ac83fbab0dc1a9e95aa7e"
+    },
+    {
+      "path": "examples/inference/inference_chunked.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e52b1db5a3ff55897833e96851d620adc9793dec",
+      "size": 7139,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e52b1db5a3ff55897833e96851d620adc9793dec"
+    },
+    {
+      "path": "examples/inference/progress_monitoring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29cb83e40761184ec1c2748bf868fed49aac5cc9",
+      "size": 10361,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/29cb83e40761184ec1c2748bf868fed49aac5cc9"
+    },
+    {
+      "path": "examples/inference/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c2f17b4ccae42bb659886dc1943d1190d2c63b0",
+      "size": 15002,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2c2f17b4ccae42bb659886dc1943d1190d2c63b0"
+    },
+    {
+      "path": "examples/minhash_deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bf169a1eae658f2ccefdc7013af81cb0370664b",
+      "size": 3637,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9bf169a1eae658f2ccefdc7013af81cb0370664b"
+    },
+    {
+      "path": "examples/process_common_crawl_dump.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cee638b2269661400cf9bc37e607191b44bac54",
+      "size": 1836,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8cee638b2269661400cf9bc37e607191b44bac54"
+    },
+    {
+      "path": "examples/sentence_deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48c020f51a7f1ea6dbbe9ab9a880dfa3b548be6",
+      "size": 2661,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b48c020f51a7f1ea6dbbe9ab9a880dfa3b548be6"
+    },
+    {
+      "path": "examples/smol_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a1c97f2a3ea3f0143563173217eaae23696ecdb",
+      "size": 9208,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0a1c97f2a3ea3f0143563173217eaae23696ecdb"
+    },
+    {
+      "path": "examples/summary_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cff7daa0a1596ee0586499d1f0d94182dde79c4",
+      "size": 2691,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4cff7daa0a1596ee0586499d1f0d94182dde79c4"
+    },
+    {
+      "path": "examples/tokenize_c4.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2901e388207fdad195c98e8950d501312aad2541",
+      "size": 1524,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2901e388207fdad195c98e8950d501312aad2541"
+    },
+    {
+      "path": "examples/tokenize_from_hf_to_s3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c46e5c0e2eb9a25d9b9011fd33aae03fdf0ef72",
+      "size": 4384,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4c46e5c0e2eb9a25d9b9011fd33aae03fdf0ef72"
+    },
+    {
+      "path": "examples/url_deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5bbaba41697f38732d4128a575005ed1c0749b1",
+      "size": 2507,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a5bbaba41697f38732d4128a575005ed1c0749b1"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a20943e14f72755bdb2b16a9cf83d747853c426e",
+      "size": 4126,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a20943e14f72755bdb2b16a9cf83d747853c426e"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fde55a848f20b35f811ebfc3ee90b14bd262b0e6",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/fde55a848f20b35f811ebfc3ee90b14bd262b0e6"
+    },
+    {
+      "path": "src/datatrove",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6d7fd94750440fc9e31549a4200fed10e742dcc",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/c6d7fd94750440fc9e31549a4200fed10e742dcc"
+    },
+    {
+      "path": "src/datatrove/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5144b4fe98ff555acd168fceccf3d7cb5ac25c8c",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/5144b4fe98ff555acd168fceccf3d7cb5ac25c8c"
+    },
+    {
+      "path": "src/datatrove/assets/banned_subwords.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff45c8756c401bea5188a8473d5acf3949a4a53",
+      "size": 1673,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7ff45c8756c401bea5188a8473d5acf3949a4a53"
+    },
+    {
+      "path": "src/datatrove/assets/banned_words.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dafdd6bc32a4dae4d8c3db41605b31bba5688df4",
+      "size": 1732,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/dafdd6bc32a4dae4d8c3db41605b31bba5688df4"
+    },
+    {
+      "path": "src/datatrove/assets/soft_banned_words.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fad1508a7ed25dc20e05d293613b243475c6182",
+      "size": 674,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1fad1508a7ed25dc20e05d293613b243475c6182"
+    },
+    {
+      "path": "src/datatrove/assets/tokenizer_assignment.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea461e40dbb323e332d717539e3dd123867f3a62",
+      "size": 153012,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ea461e40dbb323e332d717539e3dd123867f3a62"
+    },
+    {
+      "path": "src/datatrove/assets/url_filterblacklistsv0_3_0.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d76bb308978b37a50e30d4f3cf37566e50d33a",
+      "size": 18172875,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/85d76bb308978b37a50e30d4f3cf37566e50d33a"
+    },
+    {
+      "path": "src/datatrove/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d99059e33daf1dbba8334bfd62103f0a7d632cb7",
+      "size": 1311,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d99059e33daf1dbba8334bfd62103f0a7d632cb7"
+    },
+    {
+      "path": "src/datatrove/executor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4afcd53f13ae4e18af578efa5d9a190c04eca1e8",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/4afcd53f13ae4e18af578efa5d9a190c04eca1e8"
+    },
+    {
+      "path": "src/datatrove/executor/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0966079b25d54ff43fb765ecf8abdaf376b4831",
+      "size": 119,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d0966079b25d54ff43fb765ecf8abdaf376b4831"
+    },
+    {
+      "path": "src/datatrove/executor/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0876536e0e8349095c770fb6b0695e5739767d9a",
+      "size": 9197,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0876536e0e8349095c770fb6b0695e5739767d9a"
+    },
+    {
+      "path": "src/datatrove/executor/local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee24d53c23c5e49961ffc73cf0c17158800c02f",
+      "size": 7411,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7ee24d53c23c5e49961ffc73cf0c17158800c02f"
+    },
+    {
+      "path": "src/datatrove/executor/ray.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f152b29ef69e995bed73de3785d33d6ac169bf81",
+      "size": 26787,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f152b29ef69e995bed73de3785d33d6ac169bf81"
+    },
+    {
+      "path": "src/datatrove/executor/slurm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28c9def700026fa35dff4d6ee697fff65dd9fefb",
+      "size": 18209,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/28c9def700026fa35dff4d6ee697fff65dd9fefb"
+    },
+    {
+      "path": "src/datatrove/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53813a0d7f80d920d086616521e4d6c3e23902f8",
+      "size": 16241,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/53813a0d7f80d920d086616521e4d6c3e23902f8"
+    },
+    {
+      "path": "src/datatrove/pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5efc927f76a3556e2bd50a4e747df6dda44a3758",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/5efc927f76a3556e2bd50a4e747df6dda44a3758"
+    },
+    {
+      "path": "src/datatrove/pipeline/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/pipeline/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972a438b515dc85b51b7469fd05718da2718e8a8",
+      "size": 4451,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/972a438b515dc85b51b7469fd05718da2718e8a8"
+    },
+    {
+      "path": "src/datatrove/pipeline/decont",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5774f5962e31e0e9f92a5a31bb42808ecbc253e",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/d5774f5962e31e0e9f92a5a31bb42808ecbc253e"
+    },
+    {
+      "path": "src/datatrove/pipeline/decont/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efea634c33b8e4096b97adea06c47e5228dde8f5",
+      "size": 81,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/efea634c33b8e4096b97adea06c47e5228dde8f5"
+    },
+    {
+      "path": "src/datatrove/pipeline/decont/n_grams.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "216f9efded09a8720621836fdeb10a8b8e74d263",
+      "size": 10111,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/216f9efded09a8720621836fdeb10a8b8e74d263"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7f3535be4509a2725e08f48edd5152c62c7234d",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/e7f3535be4509a2725e08f48edd5152c62c7234d"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ecb936509d212838f455882e540aacd1916c76d",
+      "size": 503,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4ecb936509d212838f455882e540aacd1916c76d"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/bloom_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0be899aa4609258141336a9e41e1cda3ac90ca1",
+      "size": 7969,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d0be899aa4609258141336a9e41e1cda3ac90ca1"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/exact_dedup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4127960ad4c1e86034b1a000732701ae0818e0",
+      "size": 20088,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3e4127960ad4c1e86034b1a000732701ae0818e0"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/exact_substrings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff5b2362f5711fe315c18e0513999bdcaebfad8",
+      "size": 13976,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8ff5b2362f5711fe315c18e0513999bdcaebfad8"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/minhash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c3960f689306f3aa3371b3f9abd5bad3b19f80",
+      "size": 32457,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/40c3960f689306f3aa3371b3f9abd5bad3b19f80"
+    },
+    {
+      "path": "src/datatrove/pipeline/dedup/sentence_dedup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "183e015575d818c549f5d8000d208db064335847",
+      "size": 21385,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/183e015575d818c549f5d8000d208db064335847"
+    },
+    {
+      "path": "src/datatrove/pipeline/extractors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73dd75c943cbc64f3e25fc1e8722eaa3d74d3f4b",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/73dd75c943cbc64f3e25fc1e8722eaa3d74d3f4b"
+    },
+    {
+      "path": "src/datatrove/pipeline/extractors/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9620bd2f8e4778186ba86aafcbb3c9f2485c99ec",
+      "size": 80,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9620bd2f8e4778186ba86aafcbb3c9f2485c99ec"
+    },
+    {
+      "path": "src/datatrove/pipeline/extractors/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8559200de8f0637ef2e578353c2abf979dba72a2",
+      "size": 8822,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8559200de8f0637ef2e578353c2abf979dba72a2"
+    },
+    {
+      "path": "src/datatrove/pipeline/extractors/modular.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260b4235db592b9f9a589a9f1da06a9bc847b895",
+      "size": 2049,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/260b4235db592b9f9a589a9f1da06a9bc847b895"
+    },
+    {
+      "path": "src/datatrove/pipeline/extractors/trafilatura.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bebaddb8116458e93aae5872b47e5a1bcb1fb4d2",
+      "size": 1752,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/bebaddb8116458e93aae5872b47e5a1bcb1fb4d2"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "249d9bc2959318a330348b508a0a19576276a82a",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/249d9bc2959318a330348b508a0a19576276a82a"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "065496a21c8669bb765e5711a710be65bc056039",
+      "size": 554,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/065496a21c8669bb765e5711a710be65bc056039"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/base_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "457455670f0317dace929f847776a249c677becf",
+      "size": 3306,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/457455670f0317dace929f847776a249c677becf"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/c4_filters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd4caf75f52e2bccd3e93ecd39a7a8faffce9f1",
+      "size": 11610,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9bd4caf75f52e2bccd3e93ecd39a7a8faffce9f1"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/fasttext_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b9d402bfbd5c05fc6d2986a735962160cbe0a4",
+      "size": 5169,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d0b9d402bfbd5c05fc6d2986a735962160cbe0a4"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/fineweb_quality_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f01af393a9bdd8b32aa6f6a590f94207c558f1f",
+      "size": 2326,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0f01af393a9bdd8b32aa6f6a590f94207c558f1f"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/gopher_quality_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a565a43abe3acec12f3ff8879ee93212e63900",
+      "size": 5191,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d9a565a43abe3acec12f3ff8879ee93212e63900"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/gopher_repetition_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249bf964ca67fd213cf37090b7f9fe86442cb831",
+      "size": 4902,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/249bf964ca67fd213cf37090b7f9fe86442cb831"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/lambda_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca0d5101e9b96207ace90001e16f918b68168ca",
+      "size": 827,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/eca0d5101e9b96207ace90001e16f918b68168ca"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/language_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29359aa793d5edf00bf7fdd1a4df4222091af1cc",
+      "size": 2642,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/29359aa793d5edf00bf7fdd1a4df4222091af1cc"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/regex_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b892a07fb28af0e43938eed11c560e6583dd17e9",
+      "size": 737,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b892a07fb28af0e43938eed11c560e6583dd17e9"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/sampler_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9b7c903c0790916c1676f7ab0953456c34fbb4",
+      "size": 741,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ea9b7c903c0790916c1676f7ab0953456c34fbb4"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/unigram_log_probs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2e735b136c767c89c837eaf21c7999053efe0e",
+      "size": 2778,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/cd2e735b136c767c89c837eaf21c7999053efe0e"
+    },
+    {
+      "path": "src/datatrove/pipeline/filters/url_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f6f25f61fcfea8e479ad2a50bd229e4f09b9b9",
+      "size": 5418,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c4f6f25f61fcfea8e479ad2a50bd229e4f09b9b9"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e94c199296433112bfa0a8c6f306921ba0d1a126",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/e94c199296433112bfa0a8c6f306921ba0d1a126"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e94c764f1c597c3b91458993587791faae0e7f",
+      "size": 117,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/68e94c764f1c597c3b91458993587791faae0e7f"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69651d0fd2f9ed984b65d3f46d961c6eac15e34a",
+      "size": 665,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/69651d0fd2f9ed984b65d3f46d961c6eac15e34a"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters/ftfy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a42f6294298f47b4e54151d9327a58b2b5af6b89",
+      "size": 2594,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a42f6294298f47b4e54151d9327a58b2b5af6b89"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters/pii.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0582459081dfbadab56cf9ab36fb9241694a339",
+      "size": 3535,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c0582459081dfbadab56cf9ab36fb9241694a339"
+    },
+    {
+      "path": "src/datatrove/pipeline/formatters/symbol_lines_remover.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "463e002d0ee4ef984391a5b9d3c255e11e1f4ff2",
+      "size": 1406,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/463e002d0ee4ef984391a5b9d3c255e11e1f4ff2"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20c5cf0d5741a727db44de8980c55051f6cc53b5",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/20c5cf0d5741a727db44de8980c55051f6cc53b5"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/checkpointing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03bda79d4fe928b31acc2f72405e7be0df4a1bd3",
+      "size": 16212,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/03bda79d4fe928b31acc2f72405e7be0df4a1bd3"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/dataset_card_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e19296e619cb72c6980a7db97be7c5fefac369a",
+      "size": 25187,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1e19296e619cb72c6980a7db97be7c5fefac369a"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/dataset_card_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a38b4f97ef101796df5010b978093b08626e4abc",
+      "size": 1223,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a38b4f97ef101796df5010b978093b08626e4abc"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/distributed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63ae1aee0632202d8d92d476b96d28594581f9f7",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/63ae1aee0632202d8d92d476b96d28594581f9f7"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/distributed/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/distributed/ray.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919a748f3926311074a52ea7857c3c42c396d61e",
+      "size": 13328,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/919a748f3926311074a52ea7857c3c42c396d61e"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/distributed/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8adbd8a80b55883ed322a26dc9a74ba4470045",
+      "size": 1888,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1e8adbd8a80b55883ed322a26dc9a74ba4470045"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "610dc794971efeb402f0616dd8c34b458f8228ab",
+      "size": 4783,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/610dc794971efeb402f0616dd8c34b458f8228ab"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/progress_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c00160ff784a6370888afc83007d6e853fa07632",
+      "size": 21167,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c00160ff784a6370888afc83007d6e853fa07632"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/run_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3171bc66d75229c29456c41b6b66a4b4fbd6e11",
+      "size": 31409,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d3171bc66d75229c29456c41b6b66a4b4fbd6e11"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ddec05b4f6ec767eb914dfe728a1f93cc022888",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/0ddec05b4f6ec767eb914dfe728a1f93cc022888"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30a1dd4138bb0d2119b2b708da889d3b92d7d4eb",
+      "size": 559,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/30a1dd4138bb0d2119b2b708da889d3b92d7d4eb"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f21993b3f21c483d27be4f8d58c29f61ef321bb",
+      "size": 23509,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3f21993b3f21c483d27be4f8d58c29f61ef321bb"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/compile_lock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "269277883ee64289c674133c8f0f795ebb18607d",
+      "size": 5067,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/269277883ee64289c674133c8f0f795ebb18607d"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/custom_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3175a8f9c45b8457c8d0e5cfa9ef19d6efe9ab",
+      "size": 4559,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/eb3175a8f9c45b8457c8d0e5cfa9ef19d6efe9ab"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/dummy_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31a0e4061b8161f10e4b434dad2dda7afb6be515",
+      "size": 4701,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/31a0e4061b8161f10e4b434dad2dda7afb6be515"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/endpoint_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "907d441c65c4d4d680070093cbd2b0c4c07cbc09",
+      "size": 6181,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/907d441c65c4d4d680070093cbd2b0c4c07cbc09"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/sglang_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65116334019d70a11a044ac6962b6740fa14c3d8",
+      "size": 5469,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/65116334019d70a11a044ac6962b6740fa14c3d8"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/servers/vllm_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3526ac5a97167edc6d335726680e71cc74d30227",
+      "size": 9870,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3526ac5a97167edc6d335726680e71cc74d30227"
+    },
+    {
+      "path": "src/datatrove/pipeline/inference/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d81a1bcab3fd121391c63717d10a5c205ae754",
+      "size": 2510,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/40d81a1bcab3fd121391c63717d10a5c205ae754"
+    },
+    {
+      "path": "src/datatrove/pipeline/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "451c83c5bba5093db871366a38d88b41b9db34b7",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/451c83c5bba5093db871366a38d88b41b9db34b7"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/filters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83229526e52b6d997841d43f53f68031a8b78ae1",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/83229526e52b6d997841d43f53f68031a8b78ae1"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/filters/base_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a10ffbd31c39ffb010760773b7dbfcb5a59c40e7",
+      "size": 1728,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a10ffbd31c39ffb010760773b7dbfcb5a59c40e7"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/filters/mime_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c328221fb5016198fad68fd08e7357027e7ee3e5",
+      "size": 670,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c328221fb5016198fad68fd08e7357027e7ee3e5"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2087a715db2ab099143396b1e5d807d87ab8677",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/a2087a715db2ab099143396b1e5d807d87ab8677"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_readers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4a09765b73dadae7b7c18eb4fa20309475aa054",
+      "size": 3411,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c4a09765b73dadae7b7c18eb4fa20309475aa054"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_readers/warc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876bfa7d74e60eea50c60b6bd8c5995cb4353f6a",
+      "size": 2726,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/876bfa7d74e60eea50c60b6bd8c5995cb4353f6a"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_readers/zstd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c059d792624bfcf349109f983303177887b37565",
+      "size": 6598,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c059d792624bfcf349109f983303177887b37565"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_writers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5618cf787b829495011d55645884d90c40b3b17",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/c5618cf787b829495011d55645884d90c40b3b17"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_writers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf55d8b43990eedcdb7da41b7eb20055fd44836",
+      "size": 6366,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3cf55d8b43990eedcdb7da41b7eb20055fd44836"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/media_writers/zstd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37101364eb03538a58bafe76ac2708612b2d2b69",
+      "size": 1740,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/37101364eb03538a58bafe76ac2708612b2d2b69"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05335efa86d5f28284f91152b0114b23d230e7f7",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/05335efa86d5f28284f91152b0114b23d230e7f7"
+    },
+    {
+      "path": "src/datatrove/pipeline/media/readers/http_fetch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e1fed89d6efbafa3a978767f26f6554a302daae",
+      "size": 15485,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8e1fed89d6efbafa3a978767f26f6554a302daae"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ad3fc6ab7da3b2842417188b5b0eab905e53000",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/7ad3fc6ab7da3b2842417188b5b0eab905e53000"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f460e7d967438bc4a194e4f4f3f3b3aba6f1848",
+      "size": 199,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/5f460e7d967438bc4a194e4f4f3f3b3aba6f1848"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4534ed7b41cbd50707e458db314ce7f270117e0c",
+      "size": 10245,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4534ed7b41cbd50707e458db314ce7f270117e0c"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/csv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e7b9ef861028d5065383b3662231ce041f38b1",
+      "size": 3141,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/92e7b9ef861028d5065383b3662231ce041f38b1"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/huggingface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b4983e7ca29e8ae7b718457c40e3d73217f4c7",
+      "size": 5976,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/93b4983e7ca29e8ae7b718457c40e3d73217f4c7"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/ipc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fbef257507d0ade5d41fd4a74280075fadfa52e",
+      "size": 3877,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/5fbef257507d0ade5d41fd4a74280075fadfa52e"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/jsonl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148ad770718b3af44693e97f78ae5de02dbf869f",
+      "size": 4048,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/148ad770718b3af44693e97f78ae5de02dbf869f"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/parquet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ed26018394117ce32a51df369e422daa08f6d4",
+      "size": 3615,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/48ed26018394117ce32a51df369e422daa08f6d4"
+    },
+    {
+      "path": "src/datatrove/pipeline/readers/warc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e0756ee1dbe1ff5748856fe2a9f2c97bffaa8f",
+      "size": 5343,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a2e0756ee1dbe1ff5748856fe2a9f2c97bffaa8f"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8132b59991799e0ae592d6cc82e5b87b90916cf",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/b8132b59991799e0ae592d6cc82e5b87b90916cf"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea420b4ec300581bea2e1d33dc0fb4b65080ccf0",
+      "size": 750,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ea420b4ec300581bea2e1d33dc0fb4b65080ccf0"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15fcf8bcc71482606771cb0ee32ceff07669eb52",
+      "size": 5609,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/15fcf8bcc71482606771cb0ee32ceff07669eb52"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487ebba1d85863cbd0c75d143e83642c1b57c0ad",
+      "size": 771,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/487ebba1d85863cbd0c75d143e83642c1b57c0ad"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/contamination_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9344267219b2d1c334693ddfd1c970be92387ce",
+      "size": 1797,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f9344267219b2d1c334693ddfd1c970be92387ce"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/doc_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffcdffb01d6c4bb7bda56a111e054781f7c758ef",
+      "size": 2097,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ffcdffb01d6c4bb7bda56a111e054781f7c758ef"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/lang_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d981141d2f1ac998d858ba5272005ed598e02c",
+      "size": 1296,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c4d981141d2f1ac998d858ba5272005ed598e02c"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/line_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6a33c7f0d77b2ba274d244f885e9b1e41f29fa",
+      "size": 3674,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/fb6a33c7f0d77b2ba274d244f885e9b1e41f29fa"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/merger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27ac4fb74ad43eefb2a751bd75d3424088da23e",
+      "size": 3478,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c27ac4fb74ad43eefb2a751bd75d3424088da23e"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/paragraph_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36347e3058507e3674fe15c7d657751ab8141fef",
+      "size": 2931,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/36347e3058507e3674fe15c7d657751ab8141fef"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/perplexity_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d777b48535b4b2a8e8d1342bced7640974484d5d",
+      "size": 1338,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d777b48535b4b2a8e8d1342bced7640974484d5d"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/sentence_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eacac71334d052285f7e06a97c34e60954b09304",
+      "size": 2521,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/eacac71334d052285f7e06a97c34e60954b09304"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/token_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1868dde2326e6e6cb3015216c2959e50d95732b4",
+      "size": 1362,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1868dde2326e6e6cb3015216c2959e50d95732b4"
+    },
+    {
+      "path": "src/datatrove/pipeline/stats/word_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe16d521042b4956acf0545c98fd24227188706",
+      "size": 3369,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8fe16d521042b4956acf0545c98fd24227188706"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "832cecad9397a62f23b8ce2aaa2351e2fe9f2756",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/832cecad9397a62f23b8ce2aaa2351e2fe9f2756"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7894b56d543947e77593fc6ece571ef1f22766ef",
+      "size": 256,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7894b56d543947e77593fc6ece571ef1f22766ef"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/context_shuffler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7ecde2362c49944f2cf1cbc8b70144ad2e7aed",
+      "size": 3331,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/fd7ecde2362c49944f2cf1cbc8b70144ad2e7aed"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/counter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b7d6c707f5d86011c49d6953668ea2479c2eb68",
+      "size": 3192,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7b7d6c707f5d86011c49d6953668ea2479c2eb68"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/megatron_tokenizer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "764930efe7ea4332b04dfc4f42c8d63664376adb",
+      "size": 9550,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/764930efe7ea4332b04dfc4f42c8d63664376adb"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/merger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94f3c0ab4df45edf7b00a24203e1ea5392abeabb",
+      "size": 11129,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/94f3c0ab4df45edf7b00a24203e1ea5392abeabb"
+    },
+    {
+      "path": "src/datatrove/pipeline/tokens/tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "848d5572d81af4254f2f755faf9c42ca95f9a2f4",
+      "size": 23057,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/848d5572d81af4254f2f755faf9c42ca95f9a2f4"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b95fdeeb46e61b8b18713084576e1880aede6b6",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/4b95fdeeb46e61b8b18713084576e1880aede6b6"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366386f892731a34628227f3c9ca4df5f2fcac34",
+      "size": 157,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/366386f892731a34628227f3c9ca4df5f2fcac34"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers/disk_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96188205d163d0398490d2099af8062fef29433f",
+      "size": 13328,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/96188205d163d0398490d2099af8062fef29433f"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers/huggingface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e06dc6d02d3d3d078430eb550150db612f1915",
+      "size": 12294,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b3e06dc6d02d3d3d078430eb550150db612f1915"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers/jsonl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80d56d9fbad0d4241c5a20a45d627e0f5062335d",
+      "size": 1952,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/80d56d9fbad0d4241c5a20a45d627e0f5062335d"
+    },
+    {
+      "path": "src/datatrove/pipeline/writers/parquet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82bf810047514231559d365ab4616249dfbdd385",
+      "size": 3981,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/82bf810047514231559d365ab4616249dfbdd385"
+    },
+    {
+      "path": "src/datatrove/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29309ceb275b1c724c040bd41bc78eb406ce953b",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/29309ceb275b1c724c040bd41bc78eb406ce953b"
+    },
+    {
+      "path": "src/datatrove/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/tools/check_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839c89e3f3d2e61278e937e878c27fde36874bc4",
+      "size": 3876,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/839c89e3f3d2e61278e937e878c27fde36874bc4"
+    },
+    {
+      "path": "src/datatrove/tools/failed_logs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93471fc4d5d44f7723ca88f92b45a2182fa87e1f",
+      "size": 2636,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/93471fc4d5d44f7723ca88f92b45a2182fa87e1f"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb65d833a7970fa636ead9406424d1545e4dd35a",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/bb65d833a7970fa636ead9406424d1545e4dd35a"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233a48dbe254ff2947863d2935c3b204692233ae",
+      "size": 59200,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/233a48dbe254ff2947863d2935c3b204692233ae"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ed30a22753bcb1ea8f10a7027ef33b32f43b76",
+      "size": 605,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/76ed30a22753bcb1ea8f10a7027ef33b32f43b76"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "843e2c5909a9b22caade5844ac739c6a65d75f05",
+      "size": 1267,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/843e2c5909a9b22caade5844ac739c6a65d75f05"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb5a4a29a706f509e7c08491bed9479813d28ef2",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/eb5a4a29a706f509e7c08491bed9479813d28ef2"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/src/local_union_find.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ad956e21dc308c7321250db1de72da2379fd24",
+      "size": 11459,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/c0ad956e21dc308c7321250db1de72da2379fd24"
+    },
+    {
+      "path": "src/datatrove/tools/fast_mh3/src/s3_union_find.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec00ae7567ad23e31237d768d026cbdd812ce75",
+      "size": 16902,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/bec00ae7567ad23e31237d768d026cbdd812ce75"
+    },
+    {
+      "path": "src/datatrove/tools/inspect_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dce04be19308958ec8e26e0e2e1342126ab8ca7",
+      "size": 5741,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4dce04be19308958ec8e26e0e2e1342126ab8ca7"
+    },
+    {
+      "path": "src/datatrove/tools/jobs_status.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1510e5a51941bfc2a94c5d518fc0de7eea7c5b1",
+      "size": 3451,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f1510e5a51941bfc2a94c5d518fc0de7eea7c5b1"
+    },
+    {
+      "path": "src/datatrove/tools/launch_pickled_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e8ec644d8eb8eec767fdbd074460b103787071",
+      "size": 512,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/55e8ec644d8eb8eec767fdbd074460b103787071"
+    },
+    {
+      "path": "src/datatrove/tools/merge_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61a0b64fd72266348248bcdc5e2c2f87ec5f15a",
+      "size": 1175,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e61a0b64fd72266348248bcdc5e2c2f87ec5f15a"
+    },
+    {
+      "path": "src/datatrove/tools/track_jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16e754c99937e9e66fb83d584e8d645a3dd04f64",
+      "size": 9678,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/16e754c99937e9e66fb83d584e8d645a3dd04f64"
+    },
+    {
+      "path": "src/datatrove/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efd17411012b45e0a95bfbf395e46de8a833b448",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/efd17411012b45e0a95bfbf395e46de8a833b448"
+    },
+    {
+      "path": "src/datatrove/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/datatrove/utils/_import_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9041d6a8bf6eb8f7654e58c44474a1005d072f7",
+      "size": 3628,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b9041d6a8bf6eb8f7654e58c44474a1005d072f7"
+    },
+    {
+      "path": "src/datatrove/utils/batching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b9f0131ad26be2e7a32da3f7b0be23445b84403",
+      "size": 447,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1b9f0131ad26be2e7a32da3f7b0be23445b84403"
+    },
+    {
+      "path": "src/datatrove/utils/binaryio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58b2b4da150fbadbc2a3dc56fa2234fd86f9481d",
+      "size": 3049,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/58b2b4da150fbadbc2a3dc56fa2234fd86f9481d"
+    },
+    {
+      "path": "src/datatrove/utils/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ba14065d3181938ad36bbc2a21eaf3180974c6a",
+      "size": 15077,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0ba14065d3181938ad36bbc2a21eaf3180974c6a"
+    },
+    {
+      "path": "src/datatrove/utils/hashes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21462d7e26604c77b40b59c0f5ec8e495dcf7383",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/21462d7e26604c77b40b59c0f5ec8e495dcf7383"
+    },
+    {
+      "path": "src/datatrove/utils/hashes/sha1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3054cd00f7ad4086f98bcf4a38f0da32c5cbec7",
+      "size": 995,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b3054cd00f7ad4086f98bcf4a38f0da32c5cbec7"
+    },
+    {
+      "path": "src/datatrove/utils/hashes/xxhash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a60871a4ab72ee198a3de45652b226c4e1e550",
+      "size": 164,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f4a60871a4ab72ee198a3de45652b226c4e1e550"
+    },
+    {
+      "path": "src/datatrove/utils/hashing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd93920b29a0a29d8af331fac3cb4c85968ae02f",
+      "size": 1776,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/fd93920b29a0a29d8af331fac3cb4c85968ae02f"
+    },
+    {
+      "path": "src/datatrove/utils/japanese_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "080fca3cd84b6231995f884075d8026a52eeba12",
+      "size": 12023,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/080fca3cd84b6231995f884075d8026a52eeba12"
+    },
+    {
+      "path": "src/datatrove/utils/jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604c591e65528f2df868afbcdaab32ff636f2110",
+      "size": 983,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/604c591e65528f2df868afbcdaab32ff636f2110"
+    },
+    {
+      "path": "src/datatrove/utils/lid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab5298df1b6b53cd62af3efae75a6990604885b",
+      "size": 3073,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2ab5298df1b6b53cd62af3efae75a6990604885b"
+    },
+    {
+      "path": "src/datatrove/utils/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4c375f75797fafd8e5e488bc4cad1e9f851ea7",
+      "size": 2784,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ed4c375f75797fafd8e5e488bc4cad1e9f851ea7"
+    },
+    {
+      "path": "src/datatrove/utils/media.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cfe265f92a09750674bae2b593f459be9d318c3",
+      "size": 272,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4cfe265f92a09750674bae2b593f459be9d318c3"
+    },
+    {
+      "path": "src/datatrove/utils/perplexity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee90ae46c2eea05761e6343f67cedef899a48e2",
+      "size": 4632,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7ee90ae46c2eea05761e6343f67cedef899a48e2"
+    },
+    {
+      "path": "src/datatrove/utils/stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a4b96ce095aed9dfa6f43ccecbf8ddcd0852ace",
+      "size": 14395,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/6a4b96ce095aed9dfa6f43ccecbf8ddcd0852ace"
+    },
+    {
+      "path": "src/datatrove/utils/text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ab7d3d4a1bedbe94b5542d96e901bccebc401f9",
+      "size": 7146,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7ab7d3d4a1bedbe94b5542d96e901bccebc401f9"
+    },
+    {
+      "path": "src/datatrove/utils/tokenization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9adc11c44808a1f1c47f5a00e388d2bb4bf281be",
+      "size": 3296,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9adc11c44808a1f1c47f5a00e388d2bb4bf281be"
+    },
+    {
+      "path": "src/datatrove/utils/typeshelper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b6dd9e509cd36d7ecdb49c65381cca467166d09",
+      "size": 117190,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7b6dd9e509cd36d7ecdb49c65381cca467166d09"
+    },
+    {
+      "path": "src/datatrove/utils/word_tokenizers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd5b2b6a99ce0191b5ebd972ae6c3dd94443994",
+      "size": 18032,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4cd5b2b6a99ce0191b5ebd972ae6c3dd94443994"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a206036bf8250ccbf8c526cfc384b41e31fda60",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/1a206036bf8250ccbf8c526cfc384b41e31fda60"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/executor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a3fd3df7ecebbfb4f55f17ebd6ae73b81cd5a35",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/7a3fd3df7ecebbfb4f55f17ebd6ae73b81cd5a35"
+    },
+    {
+      "path": "tests/executor/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/executor/test_local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a7e8cf16879acc94e61f21f317772ae71ef80f",
+      "size": 2291,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e9a7e8cf16879acc94e61f21f317772ae71ef80f"
+    },
+    {
+      "path": "tests/executor/test_ray.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b248dbde244e0a25f6d07b73a63d8889faf4fe9b",
+      "size": 14127,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b248dbde244e0a25f6d07b73a63d8889faf4fe9b"
+    },
+    {
+      "path": "tests/manual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de5f602abbb09f81cdd18f3e8c10fa434583528c",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/de5f602abbb09f81cdd18f3e8c10fa434583528c"
+    },
+    {
+      "path": "tests/manual/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44205ec78378ce6b837bdc882b273880f95de82d",
+      "size": 591,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/44205ec78378ce6b837bdc882b273880f95de82d"
+    },
+    {
+      "path": "tests/manual/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "tests/manual/test_bucket_logging_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe72de5d6c129d86343681f6277867bb8ee64ff",
+      "size": 2957,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/5fe72de5d6c129d86343681f6277867bb8ee64ff"
+    },
+    {
+      "path": "tests/manual/test_bucket_slurm_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ee720a64bdacea40c9279bfc5dfb91df02b9c2",
+      "size": 2760,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a1ee720a64bdacea40c9279bfc5dfb91df02b9c2"
+    },
+    {
+      "path": "tests/manual/test_bucket_writer_live.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf381d4d638a091a5fbbe79724503595f66f099e",
+      "size": 2055,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/cf381d4d638a091a5fbbe79724503595f66f099e"
+    },
+    {
+      "path": "tests/pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a05ff00182b05d66e60fea6edf4789c45fa4f421",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/a05ff00182b05d66e60fea6edf4789c45fa4f421"
+    },
+    {
+      "path": "tests/pipeline/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/dedup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16136708c9c67d104cef758f502ed49195a45cf4",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/16136708c9c67d104cef758f502ed49195a45cf4"
+    },
+    {
+      "path": "tests/pipeline/dedup/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_bloom_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca0b24ca18f690142fe9ff9302dfda8b1b0cd11",
+      "size": 5674,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/aca0b24ca18f690142fe9ff9302dfda8b1b0cd11"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_exact_deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283d7ffe318b1e3c19eca981dbd0bbe9c6668e68",
+      "size": 10044,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/283d7ffe318b1e3c19eca981dbd0bbe9c6668e68"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_exact_substrings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b024f1116ff640a375331fe67f02947550f7de17",
+      "size": 11959,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/b024f1116ff640a375331fe67f02947550f7de17"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_minhash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7fb8947d4753f9e5fa351194c7ddb3a914d195",
+      "size": 18294,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7e7fb8947d4753f9e5fa351194c7ddb3a914d195"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_ngrams_decont.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad66dc8ce8431e324631d36c289a91817a51679",
+      "size": 2616,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/dad66dc8ce8431e324631d36c289a91817a51679"
+    },
+    {
+      "path": "tests/pipeline/dedup/test_sentence_deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc039c52663a10e8ad746300668381bb351df4ac",
+      "size": 9857,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/bc039c52663a10e8ad746300668381bb351df4ac"
+    },
+    {
+      "path": "tests/pipeline/filters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df588cc68aa653e18c4e2408ba2ba6dd6a720a85",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/df588cc68aa653e18c4e2408ba2ba6dd6a720a85"
+    },
+    {
+      "path": "tests/pipeline/filters/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/filters/test_filters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efde36645917a9827437c94ef12d0097e1582a03",
+      "size": 11934,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/efde36645917a9827437c94ef12d0097e1582a03"
+    },
+    {
+      "path": "tests/pipeline/filters/test_formatters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b0256ae4c90dd198e0027109bbec4594ed07fb2",
+      "size": 2072,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/0b0256ae4c90dd198e0027109bbec4594ed07fb2"
+    },
+    {
+      "path": "tests/pipeline/filters/test_pii_removal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb313302bd86962995be03abab2ee74e0cc82c20",
+      "size": 3441,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/eb313302bd86962995be03abab2ee74e0cc82c20"
+    },
+    {
+      "path": "tests/pipeline/filters/test_symbollines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff4b4a430579712ddd42da29d2730fa7326c2ae",
+      "size": 1036,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/9ff4b4a430579712ddd42da29d2730fa7326c2ae"
+    },
+    {
+      "path": "tests/pipeline/inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e64bca6454c7275a641088a9ab03dd954f6e2d35",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/e64bca6454c7275a641088a9ab03dd954f6e2d35"
+    },
+    {
+      "path": "tests/pipeline/inference/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/inference/test_dataset_card_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb1b83d9c5bea7a6bffa361313984f1d99c890f6",
+      "size": 33526,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/fb1b83d9c5bea7a6bffa361313984f1d99c890f6"
+    },
+    {
+      "path": "tests/pipeline/inference/test_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366906d456d85fbb1326666585cb12e40903fe68",
+      "size": 53563,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/366906d456d85fbb1326666585cb12e40903fe68"
+    },
+    {
+      "path": "tests/pipeline/inference/test_progress_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e4bc484c49074526452380fa1b8e4d06ad9d005",
+      "size": 25255,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1e4bc484c49074526452380fa1b8e4d06ad9d005"
+    },
+    {
+      "path": "tests/pipeline/inference/test_vllm_compile_lock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "210d22f0494e6e623c587d882d97a0e2e061033b",
+      "size": 6434,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/210d22f0494e6e623c587d882d97a0e2e061033b"
+    },
+    {
+      "path": "tests/pipeline/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4e25890653a3e32422dd6e3acfdd309b41c6624",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/f4e25890653a3e32422dd6e3acfdd309b41c6624"
+    },
+    {
+      "path": "tests/pipeline/media/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/media/test_media_serialization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f540bb59bb2c14f3a506d07e55fff6837c26fcf",
+      "size": 3012,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/5f540bb59bb2c14f3a506d07e55fff6837c26fcf"
+    },
+    {
+      "path": "tests/pipeline/media/test_media_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "736f63b76399efd08dc7db594c58c3281f2ec0f1",
+      "size": 2243,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/736f63b76399efd08dc7db594c58c3281f2ec0f1"
+    },
+    {
+      "path": "tests/pipeline/media/test_media_writer_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc6fe8240301c9112aeedc28bfd69de8e673b68",
+      "size": 4850,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/7fc6fe8240301c9112aeedc28bfd69de8e673b68"
+    },
+    {
+      "path": "tests/pipeline/readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aa01477c54d7a1158fa74f4d7fad27ab274d8c1",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/9aa01477c54d7a1158fa74f4d7fad27ab274d8c1"
+    },
+    {
+      "path": "tests/pipeline/readers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/readers/test_adapter_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccac663653fa072a7d70c7d32fc02ccc048671c4",
+      "size": 828,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/ccac663653fa072a7d70c7d32fc02ccc048671c4"
+    },
+    {
+      "path": "tests/pipeline/readers/test_csv_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2238ab4f5824f1884d01c39a245f4d8c89b2d6d2",
+      "size": 3106,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2238ab4f5824f1884d01c39a245f4d8c89b2d6d2"
+    },
+    {
+      "path": "tests/pipeline/readers/test_hf_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6f3d23062812b4c46afd9be42eb41b45bba8bb",
+      "size": 2580,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/8a6f3d23062812b4c46afd9be42eb41b45bba8bb"
+    },
+    {
+      "path": "tests/pipeline/readers/test_ipc_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dda1062417a0352c59047b296b16290272aec22",
+      "size": 2344,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4dda1062417a0352c59047b296b16290272aec22"
+    },
+    {
+      "path": "tests/pipeline/readers/test_parquet_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4992265f4bfaa83d178ecf9916f2348081b12cd2",
+      "size": 2595,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4992265f4bfaa83d178ecf9916f2348081b12cd2"
+    },
+    {
+      "path": "tests/pipeline/stats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09a4418b4c2407db72ef7bf58a36697184abb291",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/09a4418b4c2407db72ef7bf58a36697184abb291"
+    },
+    {
+      "path": "tests/pipeline/stats/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/stats/test_extractors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671c66e478aa02021048f99466bd32267efe449d",
+      "size": 733,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/671c66e478aa02021048f99466bd32267efe449d"
+    },
+    {
+      "path": "tests/pipeline/stats/test_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb3c1ddb99e14563e5c1645f4d6eb1ca1ddf6e10",
+      "size": 17017,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/fb3c1ddb99e14563e5c1645f4d6eb1ca1ddf6e10"
+    },
+    {
+      "path": "tests/pipeline/test_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0f437eb2e1a91cafd4a878a53fe9d3e558ed45b",
+      "size": 633,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/f0f437eb2e1a91cafd4a878a53fe9d3e558ed45b"
+    },
+    {
+      "path": "tests/pipeline/test_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a871e98057b077df87e307e1bdf4c709b2a211e3",
+      "size": 13826,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/a871e98057b077df87e307e1bdf4c709b2a211e3"
+    },
+    {
+      "path": "tests/pipeline/text",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dfc89821d4c74c390f3d3c5130bf8b35bae6a09",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/9dfc89821d4c74c390f3d3c5130bf8b35bae6a09"
+    },
+    {
+      "path": "tests/pipeline/text/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/text/test_request_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861bf32a8437b030afdb2ae311d793b3dcfaa640",
+      "size": 1623,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/861bf32a8437b030afdb2ae311d793b3dcfaa640"
+    },
+    {
+      "path": "tests/pipeline/text/test_text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21337b9bc49bccbc9b6645cf9b2451b7c3f663a6",
+      "size": 815,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/21337b9bc49bccbc9b6645cf9b2451b7c3f663a6"
+    },
+    {
+      "path": "tests/pipeline/tokens",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "762da38e6ad3d78a97f54e3efd8705d14ddc0d38",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/762da38e6ad3d78a97f54e3efd8705d14ddc0d38"
+    },
+    {
+      "path": "tests/pipeline/tokens/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/tokens/test_tokenization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbbf2660f83e3e53549590b6ce15473bf8df91f",
+      "size": 11860,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/1dbbf2660f83e3e53549590b6ce15473bf8df91f"
+    },
+    {
+      "path": "tests/pipeline/tokens/test_word_tokenizers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38cab6b8e5e34f85d254d5371f62c8404dbd973",
+      "size": 4564,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e38cab6b8e5e34f85d254d5371f62c8404dbd973"
+    },
+    {
+      "path": "tests/pipeline/writers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecd6826e219aa66f98f5391d6eae69893455e1d6",
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/trees/ecd6826e219aa66f98f5391d6eae69893455e1d6"
+    },
+    {
+      "path": "tests/pipeline/writers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/pipeline/writers/test_disk_writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "002491473f8e5eb075533c3ad886722b93d8c25a",
+      "size": 14617,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/002491473f8e5eb075533c3ad886722b93d8c25a"
+    },
+    {
+      "path": "tests/pipeline/writers/test_huggingface_bucket.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615a58ec22d5b65d7c7be049de73f951cb6f6ddf",
+      "size": 11565,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/615a58ec22d5b65d7c7be049de73f951cb6f6ddf"
+    },
+    {
+      "path": "tests/pipeline/writers/test_jsonl_zstd_compression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c0d4911ccabdc0a7633e9c3a2b5ac3f66b37902",
+      "size": 1067,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/4c0d4911ccabdc0a7633e9c3a2b5ac3f66b37902"
+    },
+    {
+      "path": "tests/pipeline/writers/test_parquet_writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4d49f49dd04437eacb745206f5c1de9f775cfc",
+      "size": 1092,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/cf4d49f49dd04437eacb745206f5c1de9f775cfc"
+    },
+    {
+      "path": "tests/pipeline/writers/test_parquet_zstd_compression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898c739999b9f285e37a842469f423857ce09235",
+      "size": 1061,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/898c739999b9f285e37a842469f423857ce09235"
+    },
+    {
+      "path": "tests/test_batching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36edddf6262ad94fb646524e802ac3081f9f497b",
+      "size": 917,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/36edddf6262ad94fb646524e802ac3081f9f497b"
+    },
+    {
+      "path": "tests/test_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2536324cf18337319817b42ce0a052356c5112c5",
+      "size": 1083,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2536324cf18337319817b42ce0a052356c5112c5"
+    },
+    {
+      "path": "tests/test_hashing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb1903a81924cf76990eeb9adbe398b666f6ebf",
+      "size": 1827,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/2cb1903a81924cf76990eeb9adbe398b666f6ebf"
+    },
+    {
+      "path": "tests/test_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3684905675a10f21106b2905468d0d9c9f02b995",
+      "size": 6702,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3684905675a10f21106b2905468d0d9c9f02b995"
+    },
+    {
+      "path": "tests/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d076308b04a12031c2b9b8d85d72c41ff6cf635",
+      "size": 3803,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/3d076308b04a12031c2b9b8d85d72c41ff6cf635"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9032e7a7e2477148046239f87f40a9cc02ef5be",
+      "size": 1877963,
+      "url": "https://api.github.com/repos/goodfire-ai/datatrove/git/blobs/d9032e7a7e2477148046239f87f40a9cc02ef5be"
+    }
+  ]
+}

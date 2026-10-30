@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/goodfire-ai/jailbreak-inspection",
+  "revision": "cdc8301c742e07120711e2071c7c55718d639ef0",
+  "archive_sha256": "f9abe41c90855218f656ad66e5a80b753eaf1349a93aa4f25dc35c6e50612665",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "97aa2674893bbf5167299298d45dbe59e455ec7447a94e4684510799bc5eae33",
+      "bytes": 3212
+    },
+    {
+      "path": "calibration.json",
+      "sha256": "9fd8e5628d7281fa7b429cff15bfa26d75f6ebf18e79d83dac6747d24112ed2a",
+      "bytes": 6593
+    },
+    {
+      "path": "index.html",
+      "sha256": "65b89872602a3939b3066500859516d1c2fdcdfe88d45a67fc6634ad3623e357",
+      "bytes": 187
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "9fc9effd1fc2d6f477c9745c5b15fb36c06ecc2ddadd687dd02f57a033dedf93",
+      "bytes": 6103
+    },
+    {
+      "path": "probability-report.html",
+      "sha256": "4748a4a988e9ff4db7c4919e6d5d919895fce1c02e65dec84f15500e993f1d53",
+      "bytes": 2737
+    },
+    {
+      "path": "results.html",
+      "sha256": "632fdfc7e04f59e9dbe0bf5d5cb7e62355c53e58752be5d2ef658bdbe8e8542b",
+      "bytes": 3094
+    },
+    {
+      "path": "top-hits/index.html",
+      "sha256": "c6d34a8ffe8589d80b8085f8f22f7605bc49a42a19ce90cb654bf6af04b2c5dd",
+      "bytes": 416715
+    },
+    {
+      "path": "top-hits/manifest.json",
+      "sha256": "bf1e042c4e973fe1a6af52f145ee0be6157d64ef62867bca8fb461e0ed4aeff6",
+      "bytes": 1861
+    },
+    {
+      "path": "top-hits/operating-points.json",
+      "sha256": "6a611f075f5c0a5f01a494b938fb78b65a39f2af1741344f4252310ce7b02e44",
+      "bytes": 6155
+    },
+    {
+      "path": "top-hits/round-report.html",
+      "sha256": "f6a9cebc9562743bfee5d3f12f5a898a8c920b80657b2261d1beaf3cf6b079f5",
+      "bytes": 6202
+    },
+    {
+      "path": "top-hits/sql-score-changes.json",
+      "sha256": "15a87467272dabf2239b93cb682bf23555c4e5b11fb382479be109e7aeb647bd",
+      "bytes": 2409
+    }
+  ]
+}

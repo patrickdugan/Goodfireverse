@@ -1,0 +1,93 @@
+{
+  "repository": "https://github.com/goodfire-ai/toolathlon-runtime",
+  "revision": "998fb9b1690f20bc67e0281cc3d7e2aa2e802aac",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738f816fa2a6c6d7ea30b6af41bad1c19b5728ff",
+      "size": 55,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/738f816fa2a6c6d7ea30b6af41bad1c19b5728ff"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "936c26c3b8fab1b452c3b1f1405d53087b7b4995",
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/trees/936c26c3b8fab1b452c3b1f1405d53087b7b4995"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77899a8136c1cfdbc0bdcbea59b0d455054a2d27",
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/trees/77899a8136c1cfdbc0bdcbea59b0d455054a2d27"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fdc736481221e3a59fc50c1d134b90a42223c72",
+      "size": 2234,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/0fdc736481221e3a59fc50c1d134b90a42223c72"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "size": 10,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4c27160648d7f563b429e23bae5de86b4708d6",
+      "size": 3543,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/0f4c27160648d7f563b429e23bae5de86b4708d6"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827fdc3a6b57acf622dd6bf4d36bac98509d6a58",
+      "size": 11338,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/827fdc3a6b57acf622dd6bf4d36bac98509d6a58"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a9d990924408bf407de2936a249dacc52f1151",
+      "size": 1070,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/71a9d990924408bf407de2936a249dacc52f1151"
+    },
+    {
+      "path": "constraints.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98805177c3c8e71f41a3c218f6150cc7b577709",
+      "size": 12,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/a98805177c3c8e71f41a3c218f6150cc7b577709"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de15d6cfd4754d333d2aba19be9c606ce8cac72",
+      "size": 290,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/4de15d6cfd4754d333d2aba19be9c606ce8cac72"
+    },
+    {
+      "path": "uvx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf92d0f5a61026cb7c98fbb79d3be9d2ce4e79a3",
+      "size": 186,
+      "url": "https://api.github.com/repos/goodfire-ai/toolathlon-runtime/git/blobs/cf92d0f5a61026cb7c98fbb79d3be9d2ce4e79a3"
+    }
+  ]
+}

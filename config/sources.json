@@ -1,0 +1,9 @@
+{
+  "official_indexes": ["https://www.goodfire.com/blog", "https://www.goodfire.com/research", "https://www.goodfire.com/sitemap.xml"],
+  "github_organizations": ["goodfire-ai"],
+  "podcast_search_terms": ["Goodfire", "Tom McGrath", "Daniel Balsam", "Eric Ho", "Myra Deng", "Eric Bigelow", "Atticus Geiger", "Ekdeep Lubana", "Nick Cammarata", "Inside the Hidden Geometry of AI", "Anthropic is training to destroy your company"],
+  "appearance_indexes": ["https://cs221m.github.io/", "https://nemiconf.github.io/summer26/"],
+  "publisher_sitemaps": ["https://www.cognitiverevolution.ai/sitemap-posts.xml"],
+  "scope": "Official Goodfire publications and public repositories, linked collaborations, and confirmed team appearances. Prior work and references remain separately labeled.",
+  "publication_policy": "No remote writes, pushes or PRs without explicit user instruction. Full research copies are local and ignored by Git unless a redistribution license is established."
+}

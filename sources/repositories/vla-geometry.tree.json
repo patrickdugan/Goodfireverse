@@ -1,0 +1,1797 @@
+{
+  "repository": "https://github.com/goodfire-ai/vla-geometry",
+  "revision": "c513fbb44a848aa76f9daf11650e4fbc6f08d2d0",
+  "truncated": false,
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9027fd03963631263d1b3766b0a7c2cd6de2b68",
+      "size": 296,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f9027fd03963631263d1b3766b0a7c2cd6de2b68"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac673f0aacd1e7f51f1b4862722fac62c200a711",
+      "size": 1065,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ac673f0aacd1e7f51f1b4862722fac62c200a711"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37f875053d1982a974b7b45f4f0b3186396119a",
+      "size": 14916,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a37f875053d1982a974b7b45f4f0b3186396119a"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39fd12dcb056198a4a8077ceaed7aac312af3205",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/39fd12dcb056198a4a8077ceaed7aac312af3205"
+    },
+    {
+      "path": "assets/figure1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf14a8a337dd1cc875f83cc7e8c31b28ddf7d69",
+      "size": 999566,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/edf14a8a337dd1cc875f83cc7e8c31b28ddf7d69"
+    },
+    {
+      "path": "assets/goodfire_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6623c8b6bfecd1fd195ad5cc3b03081f9cef2a6",
+      "size": 104394,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d6623c8b6bfecd1fd195ad5cc3b03081f9cef2a6"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "470bfbe25db882009fdf6a6e3959e1111862f581",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/470bfbe25db882009fdf6a6e3959e1111862f581"
+    },
+    {
+      "path": "figures/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f623a832f1e15c94e04884ca42c2cb0e767e4427",
+      "size": 4263,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f623a832f1e15c94e04884ca42c2cb0e767e4427"
+    },
+    {
+      "path": "figures/fig1.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "925221bf6cc8056895c02c2a0e8088ab0c21ae61",
+      "size": 34710,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/925221bf6cc8056895c02c2a0e8088ab0c21ae61"
+    },
+    {
+      "path": "figures/fig2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a953392b8067afead7106248edc3df78fa23d1ea",
+      "size": 20214,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a953392b8067afead7106248edc3df78fa23d1ea"
+    },
+    {
+      "path": "figures/fig3_distance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90a18086740b97348b2e5fc6e8e9850529293d8f",
+      "size": 14190,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/90a18086740b97348b2e5fc6e8e9850529293d8f"
+    },
+    {
+      "path": "figures/fig4_contact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d25d657e94f88df47d6b9dc887cd112d717fa79",
+      "size": 11792,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/3d25d657e94f88df47d6b9dc887cd112d717fa79"
+    },
+    {
+      "path": "figures/fig5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e072c052255123a89bde1356b3a7d9351d76a71b",
+      "size": 30581,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/e072c052255123a89bde1356b3a7d9351d76a71b"
+    },
+    {
+      "path": "figures/fig6.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ec1b20d9e4df158203075a83445332df218ade",
+      "size": 16493,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/98ec1b20d9e4df158203075a83445332df218ade"
+    },
+    {
+      "path": "figures/fig7_gripper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efcf002b9d5988136f127bcded6db7762461d2c7",
+      "size": 13165,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/efcf002b9d5988136f127bcded6db7762461d2c7"
+    },
+    {
+      "path": "lists",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8692d2c9aeea3959ce4f1243c8597c40c3419ea",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/b8692d2c9aeea3959ce4f1243c8597c40c3419ea"
+    },
+    {
+      "path": "lists/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18bb01956bf937ef5885016a5e805ca4a4932b17",
+      "size": 3099,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/18bb01956bf937ef5885016a5e805ca4a4932b17"
+    },
+    {
+      "path": "lists/contact",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70881022ad1909ef1776a63d39ea94e01b4d49cb",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/70881022ad1909ef1776a63d39ea94e01b4d49cb"
+    },
+    {
+      "path": "lists/contact/natural_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add50291a47119a075f89c996af7106a4b75aa8a",
+      "size": 24208,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/add50291a47119a075f89c996af7106a4b75aa8a"
+    },
+    {
+      "path": "lists/contact/offschedule_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb268fdae92b71d90862b33dbc8d377bd203c92",
+      "size": 2526,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7cb268fdae92b71d90862b33dbc8d377bd203c92"
+    },
+    {
+      "path": "lists/folds",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dbd7896e98a7e301be6d8f792979bd7467b94a3",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/3dbd7896e98a7e301be6d8f792979bd7467b94a3"
+    },
+    {
+      "path": "lists/folds/contact_natural.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5fb476166ed137e73759eea75f7b2ab74b36c51",
+      "size": 1056,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/e5fb476166ed137e73759eea75f7b2ab74b36c51"
+    },
+    {
+      "path": "lists/folds/distance.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc4be7050b7937442cff4bdfd9caf205567a328a",
+      "size": 5334,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/cc4be7050b7937442cff4bdfd9caf205567a328a"
+    },
+    {
+      "path": "lists/folds/distance_plant.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78dc2e7240db4ea6caaf224c8c06eac3734b703d",
+      "size": 621,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/78dc2e7240db4ea6caaf224c8c06eac3734b703d"
+    },
+    {
+      "path": "lists/folds/distance_teleport.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41bf304444b47e4b87ec1a5a02b0d1bd65400e2d",
+      "size": 5334,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/41bf304444b47e4b87ec1a5a02b0d1bd65400e2d"
+    },
+    {
+      "path": "lists/folds/gripper_probe.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67de75da09ed8d70448d899fa957cc5cf63c4975",
+      "size": 940,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/67de75da09ed8d70448d899fa957cc5cf63c4975"
+    },
+    {
+      "path": "lists/folds/phase.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95f626ceecd16d81e3d69ce34f0ac2e7fc4cab5",
+      "size": 920,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a95f626ceecd16d81e3d69ce34f0ac2e7fc4cab5"
+    },
+    {
+      "path": "lists/folds/position.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6bdf184db9f43c9e714bf55d474379684785d7",
+      "size": 5574,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/cf6bdf184db9f43c9e714bf55d474379684785d7"
+    },
+    {
+      "path": "lists/folds/target_position.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc68b30aa09b5a2d1cf2918e9bb04efe979fda40",
+      "size": 5340,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/dc68b30aa09b5a2d1cf2918e9bb04efe979fda40"
+    },
+    {
+      "path": "lists/gripper_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eafd44e8a1a92f593ae602c4ff99e0d5bbdf960",
+      "size": 4024,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1eafd44e8a1a92f593ae602c4ff99e0d5bbdf960"
+    },
+    {
+      "path": "lists/near_houses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3c6ee384b96a356e9c375496c5a98acfdf1632f",
+      "size": 4012,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a3c6ee384b96a356e9c375496c5a98acfdf1632f"
+    },
+    {
+      "path": "lists/phase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fe850a86a3a1d30932d07ada77476c563cd697d",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/0fe850a86a3a1d30932d07ada77476c563cd697d"
+    },
+    {
+      "path": "lists/phase/freeze_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "924b518816ca2d6babea25ffc2aad84d626ff4e2",
+      "size": 2715,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/924b518816ca2d6babea25ffc2aad84d626ff4e2"
+    },
+    {
+      "path": "lists/phase/natural_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34df06e25ea615345dea7a54a11b118c8dbb75eb",
+      "size": 11403,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/34df06e25ea615345dea7a54a11b118c8dbb75eb"
+    },
+    {
+      "path": "lists/phase/trajectory_episode.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b33ad5104c195a229638c2d6822a3cae5ba357",
+      "size": 55,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/81b33ad5104c195a229638c2d6822a3cae5ba357"
+    },
+    {
+      "path": "lists/phase/trajectory_preceding.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d3c8feec6a8ce7347108d3f250357218f1da3d4",
+      "size": 74,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8d3c8feec6a8ce7347108d3f250357218f1da3d4"
+    },
+    {
+      "path": "lists/position",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f71e07e982e949adc68480931ceb5c95a5c8c8d",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/9f71e07e982e949adc68480931ceb5c95a5c8c8d"
+    },
+    {
+      "path": "lists/position/crossed_houses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "989bec9d1f8a2b0bf1613a5545676ad48ac60b8c",
+      "size": 12644,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/989bec9d1f8a2b0bf1613a5545676ad48ac60b8c"
+    },
+    {
+      "path": "lists/position/ee_color_reference.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acd966bf50140e11bf13b5d35dbfbbf2f461bac1",
+      "size": 240374,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/acd966bf50140e11bf13b5d35dbfbbf2f461bac1"
+    },
+    {
+      "path": "lists/position/line_houses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180b5e2896e1ca693f6739e2fa878053aed4cf47",
+      "size": 662,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/180b5e2896e1ca693f6739e2fa878053aed4cf47"
+    },
+    {
+      "path": "lists/teleport_houses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faf332d9864f3777c3f66f38e74763cf4b72e5c1",
+      "size": 12080,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/faf332d9864f3777c3f66f38e74763cf4b72e5c1"
+    },
+    {
+      "path": "lists/wrist_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07690f963135d1ce8f02da1f4e744f7fad2ff3e",
+      "size": 949,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d07690f963135d1ce8f02da1f4e744f7fad2ff3e"
+    },
+    {
+      "path": "lists/wrist_steer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d492c7ee2fbb5199733debf5a7254d4e3efffc24",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/d492c7ee2fbb5199733debf5a7254d4e3efffc24"
+    },
+    {
+      "path": "lists/wrist_steer/heldout_houses.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d740cec24156ccfde76b2f77f0dd1fe03b6f056e",
+      "size": 143,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d740cec24156ccfde76b2f77f0dd1fe03b6f056e"
+    },
+    {
+      "path": "lists/wrist_steer/natural_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad97c7d745dd5fc49008a6ffcf9b9db976ff0cd",
+      "size": 2747,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7ad97c7d745dd5fc49008a6ffcf9b9db976ff0cd"
+    },
+    {
+      "path": "lists/wrist_steer/orient_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da420607a416de93d38c531644afec3118846d2",
+      "size": 2986,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/5da420607a416de93d38c531644afec3118846d2"
+    },
+    {
+      "path": "lists/wrist_steer/steer_episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb95ad09e315a4ed5386101e8683f9a782d3a70",
+      "size": 102,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8bb95ad09e315a4ed5386101e8683f9a782d3a70"
+    },
+    {
+      "path": "pipelines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53180b6903ec92e375d00c8493868acfc60359e7",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/53180b6903ec92e375d00c8493868acfc60359e7"
+    },
+    {
+      "path": "pipelines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4403cab7606416a9afb90b89fb29d7cbd8dc6775",
+      "size": 13497,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4403cab7606416a9afb90b89fb29d7cbd8dc6775"
+    },
+    {
+      "path": "pipelines/contact",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f13ef9fed9464fe5d993a0028d1ace49c5187754",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/f13ef9fed9464fe5d993a0028d1ace49c5187754"
+    },
+    {
+      "path": "pipelines/contact/10_natural_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ed68da8cb14346899466d8ce0daefcefb04de2",
+      "size": 7880,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a8ed68da8cb14346899466d8ce0daefcefb04de2"
+    },
+    {
+      "path": "pipelines/contact/20_natural_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b837ed170acb6bd4f844db382f48fde2bbc9bd",
+      "size": 5926,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/72b837ed170acb6bd4f844db382f48fde2bbc9bd"
+    },
+    {
+      "path": "pipelines/contact/30_offschedule_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b77875a5e2408f1075a2cbacffea268f390ac63e",
+      "size": 10798,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b77875a5e2408f1075a2cbacffea268f390ac63e"
+    },
+    {
+      "path": "pipelines/contact/40_offschedule_pool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a238a92ba627e850047aa1b242db6a537b34e8",
+      "size": 3782,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/43a238a92ba627e850047aa1b242db6a537b34e8"
+    },
+    {
+      "path": "pipelines/contact/50_natural_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045a214cde5410f8b52d28b7f69dfab0ed7a88b9",
+      "size": 4225,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/045a214cde5410f8b52d28b7f69dfab0ed7a88b9"
+    },
+    {
+      "path": "pipelines/contact/60_heldout_scores.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65146040ca3a0079f3ca8d052f38538584be5152",
+      "size": 5785,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/65146040ca3a0079f3ca8d052f38538584be5152"
+    },
+    {
+      "path": "pipelines/contact/70_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f02118ee1ab7d28fddd833df02c130b113b65c67",
+      "size": 3750,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f02118ee1ab7d28fddd833df02c130b113b65c67"
+    },
+    {
+      "path": "pipelines/contact/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8230c4769802913049a55c3db3febf4db3ea58e2",
+      "size": 11304,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8230c4769802913049a55c3db3febf4db3ea58e2"
+    },
+    {
+      "path": "pipelines/distance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ab523966f674c0781380d9e7a955ab0e1274531",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/3ab523966f674c0781380d9e7a955ab0e1274531"
+    },
+    {
+      "path": "pipelines/distance/10_near_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c04a8c63553a114723f1b2af8131a6e870e79d1",
+      "size": 23292,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/5c04a8c63553a114723f1b2af8131a6e870e79d1"
+    },
+    {
+      "path": "pipelines/distance/20_pack_near.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c53a6c99fc4b267cae9ff167c069a6d83d76f65",
+      "size": 1611,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8c53a6c99fc4b267cae9ff167c069a6d83d76f65"
+    },
+    {
+      "path": "pipelines/distance/30_ruler_probes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0404ca5ce4d62e534d2b678c93e1205ae901a49",
+      "size": 5020,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c0404ca5ce4d62e534d2b678c93e1205ae901a49"
+    },
+    {
+      "path": "pipelines/distance/40_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0ce4d0268571865e92693e376721f36f2cbf03",
+      "size": 2796,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ac0ce4d0268571865e92693e376721f36f2cbf03"
+    },
+    {
+      "path": "pipelines/distance/50_erasure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e9549e6799e016d1be1af89409a13849f38517d",
+      "size": 6507,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1e9549e6799e016d1be1af89409a13849f38517d"
+    },
+    {
+      "path": "pipelines/distance/60_probe_bank.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "205c600dba6722f7b7d77fc2222cae5946e40bfb",
+      "size": 6313,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/205c600dba6722f7b7d77fc2222cae5946e40bfb"
+    },
+    {
+      "path": "pipelines/distance/70_cutoff_table.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "153b095d54edcf620f840d50df38574d822a1bce",
+      "size": 3073,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/153b095d54edcf620f840d50df38574d822a1bce"
+    },
+    {
+      "path": "pipelines/distance/80_plant_cosines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7a4fc99ce7a31d3577a38d4051793897fb810c",
+      "size": 4053,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/3d7a4fc99ce7a31d3577a38d4051793897fb810c"
+    },
+    {
+      "path": "pipelines/distance/90_fig3_panels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da7e88668762be0932473d3e1d24e57e79807a5e",
+      "size": 8015,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/da7e88668762be0932473d3e1d24e57e79807a5e"
+    },
+    {
+      "path": "pipelines/distance/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99950537f2c05854486a0c1315b59b83172f911e",
+      "size": 14740,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/99950537f2c05854486a0c1315b59b83172f911e"
+    },
+    {
+      "path": "pipelines/gripper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b47000ecca664a03f8c8f2e19fa69c6ad06c6b72",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/b47000ecca664a03f8c8f2e19fa69c6ad06c6b72"
+    },
+    {
+      "path": "pipelines/gripper/10_harvest_edits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2efe2fb12a1fd1f8c51871d2e89239839cebd9d6",
+      "size": 7824,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2efe2fb12a1fd1f8c51871d2e89239839cebd9d6"
+    },
+    {
+      "path": "pipelines/gripper/20_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6815bbd1cb7ec393ea84ed70556ff53eb0983d",
+      "size": 3331,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/0a6815bbd1cb7ec393ea84ed70556ff53eb0983d"
+    },
+    {
+      "path": "pipelines/gripper/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1149d75832bb790564eec9c15419c6ccd5d8e635",
+      "size": 3409,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1149d75832bb790564eec9c15419c6ccd5d8e635"
+    },
+    {
+      "path": "pipelines/gripper_fig7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b942c7bfac5b4f60d6e0474fb277cb6f4f563548",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/b942c7bfac5b4f60d6e0474fb277cb6f4f563548"
+    },
+    {
+      "path": "pipelines/gripper_fig7/10_basis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fbb1f9dcd0a3e55b00d2671825847526530649c",
+      "size": 3367,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1fbb1f9dcd0a3e55b00d2671825847526530649c"
+    },
+    {
+      "path": "pipelines/gripper_fig7/20_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f481998c5520df4cd796bc6f1263406dd7150e34",
+      "size": 3864,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f481998c5520df4cd796bc6f1263406dd7150e34"
+    },
+    {
+      "path": "pipelines/gripper_fig7/30_ksweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad908430155a6062138214dbe01dc592805dfbd",
+      "size": 7598,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/fad908430155a6062138214dbe01dc592805dfbd"
+    },
+    {
+      "path": "pipelines/gripper_fig7/40_ksweep_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07154af160eae918f401e55e67b3948eeb058f1",
+      "size": 3416,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c07154af160eae918f401e55e67b3948eeb058f1"
+    },
+    {
+      "path": "pipelines/gripper_fig7/50_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8ccdb41daf15018dfcc3f20fd3aaf43fb6e56ef",
+      "size": 3089,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c8ccdb41daf15018dfcc3f20fd3aaf43fb6e56ef"
+    },
+    {
+      "path": "pipelines/gripper_fig7/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03077d09a9f9326295e98989e5a688586812271a",
+      "size": 8119,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/03077d09a9f9326295e98989e5a688586812271a"
+    },
+    {
+      "path": "pipelines/phase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66a66cdc2d43ec54f0abb2df165a614dcd9bd0d9",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/66a66cdc2d43ec54f0abb2df165a614dcd9bd0d9"
+    },
+    {
+      "path": "pipelines/phase/05_prepare_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06866111c89adc91733aa31a34fcb5de9c900d3f",
+      "size": 8189,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/06866111c89adc91733aa31a34fcb5de9c900d3f"
+    },
+    {
+      "path": "pipelines/phase/10_natural_rollouts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f32ef1b1d0ecb10e3dfc295cafa660fddccf3e9",
+      "size": 5483,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/6f32ef1b1d0ecb10e3dfc295cafa660fddccf3e9"
+    },
+    {
+      "path": "pipelines/phase/20_natural_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384d54aea386fc17b408b3e4fcf0227fcacadc80",
+      "size": 3018,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/384d54aea386fc17b408b3e4fcf0227fcacadc80"
+    },
+    {
+      "path": "pipelines/phase/30_decoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2072f092343fedff5fa469db30c1d422f9884be",
+      "size": 3484,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c2072f092343fedff5fa469db30c1d422f9884be"
+    },
+    {
+      "path": "pipelines/phase/40_freeze_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c7ca07e5d39ce9335878009f02eb7aed4a9265",
+      "size": 5453,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/47c7ca07e5d39ce9335878009f02eb7aed4a9265"
+    },
+    {
+      "path": "pipelines/phase/50_freeze_decode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb20bab245ac4ebec97e5331d1b6e8ec475b5911",
+      "size": 4186,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/bb20bab245ac4ebec97e5331d1b6e8ec475b5911"
+    },
+    {
+      "path": "pipelines/phase/60_trajectory_capture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2d8837d73c484139c382875e6707df17a7fd34",
+      "size": 3877,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1c2d8837d73c484139c382875e6707df17a7fd34"
+    },
+    {
+      "path": "pipelines/phase/70_panels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b14690e7088a6fa3724e68b87f85d75f76e8170",
+      "size": 12333,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4b14690e7088a6fa3724e68b87f85d75f76e8170"
+    },
+    {
+      "path": "pipelines/phase/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ddc74ef2a8d5f0ea80fee8eac6bb74f6f50104",
+      "size": 13091,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f1ddc74ef2a8d5f0ea80fee8eac6bb74f6f50104"
+    },
+    {
+      "path": "pipelines/position",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36baf39c6de689b86f7175905bc35eebec8db82a",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/36baf39c6de689b86f7175905bc35eebec8db82a"
+    },
+    {
+      "path": "pipelines/position/10_crossed_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f842e2be3a3504b6f98ceb44db9bf40bcc50b62",
+      "size": 22845,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4f842e2be3a3504b6f98ceb44db9bf40bcc50b62"
+    },
+    {
+      "path": "pipelines/position/20_pack_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c87cf798f05f85aeaed71fa3f7a336ea6b5fec",
+      "size": 6912,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/53c87cf798f05f85aeaed71fa3f7a336ea6b5fec"
+    },
+    {
+      "path": "pipelines/position/30_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a892f17d62ff0c14eca74467e26084adc29856",
+      "size": 4543,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/66a892f17d62ff0c14eca74467e26084adc29856"
+    },
+    {
+      "path": "pipelines/position/40_procrustes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29b436af293e09c2c64f2043b71d67a0dcb5d90c",
+      "size": 6046,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/29b436af293e09c2c64f2043b71d67a0dcb5d90c"
+    },
+    {
+      "path": "pipelines/position/50_hand_lines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab7be3ebc34924736d5c51cea0fdd509e607be6a",
+      "size": 12004,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ab7be3ebc34924736d5c51cea0fdd509e607be6a"
+    },
+    {
+      "path": "pipelines/position/55_object_lines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd3db3940e61c9f84b0c23b996e81bd54ce3cf9a",
+      "size": 7164,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/cd3db3940e61c9f84b0c23b996e81bd54ce3cf9a"
+    },
+    {
+      "path": "pipelines/position/60_curvature.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8757f2d761f8d2fbfa1293f4dd06a3817886d71",
+      "size": 5669,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b8757f2d761f8d2fbfa1293f4dd06a3817886d71"
+    },
+    {
+      "path": "pipelines/position/70_top_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2a92043529d7f1f83f5beae87183b13cd9826a",
+      "size": 4279,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/9b2a92043529d7f1f83f5beae87183b13cd9826a"
+    },
+    {
+      "path": "pipelines/position/80_hand_shapes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6472bf772d6316c56bd9d1177e0bce7c34779d67",
+      "size": 15772,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/6472bf772d6316c56bd9d1177e0bce7c34779d67"
+    },
+    {
+      "path": "pipelines/position/85_object_shapes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c62c27a4bded8e9d5aeb125e5f8772c9a6886e0",
+      "size": 7852,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7c62c27a4bded8e9d5aeb125e5f8772c9a6886e0"
+    },
+    {
+      "path": "pipelines/position/90_grid_panels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4c75e1fb6926aff9f87f9b772a8dea952ac5baf",
+      "size": 4640,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a4c75e1fb6926aff9f87f9b772a8dea952ac5baf"
+    },
+    {
+      "path": "pipelines/position/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b4eea367518be872fd53b34fb8a298d6796861",
+      "size": 13382,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/85b4eea367518be872fd53b34fb8a298d6796861"
+    },
+    {
+      "path": "pipelines/target",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a07368f3587a203d7d73acebeddaaefbad2b4e6",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/9a07368f3587a203d7d73acebeddaaefbad2b4e6"
+    },
+    {
+      "path": "pipelines/target/10_teleport_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aecc9e3ab5435e68fbc2ffb37fceb32627adb81b",
+      "size": 19181,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/aecc9e3ab5435e68fbc2ffb37fceb32627adb81b"
+    },
+    {
+      "path": "pipelines/target/20_pack_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f44396368c12b4069777a74468e7be6af9164a",
+      "size": 5036,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/90f44396368c12b4069777a74468e7be6af9164a"
+    },
+    {
+      "path": "pipelines/target/30_square_path_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363318fa9137404047b47dea562a86ee2a7ce83e",
+      "size": 15721,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/363318fa9137404047b47dea562a86ee2a7ce83e"
+    },
+    {
+      "path": "pipelines/target/40_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d965097d3be286a16d628d20c04cc271d779eb3",
+      "size": 3027,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/5d965097d3be286a16d628d20c04cc271d779eb3"
+    },
+    {
+      "path": "pipelines/target/50_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59741c5253052dd6cc2e7c1df73f96217dfa8cb1",
+      "size": 3794,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/59741c5253052dd6cc2e7c1df73f96217dfa8cb1"
+    },
+    {
+      "path": "pipelines/target/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f198f3ca98d06bb9e46389004ce0ef402539e6fa",
+      "size": 3407,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f198f3ca98d06bb9e46389004ce0ef402539e6fa"
+    },
+    {
+      "path": "pipelines/wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d568d67fd053b7a438a6b07c353ddfe1a6dd5874",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/d568d67fd053b7a438a6b07c353ddfe1a6dd5874"
+    },
+    {
+      "path": "pipelines/wrist/01_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f84ed0aa88bdb6ca39d3143f89d203f5bdabbd",
+      "size": 4480,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d3f84ed0aa88bdb6ca39d3143f89d203f5bdabbd"
+    },
+    {
+      "path": "pipelines/wrist/02_check_sweeps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af05942fac028751e8c50775ebeaa029f2d27da",
+      "size": 5489,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7af05942fac028751e8c50775ebeaa029f2d27da"
+    },
+    {
+      "path": "pipelines/wrist/03_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1b8040056930acfb675aa6317677db54469dc51",
+      "size": 3409,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d1b8040056930acfb675aa6317677db54469dc51"
+    },
+    {
+      "path": "pipelines/wrist/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebaf6caf58e667c1fd63a317ce1ef3ecd1b269ed",
+      "size": 3462,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ebaf6caf58e667c1fd63a317ce1ef3ecd1b269ed"
+    },
+    {
+      "path": "pipelines/wrist_steer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92c35e7ab2e9e3244f0446bfca4605019aa62028",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/92c35e7ab2e9e3244f0446bfca4605019aa62028"
+    },
+    {
+      "path": "pipelines/wrist_steer/10_natural_rollouts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40150e54d9274ecc72e18c29e2cd41a8851119ea",
+      "size": 4398,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/40150e54d9274ecc72e18c29e2cd41a8851119ea"
+    },
+    {
+      "path": "pipelines/wrist_steer/20_natural_cloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b36a7d78154a6a23895a1fb8bab81bc14949645",
+      "size": 3280,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4b36a7d78154a6a23895a1fb8bab81bc14949645"
+    },
+    {
+      "path": "pipelines/wrist_steer/30_orient_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d3942d87dca91017a4756bb8031215a88d79466",
+      "size": 4822,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/3d3942d87dca91017a4756bb8031215a88d79466"
+    },
+    {
+      "path": "pipelines/wrist_steer/40_operator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "defa4d46e64e1f9988119d3ee97218080d617e44",
+      "size": 3074,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/defa4d46e64e1f9988119d3ee97218080d617e44"
+    },
+    {
+      "path": "pipelines/wrist_steer/50_train_chart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8606b60d9f849d5c799fe17ea90484ad5c18dd07",
+      "size": 4192,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8606b60d9f849d5c799fe17ea90484ad5c18dd07"
+    },
+    {
+      "path": "pipelines/wrist_steer/60_steer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da09feb22402534e09a2b19adc7943bb4961a6f1",
+      "size": 5971,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/da09feb22402534e09a2b19adc7943bb4961a6f1"
+    },
+    {
+      "path": "pipelines/wrist_steer/70_panels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b672a9470873f6b6d45dc7a2f048434b27365f",
+      "size": 5261,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c6b672a9470873f6b6d45dc7a2f048434b27365f"
+    },
+    {
+      "path": "pipelines/wrist_steer/80_numbers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b6e7b868d94bcff407b532235d475868a755dd",
+      "size": 5587,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a3b6e7b868d94bcff407b532235d475868a755dd"
+    },
+    {
+      "path": "pipelines/wrist_steer/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a78f3eda47ac626fe0be7f7c5c044d07a75703a",
+      "size": 11441,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/9a78f3eda47ac626fe0be7f7c5c044d07a75703a"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42519d6490c436dd6c425eb5c84392fc043c256a",
+      "size": 2774,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/42519d6490c436dd6c425eb5c84392fc043c256a"
+    },
+    {
+      "path": "requirements-sim.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a4211b34a3d505557b32794c08720b27ac78f04",
+      "size": 4707,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/6a4211b34a3d505557b32794c08720b27ac78f04"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "512e87f0a0e6198a6ec94ed797857504ba263fa7",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/512e87f0a0e6198a6ec94ed797857504ba263fa7"
+    },
+    {
+      "path": "scripts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118caad3dbf4f7b564ff2871ee377f473feb0524",
+      "size": 6875,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/118caad3dbf4f7b564ff2871ee377f473feb0524"
+    },
+    {
+      "path": "scripts/harvest_array.sbatch",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5ad7f3980d2fcdc234c8c7a364b56d13d371180",
+      "size": 3299,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/e5ad7f3980d2fcdc234c8c7a364b56d13d371180"
+    },
+    {
+      "path": "scripts/harvest_env.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383f381d52cb7eead284f5c01c226c8307af6c55",
+      "size": 3119,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/383f381d52cb7eead284f5c01c226c8307af6c55"
+    },
+    {
+      "path": "scripts/prefetch_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51429ee655c66817d3733877fa2da3bcbd355d4b",
+      "size": 10235,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/51429ee655c66817d3733877fa2da3bcbd355d4b"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b490810279d57926289f7903fbf5d550efa7a73",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/3b490810279d57926289f7903fbf5d550efa7a73"
+    },
+    {
+      "path": "tests/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fed3b60b655bf239adb73f0141268b10f359985e",
+      "size": 23717,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/fed3b60b655bf239adb73f0141268b10f359985e"
+    },
+    {
+      "path": "tests/canary_contact.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ecdf8473cc757230da88fd25555be52222d81fde",
+      "size": 2062,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ecdf8473cc757230da88fd25555be52222d81fde"
+    },
+    {
+      "path": "tests/canary_contact_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "643404d4efd601a0ad721f06dd2243f0d2daa540",
+      "size": 10795,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/643404d4efd601a0ad721f06dd2243f0d2daa540"
+    },
+    {
+      "path": "tests/canary_distance_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30328294c4e56ef0fa7f5fe6725ec3369068356c",
+      "size": 5852,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/30328294c4e56ef0fa7f5fe6725ec3369068356c"
+    },
+    {
+      "path": "tests/canary_gripper_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88518d83555b246dcbddf25332009146b6398610",
+      "size": 4862,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/88518d83555b246dcbddf25332009146b6398610"
+    },
+    {
+      "path": "tests/canary_gripper_ksweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d5158f5b4400ef3975d9ca944eeff8e71595da",
+      "size": 6680,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f5d5158f5b4400ef3975d9ca944eeff8e71595da"
+    },
+    {
+      "path": "tests/canary_gripper_ksweep.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f507abd1cdc0c151873d41be0d557c4e4c624ed5",
+      "size": 1540,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f507abd1cdc0c151873d41be0d557c4e4c624ed5"
+    },
+    {
+      "path": "tests/canary_phase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342e2cd83d627302dc9564e14425188fba0f5af9",
+      "size": 5295,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/342e2cd83d627302dc9564e14425188fba0f5af9"
+    },
+    {
+      "path": "tests/canary_phase.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be9201553ae4431e7d94ef4a88b7c700b6307283",
+      "size": 2475,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/be9201553ae4431e7d94ef4a88b7c700b6307283"
+    },
+    {
+      "path": "tests/canary_position.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad827eaa6d034889a53d8f4f1f5e6f86358745e8",
+      "size": 2856,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/ad827eaa6d034889a53d8f4f1f5e6f86358745e8"
+    },
+    {
+      "path": "tests/canary_position_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1516e045f3290630c73d3ec4248a54975f8372ad",
+      "size": 7975,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1516e045f3290630c73d3ec4248a54975f8372ad"
+    },
+    {
+      "path": "tests/canary_target_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ea39990494ff8411f0f740a7f3be297605d2ab",
+      "size": 9142,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/33ea39990494ff8411f0f740a7f3be297605d2ab"
+    },
+    {
+      "path": "tests/canary_wrist_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d49101cafc30c0daa73fbf9d06437b48e6d641d",
+      "size": 4108,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7d49101cafc30c0daa73fbf9d06437b48e6d641d"
+    },
+    {
+      "path": "tests/canary_wrist_steer.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a509cace4a8869eff28ba101d841cc30531719b3",
+      "size": 2714,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a509cace4a8869eff28ba101d841cc30531719b3"
+    },
+    {
+      "path": "tests/canary_wrist_steer_chart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbcf0309b624cf60cead6b24f18efde6c80c2ad",
+      "size": 3259,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1bbcf0309b624cf60cead6b24f18efde6c80c2ad"
+    },
+    {
+      "path": "tests/canary_wrist_steer_natural.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974a70183ef314e3e1c5726f13ccc43a50a50e7f",
+      "size": 6699,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/974a70183ef314e3e1c5726f13ccc43a50a50e7f"
+    },
+    {
+      "path": "tests/canary_wrist_steer_orient.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de979b59291d019160b94090a6d1c468ecd60099",
+      "size": 3015,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/de979b59291d019160b94090a6d1c468ecd60099"
+    },
+    {
+      "path": "tests/canary_wrist_steer_steer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2d287be7d28d27ff7aa8a81b95dcd76ff57dd11",
+      "size": 4795,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c2d287be7d28d27ff7aa8a81b95dcd76ff57dd11"
+    },
+    {
+      "path": "tests/check_expected.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500b83be5fda2660427060517d7ad4075fcc3686",
+      "size": 7641,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/500b83be5fda2660427060517d7ad4075fcc3686"
+    },
+    {
+      "path": "tests/check_expected_fig2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095890fe4d51e8df6e0452ea7263c6469f8fa701",
+      "size": 5884,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/095890fe4d51e8df6e0452ea7263c6469f8fa701"
+    },
+    {
+      "path": "tests/check_expected_fig3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d30a9c0ca49ddbfc3fac2431680b06ce600ac1",
+      "size": 6970,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/39d30a9c0ca49ddbfc3fac2431680b06ce600ac1"
+    },
+    {
+      "path": "tests/check_expected_fig4.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa57079732be1b21191647b487cae6c2100877e4",
+      "size": 5676,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/aa57079732be1b21191647b487cae6c2100877e4"
+    },
+    {
+      "path": "tests/check_expected_fig5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573cf42df5be1696ef59123708231435e75b1cfb",
+      "size": 5574,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/573cf42df5be1696ef59123708231435e75b1cfb"
+    },
+    {
+      "path": "tests/check_expected_fig6.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a268d645057680896f47fbc8d1869d59fc3eb7d1",
+      "size": 5974,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a268d645057680896f47fbc8d1869d59fc3eb7d1"
+    },
+    {
+      "path": "tests/check_expected_fig7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0da55a923d4d743f0344e8049020a30ef51a58",
+      "size": 4845,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2c0da55a923d4d743f0344e8049020a30ef51a58"
+    },
+    {
+      "path": "tests/compare_contact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d62fcd08994ec58794440660a5aa452485ec7a",
+      "size": 10970,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f3d62fcd08994ec58794440660a5aa452485ec7a"
+    },
+    {
+      "path": "tests/compare_distance_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "142f4818414b8acb2a4c27e3d838e0eec64b8f93",
+      "size": 3484,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/142f4818414b8acb2a4c27e3d838e0eec64b8f93"
+    },
+    {
+      "path": "tests/compare_fig1_render.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b934b186640eee7d14c072fd5457654905b8dd98",
+      "size": 7191,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b934b186640eee7d14c072fd5457654905b8dd98"
+    },
+    {
+      "path": "tests/compare_fig3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b788338f9a8285a32c3bb97eb5e1f0ba5b87673",
+      "size": 17241,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7b788338f9a8285a32c3bb97eb5e1f0ba5b87673"
+    },
+    {
+      "path": "tests/compare_fig3_render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda4aceec03fcabb9ec29d3a8b18249e9d641c41",
+      "size": 3732,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/bda4aceec03fcabb9ec29d3a8b18249e9d641c41"
+    },
+    {
+      "path": "tests/compare_fig4_render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f6c72a0b97e94d17f314a6c8bbcef0a2154559",
+      "size": 3552,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/93f6c72a0b97e94d17f314a6c8bbcef0a2154559"
+    },
+    {
+      "path": "tests/compare_fig5_render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4c0b4ec2fab0be14319d7d433c701f8b17abac",
+      "size": 4964,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2b4c0b4ec2fab0be14319d7d433c701f8b17abac"
+    },
+    {
+      "path": "tests/compare_fig7_render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c825e9a756c8ade5856b7c6d3a7b55506e19e9e9",
+      "size": 4690,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c825e9a756c8ade5856b7c6d3a7b55506e19e9e9"
+    },
+    {
+      "path": "tests/compare_gripper_fig7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "810139d5334a3875ff84f572051db987915f1632",
+      "size": 7393,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/810139d5334a3875ff84f572051db987915f1632"
+    },
+    {
+      "path": "tests/compare_gripper_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e06d689d56a2430105895ced962ae54671eae958",
+      "size": 3077,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/e06d689d56a2430105895ced962ae54671eae958"
+    },
+    {
+      "path": "tests/compare_phase_arrays.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c9920d7b48ac5e3432f9d05c3732cc970f106a",
+      "size": 2772,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d1c9920d7b48ac5e3432f9d05c3732cc970f106a"
+    },
+    {
+      "path": "tests/compare_phase_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a15fd8b864cf5eaeddb0d7430378284a99c201",
+      "size": 6939,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f4a15fd8b864cf5eaeddb0d7430378284a99c201"
+    },
+    {
+      "path": "tests/compare_position.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1373fddd28d3af784692abad7aaa9d5b07d0e59",
+      "size": 9297,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d1373fddd28d3af784692abad7aaa9d5b07d0e59"
+    },
+    {
+      "path": "tests/compare_target_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447682f75c912cebc13f7db13e6aea1c36d97ef7",
+      "size": 4907,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/447682f75c912cebc13f7db13e6aea1c36d97ef7"
+    },
+    {
+      "path": "tests/compare_wrist_panel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9437cc35a87881f252846b244d492e6e2cb67b3b",
+      "size": 2974,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/9437cc35a87881f252846b244d492e6e2cb67b3b"
+    },
+    {
+      "path": "tests/compare_wrist_steer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c09d8919cb37d858e3dfd486caf7f9f8105a3e9d",
+      "size": 8340,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c09d8919cb37d858e3dfd486caf7f9f8105a3e9d"
+    },
+    {
+      "path": "tests/expected_fig1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31d144d9fb020eaf5d589651e9cda0b1c7d1940",
+      "size": 5043,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b31d144d9fb020eaf5d589651e9cda0b1c7d1940"
+    },
+    {
+      "path": "tests/expected_fig2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97be44edd7f3a68c59275e082b76957533b5d481",
+      "size": 21252,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/97be44edd7f3a68c59275e082b76957533b5d481"
+    },
+    {
+      "path": "tests/expected_fig3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf1f54484128caa3af8100693b531a3e1fc811b7",
+      "size": 19746,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/bf1f54484128caa3af8100693b531a3e1fc811b7"
+    },
+    {
+      "path": "tests/expected_fig4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b25986f021c4504c7beb0c1c356094d2e137acdb",
+      "size": 11634,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b25986f021c4504c7beb0c1c356094d2e137acdb"
+    },
+    {
+      "path": "tests/expected_fig5.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e11f553567f58066449b96a60245264532e4bed",
+      "size": 13708,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/5e11f553567f58066449b96a60245264532e4bed"
+    },
+    {
+      "path": "tests/expected_fig6.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f567f9f3637d9ae906ccc57257782cd55bea9131",
+      "size": 6330,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f567f9f3637d9ae906ccc57257782cd55bea9131"
+    },
+    {
+      "path": "tests/expected_fig7.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cfd6d3b1c6c4089a56d305e2bedf49dffd3a45d",
+      "size": 3015,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2cfd6d3b1c6c4089a56d305e2bedf49dffd3a45d"
+    },
+    {
+      "path": "tests/provenance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5078c70e37b5065540d1bb6889c438b37fd8c3b",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/a5078c70e37b5065540d1bb6889c438b37fd8c3b"
+    },
+    {
+      "path": "tests/provenance/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148b86365276336167913dea1f2b0f263d15b6b1",
+      "size": 12939,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/148b86365276336167913dea1f2b0f263d15b6b1"
+    },
+    {
+      "path": "tests/provenance/check_contact_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac4027a99c2b4168be8afd51f24553abd7052d4",
+      "size": 8246,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/eac4027a99c2b4168be8afd51f24553abd7052d4"
+    },
+    {
+      "path": "tests/provenance/check_distance_fig3_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1e395f2f975f1856ea5db35053becf16c2af1b7",
+      "size": 4319,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f1e395f2f975f1856ea5db35053becf16c2af1b7"
+    },
+    {
+      "path": "tests/provenance/check_gripper_fig7_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a7a3de471cc65be3c9e26cdbb7443e086f3e9da",
+      "size": 3178,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8a7a3de471cc65be3c9e26cdbb7443e086f3e9da"
+    },
+    {
+      "path": "tests/provenance/check_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22af94b492c76eb5b6cafcff6f418c829fc5b270",
+      "size": 8580,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/22af94b492c76eb5b6cafcff6f418c829fc5b270"
+    },
+    {
+      "path": "tests/provenance/check_phase_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cd0f7d7735872c48c8c4a340a2524f0a40cd9f",
+      "size": 10407,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c8cd0f7d7735872c48c8c4a340a2524f0a40cd9f"
+    },
+    {
+      "path": "tests/provenance/check_position_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a7067f6e3d9dbef2bd8727e4107cf2823c9662",
+      "size": 5316,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/52a7067f6e3d9dbef2bd8727e4107cf2823c9662"
+    },
+    {
+      "path": "tests/provenance/check_wrist_steer_lists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7faead000bcec04e31b6710f31153ab15de0fbf",
+      "size": 7234,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/c7faead000bcec04e31b6710f31153ab15de0fbf"
+    },
+    {
+      "path": "vlageom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dfb6dddefc5ed3d8cb0132d94261d5340a04778",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/7dfb6dddefc5ed3d8cb0132d94261d5340a04778"
+    },
+    {
+      "path": "vlageom/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a7330366ad6b571a9dda623f5f61565292ba20",
+      "size": 1023,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/56a7330366ad6b571a9dda623f5f61565292ba20"
+    },
+    {
+      "path": "vlageom/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31cdf82ba11ccd73c239d163b70cbc7636efb804",
+      "size": 1518,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/31cdf82ba11ccd73c239d163b70cbc7636efb804"
+    },
+    {
+      "path": "vlageom/contact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf699aba9b8617c0384251e645f39e70fbfbc3a2",
+      "size": 46370,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/cf699aba9b8617c0384251e645f39e70fbfbc3a2"
+    },
+    {
+      "path": "vlageom/distance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4188fed55e509a2ec5b17e6623c24ac4a188b728",
+      "size": 43825,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4188fed55e509a2ec5b17e6623c24ac4a188b728"
+    },
+    {
+      "path": "vlageom/gripper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1167ea27b3af51174890e6c7d378b74d407331ec",
+      "size": 13626,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/1167ea27b3af51174890e6c7d378b74d407331ec"
+    },
+    {
+      "path": "vlageom/gripper_fig7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "467502c02661ec8194402eec44293de6b47cc51d",
+      "size": 21686,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/467502c02661ec8194402eec44293de6b47cc51d"
+    },
+    {
+      "path": "vlageom/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117c012692d988a92e7da4cc8f9fe2197ca4b7a7",
+      "size": 5406,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/117c012692d988a92e7da4cc8f9fe2197ca4b7a7"
+    },
+    {
+      "path": "vlageom/phase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed09f1ecf3bac28209b912295431a7e57606c1a",
+      "size": 60435,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/3ed09f1ecf3bac28209b912295431a7e57606c1a"
+    },
+    {
+      "path": "vlageom/plot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25c430bae9fdc34f2ac5059162f37d5b67556811",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/25c430bae9fdc34f2ac5059162f37d5b67556811"
+    },
+    {
+      "path": "vlageom/plot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd099238fa5e98905109b80974c889dde96c02e7",
+      "size": 639,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/bd099238fa5e98905109b80974c889dde96c02e7"
+    },
+    {
+      "path": "vlageom/plot/style.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d377bc81aaf7ef78485e39cbcafbc12c177aa1",
+      "size": 11293,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/f5d377bc81aaf7ef78485e39cbcafbc12c177aa1"
+    },
+    {
+      "path": "vlageom/position.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07fe3f475ed53e2827ed3f5972e218257398b655",
+      "size": 80102,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/07fe3f475ed53e2827ed3f5972e218257398b655"
+    },
+    {
+      "path": "vlageom/probes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30b515f2983b3f4c752753eb9b1361d7c3b77499",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/30b515f2983b3f4c752753eb9b1361d7c3b77499"
+    },
+    {
+      "path": "vlageom/probes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7de396e193bdcd5d0a26e12b92870bda3c394e8b",
+      "size": 891,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/7de396e193bdcd5d0a26e12b92870bda3c394e8b"
+    },
+    {
+      "path": "vlageom/probes/cv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818875202c9fe70fbfda25ed49ab6a7afac9d31a",
+      "size": 3622,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/818875202c9fe70fbfda25ed49ab6a7afac9d31a"
+    },
+    {
+      "path": "vlageom/probes/folds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb4974e7da3988565515d7d218aea1142dee6514",
+      "size": 4542,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/cb4974e7da3988565515d7d218aea1142dee6514"
+    },
+    {
+      "path": "vlageom/probes/ridge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8216e331a7e968818a5f55031ac2a7b8c8b386b",
+      "size": 4016,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d8216e331a7e968818a5f55031ac2a7b8c8b386b"
+    },
+    {
+      "path": "vlageom/sim",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f67c16cabba57174e8981e743e682f91ff0a4de9",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/f67c16cabba57174e8981e743e682f91ff0a4de9"
+    },
+    {
+      "path": "vlageom/sim/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4be07bbabcecb7206f524825c8ef0f29e0c6928d",
+      "size": 3869,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/4be07bbabcecb7206f524825c8ef0f29e0c6928d"
+    },
+    {
+      "path": "vlageom/sim/bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa3212c1298b5f4c572abfab526f0e1fbc3ad41",
+      "size": 4754,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2aa3212c1298b5f4c572abfab526f0e1fbc3ad41"
+    },
+    {
+      "path": "vlageom/sim/encode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70caed9a6d656ee0d02c9a5646d25995513c110",
+      "size": 12397,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/d70caed9a6d656ee0d02c9a5646d25995513c110"
+    },
+    {
+      "path": "vlageom/sim/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "079b40b21f2f75d814c1ea563fcd5465ef537d87",
+      "size": 29332,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/079b40b21f2f75d814c1ea563fcd5465ef537d87"
+    },
+    {
+      "path": "vlageom/sim/env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "454c4fb214b792b16ac05395ff7ba2105e5e3ec2",
+      "size": 7939,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/454c4fb214b792b16ac05395ff7ba2105e5e3ec2"
+    },
+    {
+      "path": "vlageom/sim/kinematics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96d5d980f5f56d5e2058d19ffc4dfaa3643cb35",
+      "size": 7604,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/e96d5d980f5f56d5e2058d19ffc4dfaa3643cb35"
+    },
+    {
+      "path": "vlageom/sim/locks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ce9fb8d5b4ccc31c53500d135f43d20100dfaa",
+      "size": 2749,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/b7ce9fb8d5b4ccc31c53500d135f43d20100dfaa"
+    },
+    {
+      "path": "vlageom/sim/render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ceb33f9ff3c40df867ca838c427415d47856f0",
+      "size": 7773,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/47ceb33f9ff3c40df867ca838c427415d47856f0"
+    },
+    {
+      "path": "vlageom/sim/scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b64aa035ef931e40c6a7b41d52025f4f0404e21",
+      "size": 10300,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8b64aa035ef931e40c6a7b41d52025f4f0404e21"
+    },
+    {
+      "path": "vlageom/sim/so3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca12e44546a6d7b9df65aaa883d333875dc69b7",
+      "size": 1307,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/0ca12e44546a6d7b9df65aaa883d333875dc69b7"
+    },
+    {
+      "path": "vlageom/steer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14a72bbd650756d4a0915b8d30115acec7e3f93d",
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/trees/14a72bbd650756d4a0915b8d30115acec7e3f93d"
+    },
+    {
+      "path": "vlageom/steer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259077cfe302bc3abd783d456f3f0647167a6b97",
+      "size": 564,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/259077cfe302bc3abd783d456f3f0647167a6b97"
+    },
+    {
+      "path": "vlageom/steer/delta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df748f283cff9b5b7496c5f42a06800984fc75a5",
+      "size": 10320,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/df748f283cff9b5b7496c5f42a06800984fc75a5"
+    },
+    {
+      "path": "vlageom/steer/landmarks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6fec602d4c4ac45523bf3588bc5cf87ee762aba",
+      "size": 6640,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/a6fec602d4c4ac45523bf3588bc5cf87ee762aba"
+    },
+    {
+      "path": "vlageom/target.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46eebe4925590d65c961a83524f02d62a0007a23",
+      "size": 18568,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/46eebe4925590d65c961a83524f02d62a0007a23"
+    },
+    {
+      "path": "vlageom/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0385b2b50bfd71b384a22b62aae71f5ce8e1be42",
+      "size": 2776,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/0385b2b50bfd71b384a22b62aae71f5ce8e1be42"
+    },
+    {
+      "path": "vlageom/wrist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a461817a227483f2e6d739269d673e93a8f8585",
+      "size": 17943,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/8a461817a227483f2e6d739269d673e93a8f8585"
+    },
+    {
+      "path": "vlageom/wrist_steer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa9d92836c9e50845868934dd54e3fad21469c5",
+      "size": 83919,
+      "url": "https://api.github.com/repos/goodfire-ai/vla-geometry/git/blobs/2aa9d92836c9e50845868934dd54e3fad21469c5"
+    }
+  ]
+}

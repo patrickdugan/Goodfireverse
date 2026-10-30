@@ -1,0 +1,52 @@
+{
+  "repository": "https://github.com/goodfire-ai/robotics_causal_analysis",
+  "revision": "8a8a33e41429791d1307c22524feb22a82db366e",
+  "archive_sha256": "a34b749eb94d9163ec6753fdd56471dbd7442e8f21ce510ec24d64c4c9de9e7d",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "319f57f91dad07eaa7af137319bd7faa1970d3321676c51103e40599bd1853d8",
+      "bytes": 1068
+    },
+    {
+      "path": "README.md",
+      "sha256": "64e9956221a0dad67fd2c5f59c2f97ccad51632991c7c0f78665faa8756e62f9",
+      "bytes": 1548
+    },
+    {
+      "path": "data/robot/LICENSE",
+      "sha256": "5e15554a918bf661583d7df7a1014177be4fed561532aaaee852dca06c71821a",
+      "bytes": 12927
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "db5bdb78611e3e102dafe917a3b3700f6c351efa8b36479ddd8b538cf0c02162",
+      "bytes": 173
+    },
+    {
+      "path": "vla_patching/__init__.py",
+      "sha256": "b5b9025d5b696f809158fd188d7a5289c9c8bdf93d370b0ec96bf39dc1fba1b3",
+      "bytes": 86
+    },
+    {
+      "path": "vla_patching/analysis.py",
+      "sha256": "7ebf4c8714e2c3af3a526f260e9bc95d37fab3b47b4b12b2ad7374861d8a6895",
+      "bytes": 11485
+    },
+    {
+      "path": "vla_patching/data.py",
+      "sha256": "85d498308b741071bc97974a688346792fe1f4d1fd8b6f2e45ae3c96780e271a",
+      "bytes": 1399
+    },
+    {
+      "path": "vla_patching/fk.py",
+      "sha256": "6be3d2c45724669eeeff6dd87904df6404531d36b937f2c6e1d36ef3a558df8b",
+      "bytes": 1874
+    },
+    {
+      "path": "vla_patching/runner.py",
+      "sha256": "52c1df3b176229409d2d0780340a56f9f9e6dfdc69bbf6d25c22c7249b737ff7",
+      "bytes": 25482
+    }
+  ]
+}

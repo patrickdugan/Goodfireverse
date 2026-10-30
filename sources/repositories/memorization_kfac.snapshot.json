@@ -1,0 +1,87 @@
+{
+  "repository": "https://github.com/goodfire-ai/memorization_kfac",
+  "revision": "8d059db5b18fb8b9a0bcbc835efbfc35e43bf1e1",
+  "archive_sha256": "64385d1c7d5d5ffd2287fb63b1719b8855ab764a125685484df6f35354119509",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "1ea0922d8797ee63655576d1a86aec39a3604423ec95267c8c17466ce6cfb58b",
+      "bytes": 1768
+    },
+    {
+      "path": "__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "data/__init__.py",
+      "sha256": "9a415cebf548fb7c9fddaef0a9ecbeb407d993698ce903e4907721d9169ee2cc",
+      "bytes": 128
+    },
+    {
+      "path": "data/baseline_generator.py",
+      "sha256": "529cec53edd80497623876c63d71edc7adc564937ef19604ad48759059704a14",
+      "bytes": 11631
+    },
+    {
+      "path": "data/collect_kfac_multilayer.py",
+      "sha256": "df4d6b322772e37e8fb22be843eb3a74704238bc4f05895bc11435176c6ef8dd",
+      "bytes": 9980
+    },
+    {
+      "path": "data/paths.py",
+      "sha256": "40cd29be376aa9ad1d4db6e2346f8939bb328fdaa034a4338f7e291ab329f548",
+      "bytes": 2923
+    },
+    {
+      "path": "evaluations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evaluations/eval_mem_kfac.py",
+      "sha256": "50b4df77f06fd4995f046eda7a00c36f59013817d43bd551dfd478a1600a2081",
+      "bytes": 20481
+    },
+    {
+      "path": "kfac_treatment_pairwise.py",
+      "sha256": "097c612688d26abd016a7e785acdb0544dac6d3d4a7324c2731cd0ebffdea06c",
+      "bytes": 23321
+    },
+    {
+      "path": "metrics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "metrics/cached_dataset.py",
+      "sha256": "a950847fbbb89260815fbd24b6f7f25e536e81dfa39cc8a3cd809be3e39bfa2f",
+      "bytes": 2854
+    },
+    {
+      "path": "metrics/levenshtein_metrics.py",
+      "sha256": "63a19e7b448d4077511295761d8a694d7072b616d4930e6ced699c4eef2be474",
+      "bytes": 11726
+    },
+    {
+      "path": "metrics/memorization_evaluator.py",
+      "sha256": "7913e9316277922ee8d0f264246f0dbb7f0f58049caa36f7ec0a517ea7745fe6",
+      "bytes": 18547
+    },
+    {
+      "path": "metrics/ndcg_evaluator.py",
+      "sha256": "ef5b8fa7a0659e8279780e22e3251a4aebcaf4a727a6d9bcc542d1db455ea3d4",
+      "bytes": 24640
+    },
+    {
+      "path": "metrics/perplexity.py",
+      "sha256": "e1db2d8de5abaa1acab6c278353341b09c66f2cdce9aa25496ea953e28fc77cd",
+      "bytes": 874
+    },
+    {
+      "path": "metrics/position_perturb_eval.py",
+      "sha256": "0f0db23cea76c2307a9fd4bd44aa9a4e853011fb593d767a6b779b3c1223d29f",
+      "bytes": 16856
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "repository": "https://github.com/goodfire-ai/scribe",
+  "revision": "981047904e8ef874dc200689d9f2286afc779219",
+  "truncated": false,
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dc4beb0b907b2d2353dd1168d567728e85a6e9e",
+      "size": 2856,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/6dc4beb0b907b2d2353dd1168d567728e85a6e9e"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8cdaa16300f771d7097076c43cb19cb0fd4c181",
+      "size": 520,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/f8cdaa16300f771d7097076c43cb19cb0fd4c181"
+    },
+    {
+      "path": "scribe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cc53ce2465e2af017707ee5b1b97efcfb18a55d",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/trees/2cc53ce2465e2af017707ee5b1b97efcfb18a55d"
+    },
+    {
+      "path": "scribe/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scribe/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb0f7a297b81cf7f2014d181bc0435967dc24b29",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/trees/eb0f7a297b81cf7f2014d181bc0435967dc24b29"
+    },
+    {
+      "path": "scribe/cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scribe/cli/_cli_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c25683ec860af8045d5134a3d7973a972caa63",
+      "size": 1584,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/37c25683ec860af8045d5134a3d7973a972caa63"
+    },
+    {
+      "path": "scribe/cli/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eed7e34b07eaeb5f7066ebb2ae2ddcd41b4e154",
+      "size": 3033,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/0eed7e34b07eaeb5f7066ebb2ae2ddcd41b4e154"
+    },
+    {
+      "path": "scribe/cli/commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "743bf4a006527da8503ad57ccfe933da531fee31",
+      "size": 6579,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/743bf4a006527da8503ad57ccfe933da531fee31"
+    },
+    {
+      "path": "scribe/cli/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "833585dacc4ed70d0d716006020f1a6d5d8fb156",
+      "size": 107,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/833585dacc4ed70d0d716006020f1a6d5d8fb156"
+    },
+    {
+      "path": "scribe/notebook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34a5c3a62a590e83d864a44018cb8d74562376b6",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/trees/34a5c3a62a590e83d864a44018cb8d74562376b6"
+    },
+    {
+      "path": "scribe/notebook/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scribe/notebook/_image_processing_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d14ab4b61976efdca7cbc4ba3f32fcffd823f5e1",
+      "size": 2244,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/d14ab4b61976efdca7cbc4ba3f32fcffd823f5e1"
+    },
+    {
+      "path": "scribe/notebook/_notebook_server_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a0fd12a5eea06bd5b60b3fc8a9090d63265101b",
+      "size": 7374,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/4a0fd12a5eea06bd5b60b3fc8a9090d63265101b"
+    },
+    {
+      "path": "scribe/notebook/notebook_mcp_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1848b6af9ff3db26e56d1bedf0fe1a300fdbc787",
+      "size": 20509,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/1848b6af9ff3db26e56d1bedf0fe1a300fdbc787"
+    },
+    {
+      "path": "scribe/notebook/notebook_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cf625dc3ef0a3716d6e14123398e8e37aeef06",
+      "size": 32491,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/36cf625dc3ef0a3716d6e14123398e8e37aeef06"
+    },
+    {
+      "path": "scribe/notebook/notebook_sever_handlers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf2c160d4ac5c399bfbd875c90bf0680d74fd303",
+      "size": 6627,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/cf2c160d4ac5c399bfbd875c90bf0680d74fd303"
+    },
+    {
+      "path": "scribe/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57f94e7ad6189efd38d3dd8c9b168757415a6c73",
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/trees/57f94e7ad6189efd38d3dd8c9b168757415a6c73"
+    },
+    {
+      "path": "scribe/providers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scribe/providers/_provider_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d100d4b9cf22fad4120bc6e0d4ce7dddc327b1c3",
+      "size": 1580,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/d100d4b9cf22fad4120bc6e0d4ce7dddc327b1c3"
+    },
+    {
+      "path": "scribe/providers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d099162703d38c9036f74f7d02e48145e0a18b9",
+      "size": 612,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/7d099162703d38c9036f74f7d02e48145e0a18b9"
+    },
+    {
+      "path": "scribe/providers/claude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb94e372d2938a21028dbf61f2b41f868418021",
+      "size": 2027,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/eeb94e372d2938a21028dbf61f2b41f868418021"
+    },
+    {
+      "path": "scribe/providers/codex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b1d8481c84462ae97c40b4469ea1075f9739d5",
+      "size": 2347,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/41b1d8481c84462ae97c40b4469ea1075f9739d5"
+    },
+    {
+      "path": "scribe/providers/gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb57eadf6b5772d8d7d6f72d711f17fd6faff3ab",
+      "size": 2673,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/eb57eadf6b5772d8d7d6f72d711f17fd6faff3ab"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e546f133e37bf2e47d23ebaf0b57303b16af7f3a",
+      "size": 243120,
+      "url": "https://api.github.com/repos/goodfire-ai/scribe/git/blobs/e546f133e37bf2e47d23ebaf0b57303b16af7f3a"
+    }
+  ]
+}

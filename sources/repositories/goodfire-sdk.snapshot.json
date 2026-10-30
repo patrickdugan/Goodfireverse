@@ -1,0 +1,272 @@
+{
+  "repository": "https://github.com/goodfire-ai/goodfire-sdk",
+  "revision": "1270afee0b5a95acd78fb816ff08b40bd368d1f1",
+  "archive_sha256": "6bf31fdbedc72208c38b6b86c0e8d7287fe9d8204e4f119450c44cde41f7d878",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "31fb19d237f5acbe8507c77dbbe13bd67640f8b3f4ded248c18338a790879195",
+      "bytes": 11347
+    },
+    {
+      "path": "README.md",
+      "sha256": "e33cc3257ac8b773b88db041689c453d7d5b58622254cfeb84702d8137132b07",
+      "bytes": 23138
+    },
+    {
+      "path": "__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/__init__.py",
+      "sha256": "e9c4d6c355ec1c84cc9adc378a3366d64dac470445781f03a7e056c2ae840ddc",
+      "bytes": 521
+    },
+    {
+      "path": "goodfire/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/api/chat/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/api/chat/client.py",
+      "sha256": "24ca294da0a77c014fdae08f0ccf006552da2b0d90cea0055e05d2323a9eb89e",
+      "bytes": 15805
+    },
+    {
+      "path": "goodfire/api/chat/interfaces.py",
+      "sha256": "49a75a80156750690840ab564ed55188577332c960e7dd05716df0830e0d4afb",
+      "bytes": 1034
+    },
+    {
+      "path": "goodfire/api/client.py",
+      "sha256": "3bfe0299a2d2f023e9b07c3d78bb6c2c970ecce1ce6e27bd0aca8f0b39c39835",
+      "bytes": 1399
+    },
+    {
+      "path": "goodfire/api/constants.py",
+      "sha256": "d04cdf297ed64bbcb362ad218940c432374f9e766b499529bdf0ecbee5b83211",
+      "bytes": 161
+    },
+    {
+      "path": "goodfire/api/exceptions.py",
+      "sha256": "01ae33d2e7f6181123f68962514c40dd306e0e423166a4f1bf77d5ddc1e2d960",
+      "bytes": 1760
+    },
+    {
+      "path": "goodfire/api/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/api/features/client.py",
+      "sha256": "e2f905c75d7eeeb04411c1d2d56b1e5c84d07116ec136d604ce6b4d8fb3e0149",
+      "bytes": 29525
+    },
+    {
+      "path": "goodfire/api/features/interfaces.py",
+      "sha256": "8472d7c8b12be75b2a645ff925b9f2c4e538c2fda08e8f9331337517de847e5a",
+      "bytes": 994
+    },
+    {
+      "path": "goodfire/api/utils.py",
+      "sha256": "6043aa1ded57df124300791e059666e68af4009a1d046f33fb624505ea68748e",
+      "bytes": 9244
+    },
+    {
+      "path": "goodfire/controller/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/controller/controller.py",
+      "sha256": "127625d0fa63213e02b71b27812d88425450ed4662269b378c04828d773f1ba3",
+      "bytes": 11552
+    },
+    {
+      "path": "goodfire/controller/interfaces.py",
+      "sha256": "13e883a4fdddea932cb493adae29f627fa6bde3bec6e14259125174b1d398f2f",
+      "bytes": 79
+    },
+    {
+      "path": "goodfire/exceptions.py",
+      "sha256": "d1a567a437e29b326890efe56cb0f05a3db22a121cb81dd1982fef578d31da36",
+      "bytes": 48
+    },
+    {
+      "path": "goodfire/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/features/features.py",
+      "sha256": "293a16456751eb63d368c4ae74e497fd1b26f512961b5d2d049b93f1545cee13",
+      "bytes": 24446
+    },
+    {
+      "path": "goodfire/features/interfaces.py",
+      "sha256": "a9c2da8ae502d33272933a7dbed7cbdf838cef47225da73cec1f30805991d881",
+      "bytes": 291
+    },
+    {
+      "path": "goodfire/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/utils/asyncio.py",
+      "sha256": "a978d97a83b384d16489b126d8cd746a456dce1454f9d4f08303e00057d204d1",
+      "bytes": 1168
+    },
+    {
+      "path": "goodfire/utils/logger.py",
+      "sha256": "4fdb4ba5c1b8d5c3af9636bc9737c9d675b45b940403595c83cd79f98e709af6",
+      "bytes": 55
+    },
+    {
+      "path": "goodfire/variants/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "goodfire/variants/variants.py",
+      "sha256": "fc3339423c95c7436d1c99805cdc6167c78a5406360c2303c27157c091b2e1e4",
+      "bytes": 8710
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "a8e80e58967a0e9a780a9d43f804fa2e2bb5c77f8f07acb7894fc9ea696eb207",
+      "bytes": 1025
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/e2e/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/e2e/python/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/e2e/python/config.py",
+      "sha256": "6b668eae38b1f0a50bc499800daa4daee69acbe8317c05e8490666bed994d1e4",
+      "bytes": 369
+    },
+    {
+      "path": "tests/e2e/python/conftest.py",
+      "sha256": "b82fdc13730208a5c6da4ef66f9e1b94f94619311da645efc0527225e7f9345f",
+      "bytes": 800
+    },
+    {
+      "path": "tests/e2e/python/pyproject.toml",
+      "sha256": "bb6d7d01ab1bd21eca7eeb8b513c3b59e35038ee6f0f36d68af5e245198e8f44",
+      "bytes": 503
+    },
+    {
+      "path": "tests/e2e/python/test_chat.py",
+      "sha256": "1e345e068ff0c08bbd78bfeca6e0ffc9d01fd407a3f6153ecd44f66d2e0a80fa",
+      "bytes": 5996
+    },
+    {
+      "path": "tests/e2e/python/test_concurrent_requests_features.py",
+      "sha256": "685861ab3828d6b2961b7c004e79a03d87d7846c1c9129ba9ddb22110f79dbc0",
+      "bytes": 15655
+    },
+    {
+      "path": "tests/e2e/python/test_features.py",
+      "sha256": "822138bde6a0147813003fd27f06b8937c2de473f5bbc1047414d37b06649974",
+      "bytes": 16624
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_chat_with_variant_feature_edits.py",
+      "sha256": "996e481f4a3e5af53a7e9e8e48ab08029a4addc61aecb47566ce6452047e716d",
+      "bytes": 2270
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_feature_group.py",
+      "sha256": "a6a1e5fd3f4f240b16dcea3eaabe2626498550821fa474a996f50bb48d93a70b",
+      "bytes": 5326
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_features_contrast_rerank.py",
+      "sha256": "6281b2526bd312df55202774a21668bc0a140acc424c3c182778994de8abd5e6",
+      "bytes": 2920
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_features_insepct_context_object.py",
+      "sha256": "e3f7c40d76453af4863661817f888172571ba86ff00511892f7d9ed7326b223f",
+      "bytes": 9948
+    },
+    {
+      "path": "tests/e2e/python/test_workflow_variant_edit_clear_reset.py",
+      "sha256": "30f0c7b419c3c675fc8169885714b0bf09de6adb4335fccace3f6a1c6ef4da0e",
+      "bytes": 1874
+    },
+    {
+      "path": "tests/e2e/python/test_z_org_rate_limit_chat.py",
+      "sha256": "0b4e6b7b686e5e291d7e60be812f07f20fafcef4ef6035e60e0a68ddcfe85b19",
+      "bytes": 1957
+    },
+    {
+      "path": "tests/unit/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/api/chat/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/api/chat/test_client.py",
+      "sha256": "7778daa6a16914a4cde5927c154b1249dd2f355f566047cc092c95fb46d1b00f",
+      "bytes": 3224
+    },
+    {
+      "path": "tests/unit/python/api/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/api/features/test_client.py",
+      "sha256": "814c790195f134bacc4438d33fefd73a4d137379038ee7dd1748e5c8768ff853",
+      "bytes": 10695
+    },
+    {
+      "path": "tests/unit/python/api/test_exceptions.py",
+      "sha256": "25926fd5d6c8120cf1e661d3fa3583d9f702c2b4ea075980f37be4a61ec893e8",
+      "bytes": 1016
+    },
+    {
+      "path": "tests/unit/python/controller/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/unit/python/controller/test_controller.py",
+      "sha256": "e0544853b5f87faff5e3c60f62c44c55c106f3479d7f97e0d144cc9a3eed80ff",
+      "bytes": 11341
+    }
+  ]
+}

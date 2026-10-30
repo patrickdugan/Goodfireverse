@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/goodfire-ai/evee-mcp",
+  "revision": "e90777fe12d967aa180487e33eeebde99a96b8c5",
+  "archive_sha256": "3dd2ac66aa41c8068eab2bb4ed5ac5c8065200b4fb4e325474d28796f5b00148",
+  "source_files": [
+    {
+      "path": ".claude/skills/evee/SKILL.md",
+      "sha256": "97fdd30eb08ff0e5c0682ce581dc75196ef101f26a50ff747fcd970246c57717",
+      "bytes": 12860
+    },
+    {
+      "path": ".mcp.json",
+      "sha256": "8b06b9e281c8fdff4af6e3738fd12d00836bbd0b03215eaa26fca384752deb37",
+      "bytes": 115
+    },
+    {
+      "path": "README.md",
+      "sha256": "0f007dfe00dc78f3d0367662696259e020b425344fb6eaceaa7fa4ad34381ae9",
+      "bytes": 2683
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "1398306f93471817d7c929863f0b95967c0afd8bcc61ed4f2b8fd215f235fd4c",
+      "bytes": 407
+    },
+    {
+      "path": "server.py",
+      "sha256": "322acde18e1809ce6dbb05ee4ba917794f1a33c028c252cbb43c6a6417de85db",
+      "bytes": 27635
+    }
+  ]
+}

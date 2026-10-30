@@ -1,0 +1,72 @@
+{
+  "repository": "https://github.com/goodfire-ai/block-sparse-featurizer",
+  "revision": "219f121ea82d2b19200d1dac918396e6058d7eb9",
+  "archive_sha256": "511766e46fff78895d6792ab49c26d211e59abc0b9abfe406ee87cfd0f4632e4",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "8f203fe135347c3a1c997bfdeab1ddee5e97f02662edad135d19e63333d76961",
+      "bytes": 1064
+    },
+    {
+      "path": "README.md",
+      "sha256": "305357500852f2c0673926a96a7fbf91e9f6a43c0ee14c1dddfb691ac7c4f49c",
+      "bytes": 5942
+    },
+    {
+      "path": "bsf/__init__.py",
+      "sha256": "a37e245dbff59f451a47dd934fc5f899de79210a1c75f524063dbbc6cfe0bcc8",
+      "bytes": 860
+    },
+    {
+      "path": "bsf/base.py",
+      "sha256": "4d873a68093462dcc0e16bfcd6ddadc6d00e97960d61d0e7460fb093fa14df80",
+      "bytes": 2533
+    },
+    {
+      "path": "bsf/data.py",
+      "sha256": "ef005e2dc9962e0c94a5b502768c627fb7ab5fd0434674ffef5e14fb5facc338",
+      "bytes": 2296
+    },
+    {
+      "path": "bsf/grassmannian.py",
+      "sha256": "c27bd74df37b9d287ca4d0859a6ebf80da272dd0418f76eb754ce82eaa5aaeb8",
+      "bytes": 1830
+    },
+    {
+      "path": "bsf/group_lasso.py",
+      "sha256": "4a942fe3735847983c430c8095568333986e592887cbaf9ebceeba083fd2e6ea",
+      "bytes": 5914
+    },
+    {
+      "path": "bsf/kernels.py",
+      "sha256": "78e44559ac81863825d31dc47dbf1c943c5b7f06a08516a2d8a1b099e9d48b43",
+      "bytes": 2299
+    },
+    {
+      "path": "bsf/train.py",
+      "sha256": "d36b897f45d517acf5c82b3701230eff0fb1a21184e396ccaa1fc070740af6f1",
+      "bytes": 2791
+    },
+    {
+      "path": "bsf/vanilla.py",
+      "sha256": "2463ae99a6eb88b2204e146a5b407bcfb6a4ed38716cded4e4b12aef3f3acd98",
+      "bytes": 1339
+    },
+    {
+      "path": "bsf/viz.py",
+      "sha256": "862da8c021b0d64383822acb260c1cbd9eb5c78ea8568a661b7ec7ad18413566",
+      "bytes": 8316
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "db0c115c8d9e0e2c431ff5495ba662d03acf1d075c74b6e599c605af8a68ff0d",
+      "bytes": 689
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "9a9e8d9d34cf5a2c6672f6fba6b1e9fab9588aa2497b3d902181b73a350797dc",
+      "bytes": 56
+    }
+  ]
+}

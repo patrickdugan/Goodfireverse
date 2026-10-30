@@ -1,0 +1,242 @@
+{
+  "repository": "https://github.com/goodfire-ai/arithmetic-wild",
+  "revision": "d03024a9243e3cd6902b166244700d8aed20505e",
+  "archive_sha256": "f075a5cdf15c7dc731f0675e68db813aae268ec8a4922bc56b162fbe9c707810",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "a371e5a54404dcfd7d96ab3c020f77a1f64ede7db8eb1c472446c0085661ec2c",
+      "bytes": 3466
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_addition.yaml",
+      "sha256": "ff5b567e3a7c0c8d130f98f0f0e8ddda6ddc67586975b3f93875fcd13fe5f0a6",
+      "bytes": 774
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_hours.yaml",
+      "sha256": "c4aa368f0ee5c76908a3b8d9b25f483b9c4bef06515c3c6a52d82cc6939d7f44",
+      "bytes": 769
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_months.yaml",
+      "sha256": "fc37ee70664731af20ca143608d16254d5bbe998cf8705d0e226ed45f2da0f1d",
+      "bytes": 762
+    },
+    {
+      "path": "best_das/Llama-3.1-8B/L18_weekdays.yaml",
+      "sha256": "eac85dd8f25e0510d7c0880ca22dea825d57125b0a1526c8d0b024f5e7906af9",
+      "bytes": 767
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/hours/filter_metadata.json",
+      "sha256": "619b95eaee573ce46102254c11645db02d517442bda2eadef7fc0e0f71b390da",
+      "bytes": 303
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months/filter_metadata.json",
+      "sha256": "e04b0cd9cd9c48a60b10605818a195563d63155f9988f26758110bab99370c4f",
+      "bytes": 290
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/months/filtered_dataset.json",
+      "sha256": "cf97cb52cd997d9eecfaa76b8da50ff58f50f7e9a8a4660ec0d886e88df3979e",
+      "bytes": 1353975
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/weekdays/filter_metadata.json",
+      "sha256": "74117d7a0b97fe136039bef71dc22a9da2147c505f6b01fbe506bdd2af3db254",
+      "bytes": 290
+    },
+    {
+      "path": "datasets/Llama-3.1-8B/weekdays/filtered_dataset.json",
+      "sha256": "f3d0f70ee1b0ce57aeead406f444a7a9731bc028028b3d9078c6a28a16cbec6f",
+      "bytes": 1815662
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9c5cfe527ef51a7aab2e1c36d5c5e52ff526e4cc7704a97d7d8ef1130c1f10ef",
+      "bytes": 433
+    },
+    {
+      "path": "src/cache_neuron_activations.py",
+      "sha256": "5ec919c65b245572af2562df54fb3af289356e6498a03efc4f17f0f772402501",
+      "bytes": 5417
+    },
+    {
+      "path": "src/cl_patch.py",
+      "sha256": "5646ae7c79314acb67778a783e3d6edd07d49f70bc6f560e65f632cec650f64e",
+      "bytes": 36533
+    },
+    {
+      "path": "src/collect_pca.py",
+      "sha256": "6d3bfdaa73bcfaabfdb1ac9ab00cd1ff6017b4b0f20c01471db9dcb84e8202fd",
+      "bytes": 12762
+    },
+    {
+      "path": "src/cross_task_patch.ipynb",
+      "sha256": "400a72315417174b1466aadbdce6195f551c2dc9a55f6ccf81846dbbf8ff96a9",
+      "bytes": 54620
+    },
+    {
+      "path": "src/cross_task_patch.py",
+      "sha256": "79e633eab5ff22562720bf736cf3e019b4df7d55ea1dcda8c8a8eacc4c54fe01",
+      "bytes": 13593
+    },
+    {
+      "path": "src/dynamic_downproj.ipynb",
+      "sha256": "4c262c5ec1b93ff5222281555634bc913a1f8b80efa5365d35f5a97cfdf11481",
+      "bytes": 80271
+    },
+    {
+      "path": "src/extra_addition_neurons.json",
+      "sha256": "82c15acfcdb063d96835f7e8fc8d10d2ab097e8fba8c978b12dddf723b044cf7",
+      "bytes": 251
+    },
+    {
+      "path": "src/fourier_probes/fourier_probes_sweep.py",
+      "sha256": "252cac2acc08d9df3287c78c6ab9269f9c9bd282ea9b2aa0572464a93853e379",
+      "bytes": 15501
+    },
+    {
+      "path": "src/fourier_probes/fourier_steering.ipynb",
+      "sha256": "b7aaa616746b6b75d57140c9eca2f288db47e1d05d7cb8a1216c813177c57ca3",
+      "bytes": 110365
+    },
+    {
+      "path": "src/fourier_probes/pca_fourier_probes_sweep.py",
+      "sha256": "16be8765a1d40a15746eaaf97a4ec62526a48c888933c75707cfbdfe2b547c71",
+      "bytes": 22932
+    },
+    {
+      "path": "src/generate_dataset.py",
+      "sha256": "ccc4b26379d343ee8109629fab1cbb285f29731db65bb4f52fa5742b0fcb33f8",
+      "bytes": 11004
+    },
+    {
+      "path": "src/load_das_subspaces.ipynb",
+      "sha256": "bff1270edcff0887557002293c926bb24f60f2d5b314903708acae6546623481",
+      "bytes": 6029
+    },
+    {
+      "path": "src/missed_neurons.ipynb",
+      "sha256": "d5b0ebb6296e978a2a7e0e7d4005c20e772f240ac1320c9428b721bee9fd19fd",
+      "bytes": 183025
+    },
+    {
+      "path": "src/neuron_selection.ipynb",
+      "sha256": "2fedc1b06726142a76feed0ceb9d79fc2e83af3dcf76442866c8827cdc169cd0",
+      "bytes": 63715
+    },
+    {
+      "path": "src/neuron_selection_sweep.ipynb",
+      "sha256": "86860ba742f50243d3733edb06dde28753cf1bd5a5631444163d250947d06617",
+      "bytes": 415406
+    },
+    {
+      "path": "src/neurons_across_prompts.ipynb",
+      "sha256": "13e70c932ba22c8e58943fe461976649d71faa3883daf0dccdab73433c260be0",
+      "bytes": 89669
+    },
+    {
+      "path": "src/neurons_across_sums.ipynb",
+      "sha256": "6e5f577dd69b625145813ffc206d00719ca1c75668348add8252d879540a9efb",
+      "bytes": 121350
+    },
+    {
+      "path": "src/neurons_per_task.json",
+      "sha256": "0b979f7137f051323c5cdeadc2b8d1efb0d879c8b4fe7a4dac7669d7081cb29c",
+      "bytes": 587
+    },
+    {
+      "path": "src/rephrased_templates.ipynb",
+      "sha256": "98e4d0829f04636c78c89f34148c5e9a2f360b755b4ff76315cce77c89df5e53",
+      "bytes": 322186
+    },
+    {
+      "path": "src/static_downproj.ipynb",
+      "sha256": "9c674288293ffe8dc16c3e947e923b7bf9e006f617146cbcab365ad9289e7c4e",
+      "bytes": 104754
+    },
+    {
+      "path": "src/tasks/__init__.py",
+      "sha256": "bfdff9691e540a0352d5e78da1279346e5269ae3599fa71f96c83742e38a1a83",
+      "bytes": 1742
+    },
+    {
+      "path": "src/tasks/addition/__init__.py",
+      "sha256": "8e377e4a0aa365b5dfbde370599700854b4588db57f2a083446253611acaaf4e",
+      "bytes": 390
+    },
+    {
+      "path": "src/tasks/addition/causal_models.py",
+      "sha256": "55c5a5f49695d38c71a49c4659d715dfee5d8e860e7c2ee48a1018c5cf200765",
+      "bytes": 1851
+    },
+    {
+      "path": "src/tasks/addition/token_positions.py",
+      "sha256": "1925860afbdd1f603448fdf5b8a67cd2e64019231a244d8c459286a8fb8f11ee",
+      "bytes": 1721
+    },
+    {
+      "path": "src/tasks/counterfactuals.py",
+      "sha256": "03dfc2aab5d7fdc8870e477cc9a83283b9e5a24a784e6cd7f6ebd5bf23acc6f4",
+      "bytes": 759
+    },
+    {
+      "path": "src/tasks/hours/__init__.py",
+      "sha256": "b67d7c53eec0257b0d3578ba4b0e3f813b93353b34e26ff3a97fd8d36a6bda2b",
+      "bytes": 368
+    },
+    {
+      "path": "src/tasks/hours/causal_models.py",
+      "sha256": "2ba6183e3011caee0bd3afcc4b3c081400e21362fb9060a9e27b28a426043ac6",
+      "bytes": 3066
+    },
+    {
+      "path": "src/tasks/hours/token_positions.py",
+      "sha256": "9ffe6b4298598da1d627fa0711f9e9fba27392a9e97f9f28385dc6d01ffd493c",
+      "bytes": 1754
+    },
+    {
+      "path": "src/tasks/months/__init__.py",
+      "sha256": "0b7b4e2730a7e5996c2001141579c1f75c8f651172dbb354127b25597e8b004c",
+      "bytes": 374
+    },
+    {
+      "path": "src/tasks/months/causal_models.py",
+      "sha256": "cdf085a5c64a88331c17801bbbbb338531bcbb8052071c054308aa011b75bafa",
+      "bytes": 2372
+    },
+    {
+      "path": "src/tasks/months/token_positions.py",
+      "sha256": "f98eaabbe47080c389e4130b5682e0af45dc01ee7c8a05329acae8e54cd6a06d",
+      "bytes": 1761
+    },
+    {
+      "path": "src/tasks/weekdays/__init__.py",
+      "sha256": "53567c9764dd6263c1b3de3bed44a77ff26617a0c485b09f50b2524e9b195445",
+      "bytes": 378
+    },
+    {
+      "path": "src/tasks/weekdays/causal_models.py",
+      "sha256": "aaa13dda523fc18d0dc89b3c92942927cddb5775325e0dabfa603a82cf60bb2e",
+      "bytes": 2164
+    },
+    {
+      "path": "src/tasks/weekdays/token_positions.py",
+      "sha256": "18edb2dcbd33312fdce634624c2152f768d8f4ad0b31ce191d4234f2df964708",
+      "bytes": 1772
+    },
+    {
+      "path": "src/train_das.py",
+      "sha256": "674018233e45fa7bf5f43b614c364a96e4fd8fd46c3a0317534e05f238312293",
+      "bytes": 16690
+    },
+    {
+      "path": "src/utils.py",
+      "sha256": "4aa9a8590faf2b9317d55bc339f47ec414f75a8662860203a3c9874178544a78",
+      "bytes": 4958
+    }
+  ]
+}

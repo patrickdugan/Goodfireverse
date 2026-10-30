@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/goodfire-ai/sdxl-turbo-interpretability",
+  "revision": "0c59a8b9ada2db0b4e31e9dc6e2d44cd7a206784",
+  "archive_sha256": "82fdbc20c52fb35d44935d9bf3ffcbc9f8e440e10ec8a2557685ba983ef382c3",
+  "source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a02c9d071f663db983c449bd32229c9b2e20472196bd106f0fa7a57ebea09e4d",
+      "bytes": 1065
+    },
+    {
+      "path": "README.md",
+      "sha256": "dede55b08f68f5846fff9c71ce41d5dcdf6e0cd1251966859b9d696a052396f7",
+      "bytes": 614
+    },
+    {
+      "path": "inference_example.ipynb",
+      "sha256": "14d6af55a2675f3eacc33e03be6e4956784f7802d2beb8e94d9695654db7c09d",
+      "bytes": 150692
+    },
+    {
+      "path": "sae.py",
+      "sha256": "c1871522b34b843c274a000dc6261f309c804c48c287c80f3d418e7638758a91",
+      "bytes": 2641
+    }
+  ]
+}
